@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADV Digital Marketing — The Unfair Marketing Advantage</title>
+  <meta name="description" content="A premium B2B marketing agency that builds and operates marketing wings for businesses — through profit-sharing models, AI-powered systems, and end-to-end marketing infrastructure." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream:    #FAF8F3;
+      --black:    #0D0D0D;
+      --white:    #FFFFFF;
+      --stone:    #9A9490;
+      --charcoal: #2B2B2B;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--charcoal);
+      font-size: 16px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 28px 64px;
+      background: var(--cream);
+      border-bottom: 1px solid rgba(13,13,13,0.08);
+      transition: padding 0.3s ease;
+    }
+
+    nav.scrolled { padding: 18px 64px; }
+
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700;
+      font-size: 28px;
+      letter-spacing: -0.02em;
+      color: var(--black);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 48px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--charcoal);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--black); }
+
+    .nav-cta {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--cream);
+      background: var(--black);
+      text-decoration: none;
+      padding: 12px 28px;
+      transition: opacity 0.2s;
+    }
+
+    .nav-cta:hover { opacity: 0.8; }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      background: var(--cream);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 100px;
+    }
+
+    .hero-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 64px 80px 64px;
+    }
+
+    .hero-label {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 32px;
+    }
+
+    .hero-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: clamp(52px, 5.5vw, 84px);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      color: var(--black);
+      margin-bottom: 32px;
+    }
+
+    .hero-headline em {
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    .hero-body {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--charcoal);
+      max-width: 440px;
+      margin-bottom: 48px;
+    }
+
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .btn-primary {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--cream);
+      background: var(--black);
+      text-decoration: none;
+      padding: 16px 36px;
+      transition: opacity 0.2s;
+      display: inline-block;
+    }
+
+    .btn-primary:hover { opacity: 0.8; }
+
+    .btn-ghost {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      color: var(--charcoal);
+      text-decoration: none;
+      border-bottom: 1px solid var(--charcoal);
+      padding-bottom: 2px;
+      transition: opacity 0.2s;
+    }
+
+    .btn-ghost:hover { opacity: 0.6; }
+
+    .hero-right {
+      background: var(--black);
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      padding: 80px 56px;
+    }
+
+    .hero-quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-style: italic;
+      font-size: clamp(28px, 3vw, 44px);
+      line-height: 1.25;
+      color: var(--white);
+      letter-spacing: -0.01em;
+    }
+
+    /* ── ADV PILLARS ── */
+    #pillars {
+      background: var(--black);
+      padding: 0 64px 120px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .pillar {
+      padding: 64px 48px;
+      border-right: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .pillar:last-child { border-right: none; }
+
+    .pillar-letter {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      color: rgba(255,255,255,0.18);
+      margin-bottom: 8px;
+    }
+
+    .pillar-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 26px;
+      color: var(--white);
+      margin-bottom: 16px;
+    }
+
+    .pillar-body {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--stone);
+    }
+
+    /* ── SECTION SHARED ── */
+    .section-label {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 56px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .section-label::after {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 40px;
+      background: var(--stone);
+    }
+
+    .section-label.light { color: rgba(255,255,255,0.35); }
+    .section-label.light::after { background: rgba(255,255,255,0.2); }
+
+    /* ── SERVICES ── */
+    #services {
+      background: var(--cream);
+      padding: 120px 64px;
+    }
+
+    .services-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      margin-bottom: 96px;
+      align-items: end;
+    }
+
+    .services-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: clamp(40px, 4vw, 64px);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--black);
+    }
+
+    .services-intro {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--charcoal);
+      max-width: 440px;
+      align-self: end;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      background: rgba(13,13,13,0.1);
+    }
+
+    .service-card {
+      background: var(--cream);
+      padding: 48px 40px;
+      position: relative;
+      transition: background 0.3s;
+    }
+
+    .service-card:hover { background: var(--black); }
+    .service-card:hover .service-number,
+    .service-card:hover .service-title,
+    .service-card:hover .service-desc { color: var(--white); }
+    .service-card:hover .service-divider { background: rgba(255,255,255,0.15); }
+
+    .service-number {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      color: var(--stone);
+      margin-bottom: 32px;
+      transition: color 0.3s;
+    }
+
+    .service-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 1.2;
+      color: var(--black);
+      margin-bottom: 20px;
+      transition: color 0.3s;
+    }
+
+    .service-divider {
+      height: 1px;
+      background: rgba(13,13,13,0.1);
+      margin-bottom: 20px;
+      transition: background 0.3s;
+    }
+
+    .service-desc {
+      font-size: 14px;
+      line-height: 1.75;
+      color: var(--charcoal);
+      transition: color 0.3s;
+    }
+
+    /* ── WHY ADV ── */
+    #why {
+      background: var(--black);
+      padding: 120px 64px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 96px;
+      align-items: center;
+    }
+
+    .why-left {}
+
+    .why-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: clamp(36px, 3.5vw, 56px);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      color: var(--white);
+      margin-bottom: 32px;
+    }
+
+    .why-body {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--stone);
+      margin-bottom: 48px;
+    }
+
+    .why-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+
+    .stat-item {}
+
+    .stat-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 1;
+      color: var(--white);
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--stone);
+    }
+
+    .why-right {}
+
+    .testimonial {
+      border-left: 1px solid rgba(255,255,255,0.12);
+      padding-left: 40px;
+      margin-bottom: 48px;
+    }
+
+    .testimonial-quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 26px;
+      line-height: 1.45;
+      color: var(--white);
+      margin-bottom: 24px;
+    }
+
+    .testimonial-author {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--stone);
+    }
+
+    .model-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+      background: rgba(255,255,255,0.05);
+    }
+
+    .model-card {
+      background: var(--black);
+      padding: 28px 28px;
+    }
+
+    .model-card-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 10px;
+    }
+
+    .model-card-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: var(--white);
+    }
+
+    /* ── CONTACT ── */
+    #contact {
+      background: var(--cream);
+      padding: 120px 64px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 96px;
+      align-items: start;
+    }
+
+    .contact-left {}
+
+    .contact-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: clamp(40px, 4vw, 64px);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--black);
+      margin-bottom: 24px;
+    }
+
+    .contact-body {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--charcoal);
+      margin-bottom: 48px;
+    }
+
+    .contact-detail {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .contact-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .contact-item-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--stone);
+    }
+
+    .contact-item-value {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      color: var(--black);
+      text-decoration: none;
+    }
+
+    .contact-item-value:hover { opacity: 0.6; }
+
+    .contact-right {}
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .form-field label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--stone);
+    }
+
+    .form-field input,
+    .form-field textarea,
+    .form-field select {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      color: var(--black);
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(13,13,13,0.2);
+      padding: 12px 0;
+      outline: none;
+      transition: border-color 0.2s;
+      width: 100%;
+      -webkit-appearance: none;
+    }
+
+    .form-field input::placeholder,
+    .form-field textarea::placeholder { color: var(--stone); }
+
+    .form-field input:focus,
+    .form-field textarea:focus,
+    .form-field select:focus { border-color: var(--black); }
+
+    .form-field textarea { resize: none; height: 100px; }
+
+    .form-submit {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--cream);
+      background: var(--black);
+      border: none;
+      padding: 18px 40px;
+      cursor: pointer;
+      align-self: flex-start;
+      transition: opacity 0.2s;
+    }
+
+    .form-submit:hover { opacity: 0.8; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--black);
+      padding: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700;
+      font-size: 24px;
+      letter-spacing: -0.02em;
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    .footer-tagline {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 16px;
+      color: var(--stone);
+    }
+
+    .footer-legal {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      color: var(--stone);
+      letter-spacing: 0.04em;
+    }
+
+    /* ── RESULTS ── */
+    #results {
+      background: var(--black);
+      padding: 120px 64px;
+    }
+
+    .results-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: end;
+      margin-bottom: 80px;
+    }
+
+    .results-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: clamp(40px, 4vw, 60px);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--white);
+    }
+
+    .results-intro {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--stone);
+      max-width: 400px;
+      align-self: end;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2px;
+      background: rgba(255,255,255,0.05);
+    }
+
+    .result-card {
+      background: var(--black);
+      padding: 48px 44px;
+      position: relative;
+      border: 1px solid rgba(255,255,255,0.06);
+      transition: border-color 0.3s;
+    }
+
+    .result-card:hover { border-color: rgba(255,255,255,0.15); }
+
+    .result-industry {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 32px;
+    }
+
+    .result-metrics {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+
+    .result-metric-row {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+    }
+
+    .result-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 52px;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      color: var(--white);
+    }
+
+    .result-number-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      color: var(--stone);
+    }
+
+    .result-divider {
+      height: 1px;
+      background: rgba(255,255,255,0.08);
+      margin-bottom: 24px;
+    }
+
+    .result-context {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--stone);
+    }
+
+    .result-tag {
+      display: inline-block;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--black);
+      background: var(--stone);
+      padding: 4px 10px;
+      margin-bottom: 20px;
+    }
+
+    /* ── WHATSAPP CTA ── */
+    .whatsapp-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      color: var(--black);
+      background: #25D366;
+      text-decoration: none;
+      padding: 16px 32px;
+      transition: opacity 0.2s;
+    }
+
+    .whatsapp-cta:hover { opacity: 0.85; }
+
+    .whatsapp-icon {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    .contact-primary {
+      margin-bottom: 48px;
+    }
+
+    .contact-or {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin: 32px 0;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .contact-or::before,
+    .contact-or::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(13,13,13,0.1);
+    }
+
+    /* ── HAMBURGER (mobile) ── */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 22px;
+      height: 1.5px;
+      background: var(--black);
+      transition: all 0.3s;
+    }
+
+    /* ── MOBILE NAV OVERLAY ── */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: var(--cream);
+      z-index: 99;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .mobile-nav.open { display: flex; }
+
+    .mobile-nav a {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 36px;
+      color: var(--black);
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      nav { padding: 24px 32px; }
+      nav.scrolled { padding: 16px 32px; }
+      .nav-links { gap: 32px; }
+
+      #hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-left { padding: 80px 32px 60px; }
+      .hero-right { display: none; }
+
+      #pillars { padding: 0 32px 80px; grid-template-columns: 1fr; }
+      .pillar { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.08); }
+      .pillar:last-child { border-bottom: none; }
+
+      #services { padding: 80px 32px; }
+      .services-header { grid-template-columns: 1fr; gap: 32px; margin-bottom: 64px; }
+      .services-grid { grid-template-columns: 1fr; }
+
+      #why { padding: 80px 32px; grid-template-columns: 1fr; gap: 64px; }
+
+      #results { padding: 80px 32px; }
+      .results-header { grid-template-columns: 1fr; gap: 24px; margin-bottom: 48px; }
+      .results-grid { grid-template-columns: 1fr; }
+      #contact { padding: 80px 32px; grid-template-columns: 1fr; gap: 64px; }
+      .form-row { grid-template-columns: 1fr; }
+
+      footer { padding: 48px 32px; flex-direction: column; gap: 24px; align-items: flex-start; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links, .nav-cta { display: none; }
+      .hamburger { display: flex; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">ADV</a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#why">Why ADV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Work with us</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#services" onclick="closeMobile()">Services</a>
+    <a href="#results" onclick="closeMobile()">Results</a>
+    <a href="#why" onclick="closeMobile()">Why ADV</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+    <a href="#contact" onclick="closeMobile()" style="font-size:16px; letter-spacing:0.08em; font-family:'DM Sans',sans-serif; font-weight:600; text-transform:uppercase; margin-top:16px;">Work with us →</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-left">
+      <p class="hero-label">Advertising · Advantage · Advocate</p>
+      <h1 class="hero-headline">
+        The Unfair<br>
+        Marketing<br>
+        <em>Advantage.</em>
+      </h1>
+      <p class="hero-body">
+        We don't run campaigns. We build the marketing infrastructure your business runs on — through AI-powered systems, profit-sharing models, and end-to-end execution that compounds over time.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Start the conversation</a>
+        <a href="#services" class="btn-ghost">See what we build</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <p class="hero-quote">
+        "Engineered<br>for growth."
+      </p>
+    </div>
+  </section>
+
+  <!-- PILLARS -->
+  <div id="pillars">
+    <div class="pillar">
+      <div class="pillar-letter">A</div>
+      <div class="pillar-title">Advertising</div>
+      <p class="pillar-body">Precision-crafted campaigns that convert attention into revenue. Every touchpoint is built to perform.</p>
+    </div>
+    <div class="pillar">
+      <div class="pillar-letter">D</div>
+      <div class="pillar-title">Advantage</div>
+      <p class="pillar-body">Structural marketing infrastructure that compounds over time. Systems that work while you sleep.</p>
+    </div>
+    <div class="pillar">
+      <div class="pillar-letter">V</div>
+      <div class="pillar-title">Advocate</div>
+      <p class="pillar-body">A partner invested in outcomes — not a vendor chasing retainers. We grow when you grow.</p>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="services-header">
+      <div>
+        <p class="section-label">What we build</p>
+        <h2 class="services-headline">
+          Marketing infrastructure.<br>Not just campaigns.
+        </h2>
+      </div>
+      <p class="services-intro">
+        Most agencies sell you deliverables. ADV builds the system your marketing runs on — end-to-end, AI-powered, and structured around your growth.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <p class="service-number">01</p>
+        <h3 class="service-title">Paid Advertising</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">Meta, Google, TikTok, LinkedIn — built for conversion, not just clicks. Full-funnel strategy, creative, and optimisation managed as a single system.</p>
+      </div>
+      <div class="service-card">
+        <p class="service-number">02</p>
+        <h3 class="service-title">AI-Powered Systems</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">We engineer marketing automation that eliminates repetitive work and creates compounding output — from lead nurturing to reporting.</p>
+      </div>
+      <div class="service-card">
+        <p class="service-number">03</p>
+        <h3 class="service-title">Marketing Infrastructure</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">CRM, analytics, attribution, funnel architecture. We build the operational backbone that makes every other channel more effective.</p>
+      </div>
+      <div class="service-card">
+        <p class="service-number">04</p>
+        <h3 class="service-title">Content & Creative</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">Strategic content that positions your brand as the authority in your market — across ads, email, social, and long-form.</p>
+      </div>
+      <div class="service-card">
+        <p class="service-number">05</p>
+        <h3 class="service-title">SEO & Organic Growth</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">Long-term compounding growth through search. Technical SEO, content strategy, and link architecture built for durable rankings.</p>
+      </div>
+      <div class="service-card">
+        <p class="service-number">06</p>
+        <h3 class="service-title">Profit-Sharing Model</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">We operate as an extension of your business — with skin in the game. Our model aligns incentives so we only win when you do.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="results">
+    <div class="results-header">
+      <div>
+        <p class="section-label light">Proof of work</p>
+        <h2 class="results-headline">
+          Numbers don't<br><em>negotiate.</em>
+        </h2>
+      </div>
+      <p class="results-intro">
+        Real campaigns. Real spend. Real outcomes. Client names stay confidential — the results speak for themselves.
+      </p>
+    </div>
+
+    <div class="results-grid">
+
+      <div class="result-card">
+        <span class="result-tag">Paid Ads · Lead Gen</span>
+        <p class="result-industry">Interior Design & Renovation</p>
+        <div class="result-metrics">
+          <div class="result-metric-row">
+            <span class="result-number">5</span>
+            <span class="result-number-label">qualified leads<br>1 confirmed appointment</span>
+          </div>
+          <div class="result-metric-row">
+            <span class="result-number" style="font-size:36px;">RM18.41</span>
+            <span class="result-number-label">cost per lead</span>
+          </div>
+        </div>
+        <div class="result-divider"></div>
+        <p class="result-context">Meta lead generation campaign for a renovation firm. 33,206 reach, 69,608 impressions — structured to capture decision-ready buyers, not casual browsers.</p>
+      </div>
+
+      <div class="result-card">
+        <span class="result-tag">Paid Ads · Lead Gen</span>
+        <p class="result-industry">Education & Coaching</p>
+        <div class="result-metrics">
+          <div class="result-metric-row">
+            <span class="result-number">42</span>
+            <span class="result-number-label">website leads</span>
+          </div>
+          <div class="result-metric-row">
+            <span class="result-number" style="font-size:36px;">RM3.96</span>
+            <span class="result-number-label">cost per lead · RM166 total spend</span>
+          </div>
+        </div>
+        <div class="result-divider"></div>
+        <p class="result-context">42 inbound leads at under RM4 each from a RM166 campaign. 3,380 people reached. Proof that tight targeting beats big budgets.</p>
+      </div>
+
+      <div class="result-card">
+        <span class="result-tag">Paid Ads · Engagement</span>
+        <p class="result-industry">Food & Beverage</p>
+        <div class="result-metrics">
+          <div class="result-metric-row">
+            <span class="result-number">19,347</span>
+            <span class="result-number-label">post engagements</span>
+          </div>
+          <div class="result-metric-row">
+            <span class="result-number" style="font-size:36px;">RM0.02</span>
+            <span class="result-number-label">cost per engagement</span>
+          </div>
+        </div>
+        <div class="result-divider"></div>
+        <p class="result-context">19,000+ brand interactions at 2 sen per touch. Built for awareness and community — every ringgit working harder than it should.</p>
+      </div>
+
+      <div class="result-card">
+        <span class="result-tag">Organic · Content</span>
+        <p class="result-industry">Health & Wellness</p>
+        <div class="result-metrics">
+          <div class="result-metric-row">
+            <span class="result-number">107K</span>
+            <span class="result-number-label">organic views</span>
+          </div>
+          <div class="result-metric-row">
+            <span class="result-number" style="font-size:36px;">88,542</span>
+            <span class="result-number-label">reach · 1,795 reactions · 170 shares</span>
+          </div>
+        </div>
+        <div class="result-divider"></div>
+        <p class="result-context">Zero ad spend. 107,000+ views and 88,000 reach driven purely through content strategy and platform-native execution.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHY ADV -->
+  <section id="why">
+    <div class="why-left">
+      <p class="section-label light">Why ADV</p>
+      <h2 class="why-headline">
+        Built for businesses<br>that are serious<br>about growth.
+      </h2>
+      <p class="why-body">
+        We're not a retainer shop. We're a dedicated marketing partner that builds and operates your entire marketing wing — so you can focus on running your business.
+      </p>
+      <div class="why-stats">
+        <div class="stat-item">
+          <div class="stat-number">B2B</div>
+          <div class="stat-label">Specialist focus</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">AI</div>
+          <div class="stat-label">Powered execution</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">End-to-end</div>
+          <div class="stat-label">Infrastructure built</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">Aligned</div>
+          <div class="stat-label">Profit-sharing model</div>
+        </div>
+      </div>
+    </div>
+    <div class="why-right">
+      <div class="testimonial">
+        <p class="testimonial-quote">
+          "ADV didn't just grow our pipeline — they rebuilt how we think about marketing entirely."
+        </p>
+        <p class="testimonial-author">— ADV Client</p>
+      </div>
+      <div class="model-cards">
+        <div class="model-card">
+          <p class="model-card-label">Our model</p>
+          <p class="model-card-title">Profit-sharing partnerships</p>
+        </div>
+        <div class="model-card">
+          <p class="model-card-label">Our edge</p>
+          <p class="model-card-title">AI-powered execution</p>
+        </div>
+        <div class="model-card">
+          <p class="model-card-label">Our approach</p>
+          <p class="model-card-title">End-to-end ownership</p>
+        </div>
+        <div class="model-card">
+          <p class="model-card-label">Our promise</p>
+          <p class="model-card-title">Outcomes, not outputs</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-left">
+      <p class="section-label">Work with us</p>
+      <h2 class="contact-headline">
+        Ready to build<br>your marketing wing?
+      </h2>
+      <p class="contact-body">
+        Tell us about your business. We'll tell you exactly where we can move the needle — and how.
+      </p>
+      <div class="contact-detail">
+        <div class="contact-item">
+          <span class="contact-item-label">Email</span>
+          <a href="mailto:sales@advmarketing.biz" class="contact-item-value">sales@advmarketing.biz</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-item-label">Based in</span>
+          <span class="contact-item-value">Malaysia · Available globally</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <div class="contact-primary">
+        <p class="section-label" style="margin-bottom:24px;">Fastest way in</p>
+        <a href="https://wa.me/601163343549?text=Hi%20ADV%2C%20I%27d%20like%20to%20discuss%20growing%20my%20business." class="whatsapp-cta" target="_blank" rel="noopener">
+          <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Message us on WhatsApp
+        </a>
+        <p style="font-size:13px; color:var(--stone); margin-top:16px; line-height:1.6;">We typically reply within a few hours. Come as you are — no brief needed to start a conversation.</p>
+      </div>
+
+      <div class="contact-or">or leave a message</div>
+
+      <form id="contactForm">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-field">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Your company" />
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@company.com" required />
+        </div>
+        <div class="form-field">
+          <label for="service">What are you looking to build?</label>
+          <select id="service" name="service">
+            <option value="" disabled selected>Select a service</option>
+            <option>Paid Advertising</option>
+            <option>AI-Powered Marketing Systems</option>
+            <option>Full Marketing Infrastructure</option>
+            <option>Content & Creative Strategy</option>
+            <option>SEO & Organic Growth</option>
+            <option>Not sure — let's talk</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">Tell us about your business</label>
+          <textarea id="message" name="message" placeholder="What's your current marketing challenge?"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send the brief →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="#" class="footer-logo">ADV</a>
+    <p class="footer-tagline">"The Unfair Marketing Advantage."</p>
+    <p class="footer-legal">© 2026 ADV Digital Marketing. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Navbar scroll behaviour
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Hamburger
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    hamburger.addEventListener('click', () => {
+      mobileNav.classList.toggle('open');
+    });
+
+    function closeMobile() {
+      mobileNav.classList.remove('open');
+    }
+
+    // Form submit (placeholder)
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('.form-submit');
+      btn.textContent = 'Message sent — we\'ll be in touch.';
+      btn.style.opacity = '0.6';
+      btn.disabled = true;
+    });
+  </script>
+</body>
+</html>
