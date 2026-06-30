@@ -539,6 +539,93 @@
       color: var(--white);
     }
 
+    /* ── FAQ ── */
+    #faq {
+      background: var(--cream);
+      padding: 120px 64px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 96px;
+      align-items: start;
+    }
+
+    .faq-left {}
+
+    .faq-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: clamp(40px, 4vw, 60px);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--black);
+      margin-bottom: 24px;
+    }
+
+    .faq-intro {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--charcoal);
+    }
+
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .faq-item {
+      border-top: 1px solid rgba(13,13,13,0.1);
+    }
+
+    .faq-item:last-child {
+      border-bottom: 1px solid rgba(13,13,13,0.1);
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 0;
+      gap: 24px;
+      text-align: left;
+    }
+
+    .faq-question-text {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      color: var(--black);
+      line-height: 1.5;
+    }
+
+    .faq-icon {
+      font-size: 20px;
+      color: var(--stone);
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+      font-weight: 300;
+      line-height: 1;
+    }
+
+    .faq-item.open .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      display: none;
+      padding-bottom: 24px;
+      font-size: 14px;
+      line-height: 1.8;
+      color: var(--charcoal);
+    }
+
+    .faq-item.open .faq-answer {
+      display: block;
+    }
+
     /* ── CONTACT ── */
     #contact {
       background: var(--cream);
@@ -991,7 +1078,79 @@
       .nav-links, .nav-cta { display: none; }
       .hamburger { display: flex; }
     }
+
+    @media (max-width: 1024px) {
+      #faq { grid-template-columns: 1fr; gap: 48px; padding: 80px 40px; }
+    }
+    @media (max-width: 768px) {
+      #faq { padding: 64px 24px; gap: 40px; }
+      .faq-headline { font-size: clamp(2rem, 6vw, 3rem); }
+    }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How is ADV different from other digital marketing agencies in Malaysia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ADV operates as a dedicated marketing partner — not a vendor. We build and run your full marketing infrastructure, from paid ads to AI-powered automation, on a profit-sharing model. That means our incentives are aligned with your growth, not your retainer size."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the profit-sharing model work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Instead of charging a fixed retainer regardless of results, we structure engagements around shared outcomes. We agree on performance targets upfront, and our compensation is tied to hitting them. The exact structure is tailored to each business — start with a conversation to see what fits yours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What types of businesses do you work with?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We primarily work with B2B businesses and growth-stage SMEs across Malaysia — including professional services, education, health & wellness, F&B, and e-commerce. If you're serious about building a scalable marketing system (not just running ads), we're likely a good fit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does \"marketing infrastructure\" actually mean?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most agencies deliver campaigns. We build the system your campaigns run on — CRM setup, ad account structure, attribution tracking, automation workflows, content systems, and reporting dashboards. Infrastructure is what makes every ringgit you spend more effective over time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long before I see results?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Paid advertising typically shows measurable results within the first 2–4 weeks. Organic and infrastructure work compounds over 3–6 months. We set clear KPIs from day one so you always know what we're working toward and where we stand."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you work with businesses outside Malaysia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. While we're based in Malaysia, we work with clients across Southeast Asia and beyond. Our systems are built to operate remotely — all reporting, communication, and execution happens digitally."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get started?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Message us on WhatsApp or fill out the contact form below. We'll schedule a short discovery call to understand your business, goals, and what a partnership could look like."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -1004,6 +1163,7 @@
       <li><a href="#services">Services</a></li>
       <li><a href="#results">Results</a></li>
       <li><a href="#why">Why ADV</a></li>
+      <li><a href="#faq">FAQ</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <a href="#contact" class="nav-cta">Work with us</a>
@@ -1262,6 +1422,79 @@
     </div>
   </section>
 
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="faq-left">
+      <p class="section-label">Common questions</p>
+      <h2 class="faq-headline">
+        Everything you<br>need to know.
+      </h2>
+      <p class="faq-intro">
+        If your question isn't here, message us on WhatsApp — we reply fast.
+      </p>
+    </div>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-question-text">How is ADV different from other digital marketing agencies in Malaysia?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">ADV operates as a dedicated marketing partner — not a vendor. We build and run your full marketing infrastructure, from paid ads to AI-powered automation, on a profit-sharing model. That means our incentives are aligned with your growth, not your retainer size.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-question-text">How does the profit-sharing model work?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Instead of charging a fixed retainer regardless of results, we structure engagements around shared outcomes. We agree on performance targets upfront, and our compensation is tied to hitting them. The exact structure is tailored to each business — start with a conversation to see what fits yours.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-question-text">What types of businesses do you work with?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">We primarily work with B2B businesses and growth-stage SMEs across Malaysia — including professional services, education, health & wellness, F&B, and e-commerce. If you're serious about building a scalable marketing system (not just running ads), we're likely a good fit.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-question-text">What does "marketing infrastructure" actually mean?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Most agencies deliver campaigns. We build the system your campaigns run on — CRM setup, ad account structure, attribution tracking, automation workflows, content systems, and reporting dashboards. Infrastructure is what makes every ringgit you spend more effective over time.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-question-text">How long before I see results?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Paid advertising typically shows measurable results within the first 2–4 weeks. Organic and infrastructure work compounds over 3–6 months. We set clear KPIs from day one so you always know what we're working toward and where we stand.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-question-text">Do you work with businesses outside Malaysia?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Yes. While we're based in Malaysia, we work with clients across Southeast Asia and beyond. Our systems are built to operate remotely — all reporting, communication, and execution happens digitally.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-question-text">How do I get started?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">The fastest way is to message us on WhatsApp. No formal brief needed — just tell us about your business and what you're trying to grow. We'll take it from there.</div>
+      </div>
+
+    </div>
+  </section>
+
   <!-- CONTACT -->
   <section id="contact">
     <div class="contact-left">
@@ -1379,6 +1612,22 @@
     function closeMobile() {
       mobileNav.classList.remove('open');
     }
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => {
+          i.classList.remove('open');
+          i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+        if (!isOpen) {
+          item.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
 
     // Form submits natively to Netlify Forms
   </script>
