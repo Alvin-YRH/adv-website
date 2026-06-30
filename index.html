@@ -48,12 +48,25 @@
     nav.scrolled { padding: 18px 64px; }
 
     .nav-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 700;
-      font-size: 28px;
-      letter-spacing: -0.02em;
-      color: var(--black);
       text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-img {
+      display: block;
+    }
+
+    .logo-img--light {
+      height: 48px;
+      width: auto;
+      mix-blend-mode: multiply;
+    }
+
+    .logo-img--dark {
+      height: 48px;
+      width: auto;
+      mix-blend-mode: screen;
     }
 
     .nav-links {
@@ -596,12 +609,9 @@
     }
 
     .footer-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 700;
-      font-size: 24px;
-      letter-spacing: -0.02em;
-      color: var(--white);
       text-decoration: none;
+      display: flex;
+      align-items: center;
     }
 
     .footer-tagline {
@@ -862,7 +872,9 @@
 
   <!-- NAV -->
   <nav id="navbar">
-    <a href="#" class="nav-logo">ADV</a>
+    <a href="#" class="nav-logo">
+      <img src="assets/logo-light.png" alt="ADV Digital Marketing" class="logo-img logo-img--light" />
+    </a>
     <ul class="nav-links">
       <li><a href="#services">Services</a></li>
       <li><a href="#results">Results</a></li>
@@ -1199,7 +1211,9 @@
 
   <!-- FOOTER -->
   <footer>
-    <a href="#" class="footer-logo">ADV</a>
+    <a href="#" class="footer-logo">
+      <img src="assets/logo-dark.png" alt="ADV Digital Marketing" class="logo-img logo-img--dark" />
+    </a>
     <p class="footer-tagline">"The Unfair Marketing Advantage."</p>
     <p class="footer-legal">© 2026 ADV Digital Marketing. All rights reserved.</p>
   </footer>
