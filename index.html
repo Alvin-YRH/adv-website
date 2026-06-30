@@ -1235,7 +1235,9 @@
 
       <div class="contact-or">or leave a message</div>
 
-      <form id="contactForm">
+      <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
+        <p style="display:none;"><input name="bot-field" /></p>
         <div class="form-row">
           <div class="form-field">
             <label for="name">Full name</label>
@@ -1308,14 +1310,7 @@
       mobileNav.classList.remove('open');
     }
 
-    // Form submit (placeholder)
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const btn = this.querySelector('.form-submit');
-      btn.textContent = 'Message sent — we\'ll be in touch.';
-      btn.style.opacity = '0.6';
-      btn.disabled = true;
-    });
+    // Form submits natively to Netlify Forms
   </script>
 </body>
 </html>
