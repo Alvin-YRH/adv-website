@@ -1639,7 +1639,14 @@
       });
     });
 
-    // Form submits natively to Netlify Forms
+    // Form submission — GA4 lead event + Netlify Forms
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      gtag('event', 'generate_lead', {
+        event_category: 'contact_form',
+        event_label: 'Contact Form Submission',
+        value: 1
+      });
+    });
   </script>
 </body>
 </html>
