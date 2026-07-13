@@ -1262,6 +1262,146 @@
       #faq { padding: 64px 24px; gap: 40px; }
       .faq-headline { font-size: clamp(2rem, 6vw, 3rem); }
     }
+
+    /* ── TICKER ── */
+    .ticker-wrap {
+      background: var(--black);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      overflow: hidden;
+      padding: 16px 0;
+    }
+
+    .ticker-track {
+      display: flex;
+      width: max-content;
+      animation: ticker 32s linear infinite;
+    }
+
+    .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
+
+    @keyframes ticker {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    .ticker-item {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 0 24px;
+      white-space: nowrap;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--stone);
+    }
+
+    .ticker-dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #9A9490;
+      flex-shrink: 0;
+    }
+
+    /* ── PROCESS ── */
+    #process {
+      background: var(--cream);
+      padding: 120px 64px;
+    }
+
+    .process-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 80px;
+      gap: 40px;
+    }
+
+    .process-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.5rem, 4vw, 3.5rem);
+      font-weight: 300;
+      color: var(--black);
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .process-intro {
+      max-width: 380px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--stone);
+    }
+
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 2px;
+    }
+
+    .process-step {
+      background: var(--black);
+      padding: 40px 32px;
+      position: relative;
+      transition: background 0.3s;
+    }
+
+    .process-step:hover { background: #1a1a1a; }
+
+    .process-step-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 48px;
+      font-weight: 300;
+      color: rgba(255,255,255,0.08);
+      line-height: 1;
+      margin-bottom: 32px;
+    }
+
+    .process-step-icon {
+      color: var(--stone);
+      margin-bottom: 20px;
+      line-height: 0;
+      display: block;
+    }
+
+    .process-step-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .process-step-desc {
+      font-size: 13px;
+      line-height: 1.7;
+      color: var(--stone);
+    }
+
+    .process-arrow {
+      position: absolute;
+      top: 40px;
+      right: -10px;
+      color: rgba(154,148,144,0.3);
+      z-index: 1;
+    }
+
+    .process-step:last-child .process-arrow { display: none; }
+
+    @media (max-width: 1024px) {
+      .process-steps { grid-template-columns: repeat(3, 1fr); }
+      .process-arrow { display: none; }
+      .process-header { flex-direction: column; align-items: flex-start; }
+    }
+    @media (max-width: 768px) {
+      #process { padding: 64px 24px; }
+      .process-steps { grid-template-columns: 1fr 1fr; }
+    }
   </style>
   <script type="application/ld+json">
   {
@@ -1413,6 +1553,38 @@
     </div>
   </section>
 
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <!-- set 1 -->
+      <span class="ticker-item">Paid Media<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Meta Ads<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Google Ads<span class="ticker-dot"></span></span>
+      <span class="ticker-item">TikTok Ads<span class="ticker-dot"></span></span>
+      <span class="ticker-item">AI Automation<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Marketing Infrastructure<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Content Creation<span class="ticker-dot"></span></span>
+      <span class="ticker-item">SEO · AEO · GEO<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Social Media<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Website Development<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Data Analytics<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Profit-Sharing Model<span class="ticker-dot"></span></span>
+      <!-- set 2 (duplicate for seamless loop) -->
+      <span class="ticker-item">Paid Media<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Meta Ads<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Google Ads<span class="ticker-dot"></span></span>
+      <span class="ticker-item">TikTok Ads<span class="ticker-dot"></span></span>
+      <span class="ticker-item">AI Automation<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Marketing Infrastructure<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Content Creation<span class="ticker-dot"></span></span>
+      <span class="ticker-item">SEO · AEO · GEO<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Social Media<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Website Development<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Data Analytics<span class="ticker-dot"></span></span>
+      <span class="ticker-item">Profit-Sharing Model<span class="ticker-dot"></span></span>
+    </div>
+  </div>
+
   <!-- PILLARS -->
   <div id="pillars">
     <div class="pillar">
@@ -1495,6 +1667,74 @@
         <div class="service-divider"></div>
         <p class="service-desc">We operate as an extension of your business — with skin in the game. Our model aligns incentives so we only win when you do.</p>
       </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process">
+    <div class="process-header">
+      <h2 class="process-headline">How we work.</h2>
+      <p class="process-intro">No onboarding chaos. No waiting months to see movement. A clear system from day one — built around your business, not a template.</p>
+    </div>
+    <div class="process-steps">
+
+      <div class="process-step">
+        <div class="process-step-number">01</div>
+        <span class="process-step-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        </span>
+        <h3 class="process-step-title">Discovery Call</h3>
+        <p class="process-step-desc">We learn your business, goals, current marketing, and where the biggest gaps are. No templates — just honest conversation.</p>
+        <span class="process-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </span>
+      </div>
+
+      <div class="process-step">
+        <div class="process-step-number">02</div>
+        <span class="process-step-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <h3 class="process-step-title">Audit & Strategy</h3>
+        <p class="process-step-desc">We audit your existing ads, content, and infrastructure. Then build a data-backed strategy with clear KPIs before spending a single ringgit.</p>
+        <span class="process-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </span>
+      </div>
+
+      <div class="process-step">
+        <div class="process-step-number">03</div>
+        <span class="process-step-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </span>
+        <h3 class="process-step-title">Infrastructure Build</h3>
+        <p class="process-step-desc">CRM, tracking, ad accounts, automation, and content systems — all set up and connected so every channel feeds into one coherent engine.</p>
+        <span class="process-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </span>
+      </div>
+
+      <div class="process-step">
+        <div class="process-step-number">04</div>
+        <span class="process-step-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </span>
+        <h3 class="process-step-title">Launch & Optimise</h3>
+        <p class="process-step-desc">Campaigns go live. We test creatives, audiences, and copy in structured sprints — cutting what doesn't work, doubling what does.</p>
+        <span class="process-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </span>
+      </div>
+
+      <div class="process-step">
+        <div class="process-step-number">05</div>
+        <span class="process-step-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+        </span>
+        <h3 class="process-step-title">Scale & Report</h3>
+        <p class="process-step-desc">What works gets scaled. You get clear reporting on every metric that matters — leads, ROAS, CPL — and a partner invested in pushing further.</p>
+      </div>
+
     </div>
   </section>
 
