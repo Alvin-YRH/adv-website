@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ADV — Motion Video</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #000;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    /* 16:9 canvas, scales to fit any screen */
+    .canvas {
+      width: 1280px;
+      height: 720px;
+      position: relative;
+      overflow: hidden;
+      background: #0D0D0D;
+      transform-origin: center center;
+    }
+
+    /* ── Play overlay ── */
+    .play-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.85);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      cursor: pointer;
+      transition: opacity 0.5s;
+    }
+    .play-circle {
+      width: 88px;
+      height: 88px;
+      border: 2px solid #FAF8F3;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      transition: transform 0.2s;
+    }
+    .play-overlay:hover .play-circle { transform: scale(1.08); }
+    .play-triangle {
+      width: 0;
+      height: 0;
+      border-top: 14px solid transparent;
+      border-bottom: 14px solid transparent;
+      border-left: 24px solid #FAF8F3;
+      margin-left: 6px;
+    }
+    .play-hint {
+      color: #9A9490;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+    .play-hint strong {
+      color: #FAF8F3;
+      font-weight: 400;
+    }
+
+    /* ── Progress bar ── */
+    .progress {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      background: rgba(154,148,144,0.5);
+      width: 0;
+      z-index: 10;
+    }
+
+    /* ── Scenes ── */
+    .scene {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .scene.visible { opacity: 1; }
+
+    /* ── Scene 1: Logo reveal ── */
+    #s1 { background: #0D0D0D; }
+    .s1-inner { display: flex; flex-direction: column; align-items: center; gap: 28px; }
+    .s1-logo {
+      width: 96px;
+      opacity: 0;
+      transform: scale(0.75);
+      transition: opacity 0.9s ease, transform 0.9s ease;
+    }
+    .s1-logo.in { opacity: 1; transform: scale(1); }
+    .s1-line {
+      width: 0;
+      height: 1px;
+      background: rgba(250,248,243,0.2);
+      transition: width 0.8s ease 0.5s;
+    }
+    .s1-line.in { width: 120px; }
+    .s1-tagword {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #9A9490;
+      opacity: 0;
+      transition: opacity 0.6s ease 0.9s;
+    }
+    .s1-tagword.in { opacity: 1; }
+
+    /* ── Scene 2: Tagline ── */
+    #s2 { background: #0D0D0D; flex-direction: column; gap: 20px; }
+    .s2-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 80px;
+      font-weight: 300;
+      color: #FAF8F3;
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+      text-align: center;
+      max-width: 960px;
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .s2-headline.in { opacity: 1; transform: translateY(0); }
+    .s2-sub {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      color: #9A9490;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      opacity: 0;
+      transition: opacity 0.6s ease 0.5s;
+    }
+    .s2-sub.in { opacity: 1; }
+
+    /* ── Scene 3: Services (cream bg) ── */
+    #s3 { background: #FAF8F3; flex-direction: column; }
+    .s3-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 400;
+      color: #9A9490;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+    .s3-label.in { opacity: 1; }
+    .s3-item {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 52px;
+      font-weight: 300;
+      color: #0D0D0D;
+      letter-spacing: -0.01em;
+      text-align: center;
+      line-height: 1.15;
+      opacity: 0;
+      transform: translateX(-28px);
+      transition: opacity 0.55s ease, transform 0.55s ease;
+    }
+    .s3-item.in { opacity: 1; transform: translateX(0); }
+    .s3-rule {
+      width: 1px;
+      height: 28px;
+      background: rgba(13,13,13,0.12);
+      margin: 10px auto;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .s3-rule.in { opacity: 1; }
+
+    /* ── Scene 4: Stats (dark) ── */
+    #s4 { background: #0D0D0D; gap: 72px; }
+    .stat {
+      text-align: center;
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .stat.in { opacity: 1; transform: translateY(0); }
+    .stat-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 88px;
+      font-weight: 300;
+      color: #FAF8F3;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .stat-lbl {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: #9A9490;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-top: 14px;
+    }
+
+    /* ── Scene 5: Statement (cream) ── */
+    #s5 { background: #FAF8F3; }
+    .s5-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 60px;
+      font-weight: 300;
+      color: #0D0D0D;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      text-align: center;
+      max-width: 920px;
+      padding: 0 80px;
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.9s ease, transform 0.9s ease;
+    }
+    .s5-text em {
+      font-style: italic;
+      color: #9A9490;
+    }
+    .s5-text.in { opacity: 1; transform: translateY(0); }
+
+    /* ── Scene 6: CTA (dark) ── */
+    #s6 { background: #0D0D0D; flex-direction: column; gap: 24px; }
+    .s6-logo {
+      width: 72px;
+      opacity: 0;
+      transform: scale(0.85);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .s6-logo.in { opacity: 1; transform: scale(1); }
+    .s6-url {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 26px;
+      font-weight: 300;
+      color: #FAF8F3;
+      letter-spacing: 0.04em;
+      opacity: 0;
+      transition: opacity 0.6s ease 0.25s;
+    }
+    .s6-url.in { opacity: 1; }
+    .s6-wa {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      color: #9A9490;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0;
+      transition: opacity 0.6s ease 0.45s;
+    }
+    .s6-wa.in { opacity: 1; }
+    .s6-rule {
+      width: 40px;
+      height: 1px;
+      background: rgba(250,248,243,0.15);
+      opacity: 0;
+      transition: opacity 0.4s ease 0.15s;
+    }
+    .s6-rule.in { opacity: 1; }
+  </style>
+</head>
+<body>
+  <div class="canvas" id="canvas">
+
+    <div class="progress" id="progress"></div>
+
+    <!-- Play overlay -->
+    <div class="play-overlay" id="playOverlay" onclick="start()">
+      <div class="play-circle"><div class="play-triangle"></div></div>
+      <div class="play-hint">Start screen recording, then <strong>click to play</strong></div>
+    </div>
+
+    <!-- Scene 1: Logo -->
+    <div class="scene" id="s1">
+      <div class="s1-inner">
+        <img class="s1-logo" id="s1Logo" src="assets/icon-light.png" alt="ADV">
+        <div class="s1-line" id="s1Line"></div>
+        <div class="s1-tagword" id="s1Tag">Digital Marketing</div>
+      </div>
+    </div>
+
+    <!-- Scene 2: Tagline -->
+    <div class="scene" id="s2">
+      <div style="text-align:center">
+        <div class="s2-headline" id="s2Head">The Unfair<br>Marketing Advantage.</div>
+        <div class="s2-sub" id="s2Sub">ADV Digital Marketing · Malaysia</div>
+      </div>
+    </div>
+
+    <!-- Scene 3: Services -->
+    <div class="scene" id="s3">
+      <div style="text-align:center">
+        <div class="s3-label" id="s3Lbl">What we build for you</div>
+        <div class="s3-item" id="s3a">Paid Media & Performance Ads</div>
+        <div class="s3-rule" id="s3r1"></div>
+        <div class="s3-item" id="s3b">AI-Powered Marketing Automation</div>
+        <div class="s3-rule" id="s3r2"></div>
+        <div class="s3-item" id="s3c">Full-Stack Marketing Infrastructure</div>
+      </div>
+    </div>
+
+    <!-- Scene 4: Stats -->
+    <div class="scene" id="s4">
+      <div class="stat" id="st1">
+        <div class="stat-num">3–5×</div>
+        <div class="stat-lbl">Revenue Growth</div>
+      </div>
+      <div class="stat" id="st2">
+        <div class="stat-num">60%</div>
+        <div class="stat-lbl">Lower Cost-Per-Lead</div>
+      </div>
+      <div class="stat" id="st3">
+        <div class="stat-num">6mo</div>
+        <div class="stat-lbl">Average Time to Scale</div>
+      </div>
+    </div>
+
+    <!-- Scene 5: Statement -->
+    <div class="scene" id="s5">
+      <div class="s5-text" id="s5Text">
+        Your competitors are buying ads.<br><em>You're building an advantage.</em>
+      </div>
+    </div>
+
+    <!-- Scene 6: CTA -->
+    <div class="scene" id="s6">
+      <img class="s6-logo" id="s6Logo" src="assets/icon-light.png" alt="ADV">
+      <div class="s6-rule" id="s6Rule"></div>
+      <div class="s6-url" id="s6Url">advmarketing.biz</div>
+      <div class="s6-wa" id="s6Wa">WhatsApp +60163343549</div>
+    </div>
+
+  </div>
+
+  <script>
+    // Scale canvas to fit viewport
+    function scaleCanvas() {
+      const canvas = document.getElementById('canvas');
+      const scaleX = window.innerWidth / 1280;
+      const scaleY = window.innerHeight / 720;
+      const scale = Math.min(scaleX, scaleY);
+      canvas.style.transform = `scale(${scale})`;
+    }
+    scaleCanvas();
+    window.addEventListener('resize', scaleCanvas);
+
+    // Helpers
+    const at = (ms, fn) => setTimeout(fn, ms);
+    const show = id => document.getElementById(id).classList.add('visible');
+    const hide = id => document.getElementById(id).classList.remove('visible');
+    const ani = id => document.getElementById(id).classList.add('in');
+
+    function start() {
+      const overlay = document.getElementById('playOverlay');
+      overlay.style.opacity = '0';
+      overlay.style.pointerEvents = 'none';
+
+      // Progress bar — 25s
+      const bar = document.getElementById('progress');
+      bar.style.transition = 'width 25000ms linear';
+      at(30, () => bar.style.width = '100%');
+
+      // ── Scene 1: 0–3.5s ──
+      show('s1');
+      at(100, () => ani('s1Logo'));
+      at(400, () => ani('s1Line'));
+      at(700, () => ani('s1Tag'));
+
+      // ── Scene 2: 3.5–8s ──
+      at(3500, () => { hide('s1'); show('s2'); });
+      at(3700, () => ani('s2Head'));
+      at(4400, () => ani('s2Sub'));
+
+      // ── Scene 3: 8–15s ──
+      at(8000, () => { hide('s2'); show('s3'); });
+      at(8200, () => ani('s3Lbl'));
+      at(8700, () => ani('s3a'));
+      at(9500, () => ani('s3r1'));
+      at(9800, () => ani('s3b'));
+      at(10700, () => ani('s3r2'));
+      at(11000, () => ani('s3c'));
+
+      // ── Scene 4: 15–20s ──
+      at(15000, () => { hide('s3'); show('s4'); });
+      at(15300, () => ani('st1'));
+      at(15900, () => ani('st2'));
+      at(16500, () => ani('st3'));
+
+      // ── Scene 5: 20–23s ──
+      at(20000, () => { hide('s4'); show('s5'); });
+      at(20200, () => ani('s5Text'));
+
+      // ── Scene 6: 23–25s+ ──
+      at(23000, () => { hide('s5'); show('s6'); });
+      at(23200, () => ani('s6Logo'));
+      at(23300, () => ani('s6Rule'));
+      at(23500, () => ani('s6Url'));
+      at(23700, () => ani('s6Wa'));
+    }
+  </script>
+</body>
+</html>
