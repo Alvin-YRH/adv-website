@@ -331,6 +331,63 @@
 
     .nav-links a:hover { color: var(--black); }
 
+    /* Services dropdown */
+    .nav-links li { position: relative; }
+
+    .nav-dropdown {
+      position: absolute;
+      top: calc(100% + 20px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--cream);
+      border: 1px solid rgba(13,13,13,0.1);
+      min-width: 210px;
+      padding: 6px 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+      transform: translateX(-50%) translateY(-4px);
+      z-index: 200;
+      list-style: none;
+    }
+
+    .nav-links li:hover .nav-dropdown {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .nav-dropdown::before {
+      content: '';
+      position: absolute;
+      top: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10px;
+      height: 10px;
+      background: var(--cream);
+      border-left: 1px solid rgba(13,13,13,0.1);
+      border-top: 1px solid rgba(13,13,13,0.1);
+      transform: translateX(-50%) rotate(45deg);
+    }
+
+    .nav-dropdown li a {
+      display: block;
+      padding: 11px 20px;
+      font-size: 11px;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--charcoal);
+      text-decoration: none;
+      transition: background 0.15s, color 0.15s;
+      white-space: nowrap;
+    }
+
+    .nav-dropdown li a:hover {
+      background: var(--black);
+      color: var(--cream);
+    }
+
     .nav-cta {
       font-family: 'DM Sans', sans-serif;
       font-weight: 600;
@@ -564,6 +621,28 @@
     .service-card:hover .service-title,
     .service-card:hover .service-desc { color: var(--white); }
     .service-card:hover .service-divider { background: rgba(255,255,255,0.15); }
+
+    a.service-card { text-decoration: none; color: inherit; display: block; }
+
+    .service-sub-links {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .service-sub-links a {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gold);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .service-card:hover .service-sub-links a { color: rgba(212,168,83,0.8); }
+    .service-sub-links a:hover { color: var(--black) !important; }
+    .service-card:hover .service-sub-links a:hover { color: var(--white) !important; }
 
     .service-number {
       color: var(--stone);
@@ -1509,7 +1588,15 @@
       <img src="assets/icon-light.png" alt="ADV Digital Marketing" class="logo-img logo-img--light" />
     </a>
     <ul class="nav-links">
-      <li><a href="#services">Services</a></li>
+      <li>
+        <a href="#services">Services</a>
+        <ul class="nav-dropdown">
+          <li><a href="/meta-ads-agency-malaysia">Meta Ads</a></li>
+          <li><a href="/google-ads-agency-malaysia">Google Ads</a></li>
+          <li><a href="/seo-agency-kuala-lumpur">SEO &amp; AEO</a></li>
+          <li><a href="/ai-marketing-automation-malaysia">AI Automation</a></li>
+        </ul>
+      </li>
       <li><a href="#results">Results</a></li>
       <li><a href="#why">Why ADV</a></li>
       <li><a href="#faq">FAQ</a></li>
@@ -1524,6 +1611,10 @@
   <!-- MOBILE NAV -->
   <div class="mobile-nav" id="mobileNav">
     <a href="#services" onclick="closeMobile()">Services</a>
+    <a href="/meta-ads-agency-malaysia" onclick="closeMobile()" style="font-size:11px; padding-left:16px; opacity:0.7;">— Meta Ads</a>
+    <a href="/google-ads-agency-malaysia" onclick="closeMobile()" style="font-size:11px; padding-left:16px; opacity:0.7;">— Google Ads</a>
+    <a href="/seo-agency-kuala-lumpur" onclick="closeMobile()" style="font-size:11px; padding-left:16px; opacity:0.7;">— SEO &amp; AEO</a>
+    <a href="/ai-marketing-automation-malaysia" onclick="closeMobile()" style="font-size:11px; padding-left:16px; opacity:0.7;">— AI Automation</a>
     <a href="#results" onclick="closeMobile()">Results</a>
     <a href="#why" onclick="closeMobile()">Why ADV</a>
     <a href="#contact" onclick="closeMobile()">Contact</a>
@@ -1627,15 +1718,19 @@
         <h3 class="service-title">Paid Advertising</h3>
         <div class="service-divider"></div>
         <p class="service-desc">Meta, Google, TikTok, LinkedIn — built for conversion, not just clicks. Full-funnel strategy, creative, and optimisation managed as a single system.</p>
+        <div class="service-sub-links">
+          <a href="/meta-ads-agency-malaysia">Meta Ads →</a>
+          <a href="/google-ads-agency-malaysia">Google Ads →</a>
+        </div>
       </div>
-      <div class="service-card">
+      <a href="/ai-marketing-automation-malaysia" class="service-card">
         <div class="service-number">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg>
         </div>
         <h3 class="service-title">AI-Powered Systems</h3>
         <div class="service-divider"></div>
         <p class="service-desc">We engineer marketing automation that eliminates repetitive work and creates compounding output — from lead nurturing to reporting.</p>
-      </div>
+      </a>
       <div class="service-card">
         <div class="service-number">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
@@ -1652,14 +1747,14 @@
         <div class="service-divider"></div>
         <p class="service-desc">Strategic content that positions your brand as the authority in your market — across ads, email, social, and long-form.</p>
       </div>
-      <div class="service-card">
+      <a href="/seo-agency-kuala-lumpur" class="service-card">
         <div class="service-number">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
         </div>
         <h3 class="service-title">SEO & Organic Growth</h3>
         <div class="service-divider"></div>
         <p class="service-desc">Long-term compounding growth through search. Technical SEO, content strategy, and link architecture built for durable rankings.</p>
-      </div>
+      </a>
       <div class="service-card">
         <div class="service-number">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
