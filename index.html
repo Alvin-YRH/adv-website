@@ -259,6 +259,7 @@
       --white:    #FFFFFF;
       --stone:    #9A9490;
       --charcoal: #2B2B2B;
+      --gold:     #D4A853;
     }
 
     html { scroll-behavior: smooth; }
@@ -367,7 +368,7 @@
       font-size: 11px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: var(--stone);
+      color: var(--gold);
       margin-bottom: 32px;
     }
 
@@ -470,7 +471,7 @@
       font-size: 80px;
       line-height: 1;
       letter-spacing: -0.02em;
-      color: rgba(255,255,255,0.18);
+      color: rgba(212,168,83,0.28);
       margin-bottom: 8px;
     }
 
@@ -495,7 +496,7 @@
       font-size: 11px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: var(--stone);
+      color: var(--gold);
       margin-bottom: 56px;
       display: flex;
       align-items: center;
@@ -507,11 +508,11 @@
       display: block;
       height: 1px;
       width: 40px;
-      background: var(--stone);
+      background: var(--gold);
     }
 
-    .section-label.light { color: rgba(255,255,255,0.35); }
-    .section-label.light::after { background: rgba(255,255,255,0.2); }
+    .section-label.light { color: var(--gold); }
+    .section-label.light::after { background: var(--gold); }
 
     /* ── SERVICES ── */
     #services {
