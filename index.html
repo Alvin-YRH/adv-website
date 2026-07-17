@@ -45,6 +45,7 @@
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
+    "@id": "https://advmarketing.biz/#organization",
     "name": "ADV Digital Marketing",
     "alternateName": ["ADV Digital Marketing Malaysia", "ADV Marketing", "ADV Marketing Solution"],
     "url": "https://advmarketing.biz",
@@ -106,8 +107,7 @@
     },
     "sameAs": [
       "https://www.instagram.com/adv_digitalmarketing/",
-      "https://www.linkedin.com/company/advmarksolution/",
-      "https://advmarketing.biz"
+      "https://www.linkedin.com/company/advmarksolution/"
     ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
@@ -241,8 +241,46 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://advmarketing.biz/#website",
     "name": "ADV Digital Marketing",
-    "url": "https://advmarketing.biz"
+    "url": "https://advmarketing.biz",
+    "description": "ADV Digital Marketing — The Unfair Marketing Advantage. Performance marketing, AI automation, SEO, AEO & GEO for Malaysian businesses.",
+    "publisher": {
+      "@type": "ProfessionalService",
+      "@id": "https://advmarketing.biz/#organization"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://advmarketing.biz/?s={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Schema: WebPage (Homepage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://advmarketing.biz/#webpage",
+    "url": "https://advmarketing.biz",
+    "name": "ADV Digital Marketing Malaysia — The Unfair Marketing Advantage",
+    "description": "ADV Digital Marketing is a B2B digital marketing agency in Kuala Lumpur offering paid media, AI marketing automation, SEO, AEO & GEO for Malaysian businesses.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": "https://advmarketing.biz/#website"
+    },
+    "about": {
+      "@type": "ProfessionalService",
+      "@id": "https://advmarketing.biz/#organization"
+    },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".hero-headline", ".hero-body", ".section-label", "h2"]
+    }
   }
   </script>
 
