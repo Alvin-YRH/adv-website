@@ -1616,12 +1616,13 @@
       });
     });
 
-    // GA4 — WhatsApp CTA click event
+    // GA4: track WhatsApp CTA clicks as a lead conversion
     document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
       link.addEventListener('click', () => {
-        gtag('event', 'click_whatsapp_cta', {
-          event_category: 'engagement',
-          event_label: link.innerText.trim().substring(0, 50)
+        gtag('event', 'generate_lead', {
+          event_category: 'whatsapp',
+          event_label: 'AI Automation Page',
+          value: 1
         });
       });
     });

@@ -2358,6 +2358,17 @@
         value: 1
       });
     });
+
+    // GA4: track WhatsApp CTA clicks as a lead conversion
+    document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+      link.addEventListener('click', () => {
+        gtag('event', 'generate_lead', {
+          event_category: 'whatsapp',
+          event_label: 'Homepage',
+          value: 1
+        });
+      });
+    });
   </script>
 </body>
 </html>
