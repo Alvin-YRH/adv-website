@@ -20,8 +20,14 @@
   </url>
   <url>
     <loc>https://advmarketing.biz/meta-ads-pricing-malaysia</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://advmarketing.biz/live-results</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
