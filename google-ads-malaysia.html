@@ -154,7 +154,13 @@
     "name": "Alvin Yap",
     "jobTitle": "Founder & Marketing Strategist",
     "url": "https://advmarketing.biz/about",
-    "worksFor": { "@type": "ProfessionalService", "@id": "https://advmarketing.biz/#organization" }
+    "worksFor": {
+      "@type": "ProfessionalService",
+      "@id": "https://advmarketing.biz/#organization"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/alvinyrh/"
+    ]
   }
   </script>
 
@@ -1112,6 +1118,16 @@
     </div>
   </section>
 
+  <!-- QUICK ANSWER -->
+  <section style="background:var(--cream); padding: 56px 0 8px;">
+    <div class="quick-answer">
+      <p class="quick-answer-label">The short answer</p>
+      <p><strong>Most wasted Google Ads budget in Malaysia hides in two places: conversion events that don't represent revenue, and search-term reports nobody reads.</strong> Smart bidding optimises toward whatever it is told a conversion is — feed it page views or button clicks and it will scale the wrong outcome efficiently.</p>
+      <p>A proper takeover runs in four steps: pull 90 days of search terms and conversion definitions before changing anything, redefine conversion events around real revenue actions, restructure gradually so accumulated smart-bidding signal is preserved rather than reset, then run weekly search-term hygiene and Quality Score work.</p>
+      <p><strong>Realistic outcome:</strong> a Quality Score improvement from 4 to 7 typically cuts cost-per-click 30–40%. Minimum viable Search budget in Malaysia is around RM3,000/month.</p>
+    </div>
+  </section>
+
   <!-- WHY ACCOUNTS UNDERPERFORM -->
   <section id="services">
     <div class="services-header">
@@ -1406,7 +1422,35 @@
     @keyframes livePulse { 0% { transform: scale(0.6); opacity: 1; } 100% { transform: scale(1.7); opacity: 0; } }
     @media (prefers-reduced-motion: reduce) { .live-dot::after { animation: none; } }
     @media (max-width: 640px) { .live-board-fab { bottom: 16px; right: 16px; padding: 10px 16px; font-size: 11px; } }
-  </style>
+  
+    /* ── QUICK ANSWER (AEO extraction block) ── */
+    .quick-answer {
+      background: var(--white);
+      border-left: 3px solid var(--gold);
+      padding: 32px 40px;
+      margin: 0 64px 0;
+      max-width: 900px;
+    }
+    .quick-answer-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+    .quick-answer p {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--charcoal);
+      margin: 0 0 14px;
+    }
+    .quick-answer p:last-child { margin-bottom: 0; }
+    .quick-answer strong { color: var(--black); font-weight: 600; }
+    @media (max-width: 900px) { .quick-answer { margin: 0 32px; padding: 28px 28px; } }
+    @media (max-width: 640px) { .quick-answer { margin: 0 24px; padding: 24px 22px; } .quick-answer p { font-size: 16px; } }
+</style>
   <a href="/live-results" class="live-board-fab" aria-label="Live Results Board — real client numbers, updated weekly">
     <span class="live-dot"></span>
     Live Results

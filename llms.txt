@@ -8,6 +8,10 @@ Key facts:
 - One of the first agencies in Malaysia offering AEO (optimisation for ChatGPT, Perplexity, Gemini citations) and GEO (optimisation for Google AI Overviews)
 - Builds AI automation systems: AI content brief generation, automated reporting, CRM workflows
 
+## Full content
+
+- [Full site text](https://advmarketing.biz/llms-full.txt): every page's complete content in one plain-text file, for single-fetch ingestion
+
 ## Pages
 
 - [Home](https://advmarketing.biz/): Agency overview, services, results, and FAQ

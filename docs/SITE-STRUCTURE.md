@@ -49,6 +49,8 @@ Tier 3 — CONTENT (guides, data, proof; listed on /guides)
 - [ ] Clean URL added to `_redirects` (`/slug /slug.html 200`)
 - [ ] `sitemap.xml` entry (weekly changefreq only if genuinely updated weekly)
 - [ ] `llms.txt` entry with one-line description
+- [ ] Page added to `scripts/build_llms_full.py` PAGES list, then re-run
+      `python3 scripts/build_llms_full.py` to refresh `llms-full.txt`
 - [ ] `/guides` category card/link if Tier 3
 - [ ] Title ≤60 chars, meta description ≤155 chars, canonical, hreflang trio
 - [ ] Schema: WebPage + Breadcrumb + Person minimum; Article + HowTo/FAQ

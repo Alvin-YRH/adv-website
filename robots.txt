@@ -2,3 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://advmarketing.biz/sitemap.xml
+
+# AI crawlers: full site content in one file
+# https://advmarketing.biz/llms.txt
+# https://advmarketing.biz/llms-full.txt
