@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PAGES = [
     ("index.html", "https://advmarketing.biz/", "ADV Digital Marketing — Home"),
     ("about.html", "https://advmarketing.biz/about", "About ADV Digital Marketing & Alvin Yap"),
+    ("advertising-malaysia.html", "https://advmarketing.biz/advertising-malaysia", "Advertising in Malaysia — Costs by Channel"),
     ("meta-ads-agency-malaysia.html", "https://advmarketing.biz/meta-ads-agency-malaysia", "Meta Ads Agency Malaysia — Service"),
     ("facebook-ads-malaysia.html", "https://advmarketing.biz/facebook-ads-malaysia", "Facebook Ads Malaysia — Account Takeover Guide"),
     ("meta-ads-pricing-malaysia.html", "https://advmarketing.biz/meta-ads-pricing-malaysia", "Meta Ads Pricing Malaysia 2026"),

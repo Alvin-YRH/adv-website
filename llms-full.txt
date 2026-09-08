@@ -14,7 +14,7 @@
 > LinkedIn (company): https://www.linkedin.com/company/advmarksolution/
 
 This file contains the full text of every page on advmarketing.biz.
-Generated 2026-09-03. Structured index: https://advmarketing.biz/llms.txt
+Generated 2026-09-08. Structured index: https://advmarketing.biz/llms.txt
 
 
 
@@ -516,6 +516,140 @@ sales@advmarketing.biz
 
 
 ==============================================================================
+# Advertising in Malaysia — Costs by Channel
+URL: https://advmarketing.biz/advertising-malaysia
+==============================================================================
+
+Advertising in Malaysia 2026 — Real Costs by Channel | ADV
+
+← All guides & resources
+
+Advertising in Malaysia · 2026
+
+## What Ads Actually Cost in Malaysia
+
+Not industry averages copied from a US blog — real CPM, CPC and cost-per-lead figures measured across live Malaysian ad accounts we manage, by channel, with the budget floors each one needs to work.
+
+Get a Budget Recommendation
+See the Numbers
+
+"Most Malaysian ad budgets aren't too small. They're spread too thin."
+
+The short answer
+
+In Malaysia, Meta CPMs run roughly RM1.30–15 and a qualified lead conversation costs RM7–25. Google Search CPCs run RM7.50–14 on competitive terms, with cost per acquisition from RM2.41 in high-volume categories to RM55 in specialist ones. These are figures from live accounts, not published averages.
+
+The practical monthly floors: RM1,500–2,000 for Meta (below this the algorithm can't exit its learning phase) and around RM3,000 for Google Search (below this there's too little conversion data for smart bidding). Multi-channel becomes viable around RM5,000. Agency management fees sit on top of ad spend.
+
+Which to start with: Google Search if people already search for what you sell; Meta if your product needs to be shown before anyone thinks to search for it. Under RM3,000/month, run one channel properly rather than two badly.
+
+By channel
+
+### Real numbers, real accounts.
+
+Every figure below comes from a Malaysian ad account under active management, pulled from platform reporting. Ranges reflect genuine variation across industries — not hedging.
+
+Channel
+What it costs
+Measured outcomes
+Best for
+Monthly floor
+
+Meta — awareness Facebook & Instagram
+CPM RM1.27–1.41
+317K people reached on a combined RM1,000 F&B budget; RM0.016 per video view
+Local visibility, launches, footfall
+RM500–1,000
+
+Meta — lead generation Conversion-optimised
+RM7.29–24.01 per lead
+Best campaign RM7.29/conversation at 4.5% CTR; typical range RM10–15; harder verticals RM24
+Service businesses, appointments, enquiries
+RM1,500–2,000
+
+Google Search High-intent capture
+CPC RM7.58–13.84
+CPA RM2.41 in high-volume insurance; RM55.11 in specialist healthcare at 15.2% CTR
+Demand that already exists and gets searched
+RM3,000
+
+Multi-channel Meta + Google + TikTok
+17.3× blended ROAS
+RM18,588 spend returned RM321,517 across 51 days; the Google slice alone hit 26×
+Seasonal pushes, e-commerce, established brands
+RM5,000+
+
+Figures are drawn from accounts across F&B, beauty, B2B services, healthcare, insurance, retail and EV infrastructure. Current live numbers are published on our Live Results Board , updated weekly.
+
+Choosing a channel
+
+### Intent decides, not preference.
+
+Does anyone search for what you sell? If a person with your problem types it into Google — "aircond service kl", "EV charger installation", "invisalign price" — then Google Search is where the money is. You're capturing demand that already exists, at the moment it exists. Higher cost per click, far higher intent.
+
+Or does your product need to be seen first? Nobody searches for a skincare brand they've never heard of, or a restaurant that opened last week. Meta creates the demand Google later captures. Lower cost per impression, more work to convert.
+
+Under RM3,000/month, pick one. The most common mistake we see in Malaysian accounts is a RM2,000 budget split across Meta and Google, leaving both permanently stuck in a learning phase. One channel at RM2,000 beats two at RM1,000 every time — not marginally, but categorically.
+
+Then measure honestly. Channel choice matters far less than measurement quality: an account with broken conversion tracking wastes budget identically on every platform. That's the first thing we fix in Meta takeovers and Google Ads takeovers alike.
+
+Budget floors
+
+RM1.5K
+
+Meta minimum — below this, no stable optimisation
+
+RM3K
+
+Google Search minimum for smart bidding to learn
+
+RM5K
+
+Where multi-channel starts making sense
+
+1
+
+Channels to run if your budget is thin
+
+Common questions
+
+### Budget questions we get asked.
+
+Straight answers on Malaysian ad costs, benchmarks and where to start.
+
+How much does advertising cost in Malaysia? +
+Meta CPMs run RM1.30–15 with lead conversations at RM7–25. Google Search CPCs run RM7.50–14 on competitive terms, with CPA from RM2.41 (high-volume insurance) to RM55 (specialist healthcare). Management fees are separate — see our pricing page .
+
+Which channel should I start with? +
+Google Search if people already search for what you sell — it captures existing intent. Meta if your product needs to be shown or explained first. Under RM3,000/month, run one channel properly rather than splitting a thin budget across both.
+
+What's a good CPM in Malaysia? +
+On awareness campaigns, RM1.27–1.41 is achievable with broad targeting and strong creative. Conversion-optimised campaigns run RM10–15 because the algorithm bids for a narrower, higher-value audience. A rising CPM on a stable audience usually signals creative fatigue, not market conditions.
+
+Is Malaysia cheaper than Singapore or the US? +
+Substantially — Malaysian CPMs and CPCs run a fraction of comparable Singapore or US auction prices, because there are fewer advertisers competing per head of population. That makes Malaysia an efficient place to test creative before scaling into pricier regional markets.
+
+How much should an SME budget monthly? +
+RM1,500–2,000 for Meta, around RM3,000 for Google Search, RM5,000+ before multi-channel makes sense. Agency management fees sit on top, typically RM1,500–7,000/month depending on scope.
+
+Get started
+
+### Not sure what your budget buys?
+
+Tell us your industry and monthly budget and we'll tell you honestly which channel to run, what results are realistic, and whether the budget is even large enough to bother. No obligation, no pitch deck.
+
+Message us on WhatsApp
+
+We typically respond within 2 business hours.
+
+Go deeper
+
+Meta Ads Pricing →
+Facebook Ads Guide →
+Google Ads Guide →
+
+
+==============================================================================
 # Meta Ads Agency Malaysia — Service
 URL: https://advmarketing.biz/meta-ads-agency-malaysia
 ==============================================================================
@@ -940,7 +1074,7 @@ No. Below RM1,500/month, Meta's algorithm can't exit the learning phase, so resu
 Do management fees replace ad spend or come on top?
 +
 
-Management fees are separate from ad spend. Ad spend goes directly to Meta; the management fee covers strategy, creative direction, campaign structure, and reporting. Budgeting for both is what most first-time advertisers miss.
+Management fees are separate from ad spend. Ad spend goes directly to Meta; the management fee covers strategy, creative direction, campaign structure, and reporting. Budgeting for both is what most first-time advertisers miss. For cross-channel benchmarks, see what ads cost in Malaysia .
 
 How long until Meta ads pay for themselves?
 +
@@ -1271,6 +1405,9 @@ We typically respond within 2 business hours.
 Related pages
 
 Google Ads Service
+→
+
+What Ads Cost in Malaysia
 →
 
 Facebook Ads Guide
@@ -1812,6 +1949,12 @@ Category · Facebook & Meta Ads
 ### Facebook Ads Malaysia
 
 Process, pricing, and results for Facebook and Instagram advertising in Malaysia.
+
+Start here
+
+#### What Ads Cost in Malaysia
+
+Cross-channel cost benchmarks — real CPM, CPC and cost-per-lead figures from live accounts, with the budget floor each channel needs and which one to start with.
 
 Guide
 
