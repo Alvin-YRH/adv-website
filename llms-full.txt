@@ -870,6 +870,8 @@ The takeover process
 
 ### Four steps. Measurement first.
 
+The takeover, in four steps
+
 Step 1 — The pre-takeover audit. Before touching anything: account structure, pixel and CAPI health, conversion-event definitions, attribution settings, creative history, audience overlap, and the last 90 days of spend-to-result data. We diagnose why performance is what it is before changing what it does. On our own site audits, we've found silently-broken tracking that reported fine for months — the same failure mode applies inside ad accounts.
 
 Step 2 — Fix measurement before media. Pixel and Conversions API repaired or installed before a single ringgit of new spend. Bad signal in, bad delivery out — no exceptions. This is also where conversion events get redefined around what actually matters (a WhatsApp conversation, a booking) instead of vanity actions.
@@ -1338,6 +1340,8 @@ Google discounts clicks for relevance. A Quality Score of 4 versus 7 on the same
 The takeover process
 
 ### Four steps. Nothing gets reset.
+
+The takeover, in four steps
 
 Step 1 — The pre-takeover audit. The last 90 days of search-term reports, conversion definitions, attribution settings, Quality Score distribution, brand versus non-brand split, and PMAX placements. Most wasted budget hides in the search terms nobody has read — we read them before deciding anything.
 
