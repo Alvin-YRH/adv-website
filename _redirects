@@ -1,12 +1,5 @@
-/malaysia-digital-marketing-statistics-2026 /statistics_pages/malaysia-digital-marketing-statistics-2026.html 200
-/about /about.html 200
-/live-results /live-results.html 200
-/meta-ads-agency-malaysia /meta-ads-agency-malaysia.html 200
-/meta-ads-pricing-malaysia /meta-ads-pricing-malaysia.html 200
-/facebook-ads-malaysia /facebook-ads-malaysia.html 200
-/google-ads-agency-malaysia /google-ads-agency-malaysia.html 200
-/seo-agency-kuala-lumpur /seo-agency-kuala-lumpur.html 200
-/ai-marketing-automation-malaysia /ai-marketing-automation-malaysia.html 200
-/google-ads-malaysia /google-ads-malaysia.html 200
-/guides /guides.html 200
-/advertising-malaysia /advertising-malaysia.html 200
+# Cloudflare Pages serves /about from about.html natively and 308s
+# /about.html -> /about. Do NOT add clean-URL rewrite rules here: a rule
+# like "/about /about.html 200" loops against that canonicalisation.
+# Only non-1:1 paths belong in this file.
+/malaysia-digital-marketing-statistics-2026 /statistics_pages/malaysia-digital-marketing-statistics-2026 200

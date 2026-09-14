@@ -46,7 +46,7 @@ Tier 3 — CONTENT (guides, data, proof; listed on /guides)
 ## New-page checklist (all mandatory)
 
 - [ ] Tier assigned; linked per the rules above (min. 2 visible inbound links)
-- [ ] Clean URL added to `_redirects` (`/slug /slug.html 200`)
+- [ ] Clean URL works natively on Cloudflare Pages (`/slug` serves `slug.html`) — do NOT add a `_redirects` rule for it; `_redirects` is only for non-1:1 paths (e.g. the stats page in a subfolder), and rewrite targets must be extensionless
 - [ ] `sitemap.xml` entry (weekly changefreq only if genuinely updated weekly)
 - [ ] `llms.txt` entry with one-line description
 - [ ] Page added to `scripts/build_llms_full.py` PAGES list, then re-run
