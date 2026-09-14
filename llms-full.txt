@@ -23,7 +23,7 @@ Generated 2026-09-14. Structured index: https://advmarketing.biz/llms.txt
 URL: https://advmarketing.biz/
 ==============================================================================
 
-ADV Digital Marketing Malaysia | The Unfair Advantage
+ADV Digital Marketing Malaysia | Results Published Weekly
 
 Digital Marketing Agency · Malaysia
 
@@ -2020,7 +2020,7 @@ We typically respond within 2 business hours.
 URL: https://advmarketing.biz/malaysia-digital-marketing-statistics-2026
 ==============================================================================
 
-Malaysia Digital Marketing Statistics 2026 — 68 Key Stats
+72 Malaysia Digital Marketing Statistics 2026 (Updated Sept)
 
 Malaysia Digital Marketing — 2026 Research Report
 
@@ -2030,7 +2030,7 @@ By Alvin Yap
 
 Founder, ADV Digital Marketing
 
-Last updated: July 17, 2026
+Last updated: September 14, 2026
 
 Contents
 
@@ -2058,7 +2058,7 @@ Contents
 
 - Sources
 
-Malaysia's digital economy is on a breakout run. With 98% internet penetration, 30.7 million social media users, and a US$39 billion digital economy GMV in 2025 — the fastest growth rate in Southeast Asia — Malaysia is no longer an emerging digital market. It is the market. This page compiles 68 verified statistics from DataReportal, the e-Conomy SEA report (Google/Temasek/Bain), DOSM, MDEC, and more. Every stat is sourced and dated.
+Malaysia's digital economy is on a breakout run. With 98% internet penetration, 30.7 million social media users, and a US$39 billion digital economy GMV in 2025 — the fastest growth rate in Southeast Asia — Malaysia is no longer an emerging digital market. It is the market. This page compiles 72 verified statistics from DataReportal, the e-Conomy SEA report (Google/Temasek/Bain), DOSM, MDEC, and more. Every stat is sourced and dated.
 
 ### Key Malaysia Digital Marketing Statistics (2026)
 
@@ -2216,6 +2216,22 @@ Meta Ads (Facebook/Instagram) average CPM for Malaysia is approximately US$4.80;
 -
 Programmatic advertising is projected to account for 73% of Malaysia's digital ad spending by 2028, driven by AI-powered targeting and automation.
 (Source: Digital in Asia — Malaysia Digital Market Overview, 2025)
+
+-
+Meta lead-generation campaigns for a Malaysian EV-charger installer delivered lead conversations at RM10.19 each in the 30 days to 14 September 2026 — 1,068 conversations on RM10,884 of spend, with the best-performing campaign at RM8.69 per lead and a 4.0% CTR.
+(Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
+
+-
+Meta awareness campaigns in Malaysia can still be bought at around RM1.16 CPM (cost per 1,000 impressions) in 2026 — a fraction of the US$4.80 (~RM20) benchmark for Malaysian Meta CPMs, when optimised for reach rather than conversions.
+(Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
+
+-
+Google Ads for a Malaysian healthcare group cost RM69.46 per conversion on RM15.3K of spend (220 conversions) in the 30 days to 14 September 2026, at a 9.7% search CTR — up from RM55.11 two weeks earlier as budget scaled, a typical pattern when spend outgrows the highest-intent search volume.
+(Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
+
+-
+Meta lead costs for a Malaysian aesthetics clinic ranged from a best of RM14.04 to a current RM41.41 per lead conversation in 2026 — a ~3× spread between best and current periods in the same account, which is why single-month agency case-study figures should be read with caution.
+(Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
 
 ### E-commerce & Mobile Commerce
 
