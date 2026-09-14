@@ -14,7 +14,7 @@
 > LinkedIn (company): https://www.linkedin.com/company/advmarksolution/
 
 This file contains the full text of every page on advmarketing.biz.
-Generated 2026-09-08. Structured index: https://advmarketing.biz/llms.txt
+Generated 2026-09-14. Structured index: https://advmarketing.biz/llms.txt
 
 
 
@@ -339,27 +339,12 @@ Message us on WhatsApp
 
 We typically reply within a few hours. Come as you are — no brief needed to start a conversation.
 
-or leave a message
+or email us
 
-Full name
+Email
+sales@advmarketing.biz
 
-Company
-
-Email address
-
-What are you looking to build?
-
-Select a service
-Paid Advertising
-AI-Powered Marketing Systems
-Full Marketing Infrastructure
-Content & Creative Strategy
-SEO & Organic Growth
-Not sure — let's talk
-
-Tell us about your business
-
-Send the brief →
+Prefer to write it out? Send us your current cost per lead or ROAS and we'll tell you honestly whether we think we can beat it.
 
 
 ==============================================================================

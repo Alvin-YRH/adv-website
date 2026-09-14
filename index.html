@@ -1573,7 +1573,24 @@
       #process { padding: 64px 24px; }
       .process-steps { grid-template-columns: 1fr 1fr; }
     }
-  </style>
+  
+    /* ── EMAIL CTA (replaces retired contact form) ── */
+    .contact-email-cta {
+      display: flex; flex-direction: column; gap: 6px;
+      padding: 22px 26px; text-decoration: none;
+      background: var(--white); border: 1px solid rgba(13,13,13,0.12);
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .contact-email-cta:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .contact-email-label {
+      font-family: 'DM Sans', sans-serif; font-size: 11px;
+      letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold);
+    }
+    .contact-email-value {
+      font-family: 'Cormorant Garamond', serif; font-size: 24px;
+      font-weight: 600; color: var(--black);
+    }
+</style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -2305,43 +2322,15 @@
         <p style="font-size:13px; color:var(--stone); margin-top:16px; line-height:1.6;">We typically reply within a few hours. Come as you are — no brief needed to start a conversation.</p>
       </div>
 
-      <div class="contact-or">or leave a message</div>
+      <div class="contact-or">or email us</div>
 
-      <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact" />
-        <p style="display:none;"><input name="bot-field" /></p>
-        <div class="form-row">
-          <div class="form-field">
-            <label for="name">Full name</label>
-            <input type="text" id="name" name="name" placeholder="Your name" required />
-          </div>
-          <div class="form-field">
-            <label for="company">Company</label>
-            <input type="text" id="company" name="company" placeholder="Your company" />
-          </div>
-        </div>
-        <div class="form-field">
-          <label for="email">Email address</label>
-          <input type="email" id="email" name="email" placeholder="you@company.com" required />
-        </div>
-        <div class="form-field">
-          <label for="service">What are you looking to build?</label>
-          <select id="service" name="service">
-            <option value="" disabled selected>Select a service</option>
-            <option>Paid Advertising</option>
-            <option>AI-Powered Marketing Systems</option>
-            <option>Full Marketing Infrastructure</option>
-            <option>Content & Creative Strategy</option>
-            <option>SEO & Organic Growth</option>
-            <option>Not sure — let's talk</option>
-          </select>
-        </div>
-        <div class="form-field">
-          <label for="message">Tell us about your business</label>
-          <textarea id="message" name="message" placeholder="What's your current marketing challenge?"></textarea>
-        </div>
-        <button type="submit" class="form-submit">Send the brief →</button>
-      </form>
+      <a href="mailto:sales@advmarketing.biz?subject=Enquiry%20from%20advmarketing.biz" class="contact-email-cta">
+        <span class="contact-email-label">Email</span>
+        <span class="contact-email-value">sales@advmarketing.biz</span>
+      </a>
+      <p style="font-size:13px; color:var(--stone); margin-top:16px; line-height:1.6;">
+        Prefer to write it out? Send us your current cost per lead or ROAS and we'll tell you honestly whether we think we can beat it.
+      </p>
     </div>
   </section>
 
@@ -2404,12 +2393,14 @@
       });
     });
 
-    // Form submission — GA4 lead event + Netlify Forms
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      gtag('event', 'generate_lead', {
-        event_category: 'contact_form',
-        event_label: 'Contact Form Submission',
-        value: 1
+    // GA4: track email CTA clicks as a lead conversion
+    document.querySelectorAll('a[href^="mailto:"]').forEach(link => {
+      link.addEventListener('click', () => {
+        gtag('event', 'generate_lead', {
+          event_category: 'email',
+          event_label: 'Email CTA',
+          value: 1
+        });
       });
     });
 
