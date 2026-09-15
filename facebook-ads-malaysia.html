@@ -1101,7 +1101,13 @@
     /* ── Animated mechanism figures (scroll-triggered, play once) ── */
     .anim-fig { margin: 14px 0 4px; }
     .anim-fig svg { width: 100%; height: auto; display: block; overflow: visible; }
-    .af-label { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 11px; letter-spacing: 0.06em; fill: #0D0D0D; }
+    .anim-fig { color: var(--black); transition: color 0.3s; }
+    .service-card:hover .anim-fig { color: var(--white); }
+    .af-label { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 11px; letter-spacing: 0.06em; fill: currentColor; }
+    .af-ink-stroke { stroke: currentColor; }
+    .af-track { fill: #E9E5DD; transition: fill 0.3s; }  .service-card:hover .af-track { fill: rgba(255,255,255,0.16); }
+    .af-axisline { stroke: #E9E5DD; transition: stroke 0.3s; }  .service-card:hover .af-axisline { stroke: rgba(255,255,255,0.25); }
+    .af-dot { fill: var(--cream); stroke: currentColor; transition: fill 0.3s; }  .service-card:hover .af-dot { fill: var(--black); }
     .af-axis  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; letter-spacing: 0.06em; fill: #9A9490; }
     .af-mark  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; fill: #9A9490; opacity: 0; }
     .af-barA, .af-barB { transform-origin: 0 50%; transform: scaleX(0); }
@@ -1238,18 +1244,17 @@
         <div class="service-divider"></div>
         <p class="service-desc">Every edit or restart sends the account back to the start of learning — it never graduates. A RM3,000/month account stuck in learning loses to a stable RM1,500 one.</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 132" role="img" aria-labelledby="lpT lpD" xmlns="http://www.w3.org/2000/svg">
-  <title id="lpT">Learning phase: constant edits vs left alone</title>
-  <desc id="lpD">Top row: every edit resets learning progress to zero, so the account never leaves the learning phase. Bottom row: left alone, progress fills once and the account graduates.</desc>
+<svg viewBox="0 0 400 132" role="img" aria-label="Learning phase: constant edits vs left alone" aria-describedby="lpD" xmlns="http://www.w3.org/2000/svg">
+    <desc id="lpD">Top row: every edit resets learning progress to zero, so the account never leaves the learning phase. Bottom row: left alone, progress fills once and the account graduates.</desc>
   <text x="0" y="22" class="af-label">Constant edits</text>
-  <rect x="0" y="30" width="400" height="10" rx="5" fill="#E9E5DD"/>
+  <rect x="0" y="30" width="400" height="10" rx="5" class="af-track"/>
   <rect x="0" y="30" width="400" height="10" rx="5" fill="#9A9490" class="af-barA"/>
   <text x="120" y="60" class="af-mark af-m1">✎ edit</text>
   <text x="200" y="60" class="af-mark af-m2">✎ edit</text>
   <text x="280" y="60" class="af-mark af-m3">✎ edit</text>
   <text x="400" y="22" text-anchor="end" class="af-label af-endA">Still learning</text>
   <text x="0" y="92" class="af-label">Left alone</text>
-  <rect x="0" y="100" width="400" height="10" rx="5" fill="#E9E5DD"/>
+  <rect x="0" y="100" width="400" height="10" rx="5" class="af-track"/>
   <rect x="0" y="100" width="400" height="10" rx="5" fill="#D4A853" class="af-barB"/>
   <text x="400" y="92" text-anchor="end" class="af-label af-endB" fill="#D4A853">✓ Graduated</text>
   <text x="0" y="128" class="af-axis">Same 7 days</text>
@@ -1261,16 +1266,15 @@
         <div class="service-divider"></div>
         <p class="service-desc">Same ad for months: frequency climbs, CTR slides. It looks like "Facebook stopped working" — it's just the same ad shown too many times.</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 170" role="img" aria-labelledby="cfT cfD" xmlns="http://www.w3.org/2000/svg">
-  <title id="cfT">Creative fatigue: frequency up, CTR down</title>
-  <desc id="cfD">One ad running for eight weeks: frequency climbs while click-through rate slides, crossing around week five.</desc>
-  <line x1="40" y1="140" x2="360" y2="140" stroke="#E9E5DD" stroke-width="1"/>
-  <line x1="40" y1="30" x2="40" y2="140" stroke="#E9E5DD" stroke-width="1"/>
+<svg viewBox="0 0 400 170" role="img" aria-label="Creative fatigue: frequency up, CTR down" aria-describedby="cfD" xmlns="http://www.w3.org/2000/svg">
+    <desc id="cfD">One ad running for eight weeks: frequency climbs while click-through rate slides, crossing around week five.</desc>
+  <line x1="40" y1="140" x2="360" y2="140" class="af-axisline" stroke-width="1"/>
+  <line x1="40" y1="30" x2="40" y2="140" class="af-axisline" stroke-width="1"/>
   <text x="40" y="156" class="af-axis">Week 1</text>
   <text x="355" y="156" text-anchor="end" class="af-axis">Week 8</text>
   <polyline points="40,128 85,120 130,108 175,92 220,76 265,62 310,50 355,42" fill="none" stroke="#D4A853" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-freq"/>
-  <polyline points="40,50 85,54 130,60 175,70 220,84 265,100 310,114 355,124" fill="none" stroke="#0D0D0D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-ctr"/>
-  <circle cx="236" cy="82" r="4" fill="#FAF8F3" stroke="#0D0D0D" stroke-width="1.5" class="af-cross"/>
+  <polyline points="40,50 85,54 130,60 175,70 220,84 265,100 310,114 355,124" fill="none" class="af-ink-stroke" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-ctr"/>
+  <circle cx="236" cy="82" r="4" stroke-width="1.5" class="af-cross af-dot"/>
   <text x="246" y="78" class="af-mark af-cross">same ad</text>
   <text x="360" y="40" text-anchor="end" class="af-label" fill="#D4A853">Frequency ↑</text>
   <text x="360" y="132" text-anchor="end" class="af-label">CTR ↓</text>

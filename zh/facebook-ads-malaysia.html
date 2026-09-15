@@ -1160,7 +1160,13 @@
     /* ── Animated mechanism figures (scroll-triggered, play once) ── */
     .anim-fig { margin: 14px 0 4px; }
     .anim-fig svg { width: 100%; height: auto; display: block; overflow: visible; }
-    .af-label { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 11px; letter-spacing: 0.06em; fill: #0D0D0D; }
+    .anim-fig { color: var(--black); transition: color 0.3s; }
+    .service-card:hover .anim-fig { color: var(--white); }
+    .af-label { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 11px; letter-spacing: 0.06em; fill: currentColor; }
+    .af-ink-stroke { stroke: currentColor; }
+    .af-track { fill: #E9E5DD; transition: fill 0.3s; }  .service-card:hover .af-track { fill: rgba(255,255,255,0.16); }
+    .af-axisline { stroke: #E9E5DD; transition: stroke 0.3s; }  .service-card:hover .af-axisline { stroke: rgba(255,255,255,0.25); }
+    .af-dot { fill: var(--cream); stroke: currentColor; transition: fill 0.3s; }  .service-card:hover .af-dot { fill: var(--black); }
     .af-axis  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; letter-spacing: 0.06em; fill: #9A9490; }
     .af-mark  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; fill: #9A9490; opacity: 0; }
     .af-barA, .af-barB { transform-origin: 0 50%; transform: scaleX(0); }
@@ -1295,18 +1301,17 @@
         <div class="service-divider"></div>
         <p class="service-desc">一直改、一直重开，账户永远毕不了业 — 卡在学习阶段的 RM3,000 账户，输给稳定跑的 RM1,500 账户。</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 132" role="img" aria-labelledby="lpT lpD" xmlns="http://www.w3.org/2000/svg">
-  <title id="lpT">学习阶段：一直改 vs 稳定跑</title>
-  <desc id="lpD">上排：每次修改都把学习进度归零，账户永远卡在学习中。下排：不去动它，进度一路填满，毕业。</desc>
+<svg viewBox="0 0 400 132" role="img" aria-label="学习阶段：一直改 vs 稳定跑" aria-describedby="lpD" xmlns="http://www.w3.org/2000/svg">
+    <desc id="lpD">上排：每次修改都把学习进度归零，账户永远卡在学习中。下排：不去动它，进度一路填满，毕业。</desc>
   <text x="0" y="22" class="af-label">一直改</text>
-  <rect x="0" y="30" width="400" height="10" rx="5" fill="#E9E5DD"/>
+  <rect x="0" y="30" width="400" height="10" rx="5" class="af-track"/>
   <rect x="0" y="30" width="400" height="10" rx="5" fill="#9A9490" class="af-barA"/>
   <text x="120" y="60" class="af-mark af-m1">✎ 改</text>
   <text x="200" y="60" class="af-mark af-m2">✎ 改</text>
   <text x="280" y="60" class="af-mark af-m3">✎ 改</text>
   <text x="400" y="22" text-anchor="end" class="af-label af-endA">还在学习</text>
   <text x="0" y="92" class="af-label">稳定跑</text>
-  <rect x="0" y="100" width="400" height="10" rx="5" fill="#E9E5DD"/>
+  <rect x="0" y="100" width="400" height="10" rx="5" class="af-track"/>
   <rect x="0" y="100" width="400" height="10" rx="5" fill="#D4A853" class="af-barB"/>
   <text x="400" y="92" text-anchor="end" class="af-label af-endB" fill="#D4A853">✓ 毕业</text>
   <text x="0" y="128" class="af-axis">同样的 7 天</text>
@@ -1318,16 +1323,15 @@
         <div class="service-divider"></div>
         <p class="service-desc">同一条广告跑太久：频次往上，点击往下。不是"FB 没用了"，是大家看腻了。</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 170" role="img" aria-labelledby="cfT cfD" xmlns="http://www.w3.org/2000/svg">
-  <title id="cfT">素材疲劳：频次上升，点击率下降</title>
-  <desc id="cfD">同一条广告跑八周：频次一路上升，点击率一路下滑，第五周交叉。</desc>
-  <line x1="40" y1="140" x2="360" y2="140" stroke="#E9E5DD" stroke-width="1"/>
-  <line x1="40" y1="30" x2="40" y2="140" stroke="#E9E5DD" stroke-width="1"/>
+<svg viewBox="0 0 400 170" role="img" aria-label="素材疲劳：频次上升，点击率下降" aria-describedby="cfD" xmlns="http://www.w3.org/2000/svg">
+    <desc id="cfD">同一条广告跑八周：频次一路上升，点击率一路下滑，第五周交叉。</desc>
+  <line x1="40" y1="140" x2="360" y2="140" class="af-axisline" stroke-width="1"/>
+  <line x1="40" y1="30" x2="40" y2="140" class="af-axisline" stroke-width="1"/>
   <text x="40" y="156" class="af-axis">第 1 周</text>
   <text x="355" y="156" text-anchor="end" class="af-axis">第 8 周</text>
   <polyline points="40,128 85,120 130,108 175,92 220,76 265,62 310,50 355,42" fill="none" stroke="#D4A853" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-freq"/>
-  <polyline points="40,50 85,54 130,60 175,70 220,84 265,100 310,114 355,124" fill="none" stroke="#0D0D0D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-ctr"/>
-  <circle cx="236" cy="82" r="4" fill="#FAF8F3" stroke="#0D0D0D" stroke-width="1.5" class="af-cross"/>
+  <polyline points="40,50 85,54 130,60 175,70 220,84 265,100 310,114 355,124" fill="none" class="af-ink-stroke" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-ctr"/>
+  <circle cx="236" cy="82" r="4" stroke-width="1.5" class="af-cross af-dot"/>
   <text x="246" y="78" class="af-mark af-cross">同一条广告</text>
   <text x="360" y="40" text-anchor="end" class="af-label" fill="#D4A853">频次 ↑</text>
   <text x="360" y="132" text-anchor="end" class="af-label">点击率 ↓</text>
