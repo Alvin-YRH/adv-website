@@ -847,11 +847,11 @@ Months of "Boost Post" spend optimised for engagement, not revenue. Boosting buy
 
 #### 3. Learning-phase churn
 
-Constant edits, budget swings and restarts that reset the learning phase over and over. The account pays for Meta's education repeatedly and never graduates — a RM3,000/month account stuck in learning performs worse than a stable RM1,500 one.
+Every edit or restart sends the account back to the start of learning — it never graduates. A RM3,000/month account stuck in learning loses to a stable RM1,500 one.
 
 #### 4. Creative fatigue, no pipeline
 
-One or two ads running for months, frequency climbing, CTR sliding. Without a standing creative-testing pipeline the account slowly pays more for less — fatigue looks like "Facebook stopped working," but it's just the same ad shown too many times.
+Same ad for months: frequency climbs, CTR slides. It looks like "Facebook stopped working" — it's just the same ad shown too many times.
 
 The takeover process
 
@@ -984,11 +984,11 @@ Boost 买到的是互动，不是询问。账户花了几个月的钱，算法�
 
 #### 3. 学习阶段一直重置
 
-一直改、一直调预算、一直重开，账户永远毕不了业。卡在学习阶段的 RM3,000 账户，输给稳定跑的 RM1,500 账户。
+一直改、一直重开，账户永远毕不了业 — 卡在学习阶段的 RM3,000 账户，输给稳定跑的 RM1,500 账户。
 
 #### 4. 素材疲劳
 
-一两条广告跑几个月，频次越来越高，点击越来越少。不是"FB 没用了"，是同一条广告大家看腻了。
+同一条广告跑太久：频次往上，点击往下。不是"FB 没用了"，是大家看腻了。
 
 接手流程
 
