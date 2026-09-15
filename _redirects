@@ -3,3 +3,7 @@
 # like "/about /about.html 200" loops against that canonicalisation.
 # Only non-1:1 paths belong in this file.
 /malaysia-digital-marketing-statistics-2026 /statistics_pages/malaysia-digital-marketing-statistics-2026 200
+
+# Canonical host: collapse www and the pages.dev preview host onto the apex.
+https://www.advmarketing.biz/* https://advmarketing.biz/:splat 301
+https://adv-website-4f7.pages.dev/* https://advmarketing.biz/:splat 301
