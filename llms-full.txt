@@ -1608,7 +1608,7 @@ Traditional SEO — ranking in Google's blue links for clicks — is still impor
 
 ChatGPT, Perplexity, and Google AI Overviews are now first touchpoints for millions of searches. When someone asks "who is the best digital marketing agency in KL?" they're increasingly asking an AI — not typing into a search bar.
 
-AEO and GEO are what ADV layers on top of standard SEO. We structure your content so AI tools can extract and cite you, build your brand as a recognised entity, and ensure you're included in generative summaries — not just ranked below them.
+AEO and GEO are the layers ADV adds on top of standard SEO: content structured so AI tools can extract it, a brand that reads as a recognised entity, and inclusion in generative summaries — not just a ranking.
 
 We run the same schema, entity, and structured-content work on our own site that we build for clients — we don't recommend what we don't do ourselves.
 
@@ -1620,7 +1620,7 @@ Organic traffic growth in 6 months
 
 Topic clusters with AI Overview presence
 
-68
+72
 
 Malaysia digital marketing stats cited across the web
 
@@ -1805,25 +1805,25 @@ This is a live workflow ADV runs for clients — from intake to finished brief, 
 
 #### Client fills intake form
 
-Target audience, product or service details, campaign keywords, and tone of voice. Structured input that Claude can reason from.
+Audience, offer, keywords, tone — structured input Claude can reason from.
 
 02
 
 #### Make.com triggers Claude
 
-The intake response fires a Make.com scenario that constructs a structured prompt and passes it to Claude's API with campaign context built in.
+The submission fires a scenario that builds the prompt with campaign context and calls Claude.
 
 03
 
 #### Claude generates the brief
 
-Full content brief produced in under 8 minutes — hooks, angles, audience pain points, key messages, format recommendations, and CTA direction.
+Hooks, angles, pain points, key messages, formats and CTA direction — in under 8 minutes.
 
 04
 
 #### Brief lands in Notion
 
-Make.com writes the output directly into the Notion content database, organised by campaign, tagged by platform, and assigned to the right team member.
+Filed in the content database by campaign, tagged by platform, assigned to the right person.
 
 The result
 

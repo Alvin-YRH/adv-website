@@ -1237,6 +1237,66 @@
     ]
   }
   </script>
+  <style>
+    /* ── Animated mechanism figures (scroll-triggered, play once) ── */
+    .anim-fig { margin: 14px 0 4px; }
+    .anim-fig svg { width: 100%; height: auto; display: block; overflow: visible; }
+    .anim-fig { color: var(--black); transition: color 0.3s; }
+    .service-card:hover .anim-fig { color: var(--white); }
+    .af-label { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 11px; letter-spacing: 0.06em; fill: currentColor; }
+    .af-ink-stroke { stroke: currentColor; }
+    .af-track { fill: #E9E5DD; transition: fill 0.3s; }  .service-card:hover .af-track { fill: rgba(255,255,255,0.16); }
+    .af-axisline { stroke: #E9E5DD; transition: stroke 0.3s; }  .service-card:hover .af-axisline { stroke: rgba(255,255,255,0.25); }
+    .af-dot { fill: var(--cream); stroke: currentColor; transition: fill 0.3s; }  .service-card:hover .af-dot { fill: var(--black); }
+    .af-axis  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; letter-spacing: 0.06em; fill: #9A9490; }
+    .af-mark  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; fill: #9A9490; opacity: 0; }
+    .af-barA, .af-barB { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-endA, .af-endB, .af-cross { opacity: 0; }
+    .af-line { stroke-dasharray: 1; stroke-dashoffset: 1; }
+    .fstep { opacity: 0; transform: translateY(8px); }
+    .in-view .af-barA { animation: afReset 6s linear forwards; }
+    .in-view .af-barB { animation: afFill 6s linear forwards; }
+    .in-view .af-m1 { animation: afPop .4s ease 1.5s forwards; }
+    .in-view .af-m2 { animation: afPop .4s ease 3s forwards; }
+    .in-view .af-m3 { animation: afPop .4s ease 4.5s forwards; }
+    .in-view .af-endA { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-endB { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-freq { animation: afDraw 2.4s ease-out forwards; }
+    .in-view .af-ctr  { animation: afDraw 2.4s ease-out .3s forwards; }
+    .in-view .af-cross { animation: afPop .4s ease 2.2s forwards; }
+    .in-view .fstep-1 { animation: fsIn .5s ease forwards; }
+    .in-view .fstep-2 { animation: fsIn .5s ease .35s forwards; }
+    .in-view .fstep-3 { animation: fsIn .5s ease .7s forwards; }
+    .in-view .fstep-4 { animation: fsIn .5s ease 1.05s forwards; }
+    .af-fillfast { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-leak { transform-origin: 100% 50%; transform: scaleX(0); }
+    .af-l1 { opacity: 0; }
+    .in-view .af-fillfast { animation: afFill 2.2s ease-out forwards; }
+    .in-view .af-leak { animation: afFill 1.2s ease-out 2.4s forwards; }
+    .in-view .af-l1 { animation: afPop .4s ease 3.6s forwards; }
+    .anim-fig--dark { color: var(--cream); }
+    .af-panel { fill: rgba(255,255,255,0.06); stroke: rgba(250,248,243,0.28); }
+    .af-panel-gold { fill: rgba(212,168,83,0.12); stroke: #D4A853; }
+    .af-node { fill: #FFFFFF; stroke: #2B2B2B; }
+    .af-travel { opacity: 0; }
+    .af-node { fill: #FFFFFF; }
+    .af-p4 { opacity: 0; }
+    .in-view .fstep-5 { animation: fsIn .5s ease 1.4s forwards; }
+    .in-view .af-travel { animation: afPop .2s ease .3s forwards, afTravel 2.4s linear .3s forwards; }
+    .in-view .af-p4 { animation: afPop .4s ease 2.9s forwards; }
+    @keyframes afTravel { to { transform: translateX(440px); } }
+    @keyframes afReset { 0%{transform:scaleX(0)} 24%{transform:scaleX(.6)} 25%{transform:scaleX(0)} 49%{transform:scaleX(.6)} 50%{transform:scaleX(0)} 74%{transform:scaleX(.6)} 75%{transform:scaleX(0)} 100%{transform:scaleX(.42)} }
+    @keyframes afFill { to { transform: scaleX(1); } }
+    @keyframes afPop { to { opacity: 1; } }
+    @keyframes afDraw { to { stroke-dashoffset: 0; } }
+    @keyframes fsIn { to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .af-barA { transform: scaleX(.42); } .af-barB, .af-fillfast, .af-leak { transform: scaleX(1); } .af-l1 { opacity: 1; }
+      .af-mark, .af-endA, .af-endB, .af-cross, .fstep { opacity: 1; transform: none; }
+      .af-line { stroke-dashoffset: 0; } .af-travel { opacity: 1; transform: translateX(440px); } .af-p4 { opacity: 1; }
+      .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .fstep, .in-view .fstep-5, .in-view .af-travel, .in-view .af-p4, .in-view .af-fillfast, .in-view .af-leak, .in-view .af-l1 { animation: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1437,30 +1497,60 @@
       </p>
     </div>
 
+    <div class="anim-fig" style="max-width:800px; margin: 0 auto 40px;">
+<svg viewBox="0 0 800 150" role="img" aria-label="The content-brief workflow: intake form to Make.com to Claude to Notion in under eight minutes" aria-describedby="pipeD" xmlns="http://www.w3.org/2000/svg">
+  <desc id="pipeD">Four nodes light up in sequence — intake form, Make.com, Claude, Notion — while a gold dot travels along the connecting line from the first to the last. A label marks the run as under eight minutes, against two to three hours by hand.</desc>
+  <line x1="180" y1="58" x2="620" y2="58" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="af-line af-freq"/>
+  <g class="fstep fstep-1">
+    <rect x="20" y="30" width="160" height="56" rx="2" class="af-node" stroke-width="1.5"/>
+    <text x="100" y="54" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Intake form</text>
+    <text x="100" y="72" text-anchor="middle" class="af-axis">structured input</text>
+  </g>
+  <g class="fstep fstep-2">
+    <rect x="220" y="30" width="160" height="56" rx="2" class="af-node" stroke-width="1.5"/>
+    <text x="300" y="54" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Make.com</text>
+    <text x="300" y="72" text-anchor="middle" class="af-axis">builds the prompt</text>
+  </g>
+  <g class="fstep fstep-3">
+    <rect x="420" y="30" width="160" height="56" rx="2" class="af-node" stroke="#D4A853" stroke-width="1.5"/>
+    <text x="500" y="54" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Claude</text>
+    <text x="500" y="72" text-anchor="middle" class="af-axis">writes the brief</text>
+  </g>
+  <g class="fstep fstep-4">
+    <rect x="620" y="30" width="160" height="56" rx="2" class="af-node" stroke-width="1.5"/>
+    <text x="700" y="54" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Notion</text>
+    <text x="700" y="72" text-anchor="middle" class="af-axis">filed &amp; assigned</text>
+  </g>
+  <circle cx="180" cy="58" r="5" fill="#D4A853" class="af-travel"/>
+  <text x="20" y="124" class="af-axis" style="text-decoration:line-through">2–3 hours per brief, by hand</text>
+  <text x="780" y="124" text-anchor="end" class="af-label af-p4" fill="#D4A853">under 8 minutes, no extra headcount</text>
+</svg>
+    </div>
+
     <div class="workflow-steps">
 
       <div class="workflow-step">
         <div class="workflow-step-number">01</div>
         <h3 class="workflow-step-title">Client fills intake form</h3>
-        <p class="workflow-step-desc">Target audience, product or service details, campaign keywords, and tone of voice. Structured input that Claude can reason from.</p>
+        <p class="workflow-step-desc">Audience, offer, keywords, tone — structured input Claude can reason from.</p>
       </div>
 
       <div class="workflow-step">
         <div class="workflow-step-number">02</div>
         <h3 class="workflow-step-title">Make.com triggers Claude</h3>
-        <p class="workflow-step-desc">The intake response fires a Make.com scenario that constructs a structured prompt and passes it to Claude's API with campaign context built in.</p>
+        <p class="workflow-step-desc">The submission fires a scenario that builds the prompt with campaign context and calls Claude.</p>
       </div>
 
       <div class="workflow-step">
         <div class="workflow-step-number">03</div>
         <h3 class="workflow-step-title">Claude generates the brief</h3>
-        <p class="workflow-step-desc">Full content brief produced in under 8 minutes — hooks, angles, audience pain points, key messages, format recommendations, and CTA direction.</p>
+        <p class="workflow-step-desc">Hooks, angles, pain points, key messages, formats and CTA direction — in under 8 minutes.</p>
       </div>
 
       <div class="workflow-step">
         <div class="workflow-step-number">04</div>
         <h3 class="workflow-step-title">Brief lands in Notion</h3>
-        <p class="workflow-step-desc">Make.com writes the output directly into the Notion content database, organised by campaign, tagged by platform, and assigned to the right team member.</p>
+        <p class="workflow-step-desc">Filed in the content database by campaign, tagged by platform, assigned to the right person.</p>
       </div>
 
     </div>
@@ -1649,6 +1739,17 @@
         }
       });
     });
+
+
+    // Scroll-triggered figures: play once when 40% visible
+    (function () {
+      const targets = document.querySelectorAll('.anim-fig, .figure-wrap');
+      if (!('IntersectionObserver' in window)) { targets.forEach(t => t.classList.add('in-view')); return; }
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); } });
+      }, { threshold: 0.4 });
+      targets.forEach(t => io.observe(t));
+    })();
 
     // GA4: track WhatsApp CTA clicks as a lead conversion
     document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
