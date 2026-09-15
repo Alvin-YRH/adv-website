@@ -1450,11 +1450,11 @@ Across insurance, healthcare, retail and B2B accounts in Malaysia, the same four
 
 #### 1. Conversions that aren't revenue
 
-Smart bidding optimises to whatever it's told a conversion is. Accounts tracking page views or button clicks as conversions train Google to scale the wrong outcome — the account "converts" beautifully while the phone stays silent.
+Smart bidding scales whatever it's told a conversion is. Count page views as conversions and the account "converts" beautifully while the phone stays silent.
 
 #### 2. Unread search-term reports
 
-Broad match without negative keywords means budget quietly spends on searches that will never buy. In audits we routinely find 20–40% of spend going to irrelevant queries nobody has ever excluded.
+Broad match with no negative keywords quietly spends on searches that will never buy — in our audits, 20–40% of the budget.
 
 #### 3. Ungoverned PMAX
 
