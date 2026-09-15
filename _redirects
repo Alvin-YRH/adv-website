@@ -4,6 +4,6 @@
 # Only non-1:1 paths belong in this file.
 /malaysia-digital-marketing-statistics-2026 /statistics_pages/malaysia-digital-marketing-statistics-2026 200
 
-# Canonical host: collapse www and the pages.dev preview host onto the apex.
-https://www.advmarketing.biz/* https://advmarketing.biz/:splat 301
-https://adv-website-4f7.pages.dev/* https://advmarketing.biz/:splat 301
+# Host-level redirects (www -> apex, pages.dev -> apex) are NOT honoured by
+# Pages _redirects (tested 15 Sep 2026). Use a Cloudflare Redirect Rule in the
+# zone dashboard instead: Rules -> Redirect Rules -> "Redirect from WWW to root".
