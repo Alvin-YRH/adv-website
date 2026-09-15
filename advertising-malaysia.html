@@ -49,7 +49,7 @@
     "headline": "Advertising in Malaysia 2026: What Each Channel Actually Costs",
     "description": "Real CPM, CPC and cost-per-lead benchmarks by advertising channel in Malaysia, measured across live managed ad accounts rather than taken from industry averages.",
     "datePublished": "2026-09-03",
-    "dateModified": "2026-09-03",
+    "dateModified": "2026-09-15",
     "inLanguage": "en-MY",
     "url": "https://advmarketing.biz/advertising-malaysia",
     "mainEntityOfPage": "https://advmarketing.biz/advertising-malaysia",
@@ -1096,6 +1096,68 @@
     .figure-wrap svg { min-width:640px; }
     @media (max-width:640px){ .figure-wrap svg { min-width:560px; } }
 </style>
+  <style>
+    /* ── Animated mechanism figures (scroll-triggered, play once) ── */
+    .anim-fig { margin: 14px 0 4px; }
+    .anim-fig svg { width: 100%; height: auto; display: block; overflow: visible; }
+    .anim-fig { color: var(--black); transition: color 0.3s; }
+    .service-card:hover .anim-fig { color: var(--white); }
+    .af-label { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 11px; letter-spacing: 0.06em; fill: currentColor; }
+    .af-ink-stroke { stroke: currentColor; }
+    .af-track { fill: #E9E5DD; transition: fill 0.3s; }  .service-card:hover .af-track { fill: rgba(255,255,255,0.16); }
+    .af-axisline { stroke: #E9E5DD; transition: stroke 0.3s; }  .service-card:hover .af-axisline { stroke: rgba(255,255,255,0.25); }
+    .af-dot { fill: var(--cream); stroke: currentColor; transition: fill 0.3s; }  .service-card:hover .af-dot { fill: var(--black); }
+    .af-axis  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; letter-spacing: 0.06em; fill: #9A9490; }
+    .af-mark  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; fill: #9A9490; opacity: 0; }
+    .af-barA, .af-barB { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-endA, .af-endB, .af-cross { opacity: 0; }
+    .af-line { stroke-dasharray: 1; stroke-dashoffset: 1; }
+    .fstep { opacity: 0; transform: translateY(8px); }
+    .in-view .af-barA { animation: afReset 6s linear forwards; }
+    .in-view .af-barB { animation: afFill 6s linear forwards; }
+    .in-view .af-m1 { animation: afPop .4s ease 1.5s forwards; }
+    .in-view .af-m2 { animation: afPop .4s ease 3s forwards; }
+    .in-view .af-m3 { animation: afPop .4s ease 4.5s forwards; }
+    .in-view .af-endA { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-endB { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-freq { animation: afDraw 2.4s ease-out forwards; }
+    .in-view .af-ctr  { animation: afDraw 2.4s ease-out .3s forwards; }
+    .in-view .af-cross { animation: afPop .4s ease 2.2s forwards; }
+    .in-view .fstep-1 { animation: fsIn .5s ease forwards; }
+    .in-view .fstep-2 { animation: fsIn .5s ease .35s forwards; }
+    .in-view .fstep-3 { animation: fsIn .5s ease .7s forwards; }
+    .in-view .fstep-4 { animation: fsIn .5s ease 1.05s forwards; }
+    .af-fillfast { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-leak { transform-origin: 100% 50%; transform: scaleX(0); }
+    .af-l1 { opacity: 0; }
+    .in-view .af-fillfast { animation: afFill 2.2s ease-out forwards; }
+    .in-view .af-leak { animation: afFill 1.2s ease-out 2.4s forwards; }
+    .in-view .af-l1 { animation: afPop .4s ease 3.6s forwards; }
+    .af-grow { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(0); }
+    .af-val { opacity: 0; }
+    .af-rise { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); }
+    .af-p1, .af-p2, .af-p3 { opacity: 0; }
+    .in-view .af-grow { animation: afFill .8s ease-out forwards; }
+    .in-view .af-val { animation: afPop .3s ease forwards; }
+    .in-view .af-g1{animation-delay:.05s} .in-view .af-g2{animation-delay:.2s} .in-view .af-g3{animation-delay:.35s} .in-view .af-g4{animation-delay:.5s} .in-view .af-g5{animation-delay:.65s} .in-view .af-g6{animation-delay:.8s}
+    .in-view .af-v1{animation-delay:.7s} .in-view .af-v2{animation-delay:.85s} .in-view .af-v3{animation-delay:1s} .in-view .af-v4{animation-delay:1.15s} .in-view .af-v5{animation-delay:1.3s} .in-view .af-v6{animation-delay:1.45s}
+    .in-view .fstep-5 { animation: fsIn .5s ease 1.4s forwards; }
+    .in-view .af-rise { animation: afRise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    .in-view .af-r1{animation-delay:.3s} .in-view .af-r2{animation-delay:.6s} .in-view .af-r3{animation-delay:.9s}
+    .in-view .af-p1 { animation: afPop .4s ease 1.3s forwards; } .in-view .af-p2 { animation: afPop .4s ease 1.6s forwards; } .in-view .af-p3 { animation: afPop .4s ease 1.9s forwards; }
+    @keyframes afRise { to { transform: scaleY(1); } }
+    @keyframes afReset { 0%{transform:scaleX(0)} 24%{transform:scaleX(.6)} 25%{transform:scaleX(0)} 49%{transform:scaleX(.6)} 50%{transform:scaleX(0)} 74%{transform:scaleX(.6)} 75%{transform:scaleX(0)} 100%{transform:scaleX(.42)} }
+    @keyframes afFill { to { transform: scaleX(1); } }
+    @keyframes afPop { to { opacity: 1; } }
+    @keyframes afDraw { to { stroke-dashoffset: 0; } }
+    @keyframes fsIn { to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .af-barA { transform: scaleX(.42); } .af-barB, .af-fillfast, .af-leak { transform: scaleX(1); } .af-l1 { opacity: 1; }
+      .af-mark, .af-endA, .af-endB, .af-cross, .fstep { opacity: 1; transform: none; }
+      .af-line { stroke-dashoffset: 0; } .af-grow { transform: scaleX(1); } .af-rise { transform: scaleY(1); } .af-val, .af-p1, .af-p2, .af-p3 { opacity: 1; }
+      .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .fstep, .in-view .fstep-5, .in-view .af-grow, .in-view .af-val, .in-view .af-rise, .in-view .af-p1, .in-view .af-p2, .in-view .af-p3, .in-view .af-fillfast, .in-view .af-leak, .in-view .af-l1 { animation: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1235,8 +1297,7 @@
     <div class="figure">
       <p class="figure-label">What a lead actually costs</p>
       <div class="figure-wrap">
-<svg viewBox="0 0 800 320" role="img" aria-labelledby="cplTitle cplDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
-  <title id="cplTitle">Cost per lead by channel across live Malaysian ad accounts</title>
+<svg viewBox="0 0 800 320" role="img" aria-label="Cost per lead by channel across live Malaysian ad accounts" aria-describedby="cplDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <desc id="cplDesc">Insurance and fintech on Google Search RM2.41; EV charger installation on Meta RM7.82 best campaign and RM9.75 blended; B2B services on Meta RM15.30; beauty and wellness on Meta RM41.74; specialist healthcare on Google Search RM61.45.</desc>
   <rect x="250" y="0" width="14" height="14" fill="#D4A853"/>
   <text x="270" y="11" font-family="'DM Sans',sans-serif" font-size="11" letter-spacing="0.08em" fill="#9A9490">META</text>
@@ -1244,23 +1305,23 @@
   <text x="350" y="11" font-family="'DM Sans',sans-serif" font-size="11" letter-spacing="0.08em" fill="#9A9490">GOOGLE SEARCH</text>
   <line x1="250" y1="36" x2="720" y2="36" stroke="#0D0D0D" stroke-width="1" opacity="0.15"/>
   <text x="8" y="63" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">Insurance & fintech</text>
-  <rect x="250" y="46" width="17.4" height="26" fill="#2B2B2B" rx="1"/>
-  <text x="277.4" y="64" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">RM2.41</text>
+  <rect x="250" y="46" width="17.4" height="26" fill="#2B2B2B" rx="1" class="af-grow af-g1"/>
+  <text x="277.4" y="64" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v1">RM2.41</text>
   <text x="8" y="103" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">EV charger — best campaign</text>
-  <rect x="250" y="86" width="56.5" height="26" fill="#D4A853" rx="1"/>
-  <text x="316.5" y="104" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">RM7.82</text>
+  <rect x="250" y="86" width="56.5" height="26" fill="#D4A853" rx="1" class="af-grow af-g2"/>
+  <text x="316.5" y="104" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v2">RM7.82</text>
   <text x="8" y="143" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">EV charger — blended</text>
-  <rect x="250" y="126" width="70.5" height="26" fill="#D4A853" rx="1"/>
-  <text x="330.5" y="144" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">RM9.75</text>
+  <rect x="250" y="126" width="70.5" height="26" fill="#D4A853" rx="1" class="af-grow af-g3"/>
+  <text x="330.5" y="144" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v3">RM9.75</text>
   <text x="8" y="183" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">B2B services</text>
-  <rect x="250" y="166" width="110.6" height="26" fill="#D4A853" rx="1"/>
-  <text x="370.6" y="184" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">RM15.30</text>
+  <rect x="250" y="166" width="110.6" height="26" fill="#D4A853" rx="1" class="af-grow af-g4"/>
+  <text x="370.6" y="184" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v4">RM15.30</text>
   <text x="8" y="223" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">Beauty & wellness</text>
-  <rect x="250" y="206" width="301.8" height="26" fill="#D4A853" rx="1"/>
-  <text x="561.8" y="224" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">RM41.74</text>
+  <rect x="250" y="206" width="301.8" height="26" fill="#D4A853" rx="1" class="af-grow af-g5"/>
+  <text x="561.8" y="224" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v5">RM41.74</text>
   <text x="8" y="263" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">Specialist healthcare</text>
-  <rect x="250" y="246" width="444.3" height="26" fill="#2B2B2B" rx="1"/>
-  <text x="704.3" y="264" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D">RM61.45</text>
+  <rect x="250" y="246" width="444.3" height="26" fill="#2B2B2B" rx="1" class="af-grow af-g6"/>
+  <text x="704.3" y="264" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v6">RM61.45</text>
   <text x="250" y="310" font-family="'DM Sans',sans-serif" font-size="11" fill="#9A9490">Meta = cost per lead conversation · Google = cost per acquisition · 30-day figures, live accounts</text>
 </svg>
       </div>
@@ -1269,9 +1330,9 @@
     <div class="figure">
       <p class="figure-label">Monthly budget floors</p>
       <div class="figure-wrap">
-<svg viewBox="0 0 800 348" role="img" aria-labelledby="ladderTitle ladderDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
-  <title id="ladderTitle">Monthly ad budget floors by channel in Malaysia</title>
+<svg viewBox="0 0 800 348" role="img" aria-label="Monthly ad budget floors by channel in Malaysia" aria-describedby="ladderDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <desc id="ladderDesc">Meta awareness campaigns work from RM500 to RM1,000 per month. Meta lead generation needs RM1,500 to RM2,000 per month for the algorithm to optimise. Google Search needs around RM3,000 per month for smart bidding to learn. Multi-channel campaigns become viable from RM5,000 per month. Agency management fees are separate from ad spend.</desc>
+<g class="fstep fstep-1">
   <g transform="translate(81.0,148)">
     <path d="M4 9v6h4l5 4V5L8 9H4z M17.5 8.5a5 5 0 010 7 M20.5 5.5a9 9 0 010 13" fill="none" stroke="#2B2B2B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="scale(1.3)"/>
   </g>
@@ -1281,6 +1342,8 @@
   <text x="40" y="241" font-family="'DM Sans',sans-serif" font-size="11" letter-spacing="0.05em" fill="#2B2B2B">META AWARENESS</text>
   <text x="26" y="280" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">Reach only. Not built to</text>
   <text x="26" y="295" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">generate enquiries.</text>
+</g>
+<g class="fstep fstep-2">
   <g transform="translate(259.0,106)">
     <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="scale(1.3)"/>
   </g>
@@ -1290,6 +1353,8 @@
   <text x="218" y="199" font-family="'DM Sans',sans-serif" font-size="11" letter-spacing="0.05em" fill="#D4A853">META LEAD GENERATION</text>
   <text x="204" y="280" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">Meta's floor for real</text>
   <text x="204" y="295" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">optimisation.</text>
+</g>
+<g class="fstep fstep-3">
   <g transform="translate(437.0,60)">
     <path d="M11 19a8 8 0 100-16 8 8 0 000 16z M21 21l-4.35-4.35" fill="none" stroke="#2B2B2B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="scale(1.3)"/>
   </g>
@@ -1299,6 +1364,8 @@
   <text x="396" y="153" font-family="'DM Sans',sans-serif" font-size="11" letter-spacing="0.05em" fill="#2B2B2B">GOOGLE SEARCH</text>
   <text x="382" y="280" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">Enough data for smart</text>
   <text x="382" y="295" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">bidding to learn.</text>
+</g>
+<g class="fstep fstep-4">
   <g transform="translate(615.0,10)">
     <path d="M12 2L2 7l10 5 10-5-10-5z M2 17l10 5 10-5 M2 12l10 5 10-5" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="scale(1.3)"/>
   </g>
@@ -1310,7 +1377,8 @@
   <text x="560" y="295" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">together pay.</text>
   <line x1="26" y1="258" x2="708" y2="258" stroke="#0D0D0D" stroke-width="1" opacity="0.2"/>
   <text x="26" y="340" font-family="'DM Sans',sans-serif" font-size="11" fill="#9A9490">Ad spend only — agency management fees sit on top.</text>
-</svg>
+
+</g></svg>
       </div>
     </div>
   </section>
@@ -1323,35 +1391,34 @@
 
       <div class="figure" style="margin:28px 0 34px;">
         <div class="figure-wrap" style="background:var(--cream); padding:20px; border-radius:2px;">
-<svg viewBox="0 0 800 300" role="img" aria-labelledby="flowTitle flowDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
-  <title id="flowTitle">How to choose an advertising channel in Malaysia</title>
+<svg viewBox="0 0 800 300" role="img" aria-label="How to choose an advertising channel in Malaysia" aria-describedby="flowDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <desc id="flowDesc">Start by asking whether people already search for what you sell. If yes, use Google Search to capture existing intent, with a minimum of RM3,000 per month. If no, use Meta to create demand, with a minimum of RM1,500 to RM2,000 per month. If your budget is under RM3,000 per month, run only one channel.</desc>
-
-  <rect x="180" y="8" width="440" height="52" fill="#0D0D0D" rx="2"/>
+<g class="fstep fstep-1">  <rect x="180" y="8" width="440" height="52" fill="#0D0D0D" rx="2"/>
   <text x="400" y="32" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" letter-spacing="0.06em" fill="#FAF8F3">DO PEOPLE ALREADY SEARCH FOR</text>
   <text x="400" y="50" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" letter-spacing="0.06em" fill="#FAF8F3">WHAT YOU SELL?</text>
-
-  <path d="M 340 60 L 340 80 L 175 80 L 175 100" fill="none" stroke="#0D0D0D" stroke-width="1.5" opacity="0.4"/>
+</g>
+<g class="fstep fstep-2">  <path d="M 340 60 L 340 80 L 175 80 L 175 100" fill="none" stroke="#0D0D0D" stroke-width="1.5" opacity="0.4"/>
   <path d="M 460 60 L 460 80 L 625 80 L 625 100" fill="none" stroke="#0D0D0D" stroke-width="1.5" opacity="0.4"/>
   <text x="255" y="76" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="12" font-weight="600" fill="#2B2B2B">YES</text>
   <text x="545" y="76" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="12" font-weight="600" fill="#2B2B2B">NO</text>
-
-  <rect x="20" y="100" width="310" height="118" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2" rx="2"/>
+</g>
+<g class="fstep fstep-3">  <rect x="20" y="100" width="310" height="118" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2" rx="2"/>
   <text x="40" y="128" font-family="'Cormorant Garamond',serif" font-size="24" font-weight="600" fill="#0D0D0D">Google Search</text>
   <text x="40" y="153" font-family="'DM Sans',sans-serif" font-size="13" fill="#2B2B2B">Capture demand that already exists,</text>
   <text x="40" y="171" font-family="'DM Sans',sans-serif" font-size="13" fill="#2B2B2B">at the moment it exists.</text>
   <text x="40" y="199" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#2B2B2B">Floor: RM3,000/month</text>
-
-  <rect x="470" y="100" width="310" height="118" fill="#FFFFFF" stroke="#D4A853" stroke-width="2" rx="2"/>
+</g>
+<g class="fstep fstep-4">  <rect x="470" y="100" width="310" height="118" fill="#FFFFFF" stroke="#D4A853" stroke-width="2" rx="2"/>
   <text x="490" y="128" font-family="'Cormorant Garamond',serif" font-size="24" font-weight="600" fill="#0D0D0D">Meta</text>
   <text x="490" y="153" font-family="'DM Sans',sans-serif" font-size="13" fill="#2B2B2B">Create the demand Google will</text>
   <text x="490" y="171" font-family="'DM Sans',sans-serif" font-size="13" fill="#2B2B2B">later capture.</text>
   <text x="490" y="199" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#D4A853">Floor: RM1,500–2,000/month</text>
-
-  <rect x="180" y="248" width="440" height="44" fill="#D4A853" opacity="0.12" rx="2"/>
+</g>
+<g class="fstep fstep-5">  <rect x="180" y="248" width="440" height="44" fill="#D4A853" opacity="0.12" rx="2"/>
   <rect x="180" y="248" width="3" height="44" fill="#D4A853"/>
   <text x="400" y="275" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="14" fill="#0D0D0D">Under RM3,000/month? Run one channel properly, not two badly.</text>
-</svg>
+
+</g></svg>
         </div>
       </div>
 
@@ -1530,6 +1597,17 @@
         item.classList.add('open');
       }
     }
+
+
+    // Scroll-triggered figures: play once when 40% visible
+    (function () {
+      const targets = document.querySelectorAll('.anim-fig, .figure-wrap');
+      if (!('IntersectionObserver' in window)) { targets.forEach(t => t.classList.add('in-view')); return; }
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); } });
+      }, { threshold: 0.4 });
+      targets.forEach(t => io.observe(t));
+    })();
 
     // GA4: track WhatsApp CTA clicks as a lead conversion
     document.querySelectorAll('a[href*="wa.me"]').forEach(link => {

@@ -1145,6 +1145,69 @@
     ]
   }
   </script>
+  <style>
+    /* ── Animated mechanism figures (scroll-triggered, play once) ── */
+    .anim-fig { margin: 14px 0 4px; }
+    .anim-fig svg { width: 100%; height: auto; display: block; overflow: visible; }
+    .anim-fig { color: var(--black); transition: color 0.3s; }
+    .service-card:hover .anim-fig { color: var(--white); }
+    .anim-fig .af-p1, .anim-fig .af-p2, .anim-fig .af-p3 { fill: #D4A853; }
+    .af-label { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 11px; letter-spacing: 0.06em; fill: currentColor; }
+    .af-ink-stroke { stroke: currentColor; }
+    .af-track { fill: #E9E5DD; transition: fill 0.3s; }  .service-card:hover .af-track { fill: rgba(255,255,255,0.16); }
+    .af-axisline { stroke: #E9E5DD; transition: stroke 0.3s; }  .service-card:hover .af-axisline { stroke: rgba(255,255,255,0.25); }
+    .af-dot { fill: var(--cream); stroke: currentColor; transition: fill 0.3s; }  .service-card:hover .af-dot { fill: var(--black); }
+    .af-axis  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; letter-spacing: 0.06em; fill: #9A9490; }
+    .af-mark  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; fill: #9A9490; opacity: 0; }
+    .af-barA, .af-barB { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-endA, .af-endB, .af-cross { opacity: 0; }
+    .af-line { stroke-dasharray: 1; stroke-dashoffset: 1; }
+    .fstep { opacity: 0; transform: translateY(8px); }
+    .in-view .af-barA { animation: afReset 6s linear forwards; }
+    .in-view .af-barB { animation: afFill 6s linear forwards; }
+    .in-view .af-m1 { animation: afPop .4s ease 1.5s forwards; }
+    .in-view .af-m2 { animation: afPop .4s ease 3s forwards; }
+    .in-view .af-m3 { animation: afPop .4s ease 4.5s forwards; }
+    .in-view .af-endA { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-endB { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-freq { animation: afDraw 2.4s ease-out forwards; }
+    .in-view .af-ctr  { animation: afDraw 2.4s ease-out .3s forwards; }
+    .in-view .af-cross { animation: afPop .4s ease 2.2s forwards; }
+    .in-view .fstep-1 { animation: fsIn .5s ease forwards; }
+    .in-view .fstep-2 { animation: fsIn .5s ease .35s forwards; }
+    .in-view .fstep-3 { animation: fsIn .5s ease .7s forwards; }
+    .in-view .fstep-4 { animation: fsIn .5s ease 1.05s forwards; }
+    .af-fillfast { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-leak { transform-origin: 100% 50%; transform: scaleX(0); }
+    .af-l1 { opacity: 0; }
+    .in-view .af-fillfast { animation: afFill 2.2s ease-out forwards; }
+    .in-view .af-leak { animation: afFill 1.2s ease-out 2.4s forwards; }
+    .in-view .af-l1 { animation: afPop .4s ease 3.6s forwards; }
+    .af-grow { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(0); }
+    .af-val { opacity: 0; }
+    .af-rise { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); }
+    .af-p1, .af-p2, .af-p3 { opacity: 0; }
+    .in-view .af-grow { animation: afFill .8s ease-out forwards; }
+    .in-view .af-val { animation: afPop .3s ease forwards; }
+    .in-view .af-g1{animation-delay:.05s} .in-view .af-g2{animation-delay:.2s} .in-view .af-g3{animation-delay:.35s} .in-view .af-g4{animation-delay:.5s} .in-view .af-g5{animation-delay:.65s} .in-view .af-g6{animation-delay:.8s}
+    .in-view .af-v1{animation-delay:.7s} .in-view .af-v2{animation-delay:.85s} .in-view .af-v3{animation-delay:1s} .in-view .af-v4{animation-delay:1.15s} .in-view .af-v5{animation-delay:1.3s} .in-view .af-v6{animation-delay:1.45s}
+    .in-view .fstep-5 { animation: fsIn .5s ease 1.4s forwards; }
+    .in-view .af-rise { animation: afRise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    .in-view .af-r1{animation-delay:.3s} .in-view .af-r2{animation-delay:.6s} .in-view .af-r3{animation-delay:.9s}
+    .in-view .af-p1 { animation: afPop .4s ease 1.3s forwards; } .in-view .af-p2 { animation: afPop .4s ease 1.6s forwards; } .in-view .af-p3 { animation: afPop .4s ease 1.9s forwards; }
+    @keyframes afRise { to { transform: scaleY(1); } }
+    @keyframes afReset { 0%{transform:scaleX(0)} 24%{transform:scaleX(.6)} 25%{transform:scaleX(0)} 49%{transform:scaleX(.6)} 50%{transform:scaleX(0)} 74%{transform:scaleX(.6)} 75%{transform:scaleX(0)} 100%{transform:scaleX(.42)} }
+    @keyframes afFill { to { transform: scaleX(1); } }
+    @keyframes afPop { to { opacity: 1; } }
+    @keyframes afDraw { to { stroke-dashoffset: 0; } }
+    @keyframes fsIn { to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .af-barA { transform: scaleX(.42); } .af-barB, .af-fillfast, .af-leak { transform: scaleX(1); } .af-l1 { opacity: 1; }
+      .af-mark, .af-endA, .af-endB, .af-cross, .fstep { opacity: 1; transform: none; }
+      .af-line { stroke-dashoffset: 0; } .af-grow { transform: scaleX(1); } .af-rise { transform: scaleY(1); } .af-val, .af-p1, .af-p2, .af-p3 { opacity: 1; }
+      .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .fstep, .in-view .fstep-5, .in-view .af-grow, .in-view .af-val, .in-view .af-rise, .in-view .af-p1, .in-view .af-p2, .in-view .af-p3, .in-view .af-fillfast, .in-view .af-leak, .in-view .af-l1 { animation: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1251,6 +1314,39 @@
           </tr>
         </tbody>
       </table>
+    </div>
+
+    <div class="anim-fig" style="max-width:800px; margin: 0 0 32px;">
+      <p style="font-family:'DM Sans',sans-serif; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold); margin:0 0 12px;">Tiers and what each has produced</p>
+<svg viewBox="0 0 800 300" role="img" aria-label="Meta ads budget tiers in Malaysia and what each has produced" aria-describedby="tierD" xmlns="http://www.w3.org/2000/svg">
+  <desc id="tierD">Three rising columns: Starter RM500 to 1,800 a month, part of it below the RM1,500 learning-phase floor, produced a 36 percent cost-per-lead cut over three months for a beauty clinic. Growth RM1,800 to 5,000 produced a 56 percent cost-per-lead cut in 30 days for a B2B account and a 17.3 times ROAS for a fashion retailer. Scale RM5,000 to 20,000 plus produced a 45 percent cost-per-lead cut while budget scaled four times for an insurance account.</desc>
+  <line x1="40" y1="205" x2="760" y2="205" stroke="#0D0D0D" stroke-width="1" stroke-dasharray="4 4" opacity="0.5" pathLength="1" class="af-line af-freq"/>
+  <text x="760" y="198" text-anchor="end" class="af-axis">RM1,500 · below this Meta never finishes learning</text>
+  <g class="af-rise af-r1">
+    <rect x="60" y="160" width="200" height="90" fill="#2B2B2B" opacity="0.14" rx="2"/>
+    <rect x="60" y="160" width="3" height="90" fill="#2B2B2B"/>
+    <text x="74" y="186" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Starter</text>
+    <text x="74" y="204" class="af-label">RM500–1,800 / month</text>
+  </g>
+  <g class="af-rise af-r2">
+    <rect x="300" y="100" width="200" height="150" fill="#D4A853" opacity="0.2" rx="2"/>
+    <rect x="300" y="100" width="3" height="150" fill="#D4A853"/>
+    <text x="314" y="126" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Growth</text>
+    <text x="314" y="144" class="af-label">RM1,800–5,000 / month</text>
+  </g>
+  <g class="af-rise af-r3">
+    <rect x="540" y="40" width="200" height="210" fill="#2B2B2B" opacity="0.14" rx="2"/>
+    <rect x="540" y="40" width="3" height="210" fill="#2B2B2B"/>
+    <text x="554" y="66" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Scale</text>
+    <text x="554" y="84" class="af-label">RM5,000–20,000+ / month</text>
+  </g>
+  <text x="74" y="146" class="af-label af-p1" fill="#D4A853">−36% CPL in 3 months · beauty clinic</text>
+  <text x="314" y="86" class="af-label af-p2" fill="#D4A853">−56% CPL in 30 days · B2B</text>
+  <text x="314" y="70" class="af-label af-p2" fill="#D4A853">17.3× ROAS · fashion retail</text>
+  <text x="554" y="26" class="af-label af-p3" fill="#D4A853">−45% CPL while scaling spend 4× · insurance</text>
+  <line x1="40" y1="250" x2="760" y2="250" stroke="#0D0D0D" stroke-width="1" opacity="0.2"/>
+  <text x="60" y="284" class="af-axis">Ad spend only — management fees sit on top. Results from live client accounts; current figures on the Live Results Board.</text>
+</svg>
     </div>
 
     <p style="font-size:14px; color:var(--stone); max-width:640px;">
@@ -1527,6 +1623,17 @@
         item.classList.add('open');
       }
     }
+
+
+    // Scroll-triggered figures: play once when 40% visible
+    (function () {
+      const targets = document.querySelectorAll('.anim-fig, .figure-wrap');
+      if (!('IntersectionObserver' in window)) { targets.forEach(t => t.classList.add('in-view')); return; }
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); } });
+      }, { threshold: 0.4 });
+      targets.forEach(t => io.observe(t));
+    })();
 
     // GA4: track WhatsApp CTA clicks as a lead conversion
     document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
