@@ -14,7 +14,7 @@
 > LinkedIn (company): https://www.linkedin.com/company/advmarksolution/
 
 This file contains the full text of every page on advmarketing.biz.
-Generated 2026-09-14. Structured index: https://advmarketing.biz/llms.txt
+Generated 2026-09-15. Structured index: https://advmarketing.biz/llms.txt
 
 
 
@@ -661,11 +661,11 @@ Taking over an existing account? Read how we fix Facebook ad accounts →
 
 "Your competitors are spending on Meta. The question is whether they're doing it well."
 
-What we run
+Meta ads services
 
-### Every Meta placement. One cohesive strategy.
+### Meta ads services in Malaysia: every placement, one strategy.
 
-From awareness to cart recovery, we manage the full spectrum of Meta's ad ecosystem — structured as a single revenue system, not isolated campaigns.
+Our Meta ads services cover the full spectrum of Facebook and Instagram advertising — from awareness to cart recovery — structured as a single revenue system, not isolated campaigns.
 
 #### Facebook Ads
 
@@ -810,6 +810,8 @@ Facebook Ads Malaysia — How We Fix Ad Accounts | ADV
 
 ← All guides & resources
 
+中文版 →
+
 Facebook Ads Malaysia · 2026 Guide
 
 ## How We Fix Facebook Ad Accounts
@@ -845,11 +847,11 @@ Months of "Boost Post" spend optimised for engagement, not revenue. Boosting buy
 
 #### 3. Learning-phase churn
 
-Constant edits, budget swings and restarts that reset the learning phase over and over. The account pays for Meta's education repeatedly and never graduates — a RM3,000/month account stuck in learning performs worse than a stable RM1,500 one.
+Every edit or restart sends the account back to the start of learning — it never graduates. A RM3,000/month account stuck in learning loses to a stable RM1,500 one.
 
 #### 4. Creative fatigue, no pipeline
 
-One or two ads running for months, frequency climbing, CTR sliding. Without a standing creative-testing pipeline the account slowly pays more for less — fatigue looks like "Facebook stopped working," but it's just the same ad shown too many times.
+Same ad for months: frequency climbs, CTR slides. It looks like "Facebook stopped working" — it's just the same ad shown too many times.
 
 The takeover process
 
@@ -933,6 +935,146 @@ Pricing & Results
 →
 
 Live Results Board
+→
+
+
+==============================================================================
+# 马来西亚 Facebook 广告投放指南 (Chinese edition)
+URL: https://advmarketing.biz/zh/facebook-ads-malaysia
+==============================================================================
+
+马来西亚 FB 广告账户烧钱没结果？我们怎么修 | ADV
+
+← 所有指南与资源
+
+Read in English →
+
+马来西亚 Facebook 广告 · 2026 中文指南
+
+## 我们怎么修复 FB 广告账户
+
+很多老板来找我们的时候，账户已经烧了几个月的钱，询问却没几个。下面是我们接手一个账户时真正在做的事 — 还有真实的马币数字。
+
+免费账户审计
+看流程
+
+"账户没坏。 坏的是 喂给 Meta 的信号。"
+
+讲白一点
+
+在马来西亚，大部分 FB 广告账户表现差，问题不在受众，在追踪。 Pixel 或 Conversions API 没装好，Meta 就往错的方向优化 — 受众和素材怎么调都没用。
+
+接手一个账户就四步：先审计，先修追踪，好的广告继续跑、新的在旁边搭，然后每周测素材。第一天就全部暂停？那是最贵的错误。
+
+合理预期： 做对的话，30–90 天内潜在客户成本（CPL）降 30–56%。每月广告费至少 RM1,500–2,000 才跑得动。
+
+账户为什么表现差
+
+### 问题几乎 不在受众。
+
+审计过 B2B、美容、餐饮、零售、医疗的账户之后，来来去去就是这四个问题。
+
+#### 1. 追踪坏了
+
+没装 Pixel、装一半、或没接 CAPI。转化记录不到，Meta 就找不到你的买家。这是最常见的问题，没修好之前，其他都白做。
+
+#### 2. 钱都拿去 Boost Post
+
+Boost 买到的是互动，不是询问。账户花了几个月的钱，算法却没学到谁会买。
+
+#### 3. 学习阶段一直重置
+
+一直改、一直重开，账户永远毕不了业 — 卡在学习阶段的 RM3,000 账户，输给稳定跑的 RM1,500 账户。
+
+#### 4. 素材疲劳
+
+同一条广告跑太久：频次往上，点击往下。不是"FB 没用了"，是大家看腻了。
+
+接手流程
+
+### 四步。 追踪先。
+
+接手的四个步骤
+
+第一步 — 先审计。 账户结构、Pixel 和 CAPI、转化事件、归因、素材历史、过去 90 天的花费和结果。先搞清楚为什么差，再动手。
+
+第二步 — 先修追踪，再花钱。 Pixel 和 CAPI 没修好之前，一分新预算都不投。转化事件也重新定义在真正有用的动作上 — 一段 WhatsApp 对话、一个预约。
+
+第三步 — 好的留着，新的旁边搭。 换代理最常见的错误就是第一天全部暂停，等于把账户学到的东西全丢掉。有效的广告组照跑，新结构在旁边建好、跑出学习阶段之后，预算才慢慢搬过去。
+
+第四步 — 每周优化。 每周测素材，该停的停、该加的加，预算往赢家放。每周用白话汇报：现在一个询问 X 块，之前 Y 块，因为 Z。数字都公开在 实时成果看板 。
+
+接手后的实际成果
+
+56%
+
+30 天 CPL 降幅 · B2B 账户（RM37.40 → RM16.60）
+
+36%
+
+3 个月 CPL 降幅 · 美容诊所，每月 RM1,500–1,800
+
+17.3×
+
+综合 ROAS · RM18.6K 花费换 RM321K 营收
+
+42–52%
+
+一次换素材的 CPL 降幅 · 全新 Pixel 账户
+
+常见问题
+
+### 老板们换代理前 最常问的。
+
+通常是 FB 广告"以前有效"、或者一直没效的老板问的。
+
+在马来西亚投 FB 广告要多少钱？
++
+
+一般每月 RM500 到 RM20,000，看规模。要让算法跑得动，RM1,500–2,000 是底线。管理费另算，详细看 Meta 广告收费 （英文）。CPC 大概 RM0.50–3.00，CPM RM8–25，看行业。
+
+换代理会不会让账户归零？
++
+
+做错才会。第一天全部暂停，学习就没了。好的留着、新的旁边搭、预算慢慢搬，表现就保得住。我们最快的一次，30 天 CPL 降 56%。
+
+审计先看什么？
++
+
+先看追踪：Pixel、CAPI、转化事件、归因。大部分账户都在喂 Meta 错的信号 — 数据不对，其他怎么调都白调。
+
+多久看到效果？
++
+
+追踪修好，1–2 周就有感觉。CPL 或 ROAS 明显变化通常在 30 天，之后 1–3 个月持续放大。最新数字都在 实时成果看板 。
+
+要找代理，还是自己投？
++
+
+每月低于 RM1,500，自己学着投 — 不然管理费比广告费还贵。高过这个数，就看你愿不愿意花时间试错。CPL 已经三个月没降？那就该找人看看了。
+
+开始
+
+### 要不要 我们帮你看看账户？
+
+给我们权限，免费跑一次审计 — 结构、Pixel、素材疲劳、预算漏在哪里。合不合作，报告都是你的。没有推销，中英文都可以聊。
+
+WhatsApp 联系我们
+
+工作时间内通常 2 小时内回复。
+
+相关页面
+
+English version
+→
+
+Meta 广告代理服务
+→
+
+收费与成果
+→
+
+实时成果看板
 →
 
 
@@ -1954,6 +2096,12 @@ Guide
 #### How We Fix Facebook Ad Accounts
 
 The full takeover process — pre-takeover audit, measurement-first fixes, rebuilding without losing the learning phase, and the weekly optimisation cadence.
+
+Guide · 中文
+
+#### FB 广告账户烧钱没结果？我们怎么修
+
+中文版接手流程 — 先审计、先修追踪、好的留着新的旁边搭、每周优化，附真实马币数字。
 
 Pricing
 

@@ -20,6 +20,7 @@ PAGES = [
     ("advertising-malaysia.html", "https://advmarketing.biz/advertising-malaysia", "Advertising in Malaysia — Costs by Channel"),
     ("meta-ads-agency-malaysia.html", "https://advmarketing.biz/meta-ads-agency-malaysia", "Meta Ads Agency Malaysia — Service"),
     ("facebook-ads-malaysia.html", "https://advmarketing.biz/facebook-ads-malaysia", "Facebook Ads Malaysia — Account Takeover Guide"),
+    ("zh/facebook-ads-malaysia.html", "https://advmarketing.biz/zh/facebook-ads-malaysia", "马来西亚 Facebook 广告投放指南 (Chinese edition)"),
     ("meta-ads-pricing-malaysia.html", "https://advmarketing.biz/meta-ads-pricing-malaysia", "Meta Ads Pricing Malaysia 2026"),
     ("google-ads-agency-malaysia.html", "https://advmarketing.biz/google-ads-agency-malaysia", "Google Ads Agency Malaysia — Service"),
     ("google-ads-malaysia.html", "https://advmarketing.biz/google-ads-malaysia", "Google Ads Malaysia — Account Takeover Guide"),
