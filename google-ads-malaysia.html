@@ -1095,6 +1095,55 @@
     .figure-wrap { overflow-x:auto; background:var(--cream); padding:18px; border-radius:2px; }
     .figure-wrap svg { min-width:720px; }
 </style>
+  <style>
+    /* ── Animated mechanism figures (scroll-triggered, play once) ── */
+    .anim-fig { margin: 14px 0 4px; }
+    .anim-fig svg { width: 100%; height: auto; display: block; overflow: visible; }
+    .anim-fig { color: var(--black); transition: color 0.3s; }
+    .service-card:hover .anim-fig { color: var(--white); }
+    .af-label { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 11px; letter-spacing: 0.06em; fill: currentColor; }
+    .af-ink-stroke { stroke: currentColor; }
+    .af-track { fill: #E9E5DD; transition: fill 0.3s; }  .service-card:hover .af-track { fill: rgba(255,255,255,0.16); }
+    .af-axisline { stroke: #E9E5DD; transition: stroke 0.3s; }  .service-card:hover .af-axisline { stroke: rgba(255,255,255,0.25); }
+    .af-dot { fill: var(--cream); stroke: currentColor; transition: fill 0.3s; }  .service-card:hover .af-dot { fill: var(--black); }
+    .af-axis  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; letter-spacing: 0.06em; fill: #9A9490; }
+    .af-mark  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; fill: #9A9490; opacity: 0; }
+    .af-barA, .af-barB { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-endA, .af-endB, .af-cross { opacity: 0; }
+    .af-line { stroke-dasharray: 1; stroke-dashoffset: 1; }
+    .fstep { opacity: 0; transform: translateY(8px); }
+    .in-view .af-barA { animation: afReset 6s linear forwards; }
+    .in-view .af-barB { animation: afFill 6s linear forwards; }
+    .in-view .af-m1 { animation: afPop .4s ease 1.5s forwards; }
+    .in-view .af-m2 { animation: afPop .4s ease 3s forwards; }
+    .in-view .af-m3 { animation: afPop .4s ease 4.5s forwards; }
+    .in-view .af-endA { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-endB { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-freq { animation: afDraw 2.4s ease-out forwards; }
+    .in-view .af-ctr  { animation: afDraw 2.4s ease-out .3s forwards; }
+    .in-view .af-cross { animation: afPop .4s ease 2.2s forwards; }
+    .in-view .fstep-1 { animation: fsIn .5s ease forwards; }
+    .in-view .fstep-2 { animation: fsIn .5s ease .35s forwards; }
+    .in-view .fstep-3 { animation: fsIn .5s ease .7s forwards; }
+    .in-view .fstep-4 { animation: fsIn .5s ease 1.05s forwards; }
+    .af-fillfast { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-leak { transform-origin: 100% 50%; transform: scaleX(0); }
+    .af-l1 { opacity: 0; }
+    .in-view .af-fillfast { animation: afFill 2.2s ease-out forwards; }
+    .in-view .af-leak { animation: afFill 1.2s ease-out 2.4s forwards; }
+    .in-view .af-l1 { animation: afPop .4s ease 3.6s forwards; }
+    @keyframes afReset { 0%{transform:scaleX(0)} 24%{transform:scaleX(.6)} 25%{transform:scaleX(0)} 49%{transform:scaleX(.6)} 50%{transform:scaleX(0)} 74%{transform:scaleX(.6)} 75%{transform:scaleX(0)} 100%{transform:scaleX(.42)} }
+    @keyframes afFill { to { transform: scaleX(1); } }
+    @keyframes afPop { to { opacity: 1; } }
+    @keyframes afDraw { to { stroke-dashoffset: 0; } }
+    @keyframes fsIn { to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .af-barA { transform: scaleX(.42); } .af-barB, .af-fillfast, .af-leak { transform: scaleX(1); } .af-l1 { opacity: 1; }
+      .af-mark, .af-endA, .af-endB, .af-cross, .fstep { opacity: 1; transform: none; }
+      .af-line { stroke-dashoffset: 0; }
+      .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .fstep, .in-view .af-fillfast, .in-view .af-leak, .in-view .af-l1 { animation: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1186,12 +1235,38 @@
       <div class="service-card">
         <h3 class="service-title">1. Conversions that aren't revenue</h3>
         <div class="service-divider"></div>
-        <p class="service-desc">Smart bidding optimises to whatever it's told a conversion is. Accounts tracking page views or button clicks as conversions train Google to scale the wrong outcome — the account "converts" beautifully while the phone stays silent.</p>
+        <p class="service-desc">Smart bidding scales whatever it's told a conversion is. Count page views as conversions and the account "converts" beautifully while the phone stays silent.</p>
+        <div class="anim-fig">
+<svg viewBox="0 0 400 170" role="img" aria-label="Reported conversions climb while actual enquiries stay flat" aria-describedby="cvD" xmlns="http://www.w3.org/2000/svg">
+  <desc id="cvD">One month of an account that counts page views as conversions: the reported conversions line climbs steeply while the actual enquiries line stays almost flat along the bottom.</desc>
+  <line x1="40" y1="140" x2="360" y2="140" class="af-axisline" stroke-width="1"/>
+  <line x1="40" y1="30" x2="40" y2="140" class="af-axisline" stroke-width="1"/>
+  <text x="40" y="156" class="af-axis">Day 1</text>
+  <text x="355" y="156" text-anchor="end" class="af-axis">Day 30</text>
+  <polyline points="40,132 85,122 130,108 175,92 220,76 265,62 310,50 355,40" fill="none" stroke="#D4A853" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-freq"/>
+  <polyline points="40,130 85,129 130,128 175,128 220,127 265,127 310,126 355,126" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-ctr af-ink-stroke"/>
+  <text x="360" y="34" text-anchor="end" class="af-label" fill="#D4A853">Reported conversions ↑</text>
+  <text x="360" y="118" text-anchor="end" class="af-label">Actual enquiries →</text>
+  <text x="46" y="52" class="af-mark af-cross">smart bidding scales this</text>
+</svg>
+        </div>
       </div>
       <div class="service-card">
         <h3 class="service-title">2. Unread search-term reports</h3>
         <div class="service-divider"></div>
-        <p class="service-desc">Broad match without negative keywords means budget quietly spends on searches that will never buy. In audits we routinely find 20–40% of spend going to irrelevant queries nobody has ever excluded.</p>
+        <p class="service-desc">Broad match with no negative keywords quietly spends on searches that will never buy — in our audits, 20–40% of the budget.</p>
+        <div class="anim-fig">
+<svg viewBox="0 0 400 96" role="img" aria-label="Broad match without negatives: 20 to 40 percent of budget goes to searches that never buy" aria-describedby="lkD" xmlns="http://www.w3.org/2000/svg">
+  <desc id="lkD">A monthly budget bar fills completely, then a segment of roughly a third at the right end is revealed as spend on irrelevant searches nobody excluded.</desc>
+  <text x="0" y="16" class="af-label">Monthly budget</text>
+  <rect x="0" y="26" width="400" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="26" width="400" height="14" rx="7" fill="#D4A853" class="af-fillfast"/>
+  <rect x="260" y="26" width="140" height="14" rx="7" fill="#9A9490" class="af-leak"/>
+  <text x="0" y="62" class="af-axis">Searches that buy</text>
+  <text x="400" y="62" text-anchor="end" class="af-mark af-l1">20–40% · searches nobody excluded</text>
+  <text x="0" y="86" class="af-axis">Typical audit finding, broad match with no negatives</text>
+</svg>
+        </div>
       </div>
       <div class="service-card">
         <h3 class="service-title">3. Ungoverned PMAX</h3>
@@ -1218,6 +1293,7 @@
 <svg viewBox="0 0 800 190" role="img" aria-labelledby="gaflowT gaflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <title id="gaflowT">The four-step Google Ads account takeover process</title>
   <desc id="gaflowD">Step one, audit ninety days of search terms, conversion definitions, Quality Score distribution and Performance Max placements. Step two, redefine conversion events around revenue before changing bid strategies. Step three, restructure gradually so smart bidding signal is preserved rather than reset. Step four, run weekly search-term hygiene, negative keyword growth and Quality Score work.</desc>
+<g class="fstep fstep-1">
     <rect x="14" y="30" width="172" height="145" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
     <circle cx="40" cy="52" r="13" fill="#D4A853"/>
     <text x="40" y="57" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
@@ -1227,6 +1303,8 @@
     <text x="28" y="131" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">conversion definitions,</text>
     <text x="28" y="146" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">Quality Score, PMAX</text>
     <path d="M 192 60 L 204 60 M 200 56 L 204 60 L 200 64" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-2">
     <rect x="210" y="30" width="172" height="145" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
     <circle cx="236" cy="52" r="13" fill="#2B2B2B"/>
     <text x="236" y="57" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
@@ -1235,6 +1313,8 @@
     <text x="224" y="131" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">revenue before touching bid</text>
     <text x="224" y="146" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">strategies.</text>
     <path d="M 388 60 L 400 60 M 396 56 L 400 60 L 396 64" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-3">
     <rect x="406" y="30" width="172" height="145" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
     <circle cx="432" cy="52" r="13" fill="#D4A853"/>
     <text x="432" y="57" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
@@ -1244,6 +1324,8 @@
     <text x="420" y="131" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">live; budget migrates</text>
     <text x="420" y="146" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">gradually.</text>
     <path d="M 584 60 L 596 60 M 592 56 L 596 60 L 592 64" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-4">
     <rect x="602" y="30" width="172" height="145" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
     <circle cx="628" cy="52" r="13" fill="#2B2B2B"/>
     <text x="628" y="57" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
@@ -1253,7 +1335,8 @@
     <text x="616" y="131" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">negatives, Quality Score</text>
     <text x="616" y="146" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">work.</text>
 
-</svg>
+
+</g></svg>
         </div>
       </div>
 
@@ -1477,6 +1560,17 @@
         item.classList.add('open');
       }
     }
+
+
+    // Scroll-triggered figures: play once when 40% visible
+    (function () {
+      const targets = document.querySelectorAll('.anim-fig, .figure-wrap');
+      if (!('IntersectionObserver' in window)) { targets.forEach(t => t.classList.add('in-view')); return; }
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); } });
+      }, { threshold: 0.4 });
+      targets.forEach(t => io.observe(t));
+    })();
 
     // GA4: track WhatsApp CTA clicks as a lead conversion
     document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
