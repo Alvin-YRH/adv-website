@@ -1715,6 +1715,22 @@
     ]
   }
   </script>
+  <style>
+    /* ── Homepage guides strip: every Tier-3 page one click from home ── */
+    #guides-home { background: var(--cream); padding: 120px 64px; }
+    .home-guides-header { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: end; margin-bottom: 56px; }
+    .home-guides-headline { font-family: 'Cormorant Garamond', serif; font-size: clamp(34px, 4vw, 52px); font-weight: 400; line-height: 1.1; color: var(--black); margin: 0; }
+    .home-guides-intro { font-family: 'DM Sans', sans-serif; font-size: 15px; line-height: 1.8; color: var(--charcoal); max-width: 440px; margin: 0; }
+    .home-guides-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: rgba(13,13,13,0.08); }
+    .home-guide { background: var(--cream); padding: 36px 32px 32px; text-decoration: none; color: var(--black); display: flex; flex-direction: column; gap: 10px; transition: background 0.3s, color 0.3s; min-height: 210px; }
+    .home-guide:hover, .home-guide:focus-visible { background: var(--black); color: var(--white); outline: none; }
+    .home-guide-tag { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
+    .home-guide-title { font-family: 'Cormorant Garamond', 'Noto Serif SC', 'Songti SC', serif; font-size: 24px; font-weight: 600; line-height: 1.2; }
+    .home-guide-desc { font-family: 'DM Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif; font-size: 14px; line-height: 1.7; color: var(--stone); flex: 1; }
+    .home-guide-arrow { font-size: 18px; color: var(--gold); }
+    @media (max-width: 900px) { #guides-home { padding: 80px 32px; } .home-guides-header { grid-template-columns: 1fr; gap: 24px; } .home-guides-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 640px) { #guides-home { padding: 64px 24px; } .home-guides-grid { grid-template-columns: 1fr; } .home-guide { min-height: 0; } }
+  </style>
 </head>
 <body>
 
@@ -2092,6 +2108,57 @@
         <p class="result-context">Premium podcast studio. 3-campaign split across awareness, WhatsApp, and traffic. Mid-month pivot cut CPL by 42–52%. 461 landing page views at RM0.59 each on a brand-new pixel.</p>
       </div>
 
+    </div>
+  </section>
+
+  <!-- GUIDES & DATA -->
+  <section id="guides-home">
+    <div class="home-guides-header">
+      <div>
+        <p class="section-label">Guides &amp; data</p>
+        <h2 class="home-guides-headline">Read how we work<br>before you talk to us.</h2>
+      </div>
+      <p class="home-guides-intro">
+        Costs, processes and research we publish openly — the same material we walk new clients through. <a href="/guides" style="color:var(--gold);">See all guides &amp; resources →</a>
+      </p>
+    </div>
+    <div class="home-guides-grid">
+      <a href="/advertising-malaysia" class="home-guide">
+        <span class="home-guide-tag">Cost data</span>
+        <span class="home-guide-title">What Ads Actually Cost in Malaysia</span>
+        <span class="home-guide-desc">Real CPM, CPC and cost-per-lead by channel, with the budget floor each one needs.</span>
+        <span class="home-guide-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="/facebook-ads-malaysia" class="home-guide">
+        <span class="home-guide-tag">Guide</span>
+        <span class="home-guide-title">How We Fix Facebook Ad Accounts</span>
+        <span class="home-guide-desc">The takeover process — audit, fix tracking first, rebuild in parallel, weekly optimisation.</span>
+        <span class="home-guide-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="/zh/facebook-ads-malaysia" class="home-guide" hreflang="zh-Hans">
+        <span class="home-guide-tag">Guide · 中文</span>
+        <span class="home-guide-title" lang="zh-Hans">FB 广告账户烧钱没结果？我们怎么修</span>
+        <span class="home-guide-desc" lang="zh-Hans">同一套接手流程的中文版，附真实马币数字。</span>
+        <span class="home-guide-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="/google-ads-malaysia" class="home-guide">
+        <span class="home-guide-tag">Guide</span>
+        <span class="home-guide-title">How We Fix Google Ads Accounts</span>
+        <span class="home-guide-desc">The four leaks we find in almost every audit, and the order we fix them in.</span>
+        <span class="home-guide-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="/meta-ads-pricing-malaysia" class="home-guide">
+        <span class="home-guide-tag">Pricing</span>
+        <span class="home-guide-title">Meta Ads Pricing Malaysia 2026</span>
+        <span class="home-guide-desc">Budget tiers, management fees, and what each tier has actually produced.</span>
+        <span class="home-guide-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="/malaysia-digital-marketing-statistics-2026" class="home-guide">
+        <span class="home-guide-tag">Research</span>
+        <span class="home-guide-title">72 Malaysia Digital Marketing Statistics</span>
+        <span class="home-guide-desc">Sourced 2026 figures on ad spend, social, e-commerce and AI adoption — free to cite.</span>
+        <span class="home-guide-arrow" aria-hidden="true">→</span>
+      </a>
     </div>
   </section>
 
