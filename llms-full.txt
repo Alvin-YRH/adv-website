@@ -699,27 +699,27 @@ Most Malaysian businesses come to us after months of boosted posts that spent th
 
 Creative testing is built into everything. We don't guess which ad angle works — we test methodically, kill losers fast, and scale what converts. This is the difference between ad spend and ad investment.
 
-Before running a single campaign, we establish proper pixel and CAPI (Conversions API) setup. This gives Meta accurate signal on who actually converted — not just who clicked — which dramatically improves algorithm performance, especially in a post-iOS14 world.
-
-We use Meta's AI bidding tools — including Advantage+ campaigns — where the data supports it. When algorithms have reliable signal, they outperform manual bidding. We build the signal infrastructure first, then let the machine work.
+Signal comes first: pixel and Conversions API go in before a single campaign, so Meta learns from who actually bought — not who clicked. Advantage+ and AI bidding come after, where the data supports them. We build the signal, then let the machine work.
 
 By the numbers
 
-3–5×
+56%
 
-Average ROAS improvement
+CPL cut in 30 days — B2B account rebuild (RM37.40 → RM16.60)
 
-60%
+36%
 
-Lower cost-per-lead
+CPL cut over 3 months — beauty clinic on RM1,500–1,800/mo
 
-14
+17.3×
 
-Days to first optimised campaign
+Blended ROAS — RM321K revenue on RM18.6K seasonal spend
 
-100%
+42–52%
 
-Attribution coverage
+CPL cut mid-flight via one creative pivot — new pixel account
+
+Every figure is from a named engagement on our Live Results Board — current numbers, misses included.
 
 Who this is for
 
@@ -1318,23 +1318,23 @@ PMAX vs Search balance. In the Malaysian market, full PMAX reliance often dilute
 
 Results that compound
 
-RM840
+−45%
 
-avg. cost-per-lead down from RM2,400
+cost per lead over 12 months RM4.40 → RM2.41 (insurance)
 
-94%
+393%
 
-impression share on branded terms
+lead volume growth 1,336 → 6,586 a month
 
-6 wks
+4×
 
-to first optimised conversion data
+budget scaled, RM5K → RM20K CPL under RM4 throughout
 
-Zero
+26×
 
-wasted spend on irrelevant searches
+Google ROAS inside a 17.3× blended retail campaign
 
-Across our Google Ads clients, the most common lever is simple: they were running broad campaigns with poor keyword governance. Tightening match types and eliminating wasteful spend alone can cut CPL by 30–50% in the first 60 days.
+The most common lever is simple: broad campaigns with no keyword governance. In audits we routinely find 20–40% of spend going to searches nobody excluded — fixing that is usually the first and fastest win. Current figures are on our Live Results Board .
 
 Who this is for
 

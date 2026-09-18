@@ -1145,6 +1145,76 @@
     ]
   }
   </script>
+  <style>
+    /* ── Animated mechanism figures (scroll-triggered, play once) ── */
+    .anim-fig { margin: 14px 0 4px; }
+    .anim-fig svg { width: 100%; height: auto; display: block; overflow: visible; }
+    .anim-fig { color: var(--black); transition: color 0.3s; }
+    .service-card:hover .anim-fig { color: var(--white); }
+    .af-label { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 11px; letter-spacing: 0.06em; fill: currentColor; }
+    .af-ink-stroke { stroke: currentColor; }
+    .af-track { fill: #E9E5DD; transition: fill 0.3s; }  .service-card:hover .af-track { fill: rgba(255,255,255,0.16); }
+    .af-axisline { stroke: #E9E5DD; transition: stroke 0.3s; }  .service-card:hover .af-axisline { stroke: rgba(255,255,255,0.25); }
+    .af-dot { fill: var(--cream); stroke: currentColor; transition: fill 0.3s; }  .service-card:hover .af-dot { fill: var(--black); }
+    .af-axis  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; letter-spacing: 0.06em; fill: #9A9490; }
+    .af-mark  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 10px; fill: #9A9490; opacity: 0; }
+    .af-barA, .af-barB { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-endA, .af-endB, .af-cross { opacity: 0; }
+    .af-line { stroke-dasharray: 1; stroke-dashoffset: 1; }
+    .fstep { opacity: 0; transform: translateY(8px); }
+    .in-view .af-barA { animation: afReset 6s linear forwards; }
+    .in-view .af-barB { animation: afFill 6s linear forwards; }
+    .in-view .af-m1 { animation: afPop .4s ease 1.5s forwards; }
+    .in-view .af-m2 { animation: afPop .4s ease 3s forwards; }
+    .in-view .af-m3 { animation: afPop .4s ease 4.5s forwards; }
+    .in-view .af-endA { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-endB { animation: afPop .4s ease 6s forwards; }
+    .in-view .af-freq { animation: afDraw 2.4s ease-out forwards; }
+    .in-view .af-ctr  { animation: afDraw 2.4s ease-out .3s forwards; }
+    .in-view .af-cross { animation: afPop .4s ease 2.2s forwards; }
+    .in-view .fstep-1 { animation: fsIn .5s ease forwards; }
+    .in-view .fstep-2 { animation: fsIn .5s ease .35s forwards; }
+    .in-view .fstep-3 { animation: fsIn .5s ease .7s forwards; }
+    .in-view .fstep-4 { animation: fsIn .5s ease 1.05s forwards; }
+    .af-fillfast { transform-origin: 0 50%; transform: scaleX(0); }
+    .af-leak { transform-origin: 100% 50%; transform: scaleX(0); }
+    .af-l1 { opacity: 0; }
+    .in-view .af-fillfast { animation: afFill 2.2s ease-out forwards; }
+    .in-view .af-leak { animation: afFill 1.2s ease-out 2.4s forwards; }
+    .in-view .af-l1 { animation: afPop .4s ease 3.6s forwards; }
+    .anim-fig--dark { color: var(--cream); }
+    .af-panel { fill: rgba(255,255,255,0.06); stroke: rgba(250,248,243,0.28); }
+    .af-panel-gold { fill: rgba(212,168,83,0.12); stroke: #D4A853; }
+    .af-node { fill: #FFFFFF; stroke: #2B2B2B; }
+    .af-travel { opacity: 0; }
+    .af-p1, .af-p2 { opacity: 0; }
+    .in-view .af-p1 { animation: afPop .4s ease 2.1s forwards; } .in-view .af-p2 { animation: afPop .4s ease 2.4s forwards; }
+    .af-p4 { opacity: 0; }
+    .in-view .fstep-5 { animation: fsIn .5s ease 1.4s forwards; }
+    .in-view .af-travel { animation: afPop .2s ease .3s forwards, afTravel 2.4s linear .3s forwards; }
+    .in-view .af-p4 { animation: afPop .4s ease 2.9s forwards; }
+    @keyframes afTravel { to { transform: translateX(440px); } }
+    .af-arc { stroke-dasharray: 1; stroke-dashoffset: 1; }
+    .af-n, .af-c { opacity: 0; }
+    .af-ring { fill: rgba(255,255,255,0.05); stroke: rgba(250,248,243,0.35); }
+    .af-ring-gold { fill: rgba(212,168,83,0.12); stroke: #D4A853; }
+    .in-view .af-arc { animation: afDraw .7s ease-out forwards; }
+    .in-view .af-a1 { animation-delay: .4s; } .in-view .af-a2 { animation-delay: 1.1s; } .in-view .af-a3 { animation-delay: 1.8s; }
+    .in-view .af-n { animation: afPop .4s ease forwards; }
+    .in-view .af-n1 { animation-delay: .1s; } .in-view .af-n2 { animation-delay: 1s; } .in-view .af-n3 { animation-delay: 1.7s; }
+    .in-view .af-c { animation: afPop .5s ease 2.6s forwards; }
+    @keyframes afReset { 0%{transform:scaleX(0)} 24%{transform:scaleX(.6)} 25%{transform:scaleX(0)} 49%{transform:scaleX(.6)} 50%{transform:scaleX(0)} 74%{transform:scaleX(.6)} 75%{transform:scaleX(0)} 100%{transform:scaleX(.42)} }
+    @keyframes afFill { to { transform: scaleX(1); } }
+    @keyframes afPop { to { opacity: 1; } }
+    @keyframes afDraw { to { stroke-dashoffset: 0; } }
+    @keyframes fsIn { to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .af-barA { transform: scaleX(.42); } .af-barB, .af-fillfast, .af-leak { transform: scaleX(1); } .af-l1 { opacity: 1; }
+      .af-mark, .af-endA, .af-endB, .af-cross, .fstep { opacity: 1; transform: none; }
+      .af-line { stroke-dashoffset: 0; } .af-arc { stroke-dashoffset: 0; } .af-n, .af-c { opacity: 1; } .af-travel { opacity: 1; transform: translateX(440px); } .af-p4, .af-p1, .af-p2 { opacity: 1; }
+      .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .af-arc, .in-view .af-n, .in-view .af-c, .in-view .fstep, .in-view .fstep-5, .in-view .af-travel, .in-view .af-p4, .in-view .af-p1, .in-view .af-p2, .in-view .af-fillfast, .in-view .af-leak, .in-view .af-l1 { animation: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1298,11 +1368,37 @@
       <p class="approach-body">
         Creative testing is built into everything. We don't guess which ad angle works — we test methodically, kill losers fast, and scale what converts. This is the difference between ad spend and ad investment.
       </p>
+      <div class="anim-fig anim-fig--dark" style="max-width:420px; margin:28px 0 20px;">
+<svg viewBox="0 0 400 300" role="img" aria-label="The revenue system loop: signal, learn, scale" aria-describedby="mloopD" xmlns="http://www.w3.org/2000/svg">
+  <desc id="mloopD">Three nodes on a circle connected clockwise. Signal: pixel and Conversions API record who actually bought. Learn: Meta finds more people like them. Scale: budget moves to winners and new creative goes in, which produces better signal. The loop compounds every cycle.</desc>
+  <g class="af-n af-n1">
+    <circle cx="200.0" cy="45.0" r="34" class="af-ring-gold" stroke-width="1.5"/>
+    <text x="200.0" y="51.0" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#FAF8F3">Signal</text>
+  </g>
+  <text x="244" y="34" class="af-axis af-n af-n1">Pixel + CAPI record</text>
+  <text x="244" y="48" class="af-axis af-n af-n1">who actually bought</text>
+  <path d="M 235.6 51.9 A 95 95 0 0 1 294.1 153.2" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" pathLength="1" class="af-arc af-a1"/>
+  <circle cx="294.1" cy="153.2" r="3" fill="#D4A853" class="af-n af-n2"/>
+  <g class="af-n af-n2">
+    <circle cx="282.3" cy="187.5" r="34" class="af-ring" stroke-width="1.5"/>
+    <text x="282.3" y="193.5" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#FAF8F3">Learn</text>
+  </g>
+  <text x="282.3" y="239.5" text-anchor="middle" class="af-axis af-n af-n2">Meta finds more like them</text>
+  <path d="M 258.5 214.9 A 95 95 0 0 1 141.5 214.9" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" pathLength="1" class="af-arc af-a2"/>
+  <circle cx="141.5" cy="214.9" r="3" fill="#D4A853" class="af-n af-n3"/>
+  <g class="af-n af-n3">
+    <circle cx="117.7" cy="187.5" r="34" class="af-ring" stroke-width="1.5"/>
+    <text x="117.7" y="193.5" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#FAF8F3">Scale</text>
+  </g>
+  <text x="117.7" y="239.5" text-anchor="middle" class="af-axis af-n af-n3">Budget to winners, new creative in</text>
+  <path d="M 105.9 153.2 A 95 95 0 0 1 164.4 51.9" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" pathLength="1" class="af-arc af-a3"/>
+  <circle cx="164.4" cy="51.9" r="3" fill="#D4A853" class="af-n af-c"/>
+  <text x="200" y="136" text-anchor="middle" class="af-label af-c" fill="#D4A853">compounds</text>
+  <text x="200" y="152" text-anchor="middle" class="af-label af-c" fill="#D4A853">every cycle</text>
+</svg>
+      </div>
       <p class="approach-body">
-        Before running a single campaign, we establish proper pixel and CAPI (Conversions API) setup. This gives Meta accurate signal on who actually converted — not just who clicked — which dramatically improves algorithm performance, especially in a post-iOS14 world.
-      </p>
-      <p class="approach-body">
-        We use Meta's AI bidding tools — including Advantage+ campaigns — where the data supports it. When algorithms have reliable signal, they outperform manual bidding. We build the signal infrastructure first, then let the machine work.
+        Signal comes first: pixel and Conversions API go in before a single campaign, so Meta learns from who actually bought — not who clicked. Advantage+ and AI bidding come after, where the data supports them. We build the signal, then let the machine work.
       </p>
     </div>
 
@@ -1310,22 +1406,25 @@
       <p class="section-label light">By the numbers</p>
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-number">3–5×</div>
-          <div class="stat-label">Average ROAS improvement</div>
+          <div class="stat-number">56%</div>
+          <div class="stat-label">CPL cut in 30 days — B2B account rebuild (RM37.40 → RM16.60)</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">60%</div>
-          <div class="stat-label">Lower cost-per-lead</div>
+          <div class="stat-number">36%</div>
+          <div class="stat-label">CPL cut over 3 months — beauty clinic on RM1,500–1,800/mo</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">14</div>
-          <div class="stat-label">Days to first optimised campaign</div>
+          <div class="stat-number">17.3×</div>
+          <div class="stat-label">Blended ROAS — RM321K revenue on RM18.6K seasonal spend</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">100%</div>
-          <div class="stat-label">Attribution coverage</div>
+          <div class="stat-number">42–52%</div>
+          <div class="stat-label">CPL cut mid-flight via one creative pivot — new pixel account</div>
         </div>
       </div>
+      <p style="font-family:'DM Sans',sans-serif; font-size:13px; line-height:1.75; color:var(--stone); margin-top:28px;">
+        Every figure is from a named engagement on our <a href="/live-results" style="color:var(--gold);">Live Results Board</a> — current numbers, misses included.
+      </p>
     </div>
   </section>
 
@@ -1556,6 +1655,17 @@
         item.classList.add('open');
       }
     }
+
+
+    // Scroll-triggered figures: play once when 40% visible
+    (function () {
+      const targets = document.querySelectorAll('.anim-fig, .figure-wrap');
+      if (!('IntersectionObserver' in window)) { targets.forEach(t => t.classList.add('in-view')); return; }
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); } });
+      }, { threshold: 0.4 });
+      targets.forEach(t => io.observe(t));
+    })();
 
     // GA4: track WhatsApp CTA clicks as a lead conversion
     document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
