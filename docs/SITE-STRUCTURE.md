@@ -21,6 +21,9 @@ Tier 2 — SERVICES (money pages; in nav dropdown + homepage cards)
 
 Tier 3 — CONTENT (guides, data, proof; listed on /guides)
   /facebook-ads-malaysia               (guide → supports Meta service)
+  /zh/facebook-ads-malaysia            (Chinese edition of the FB guide; hreflang-paired)
+  /advertising-malaysia                (cross-channel cost hub)
+  /google-ads-malaysia                 (guide → supports Google service)
   /google-ads-malaysia                 (guide → supports Google service)
   /meta-ads-pricing-malaysia           (pricing → supports Meta service)
   /live-results                        (proof; also Tier 1 via nav)
@@ -40,8 +43,7 @@ Tier 3 — CONTENT (guides, data, proof; listed on /guides)
    facebook guide ↔ meta-ads service page).
 5. **Every page links to /live-results** via the nav Results item + the
    floating pill (bottom-right; pill is on every page except /live-results).
-6. **The homepage links Tier 3 only via nav + the results-section line** —
-   don't stack content links on the homepage body.
+6. **Every Tier 3 page is one click from the homepage** via the "Guides & data" strip (`#guides-home`, between Results and Why ADV). Adding a Tier 3 page means adding a card there as well as on /guides (Alvin, 18 Sep 2026: "those pages need to be clickable from the homepage").
 
 ## New-page checklist (all mandatory)
 
