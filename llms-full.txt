@@ -14,7 +14,7 @@
 > LinkedIn (company): https://www.linkedin.com/company/advmarksolution/
 
 This file contains the full text of every page on advmarketing.biz.
-Generated 2026-09-18. Structured index: https://advmarketing.biz/llms.txt
+Generated 2026-09-24. Structured index: https://advmarketing.biz/llms.txt
 
 
 
@@ -1968,7 +1968,7 @@ The board
 
 ### Current numbers, by vertical.
 
-Last updated: 14 September 2026 · Updated weekly (Mondays, MYT). Each row is one client engagement, anonymised by industry. Active accounts show their most recent reported period; completed campaigns show final figures.
+Last updated: 24 September 2026 · Updated weekly (Mondays, MYT). Each row is one client engagement, anonymised by industry. Active accounts show their most recent reported period; completed campaigns show final figures.
 
 Vertical
 Channels
@@ -1985,25 +1985,25 @@ Completed
 B2B Services
 Meta lead gen
 CPL RM21.53
-31 lead conversations on RM667 spend in the last 30 days — up from RM15.30 last period as volume halved on lower spend; still 42% below the RM37.40 pre-takeover baseline
+31 lead conversations on RM667 spend in the last 30 days — up from RM15.30 last period as volume halved on lower spend; still 42% below the RM37.40 pre-takeover baseline. Last reported 14 Sep.
 Active
 
 Beauty & Wellness
 Meta
-CPL RM41.41
-35 lead conversations on RM1,449 spend — flat on last period (RM41.74) after two consecutive declines; still ~3× the RM14.04 best. Yes, we publish the bad runs too.
-Active
+CPL RM53.34
+Engagement ended September 2026. Final 30 days: 20 lead conversations on RM1,067 — cost per lead rose from RM41.41, far off the RM14.04 best. Left on the board because the misses stay up too.
+Ended
 
 Healthcare & Medical
 Google Search
-CPA RM69.46
-220 conversions on RM15.3K spend in the last 30 days — third consecutive rise (RM55.11 → RM61.45 → RM69.46) as spend scaled and CTR softened to 9.7%
+CPA RM76.78
+211 conversions on RM16.2K spend in the last 30 days — fourth consecutive rise (RM55.11 → RM61.45 → RM69.46 → RM76.78) as spend scaled; a newer service-line campaign converts at RM59, the main Search campaign at RM83
 Active
 
 EV Charger Installation
 Meta lead gen + awareness
-CPL RM10.19
-1,068 lead conversations on RM10,884 spend in the last 30 days; best campaign RM8.69/lead at 4.0% CTR; awareness at RM1.16 CPM
+CPL RM11.55
+959 lead conversations on RM11,081 spend in the last 30 days — up from RM10.19 as volume dipped on flat spend; best campaign RM10.15/lead at 3.6% CTR; awareness at RM1.19 CPM
 Active
 
 Fashion & Retail
@@ -2416,7 +2416,7 @@ Google Ads for a Malaysian healthcare group cost RM69.46 per conversion on RM15.
 (Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
 
 -
-Meta lead costs for a Malaysian aesthetics clinic ranged from a best of RM14.04 to a current RM41.41 per lead conversation in 2026 — a ~3× spread between best and current periods in the same account, which is why single-month agency case-study figures should be read with caution.
+Meta lead costs for a Malaysian aesthetics clinic ranged from a best of RM14.04 to RM53.34 per lead conversation in its final month in 2026 — a nearly 4× spread between best and worst periods in the same account, which is why single-month agency case-study figures should be read with caution.
 (Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
 
 ### E-commerce & Mobile Commerce
