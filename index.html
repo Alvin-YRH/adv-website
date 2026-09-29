@@ -1731,6 +1731,41 @@
     @media (max-width: 900px) { #guides-home { padding: 80px 32px; } .home-guides-header { grid-template-columns: 1fr; gap: 24px; } .home-guides-grid { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 640px) { #guides-home { padding: 64px 24px; } .home-guides-grid { grid-template-columns: 1fr; } .home-guide { min-height: 0; } }
   </style>
+  <style>
+    /* ── Hero motion panel (desktop): services, each with a published result ── */
+    .hero-right { position: relative; overflow: hidden; align-items: stretch; }
+    .hm { position: relative; width: 100%; display: flex; flex-direction: column; justify-content: space-between; min-height: 100%; }
+    .hm-top { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .hm-logo { height: 44px; width: auto; mix-blend-mode: screen; opacity: 0.9; }
+    .hm-ticks { display: flex; gap: 6px; }
+    .hm-tick { width: 22px; height: 2px; background: rgba(250,248,243,0.18); position: relative; overflow: hidden; }
+    .hm-tick::after { content: ''; position: absolute; inset: 0; background: #D4A853; transform: scaleX(0); transform-origin: 0 50%; }
+    .hm-tick.done::after { transform: scaleX(1); }
+    .hm-tick.on::after { animation: hmTick var(--hm-dur, 3200ms) linear forwards; }
+    @keyframes hmTick { to { transform: scaleX(1); } }
+    .hm-stage { position: relative; flex: 1; min-height: 340px; }
+    .hm-scene { position: absolute; left: 0; right: 0; bottom: 0; opacity: 0; pointer-events: none; }
+    .hm-scene > * { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .7s cubic-bezier(.2,.7,.2,1); }
+    .hm-scene.on { opacity: 1; }
+    .hm-scene.on > * { opacity: 1; transform: none; }
+    .hm-scene.on > *:nth-child(2) { transition-delay: .12s; }
+    .hm-scene.on > *:nth-child(3) { transition-delay: .26s; }
+    .hm-scene.on > *:nth-child(4) { transition-delay: .4s; }
+    .hm-scene.out > * { opacity: 0; transform: translateY(-14px); transition-duration: .45s; transition-delay: 0s; }
+    .hm-kicker { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #D4A853; margin: 0 0 14px; }
+    .hm-big { font-family: 'Cormorant Garamond', serif; font-weight: 300; font-size: clamp(64px, 7.2vw, 112px); line-height: 0.95; color: var(--white); margin: 0 0 12px; letter-spacing: -0.02em; }
+    .hm-line { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 300; font-size: clamp(22px, 2.2vw, 32px); line-height: 1.25; color: var(--white); margin: 0 0 22px; max-width: 460px; }
+    .hm-src { font-family: 'DM Sans', sans-serif; font-size: 12px; letter-spacing: 0.04em; color: var(--stone); margin: 0; max-width: 420px; line-height: 1.6; }
+    .hm-end .hero-quote { margin: 0 0 22px; }
+    .hm-gold { color: #D4A853; }
+    /* Before JS runs, and for reduced motion: show only the resting frame */
+    .hm:not(.hm-live) .hm-end, .hm.hm-still .hm-end { opacity: 1; }
+    .hm:not(.hm-live) .hm-end > *, .hm.hm-still .hm-end > * { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .hm-scene > *, .hm-tick::after { transition: none !important; animation: none !important; }
+      .hm-ticks { display: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1795,9 +1830,49 @@
       </div>
     </div>
     <div class="hero-right">
-      <p class="hero-quote">
-        "Engineered<br>for growth."
-      </p>
+      <div class="hm" id="heroMotion" role="img" aria-label="What ADV runs: Meta Ads, Google Ads, multi-channel campaigns, SEO, AEO and GEO, and AI automation, each with a published result. Engineered for growth.">
+        <div class="hm-top" aria-hidden="true">
+          <img src="assets/icon-dark.png" alt="" class="hm-logo" />
+          <div class="hm-ticks"><span class="hm-tick"></span><span class="hm-tick"></span><span class="hm-tick"></span><span class="hm-tick"></span><span class="hm-tick"></span><span class="hm-tick"></span></div>
+        </div>
+        <div class="hm-stage" aria-hidden="true">
+        <div class="hm-scene" data-i="1">
+          <p class="hm-kicker">Meta Ads</p>
+          <p class="hm-big">56%</p>
+          <p class="hm-line">lower cost per lead in 30 days</p>
+          <p class="hm-src">B2B account rebuild</p>
+        </div>
+        <div class="hm-scene" data-i="2">
+          <p class="hm-kicker">Google Ads</p>
+          <p class="hm-big">RM2.41</p>
+          <p class="hm-line">per lead · 6,586 leads a month</p>
+          <p class="hm-src">Insurance, 12-month engagement</p>
+        </div>
+        <div class="hm-scene" data-i="3">
+          <p class="hm-kicker">Multi-channel</p>
+          <p class="hm-big">17.3×</p>
+          <p class="hm-line">return on ad spend</p>
+          <p class="hm-src">Seasonal retail campaign · RM321K revenue</p>
+        </div>
+        <div class="hm-scene" data-i="4">
+          <p class="hm-kicker">SEO · AEO · GEO</p>
+          <p class="hm-big">Found</p>
+          <p class="hm-line">on Google. Cited by AI.</p>
+          <p class="hm-src">Structured, specific, verifiable pages</p>
+        </div>
+        <div class="hm-scene" data-i="5">
+          <p class="hm-kicker">AI Automation</p>
+          <p class="hm-big">8 min</p>
+          <p class="hm-line">per content brief, down from 3 hours</p>
+          <p class="hm-src">Claude · Make.com · Notion</p>
+        </div>
+          <div class="hm-scene hm-end" data-i="6">
+            <p class="hm-kicker">ADV Digital Marketing · Kuala Lumpur</p>
+            <p class="hero-quote">"Engineered<br>for growth."</p>
+            <p class="hm-src">Every number above is from a live or completed engagement — current figures on the <span class="hm-gold">Live Results Board</span>.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -2439,6 +2514,39 @@
         }
       });
     });
+
+    // Hero motion panel: cycle services → resting frame, loop; pause off-screen; still for reduced motion
+    (function () {
+      const root = document.getElementById('heroMotion');
+      if (!root) return;
+      const scenes = [...root.querySelectorAll('.hm-scene')];
+      const ticks = [...root.querySelectorAll('.hm-tick')];
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const desktop = window.matchMedia('(min-width: 901px)');
+      if (reduce) { root.classList.add('hm-still'); return; }
+      root.classList.add('hm-live');
+      const DUR = 3200, END = 5200;
+      let i = -1, timer = null, visible = true;
+      function show(n) {
+        scenes.forEach((s, k) => { s.classList.toggle('on', k === n); if (k !== n) s.classList.remove('out'); });
+        ticks.forEach((t, k) => { t.classList.toggle('done', k < n); t.classList.remove('on'); });
+        const d = n === scenes.length - 1 ? END : DUR;
+        if (ticks[n]) { ticks[n].style.setProperty('--hm-dur', d + 'ms'); void ticks[n].offsetWidth; ticks[n].classList.add('on'); }
+        return d;
+      }
+      function step() {
+        if (i >= 0 && scenes[i]) scenes[i].classList.add('out');
+        i = (i + 1) % scenes.length;
+        const d = show(i);
+        timer = setTimeout(step, d);
+      }
+      function start() { if (!timer && visible && desktop.matches && !document.hidden) step(); }
+      function stop() { clearTimeout(timer); timer = null; }
+      new IntersectionObserver(es => { visible = es[0].isIntersecting; visible ? start() : stop(); }, { threshold: 0.2 }).observe(root);
+      document.addEventListener('visibilitychange', () => document.hidden ? stop() : start());
+      desktop.addEventListener('change', () => desktop.matches ? start() : stop());
+      start();
+    })();
 
     // GA4: track email CTA clicks as a lead conversion
     document.querySelectorAll('a[href^="mailto:"]').forEach(link => {
