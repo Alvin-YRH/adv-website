@@ -13,7 +13,8 @@ import json, pathlib, re, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = "https://advmarketing.biz"
 TIER2 = {"/meta-ads-agency-malaysia", "/google-ads-agency-malaysia", "/seo-agency-kuala-lumpur", "/ai-marketing-automation-malaysia"}
-SKIP_GUIDES = {"/", "/about", "/guides"} | TIER2
+LEGAL = {"/privacy"}  # footer-linked legal pages: no llms.txt or /guides entry needed
+SKIP_GUIDES = {"/", "/about", "/guides"} | TIER2 | LEGAL
 
 def file_for(url):
     if url == "/": return ROOT / "index.html"
@@ -48,8 +49,8 @@ for u in urls:
     inbound = [v for v in links if v != u and u in links[v]]
     if u != "/" and u not in links["/"]: gaps.append(f"{u}: not linked from the homepage")
     if u != "/" and len(inbound) < 2: gaps.append(f"{u}: only {len(inbound)} inbound link(s) {inbound}")
-    if u not in ("/",) and (BASE + u) not in llms: gaps.append(f"{u}: missing from llms.txt")
-    if (BASE + u) not in builder and u != "/": gaps.append(f"{u}: not registered in build_llms_full.py")
+    if u not in ("/",) and u not in LEGAL and (BASE + u) not in llms: gaps.append(f"{u}: missing from llms.txt")
+    if (BASE + u) not in builder and u != "/" and u not in LEGAL: gaps.append(f"{u}: not registered in build_llms_full.py")
     if u not in SKIP_GUIDES:  # Tier-3 content: must be in the /guides directory and its schema
         if u not in links.get("/guides", set()): gaps.append(f"{u}: not linked from /guides")
         if u not in schema_urls: gaps.append(f"{u}: not in /guides CollectionPage schema")
