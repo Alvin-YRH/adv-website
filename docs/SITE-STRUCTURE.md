@@ -70,3 +70,9 @@ Tier 3 — CONTENT (guides, data, proof; listed on /guides)
 Run from repo root to check the inbound-link graph (flags orphans):
 see the audit script pattern in git history (commit "Fix link structure"),
 or ask Claude to re-run the link audit.
+
+## Automated check (mandatory before every push that adds or renames a page)
+
+    python3 scripts/check_site_links.py
+
+Fails if any sitemap page is not linked from the homepage, has fewer than 2 inbound links, is missing from llms.txt / build_llms_full.py, or (Tier 3) is missing from the /guides directory or its CollectionPage schema. Also flags indexable .html files not in sitemap.xml.
