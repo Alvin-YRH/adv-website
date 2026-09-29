@@ -2528,7 +2528,6 @@
       const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       const desktop = window.matchMedia('(min-width: 901px)');
       if (reduce) { root.classList.add('hm-still'); return; }
-      root.classList.add('hm-live');
       const DUR = 3200, END = 5200;
       let i = -1, timer = null, visible = true;
       function countUp(el) {
@@ -2550,6 +2549,7 @@
         return d;
       }
       function step() {
+        root.classList.add('hm-live');
         if (i >= 0 && scenes[i]) scenes[i].classList.add('out');
         i = (i + 1) % scenes.length;
         const d = show(i);
