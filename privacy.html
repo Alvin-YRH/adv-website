@@ -949,7 +949,7 @@
     .legal-lang { display: flex; gap: 10px; margin: 0 0 48px; }
     .legal-lang a { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; color: var(--black); border: 1px solid rgba(13,13,13,0.2); padding: 8px 14px; }
     .legal-lang a:hover, .legal-lang a:focus-visible { background: var(--black); color: var(--cream); }
-    .legal section { padding-top: 8px; }
+    .legal section { padding-top: 8px; scroll-margin-top: 110px; }
     .legal h2 { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 28px; color: var(--black); margin: 48px 0 12px; }
     .legal h3 { font-family: 'DM Sans', sans-serif; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--black); margin: 32px 0 8px; }
     .legal p, .legal li { font-size: 15.5px; line-height: 1.8; }
@@ -1001,10 +1001,10 @@
     <p class="legal-label">PDPA · Malaysia &amp; Singapore</p>
     <h1>Privacy Notice</h1>
     <p class="legal-meta">ADV Digital Marketing · SSM 202603036290 (AS0509730-W)<br>Effective and last updated: 29 September 2026</p>
-    <nav class="legal-lang" aria-label="Language">
+    <div class="legal-lang" role="navigation" aria-label="Language">
       <a href="#en" hreflang="en">English</a>
       <a href="#bm" hreflang="ms">Bahasa Melayu</a>
-    </nav>
+    </div>
 
       <section id="en" lang="en">
         <div class="legal-box"><p><strong>In short:</strong> this website uses Google Analytics to understand visits. We only collect your name and contact details if you message us. We use client data only to run your campaigns, we never sell personal data, and you can ask to see, correct or delete what we hold at any time.</p></div>
