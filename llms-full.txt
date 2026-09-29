@@ -299,6 +299,21 @@ Research
 Sourced 2026 figures on ad spend, social, e-commerce and AI adoption — free to cite.
 →
 
+Guide
+SEO vs AEO vs GEO: Get Cited by AI
+Why ChatGPT and AI Overviews skip most Malaysian sites, and the four layers that fix it.
+→
+
+Proof
+Live Results Board
+Anonymised client cost-per-lead and ROAS, updated weekly. The misses stay up too.
+→
+
+Directory
+All Guides & Resources
+Every guide, pricing page and data resource, grouped by channel.
+→
+
 Why ADV
 
 ### Built for businesses that are serious about growth.
@@ -1635,6 +1650,146 @@ Live Results Board
 
 
 ==============================================================================
+# SEO vs AEO vs GEO in Malaysia — Guide
+URL: https://advmarketing.biz/seo-aeo-geo-malaysia
+==============================================================================
+
+SEO vs AEO vs GEO Malaysia — Get Found & Cited by AI | ADV
+
+← All guides & resources
+
+SEO · AEO · GEO · 2026 Guide
+
+## Found on Google. Cited by AI.
+
+Your customers now ask ChatGPT and Google's AI Overviews before they ever see a list of links. This is how SEO, AEO and GEO fit together, why AI skips most Malaysian websites, and the four layers we build so a business gets ranked and named — with the numbers from doing it.
+
+Get a Free AI Visibility Check
+Read the Guide
+
+"Ranking gets you listed. Being cited gets you chosen."
+
+The short answer
+
+SEO gets your page ranked in Google's links. AEO gets your answer lifted into the reply — featured snippets and AI Overviews. GEO gets your brand named inside ChatGPT, Perplexity and Gemini. They are layers of one job, not three separate services.
+
+AI engines retrieve from search indexes — Google's, and largely Bing's for ChatGPT search — so a page that cannot rank is rarely cited. What decides who gets picked is whether the content is crawlable, answers the question directly, comes from a business the engine can recognise, and contains something specific enough to cite.
+
+Realistic timeline: technical fixes in days, Google positions over 4–8 weeks, AI citations measured monthly against a fixed question set.
+
+Why AI skips most sites
+
+### Ranking is not the same as being named.
+
+The same business, the same 20 questions a buyer would ask — and a different answer from every engine. Four gaps explain most of the difference.
+
+#### 1. AI crawlers are blocked
+
+Often by accident — an old robots.txt rule, or a hosting default. Cloudflare offers an AI-crawler block during setup; we found it switched on while moving our own site in September 2026.
+
+#### 2. The answer is buried
+
+Answer engines lift a paragraph, not a page. If the direct answer sits under three paragraphs of brand story, a competitor's clearer sentence gets used instead.
+
+#### 3. The business isn't an entity
+
+No Organization schema, a different name on Google Business Profile, directories and socials. If an AI can't be sure who you are, it names someone it is sure about.
+
+#### 4. Nothing worth citing
+
+"Award-winning, results-driven" gives an AI nothing to quote. Specific, dated, sourced numbers do — it's why our statistics page reached page 1 before any of our service pages.
+
+What we build
+
+### Four layers. Crawlable first.
+
+The four layers, in order
+
+Layer 1 — Crawlable. Allow search and AI crawlers in robots.txt, publish an llms.txt file, make sure pages render without JavaScript, and submit the sitemap to both Google Search Console and Bing Webmaster Tools. ChatGPT search leans heavily on Bing's index, so Bing is not optional.
+
+Layer 2 — Answerable. Put a direct two-to-three-sentence answer at the top of every page, use question-shaped headings, and add FAQ and HowTo schema that matches the visible text word for word. Every guide on this site opens with a "short answer" box for exactly this reason.
+
+Layer 3 — Recognisable. Build one entity graph — Organization and Person schema linked with sameAs to LinkedIn, Google Business Profile and directories — and keep the business name, address and phone identical everywhere.
+
+Layer 4 — Citable. Publish original, dated, sourced data — statistics pages, published results, expert quotes in the press — then measure a fixed question set every month. Our Malaysia statistics page and Live Results Board are both built to be quoted.
+
+What this has produced
+
+5 weeks
+
+To move our own site from an average Google position of ~60 to ~12, Aug → Sep 2026
+
+Page 1
+
+For our statistics research page — 154 impressions in one week at position 6
+
+13 / 20
+
+Buying-intent questions where Perplexity names our healthcare client
+
+20 / 20
+
+Of those questions now show a Google AI Overview above the links
+
+Common questions
+
+### What Malaysian businesses ask about AI search.
+
+The questions we hear most from owners who've noticed customers asking ChatGPT instead of Google.
+
+What is the difference between SEO, AEO and GEO?
++
+
+SEO gets your page ranked in Google's list of links. AEO (answer engine optimisation) gets your answer lifted straight into the reply — featured snippets, Google AI Overviews and voice answers. GEO (generative engine optimisation) gets your brand named and cited inside ChatGPT, Perplexity, Gemini and Google's AI Mode. They are layers of the same job, not alternatives.
+
+Do I still need SEO if customers ask ChatGPT instead of Google?
++
+
+Yes. AI answer engines retrieve from search indexes — Google's for AI Overviews, and largely Bing's for ChatGPT search — so a page that cannot rank is rarely cited. SEO is the entry ticket; AEO and GEO decide whether you are the source that gets picked.
+
+Should I block AI crawlers from my website?
++
+
+Not if you want to be recommended. Blocking GPTBot, ClaudeBot or PerplexityBot removes you from the answers those tools give. Check your robots.txt and your hosting or CDN settings — Cloudflare offers an AI-crawler block toggle during setup that is easy to leave on by accident.
+
+How long does AEO and GEO take in Malaysia?
++
+
+Technical fixes — crawler access, llms.txt, schema, answer blocks — take days. Google positions typically move over 4 to 8 weeks; our own site went from an average position of about 60 to about 12 in five weeks. AI citations shift more unevenly, which is why we re-test a fixed question set every month.
+
+How do you measure AI visibility?
++
+
+A fixed set of 20 buying-intent questions is run through ChatGPT, Perplexity and Google every month, recording whether the brand is named and in what position. Alongside that, AI referral traffic (chatgpt.com, perplexity.ai) is tracked as its own channel in Google Analytics.
+
+Can I do AEO and GEO myself?
++
+
+The first two layers, yes: open your site to crawlers, and put a clear two-to-three-sentence answer at the top of every important page. Building a recognisable entity and earning citations from original data and press takes longer and benefits from someone doing it every week.
+
+Get started
+
+### Does AI recommend you, or a competitor?
+
+Send us your website and five questions your customers ask. We'll run them through ChatGPT, Perplexity and Google and show you who gets named — you or someone else. Free, and the findings are yours either way.
+
+Message us on WhatsApp
+
+We typically respond within 2 business hours.
+
+Related pages
+
+SEO, AEO & GEO Service
+→
+
+Malaysia Statistics 2026
+→
+
+Live Results Board
+→
+
+
+==============================================================================
 # SEO Agency Kuala Lumpur — SEO, AEO & GEO
 URL: https://advmarketing.biz/seo-agency-kuala-lumpur
 ==============================================================================
@@ -1714,7 +1869,7 @@ The Three Layers
 
 ### How modern search visibility is built.
 
-ADV doesn't treat SEO, AEO, and GEO as separate services. They are three compounding layers of the same visibility strategy — each one amplifying the others.
+ADV doesn't treat SEO, AEO, and GEO as separate services. They are three compounding layers of the same visibility strategy — each one amplifying the others. Read the full guide: SEO vs AEO vs GEO in Malaysia →
 
 01
 
@@ -1770,7 +1925,7 @@ Technical SEO fixes typically take 2–4 weeks to be indexed and reflect improve
 What's AEO and why does it matter now?
 +
 
-AEO (Answer Engine Optimisation) structures your content so AI tools like ChatGPT, Perplexity, and Google Gemini can extract and cite your brand as the answer to relevant questions. As more searches now begin inside AI tools rather than traditional search, being cited there is becoming as important as ranking on Google. ADV implements AEO through structured FAQ content, entity definition pages, and JSON-LD schema markup.
+AEO (Answer Engine Optimisation) structures your content so AI tools like ChatGPT, Perplexity, and Google Gemini can extract and cite your brand as the answer to relevant questions. As more searches now begin inside AI tools rather than traditional search, being cited there is becoming as important as ranking on Google. ADV implements AEO through structured FAQ content, entity definition pages, and JSON-LD schema markup. The SEO vs AEO vs GEO guide walks through how it works.
 
 What's GEO?
 +
@@ -2216,6 +2371,24 @@ RM55.16
 
 CPA on medical search — healthcare account, last 30 days
 
+Category · SEO, AEO & GEO
+
+### Search & AI visibility
+
+How Malaysian businesses get ranked on Google and named by ChatGPT, Perplexity and AI Overviews.
+
+Guide
+
+#### SEO vs AEO vs GEO in Malaysia
+
+What each one is, why AI skips most sites, and the four layers that get a business found on Google and cited by AI — with measured results.
+
+Service
+
+#### SEO, AEO & GEO Service
+
+What we run for clients — technical SEO, answer-ready content, entity building and monthly AI-citation tracking.
+
 Category · Data & Transparency
 
 ### Numbers we publish.
@@ -2232,7 +2405,7 @@ Research
 
 #### Malaysia Digital Marketing Statistics 2026
 
-68 verified, sourced statistics on Malaysian ad spend, social media penetration, e-commerce growth, and AI adoption.
+72 verified, sourced statistics on Malaysian ad spend, social media penetration, e-commerce growth, and AI adoption.
 
 Get started
 

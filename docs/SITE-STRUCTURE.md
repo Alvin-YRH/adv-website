@@ -26,6 +26,7 @@ Tier 3 — CONTENT (guides, data, proof; listed on /guides)
   /google-ads-malaysia                 (guide → supports Google service)
   /google-ads-malaysia                 (guide → supports Google service)
   /meta-ads-pricing-malaysia           (pricing → supports Meta service)
+  /seo-aeo-geo-malaysia                (guide → supports SEO service)
   /live-results                        (proof; also Tier 1 via nav)
   /malaysia-digital-marketing-statistics-2026  (research asset)
 ```
