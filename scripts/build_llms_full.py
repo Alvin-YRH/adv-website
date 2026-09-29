@@ -24,6 +24,7 @@ PAGES = [
     ("meta-ads-pricing-malaysia.html", "https://advmarketing.biz/meta-ads-pricing-malaysia", "Meta Ads Pricing Malaysia 2026"),
     ("google-ads-agency-malaysia.html", "https://advmarketing.biz/google-ads-agency-malaysia", "Google Ads Agency Malaysia — Service"),
     ("google-ads-malaysia.html", "https://advmarketing.biz/google-ads-malaysia", "Google Ads Malaysia — Account Takeover Guide"),
+    ("seo-aeo-geo-malaysia.html", "https://advmarketing.biz/seo-aeo-geo-malaysia", "SEO vs AEO vs GEO in Malaysia — Guide"),
     ("seo-agency-kuala-lumpur.html", "https://advmarketing.biz/seo-agency-kuala-lumpur", "SEO Agency Kuala Lumpur — SEO, AEO & GEO"),
     ("ai-marketing-automation-malaysia.html", "https://advmarketing.biz/ai-marketing-automation-malaysia", "AI Marketing Automation Malaysia"),
     ("live-results.html", "https://advmarketing.biz/live-results", "Live Results Board — Client Performance Data"),
