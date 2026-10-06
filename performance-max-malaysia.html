@@ -1286,6 +1286,15 @@
       .pm-bar { transform: scaleX(1); }
       .in-view .pm-flow, .in-view .pm-layer, .in-view .pm-tag, .in-view .pm-bar, .in-view .pm-val { animation: none; }
     }
+
+    /* ── Mobile figure variants (<=600px): narrow-column SVGs replace the wide desktop SVGs ── */
+    .figure-wrap svg.fig-mob { display: none; }
+    .mf-lab  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 13px; fill: currentColor; }
+    .mf-note { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 12px; fill: #9A9490; }
+    @media (max-width: 600px) {
+      .figure-wrap svg.fig-desk { display: none; }
+      .figure-wrap svg.fig-mob { display: block; min-width: 0; width: 100%; height: auto; }
+    }
   </style>
 </head>
 <body>
@@ -1376,7 +1385,7 @@
       <div class="figure">
         <p class="figure-label">One budget, six channels, one control layer</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 800 310" role="img" aria-labelledby="pmflowT pmflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 800 310" role="img" aria-labelledby="pmflowT pmflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <title id="pmflowT">How a Performance Max budget flows to Google's channels, then gets filtered by exclusions</title>
   <desc id="pmflowD">A single monthly budget on the left splits into six lines flowing to Search, Maps, YouTube, Discover, Gmail and the Display Network on the right. A gold control layer then appears across the lines. On the Search line it is labelled brand exclusions and negative keywords. On the YouTube and Display lines it is labelled placement exclusions.</desc>
   <rect x="20" y="122" width="150" height="62" fill="#0D0D0D" rx="2"/>
@@ -1409,6 +1418,42 @@
     <text x="442" y="260">placement exclusions</text>
   </g>
   <text x="20" y="304" font-family="'DM Sans',sans-serif" font-size="10" fill="#9A9490">Negatives work on Search and Shopping inventory. Placement exclusions cover Display and YouTube. Sources: Google Ads Help, 2026.</text>
+</svg>
+<svg class="fig-mob" viewBox="0 0 320 456" role="img" aria-labelledby="pmflowTm pmflowDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="pmflowTm">How a Performance Max budget flows to Google's channels, then gets filtered by exclusions</title>
+  <desc id="pmflowDm">A single monthly budget on the left splits into six lines flowing to Search, Maps, YouTube, Discover, Gmail and the Display Network on the right. A gold control layer then appears across the lines. On the Search line it is labelled brand exclusions and negative keywords. On the YouTube and Display lines it is labelled placement exclusions.</desc>
+  <rect x="0" y="0" width="150" height="60" fill="#0D0D0D" rx="2"/>
+  <text x="75" y="29" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="19" font-weight="600" fill="#FAF8F3">One budget</text>
+  <text x="75" y="47" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">RM a month</text>
+  <path d="M30 60 L30 95 Q30 109 44 109 L130 109" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d1"/>
+  <path d="M30 60 L30 155 Q30 169 44 169 L130 169" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d2"/>
+  <path d="M30 60 L30 199 Q30 213 44 213 L130 213" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d3"/>
+  <path d="M30 60 L30 259 Q30 273 44 273 L130 273" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d4"/>
+  <path d="M30 60 L30 303 Q30 317 44 317 L130 317" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d5"/>
+  <path d="M30 60 L30 347 Q30 361 44 361 L130 361" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d6"/>
+  <g font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">
+    <rect x="130" y="92" width="190" height="50" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="113">Search</text>
+    <rect x="130" y="152" width="190" height="34" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="173">Maps</text>
+    <rect x="130" y="196" width="190" height="50" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="217">YouTube</text>
+    <rect x="130" y="256" width="190" height="34" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="277">Discover</text>
+    <rect x="130" y="300" width="190" height="34" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="321">Gmail</text>
+    <rect x="130" y="344" width="190" height="50" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="365">Display Network</text>
+  </g>
+  <g class="pm-layer">
+    <rect x="88" y="94" width="12" height="280" fill="#D4A853" opacity="0.9"/>
+    <text x="94" y="84" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="12" letter-spacing="1" fill="#0D0D0D">CONTROL LAYER</text>
+  </g>
+  <g class="pm-tag" font-family="'DM Sans',sans-serif" font-size="12" fill="#2B2B2B">
+    <circle cx="94" cy="109" r="5" fill="#0D0D0D"/>
+    <text x="142" y="131">brand exclusions + negatives</text>
+    <circle cx="94" cy="213" r="5" fill="#0D0D0D"/>
+    <text x="142" y="235">placement exclusions</text>
+    <circle cx="94" cy="361" r="5" fill="#0D0D0D"/>
+    <text x="142" y="383">placement exclusions</text>
+  </g>
+  <text x="0" y="416" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">Negatives work on Search and Shopping inventory.</text>
+  <text x="0" y="432" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">Placement exclusions cover Display and YouTube.</text>
+  <text x="0" y="448" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">Sources: Google Ads Help, 2026.</text>
 </svg>
         </div>
       </div>
@@ -1486,7 +1531,7 @@
       <div class="figure">
         <p class="figure-label">Why we split by service line</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 720 160" role="img" aria-labelledby="pmsplitT pmsplitD" style="width:100%; height:auto; max-width:720px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 720 160" role="img" aria-labelledby="pmsplitT pmsplitD" style="width:100%; height:auto; max-width:720px;" xmlns="http://www.w3.org/2000/svg">
   <title id="pmsplitT">Cost per conversion by campaign, healthcare group, 30 days to 24 September 2026</title>
   <desc id="pmsplitD">Two horizontal bars. The newer service line campaign cost RM59 per conversion. The main Search campaign cost RM83 per conversion. Neither was a Performance Max campaign.</desc>
   <text x="0" y="16" class="af-axis">Cost per conversion, healthcare group, 30 days to 24 Sep 2026</text>
@@ -1499,6 +1544,22 @@
   <rect x="0" y="108" width="600" height="14" rx="7" fill="#0D0D0D" class="pm-bar"/>
   <text x="610" y="120" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="pm-val">RM83</text>
   <text x="0" y="150" class="af-axis">Separate campaigns by service line. Not Performance Max results.</text>
+</svg>
+<svg class="fig-mob" viewBox="0 0 320 180" role="img" aria-labelledby="pmsplitTm pmsplitDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="pmsplitTm">Cost per conversion by campaign, healthcare group, 30 days to 24 September 2026</title>
+  <desc id="pmsplitDm">Two horizontal bars. The newer service line campaign cost RM59 per conversion. The main Search campaign cost RM83 per conversion. Neither was a Performance Max campaign.</desc>
+  <text x="0" y="14" class="mf-note">Cost per conversion, healthcare group,</text>
+  <text x="0" y="30" class="mf-note">30 days to 24 Sep 2026</text>
+  <text x="0" y="58" class="mf-lab">Newer service line campaign</text>
+  <rect x="0" y="66" width="260" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="66" width="184.6" height="14" rx="7" fill="#D4A853" class="pm-bar"/>
+  <text x="194.6" y="78" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="pm-val">RM59</text>
+  <text x="0" y="110" class="mf-lab">Main Search campaign</text>
+  <rect x="0" y="118" width="260" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="118" width="260" height="14" rx="7" fill="#0D0D0D" class="pm-bar"/>
+  <text x="270" y="130" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="pm-val">RM83</text>
+  <text x="0" y="158" class="mf-note">Separate campaigns by service line.</text>
+  <text x="0" y="174" class="mf-note">Not Performance Max results.</text>
 </svg>
         </div>
       </div>

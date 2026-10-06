@@ -1241,6 +1241,15 @@
       .in-view .cf-clicks, .in-view .cf-bar, .in-view .cf-ghost, .in-view .cf-rep, .in-view .cf-real, .in-view .cf-strike, .in-view .pr-line { animation: none; }
     }
 
+    /* ── Mobile figure variants (<=600px): narrow-column SVGs replace the desktop SVGs ── */
+    .anim-fig svg.fig-mob { display: none; }
+    .mf-lab  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 13px; fill: currentColor; }
+    .mf-note { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 12px; fill: #9A9490; }
+    @media (max-width: 600px) {
+      .anim-fig svg.fig-desk { display: none; }
+      .anim-fig svg.fig-mob { display: block; }
+    }
+
     @media (max-width: 1024px) {
       #guide { padding: 72px 32px 24px; }
     }
@@ -1331,7 +1340,7 @@
         <figure class="guide-fig">
           <p class="figure-label">Same account, two ways of counting</p>
           <div class="anim-fig">
-<svg viewBox="0 0 400 165" role="img" aria-labelledby="cfT cfD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 400 165" role="img" aria-labelledby="cfT cfD" xmlns="http://www.w3.org/2000/svg">
   <title id="cfT">Reported conversions inflated by page views, then the real enquiry count</title>
   <desc id="cfD">An illustrative account with RM3,000 spend and 1,000 ad clicks. A gold bar for reported conversions grows to 400 when contact page views are counted, which looks like RM7.50 per conversion. The bar then drops to 40 real enquiries, which is RM75 per lead.</desc>
   <text x="0" y="14" class="af-label">Ad clicks</text>
@@ -1347,6 +1356,24 @@
   <text x="0" y="110" class="af-label cf-real" font-weight="600">40 real enquiries · RM75 each</text>
   <text x="0" y="140" class="af-axis">Illustrative numbers. Same spend, same clicks.</text>
   <text x="0" y="156" class="af-axis">Smart Bidding optimises to whichever count you give it.</text>
+</svg>
+<svg class="fig-mob" viewBox="0 0 300 192" role="img" aria-labelledby="cfTm cfDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="cfTm">Reported conversions inflated by page views, then the real enquiry count</title>
+  <desc id="cfDm">An illustrative account with RM3,000 spend and 1,000 ad clicks. A gold bar for reported conversions grows to 400 when contact page views are counted, which looks like RM7.50 per conversion. The bar then drops to 40 real enquiries, which is RM75 per lead.</desc>
+  <text x="0" y="14" class="mf-lab">Ad clicks</text>
+  <text x="300" y="14" text-anchor="end" class="mf-note">1,000 clicks · RM3,000 spend</text>
+  <rect x="0" y="22" width="300" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="22" width="300" height="14" rx="7" fill="#2B2B2B" class="cf-clicks"/>
+  <text x="0" y="62" class="mf-lab">Conversions reported to Smart Bidding</text>
+  <text x="300" y="80" text-anchor="end" class="mf-note cf-rep">400 counted · RM7.50 each</text>
+  <line x1="147" y1="76" x2="300" y2="76" stroke="#0D0D0D" stroke-width="1.2" pathLength="1" class="cf-strike"/>
+  <rect x="0" y="88" width="300" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="88" width="120" height="14" rx="7" fill="none" stroke="#9A9490" stroke-width="1" stroke-dasharray="3 3" class="cf-ghost"/>
+  <rect x="0" y="88" width="120" height="14" rx="7" class="cf-bar"/>
+  <text x="0" y="126" class="mf-lab cf-real" font-weight="600">40 real enquiries · RM75 each</text>
+  <text x="0" y="156" class="mf-note">Illustrative numbers. Same spend, same clicks.</text>
+  <text x="0" y="172" class="mf-note">Smart Bidding optimises to whichever count</text>
+  <text x="0" y="188" class="mf-note">you give it.</text>
 </svg>
           </div>
         </figure>
@@ -1387,7 +1414,7 @@
         <figure class="guide-fig">
           <p class="figure-label">Where each conversion action goes</p>
           <div class="anim-fig">
-<svg viewBox="0 0 400 252" role="img" aria-labelledby="prT prD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 400 252" role="img" aria-labelledby="prT prD" xmlns="http://www.w3.org/2000/svg">
   <title id="prT">Primary conversion actions feed bidding, secondary actions are observation only</title>
   <desc id="prD">Form submit, WhatsApp click and call button click connect to a primary box: reported in the Conversions column and used for bidding. Contact page view connects to a secondary box: reported in All conversions and not used for bidding.</desc>
   <rect x="250" y="14" width="150" height="118" rx="2" fill="#FAF8F3" stroke="#D4A853" stroke-width="1.5"/>
@@ -1419,6 +1446,41 @@
   <path d="M170 117 C210 117 210 88 250 88" fill="none" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="pr-line pr-l3"/>
   <path d="M170 191 C210 191 210 196 250 196" fill="none" stroke="#9A9490" stroke-width="1.2" pathLength="1" class="pr-line pr-l4"/>
   <text x="0" y="248" class="af-axis">Exception: a secondary action inside a custom goal is used for bidding.</text>
+</svg>
+<svg class="fig-mob" viewBox="0 0 300 302" role="img" aria-labelledby="prTm prDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="prTm">Primary conversion actions feed bidding, secondary actions are observation only</title>
+  <desc id="prDm">Form submit, WhatsApp click and call button click connect to a primary box: reported in the Conversions column and used for bidding. Contact page view connects to a secondary box: reported in All conversions and not used for bidding.</desc>
+  <rect x="164" y="14" width="136" height="118" rx="2" fill="#FAF8F3" stroke="#D4A853" stroke-width="1.5"/>
+  <text x="176" y="44" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Primary</text>
+  <text x="176" y="70" class="mf-note">Conversions column</text>
+  <text x="176" y="88" class="mf-note">Used for bidding</text>
+  <rect x="164" y="160" width="136" height="96" rx="2" fill="#FAF8F3" stroke="#9A9490" stroke-width="1.2"/>
+  <text x="176" y="186" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Secondary</text>
+  <text x="176" y="206" class="mf-note">All conversions</text>
+  <text x="176" y="222" class="mf-note">column</text>
+  <text x="176" y="240" class="mf-note">Not used for bidding</text>
+  <g class="fstep fstep-1">
+    <rect x="0" y="14" width="134" height="30" rx="15" fill="#FAF8F3" stroke="#0D0D0D" stroke-width="1"/>
+    <text x="12" y="33" class="mf-lab">Form submit</text>
+  </g>
+  <g class="fstep fstep-2">
+    <rect x="0" y="58" width="134" height="30" rx="15" fill="#FAF8F3" stroke="#0D0D0D" stroke-width="1"/>
+    <text x="12" y="77" class="mf-lab">WhatsApp click</text>
+  </g>
+  <g class="fstep fstep-3">
+    <rect x="0" y="102" width="134" height="30" rx="15" fill="#FAF8F3" stroke="#0D0D0D" stroke-width="1"/>
+    <text x="12" y="121" class="mf-lab">Call button click</text>
+  </g>
+  <g class="fstep fstep-4">
+    <rect x="0" y="176" width="134" height="30" rx="15" fill="#FAF8F3" stroke="#9A9490" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="12" y="195" class="mf-lab" fill="#9A9490">Contact page view</text>
+  </g>
+  <path d="M134 29 C149 29 149 58 164 58" fill="none" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="pr-line pr-l1"/>
+  <path d="M134 73 C149 73 149 73 164 73" fill="none" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="pr-line pr-l2"/>
+  <path d="M134 117 C149 117 149 88 164 88" fill="none" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="pr-line pr-l3"/>
+  <path d="M134 191 C149 191 149 200 164 200" fill="none" stroke="#9A9490" stroke-width="1.2" pathLength="1" class="pr-line pr-l4"/>
+  <text x="0" y="280" class="mf-note">Exception: a secondary action inside a custom</text>
+  <text x="0" y="296" class="mf-note">goal is used for bidding.</text>
 </svg>
           </div>
         </figure>
