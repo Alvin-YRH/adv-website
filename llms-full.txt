@@ -29,7 +29,7 @@ Boutique Performance Marketing · Kuala Lumpur
 
 ## The Unfair Marketing Advantage.
 
-ADV Digital Marketing is a boutique B2B performance marketing agency founded by Alvin Yap, based in Kuala Lumpur, Malaysia. We build and operate full marketing infrastructure for SMEs and growth-stage businesses — paid media across Meta, Google, and TikTok, AI-powered automation, SEO, AEO, GEO, content, and data systems — primarily on a profit-sharing model.
+ADV Digital Marketing is a boutique B2B performance marketing agency founded by Alvin Yap, based in Kuala Lumpur, Malaysia. We build and operate full marketing infrastructure for SMEs and growth-stage businesses — paid media across Meta, Google, and TikTok, AI-powered automation, SEO, AEO, GEO, content, and data systems. We charge a monthly management fee, with profit sharing for selected clients.
 
 Start the conversation
 See what we build
@@ -91,7 +91,7 @@ SEO · AEO · GEO
 Social Media
 Website Development
 Data Analytics
-Profit-Sharing Model
+Outcome-Linked Partnership
 
 Paid Media
 Meta Ads
@@ -104,7 +104,7 @@ SEO · AEO · GEO
 Social Media
 Website Development
 Data Analytics
-Profit-Sharing Model
+Outcome-Linked Partnership
 
 A
 
@@ -122,7 +122,7 @@ V
 
 Advocate
 
-A partner invested in outcomes — not a vendor chasing retainers. We grow when you grow.
+A partner invested in outcomes, with targets agreed up front. We grow when you grow.
 
 What we build
 
@@ -132,7 +132,7 @@ Most agencies sell you deliverables. ADV builds the system your marketing runs o
 
 #### Paid Advertising
 
-Meta, Google, TikTok, LinkedIn — built for conversion, not just clicks. Full-funnel strategy, creative, and optimisation managed as a single system.
+Meta, Google, TikTok — built for conversion, not just clicks. Full-funnel strategy, creative, and optimisation managed as a single system.
 
 Meta Ads →
 Google Ads →
@@ -153,9 +153,9 @@ Strategic content that positions your brand as the authority in your market — 
 
 Long-term compounding growth through search. Technical SEO, content strategy, and link architecture built for durable rankings.
 
-#### Profit-Sharing Model
+#### Outcome-Linked Partnership
 
-We operate as an extension of your business — with skin in the game. Our model aligns incentives so we only win when you do.
+We operate as an extension of your business. We agree measurable targets at the start and report against them weekly. For selected clients, part of the fee is tied to those targets.
 
 ### How we work.
 
@@ -206,7 +206,7 @@ lead volume growth 1,336 → 6,586 leads/month
 45%
 CPL reduction · RM4.40 → RM2.41
 
-12-month Google Search + PMAX campaign. Scaled budget from RM5.9K to RM20K/month while consistently improving cost efficiency — CPL stayed below RM4 throughout.
+12-month Google Search + PMAX campaign. Budget scaled from RM5,000 to RM20,000 a month while CPL fell from RM4.40 to RM2.41.
 
 Meta · Google · TikTok · E-commerce
 Fashion & Retail (Ramadan)
@@ -228,7 +228,7 @@ CPL reduction in 30 days
 RM16.60
 CPL · down from RM37.40
 
-Meta lead gen overhauled in a single month. Leads grew so fast the client paused — not because of poor performance, but because fulfillment couldn't keep up.
+Meta lead gen overhauled in a single month. Leads grew faster than fulfillment could keep up, so the campaign was paused for capacity, not performance. The engagement continued.
 
 Meta Ads · Lead Gen
 Beauty & Wellness
@@ -239,7 +239,7 @@ CPL reduction over 3 months
 RM14.04
 CPL in month 3 · target ≤RM15 ✓
 
-Beauty clinic on RM1,500–1,800/month. CPL dropped from RM22 to RM14.04 hitting the client's target. Best creative delivered RM9.46/conversion and built a 30K+ warm retargeting pool.
+Beauty clinic on RM1,500 to RM1,800 a month. CPL dropped from RM22 to RM14.04, hitting the client's target. Best creative delivered RM9.46 per conversion and built a 30K+ warm retargeting pool. The engagement ended in September 2026. Final figures are on the Live Results Board .
 
 Meta Ads · Brand Awareness
 Food & Beverage
@@ -250,7 +250,7 @@ unique people reached across Ampang–KL corridor
 RM1.41
 blended CPM · RM0.016/video view
 
-Two F&B brands, combined RM1,000 budget. 317,000 people reached. RM0.016 per video view — among the most cost-efficient brand awareness results in the Malaysian F&B market.
+Two F&B brands, combined RM1,000 budget. 317,000 people reached. RM0.016 per video view, a very low awareness cost in our accounts.
 
 Meta Ads · Multi-Objective
 Media & Content Production
@@ -333,7 +333,7 @@ Why ADV
 
 ### Built for businesses that are serious about growth.
 
-We're not a retainer shop. We're a dedicated marketing partner that builds and operates your entire marketing wing — so you can focus on running your business.
+We're a dedicated marketing partner that builds and operates your entire marketing wing, so you can focus on running your business. We agree measurable targets at the start and report against them weekly.
 
 B2B
 
@@ -349,7 +349,7 @@ Infrastructure built
 
 Aligned
 
-Profit-sharing model
+Outcome-linked partnership
 
 "ADV didn't just grow our pipeline — they rebuilt how we think about marketing entirely."
 
@@ -357,7 +357,7 @@ Profit-sharing model
 
 Our model
 
-Profit-sharing partnerships
+Outcome-linked partnership
 
 Our edge
 
@@ -380,12 +380,12 @@ If your question isn't here, message us on WhatsApp — we reply fast.
 How is ADV different from other digital marketing agencies in Malaysia?
 +
 
-ADV differs in three ways: profit-sharing model (our fees are tied to your results, not a fixed retainer), full-stack infrastructure (we build the system — CRM, automation, attribution, reporting — not just the campaigns), and AI-powered execution (we use AI tools to scale output and reduce cost per lead). Past results include a 17.3× blended ROAS for a fashion e-commerce client, 393% lead volume growth for an insurance platform, and a 56% CPL reduction in 30 days for a B2B services client.
+ADV differs in three ways: outcome-aligned work (we agree measurable targets at the start and report against them weekly, and for selected clients part of the fee is tied to those targets), full-stack infrastructure (we build the system — CRM, automation, attribution, reporting — not just the campaigns), and AI-powered execution (we use AI tools to scale output and reduce cost per lead). Past results include a 17.3× blended ROAS for a fashion e-commerce client, 393% lead volume growth for an insurance platform, and a 56% CPL reduction in 30 days for a B2B services client.
 
-How does the profit-sharing model work?
+How do your fees work?
 +
 
-Instead of charging a fixed retainer regardless of results, ADV structures engagements around shared outcomes. We agree on measurable targets — such as cost per lead, ROAS, or revenue — at the start, and compensation is tied to hitting them. The specific split varies by client and campaign type. Contact us via WhatsApp at +60163343549 or email sales@advmarketing.biz to explore what model fits your business.
+ADV charges a monthly management fee. Management fees start from RM800 a month, depending on objective and account size. We agree measurable targets, such as cost per lead, ROAS or revenue, at the start and report against them weekly. For selected clients, part of the fee is tied to those targets through profit sharing. Message us on WhatsApp at +60 16 334 3549 or email Alvin.Yap@advmarketing.biz to talk through what fits your business.
 
 What types of businesses do you work with?
 +
@@ -400,12 +400,12 @@ Marketing infrastructure is the underlying system that makes campaigns perform �
 What is AEO and GEO, and why does it matter?
 +
 
-AEO (Answer Engine Optimisation) structures your content so AI tools like ChatGPT, Perplexity, Google Gemini, and Apple Intelligence can accurately extract and cite your business. GEO (Generative Engine Optimisation) ensures your brand appears in AI-generated summaries and Google AI Overviews. Both matter because a growing share of discovery now happens through AI rather than traditional search. ADV implements AEO and GEO through FAQ schema markup, entity definition content, and Schema.org JSON-LD structured data.
+AEO (Answer Engine Optimisation) structures your content so AI tools like ChatGPT, Perplexity, Google Gemini, and Apple Intelligence can accurately extract and cite your business. GEO (Generative Engine Optimisation) ensures your brand appears in AI-generated summaries and Google AI Overviews. Both matter because a growing share of discovery now happens through AI rather than traditional search. We implement AEO and GEO through answer-first content, entity pages and accurate structured data.
 
 What ad platforms does ADV manage?
 +
 
-ADV manages paid campaigns across Meta Ads (Facebook & Instagram), Google Ads (Search, Performance Max, Display, YouTube), and TikTok Ads. On Google, ADV has managed budgets from RM5,000 to RM20,000/month — delivering a 45% CPL drop and 393% lead growth over 12 months. On Meta, ADV has achieved up to 17.3× blended ROAS and CPL reductions of 36–56% within 1–3 months.
+ADV manages paid campaigns across Meta Ads (Facebook & Instagram), Google Ads (Search, Performance Max, Display, YouTube), and TikTok Ads. On Google, ADV has managed budgets from RM5,000 to RM20,000/month — delivering a 45% CPL drop and 393% lead growth over 12 months. On Meta, ADV has cut CPL by 36 to 56% within 1 to 3 months. A multi-channel retail campaign returned 17.3× ROAS.
 
 How long before I see results?
 +
@@ -415,7 +415,7 @@ For paid media on Meta, Google, or TikTok, measurable results appear within 2–
 What budget do I need to work with ADV?
 +
 
-ADV has worked across a wide range — from RM500 awareness campaigns for F&B brands to RM20,000/month performance campaigns for fintech clients. For paid media, a minimum ad spend of RM1,500–2,000/month is recommended to generate enough data for optimisation. ADV's profit-sharing model also allows flexible fee arrangements tied to results. Contact us via WhatsApp at +60163343549 to discuss what fits your business.
+ADV has worked across a wide range — from RM500 awareness campaigns for F&B brands to RM20,000/month performance campaigns for fintech clients. For Meta lead generation, we suggest at least RM1,500 to RM2,000 a month in ad spend. Below that, results come too slowly to judge. Management fees start from RM800 a month, depending on objective and account size. Profit sharing is available for selected clients. Contact us via WhatsApp at +60 16 334 3549 to discuss what fits your business.
 
 Do you work with businesses outside Malaysia?
 +
@@ -425,7 +425,7 @@ Yes. ADV is based in Kuala Lumpur, Malaysia, but works with clients across South
 How do I get started with ADV?
 +
 
-The fastest way is to message us on WhatsApp at +60163343549. You can also email sales@advmarketing.biz or fill out the contact form at advmarketing.biz. No formal brief needed — just tell us about your business and what you're trying to grow, and we'll respond with an honest assessment of where we can help.
+Message us on WhatsApp at +60 16 334 3549 or email Alvin.Yap@advmarketing.biz. No formal brief needed. Just tell us about your business and what you're trying to grow, and we'll respond with an honest assessment of where we can help.
 
 Work with us
 
@@ -447,7 +447,7 @@ Fastest way in
 
 Message us on WhatsApp
 
-We typically reply within a few hours. Come as you are — no brief needed to start a conversation.
+We typically reply within 2 business hours. Come as you are — no brief needed to start a conversation.
 
 or email us
 
@@ -470,7 +470,7 @@ Boutique Performance Marketing · Kuala Lumpur
 
 ## About ADV Digital Marketing
 
-ADV Digital Marketing is a B2B performance marketing agency based in Kuala Lumpur, Malaysia. Founded by Alvin Yap in 2025, ADV specialises in paid media, AI-powered marketing automation, and AI search optimisation — operating primarily on a profit-sharing model for Malaysian SMEs and growth-stage brands.
+ADV Digital Marketing is a B2B performance marketing agency based in Kuala Lumpur, Malaysia. Founded by Alvin Yap in 2025, ADV specialises in paid media, AI-powered marketing automation, and AI search optimisation, for Malaysian SMEs and growth-stage brands. We charge a monthly management fee, with profit sharing for selected clients.
 
 Note: this ADV Digital Marketing (advmarketing.biz, Kuala Lumpur, founded by Alvin Yap in 2025) is a distinct company from other, unrelated businesses that also use the name "ADV" in other markets.
 
@@ -493,7 +493,17 @@ Clients
 Malaysian SMEs & Regional Brands
 
 Model
-Profit-Sharing + Retainer
+Management fee, profit sharing for selected clients
+
+Common questions
+
+#### Is ADV Digital Marketing the same company as other businesses called ADV?
+
+No. ADV Digital Marketing at advmarketing.biz is a boutique B2B performance marketing agency based in Kuala Lumpur, Malaysia, founded by Alvin Yap in 2025. It is a distinct, unrelated company from any other business operating under the name ADV in other markets or industries.
+
+#### Who founded ADV Digital Marketing and when?
+
+ADV Digital Marketing was founded by Alvin Yap in 2025, based in Kuala Lumpur, Malaysia.
 
 What ADV is known for
 
@@ -543,7 +553,7 @@ Content & Social
 
 #### Social Media Management
 
-Strategic content calendars, copywriting, and creative direction for Instagram, Facebook, and LinkedIn — built to support paid campaigns, not exist independently of them.
+Strategic content calendars, copywriting, and creative direction for Instagram, TikTok, Facebook, and LinkedIn — built to support paid campaigns, not exist independently of them.
 
 Web
 
@@ -557,9 +567,9 @@ The Founder
 
 Founder & Marketing Strategist, ADV Digital Marketing
 
-Alvin Yap is a performance marketing strategist and the founder of ADV Digital Marketing, a full-service digital marketing agency based in Kuala Lumpur. With expertise spanning paid media, marketing automation, search engine optimisation, and AI-powered marketing systems, Alvin works with Malaysian businesses to build compounding marketing infrastructure — not just individual campaigns.
+Alvin Yap is a performance marketing strategist and the founder of ADV Digital Marketing, a boutique performance marketing agency based in Kuala Lumpur. With expertise spanning paid media, marketing automation, search engine optimisation, and AI-powered marketing systems, Alvin works with Malaysian businesses to build compounding marketing infrastructure — not just individual campaigns.
 
-Alvin's approach is defined by systems thinking: every tactic is connected to attribution, every spend is tied to measurable return, and every client engagement is structured to improve over time. ADV operates on a profit-sharing model for select clients, aligning the agency's success directly with business growth outcomes.
+Alvin's approach is defined by systems thinking: every tactic is connected to attribution, every spend is tied to measurable return, and every client engagement is structured to improve over time. ADV charges a monthly management fee. For selected clients, part of the fee is tied to agreed growth targets through profit sharing.
 
 ADV Digital Marketing is Alvin's primary platform for advancing AI-native marketing practices in Malaysia — including Answer Engine Optimisation (AEO) for ChatGPT and Perplexity, and Generative Engine Optimisation (GEO) for Google AI Overviews.
 
@@ -603,7 +613,7 @@ Get in Touch
 
 ### Work with ADV Digital Marketing
 
-We typically reply within a few hours.
+We typically reply within 2 business hours.
 
 Message us on WhatsApp →
 
@@ -623,7 +633,7 @@ Advertising in Malaysia · 2026
 
 ## What Ads Actually Cost in Malaysia
 
-Not industry averages copied from a US blog — real CPM, CPC and cost-per-lead figures measured across live Malaysian ad accounts we manage, by channel, with the budget floors each one needs to work.
+Not industry averages copied from a US blog — real CPM, CPC and cost-per-lead figures measured across past and current Malaysian client accounts, by channel, with the budget floors each one needs to work.
 
 Get a Budget Recommendation
 See the Numbers
@@ -632,9 +642,9 @@ See the Numbers
 
 The short answer
 
-In Malaysia, Meta CPMs run roughly RM1.30–15 and a qualified lead conversation costs RM7–25. Google Search CPCs run RM7.50–14 on competitive terms, with cost per acquisition from RM2.41 in high-volume categories to RM55 in specialist ones. These are figures from live accounts, not published averages.
+In Malaysia, Meta CPMs run roughly RM1.27–15 and a qualified lead conversation costs RM7 to RM25 in most accounts, above RM40 in harder verticals such as beauty. Google Search CPCs run RM7.50–14 on competitive terms, with cost per acquisition from RM2.41 in high-volume insurance to RM91.47 in specialist healthcare (30 days to 5 Oct 2026). These are figures from past and current client accounts, not published averages.
 
-The practical monthly floors: RM1,500–2,000 for Meta (below this the algorithm can't exit its learning phase) and around RM3,000 for Google Search (below this there's too little conversion data for smart bidding). Multi-channel becomes viable around RM5,000. Agency management fees sit on top of ad spend.
+RM1,500 to RM2,000 a month is our practical floor for Meta lead generation. Below it, results come too slowly to judge. In our accounts, Google Search needs around RM3,000 a month. Multi-channel becomes viable around RM5,000. Agency management fees sit on top of ad spend. Management fees start from RM800 a month, depending on objective and account size.
 
 Which to start with: Google Search if people already search for what you sell; Meta if your product needs to be shown before anyone thinks to search for it. Under RM3,000/month, run one channel properly rather than two badly.
 
@@ -642,7 +652,7 @@ By channel
 
 ### Real numbers, real accounts.
 
-Every figure below comes from a Malaysian ad account under active management, pulled from platform reporting. Ranges reflect genuine variation across industries — not hedging.
+Every figure below comes from Malaysian ad accounts we manage or have managed, pulled from platform reporting. Ranges reflect genuine variation across industries — not hedging.
 
 Channel
 What it costs
@@ -658,13 +668,13 @@ RM500–1,000
 
 Meta — lead generation Conversion-optimised
 RM7.29–24.01 per lead
-Best campaign RM7.29/conversation at 4.5% CTR; typical range RM10–15; harder verticals RM24
+Best campaign RM7.29/conversation at 4.5% CTR; typical range RM10–15. RM7 to RM25 in most accounts, above RM40 in harder verticals such as beauty.
 Service businesses, appointments, enquiries
 RM1,500–2,000
 
 Google Search High-intent capture
 CPC RM7.58–13.84
-CPA RM2.41 in high-volume insurance; RM55.11 in specialist healthcare at 15.2% CTR
+CPA RM2.41 in high-volume insurance; RM91.47 in specialist healthcare (30 days to 5 Oct 2026)
 Demand that already exists and gets searched
 RM3,000
 
@@ -688,7 +698,7 @@ Does anyone search for what you sell? If a person with your problem types it int
 
 Or does your product need to be seen first? Nobody searches for a skincare brand they've never heard of, or a restaurant that opened last week. Meta creates the demand Google later captures. Lower cost per impression, more work to convert.
 
-Under RM3,000/month, pick one. The most common mistake we see in Malaysian accounts is a RM2,000 budget split across Meta and Google, leaving both permanently stuck in a learning phase. One channel at RM2,000 beats two at RM1,000 every time — not marginally, but categorically.
+Under RM3,000/month, pick one. The most common mistake we see in Malaysian accounts is a RM2,000 budget split across Meta and Google, leaving both too thin to produce results you can judge. One channel at RM2,000 beats two at RM1,000 every time — not marginally, but categorically.
 
 Then measure honestly. Channel choice matters far less than measurement quality: an account with broken conversion tracking wastes budget identically on every platform. That's the first thing we fix in Meta takeovers and Google Ads takeovers alike.
 
@@ -696,11 +706,11 @@ Budget floors
 
 RM1.5K
 
-Meta minimum — below this, no stable optimisation
+Meta lead gen floor. Below this, results come too slowly to judge
 
 RM3K
 
-Google Search minimum for smart bidding to learn
+Google Search floor in our accounts
 
 RM5K
 
@@ -717,7 +727,7 @@ Common questions
 Straight answers on Malaysian ad costs, benchmarks and where to start.
 
 How much does advertising cost in Malaysia? +
-Meta CPMs run RM1.30–15 with lead conversations at RM7–25. Google Search CPCs run RM7.50–14 on competitive terms, with CPA from RM2.41 (high-volume insurance) to RM55 (specialist healthcare). Management fees are separate — see our pricing page .
+Meta CPMs run RM1.27–15. A lead conversation costs RM7 to RM25 in most accounts, above RM40 in harder verticals such as beauty. Google Search CPCs run RM7.50–14 on competitive terms, with CPA from RM2.41 in high-volume insurance to RM91.47 in specialist healthcare (30 days to 5 Oct 2026). Ad spend excludes management fees. Management fees start from RM800 a month, depending on objective and account size. See our pricing page .
 
 Which channel should I start with? +
 Google Search if people already search for what you sell — it captures existing intent. Meta if your product needs to be shown or explained first. Under RM3,000/month, run one channel properly rather than splitting a thin budget across both.
@@ -726,10 +736,10 @@ What's a good CPM in Malaysia? +
 On awareness campaigns, RM1.27–1.41 is achievable with broad targeting and strong creative. Conversion-optimised campaigns run RM10–15 because the algorithm bids for a narrower, higher-value audience. A rising CPM on a stable audience usually signals creative fatigue, not market conditions.
 
 Is Malaysia cheaper than Singapore or the US? +
-Substantially — Malaysian CPMs and CPCs run a fraction of comparable Singapore or US auction prices, because there are fewer advertisers competing per head of population. That makes Malaysia an efficient place to test creative before scaling into pricier regional markets.
+Substantially — Malaysian CPMs and CPCs run a fraction of comparable Singapore or US auction prices. In our view, part of the reason is that fewer advertisers compete per head of population. That makes Malaysia an efficient place to test creative before scaling into pricier regional markets.
 
 How much should an SME budget monthly? +
-RM1,500–2,000 for Meta, around RM3,000 for Google Search, RM5,000+ before multi-channel makes sense. Agency management fees sit on top, typically RM1,500–7,000/month depending on scope.
+RM1,500–2,000 for Meta lead generation, around RM3,000 for Google Search in our accounts, RM5,000+ before multi-channel makes sense. Agency management fees sit on top. Management fees start from RM800 a month, depending on objective and account size.
 
 Get started
 
@@ -798,7 +808,7 @@ AI-powered audience expansion seeded from your best customers — so Meta finds 
 
 #### Meta Shopping
 
-Catalogue ads and dynamic product ads that surface the right SKU to the right buyer at the right moment — built for Malaysian e-commerce brands.
+Catalogue ads, including Advantage+ catalog ads (formerly dynamic product ads), that surface the right SKU to the right buyer at the right moment — built for Malaysian e-commerce brands.
 
 #### Performance Reporting
 
@@ -818,7 +828,7 @@ By the numbers
 
 56%
 
-CPL cut in 30 days — B2B account rebuild (RM37.40 → RM16.60)
+CPL cut in 30 days on a B2B takeover and rebuild (RM37.40 → RM16.60)
 
 36%
 
@@ -832,7 +842,7 @@ Blended ROAS — RM321K revenue on RM18.6K seasonal spend
 
 CPL cut mid-flight via one creative pivot — new pixel account
 
-Every figure is from a named engagement on our Live Results Board — current numbers, misses included.
+Figures come from past and current client engagements. Latest numbers are on our Live Results Board .
 
 Who this is for
 
@@ -865,12 +875,12 @@ Honest answers to the things Malaysian business owners always ask before committ
 What's a realistic budget for Meta ads in Malaysia?
 +
 
-RM1,500–2,000/month minimum to get meaningful data — below that, the algorithm can't optimise effectively and you end up paying for the learning phase without ever exiting it. Most B2B and e-commerce budgets land at RM2,000–5,000/month once campaigns are proven.
+For lead generation, RM1,500 to RM2,000 a month is the practical floor in our accounts. Meta needs about 50 results a week per ad set to finish learning. On small budgets we run fewer ad sets so each one gets enough results. Most B2B and e-commerce budgets land at RM2,000–5,000/month once campaigns are proven.
 
 How long before we see results?
 +
 
-First 2–4 weeks is the learning phase. Meaningful ROAS typically shows by week 6–8 with proper creative testing. We set clear milestones at each stage so you always know what's normal and what's not.
+We allow 2 to 4 weeks before judging results, because Meta's learning phase needs about 50 results per ad set. Meaningful ROAS typically shows by week 6–8 with proper creative testing. We set clear milestones at each stage so you always know what's normal and what's not.
 
 Do you handle ad creative?
 +
@@ -885,7 +895,7 @@ Boost = paying Meta for reach. Campaign = targeting by intent, behaviour, and lo
 Do you use AI in your Meta campaigns?
 +
 
-Yes. AI-optimised bidding (Advantage+), AI content brief generation, and automated reporting are all standard in our workflow. We don't use AI as a buzzword — it's embedded in how we operate daily.
+Yes. Meta's Advantage+ automation, AI content brief generation, and automated reporting are all standard in our workflow. We don't use AI as a buzzword — it's embedded in how we operate daily.
 
 What industries do you work with in Malaysia?
 +
@@ -942,7 +952,7 @@ Most underperforming Facebook ad accounts in Malaysia fail on measurement, not t
 
 A proper account takeover runs in four steps: audit the account before changing it, repair measurement before spending, keep winning ad sets live while rebuilding the structure in parallel, then run a weekly creative-testing cadence. Pausing everything on day one is the most common and most expensive mistake, because it discards the learning the account has already paid for.
 
-Realistic outcome: cost-per-lead reductions of 30–56% within 30–90 days of a correctly executed takeover. Minimum viable ad spend in Malaysia is RM1,500–2,000/month.
+Realistic outcome: cost-per-lead reductions of 30–56% within 30–90 days of a correctly executed takeover. For lead generation, the practical ad spend floor in our accounts is RM1,500 to RM2,000 a month.
 
 Why accounts underperform
 
@@ -960,7 +970,7 @@ Months of "Boost Post" spend optimised for engagement, not revenue. Boosting buy
 
 #### 3. Learning-phase churn
 
-Every edit or restart sends the account back to the start of learning — it never graduates. A RM3,000/month account stuck in learning loses to a stable RM1,500 one.
+Every significant edit sends an ad set back into learning, so it never graduates. A RM3,000/month account stuck in learning loses to a stable RM1,500 one.
 
 #### 4. Creative fatigue, no pipeline
 
@@ -984,7 +994,7 @@ What takeovers have produced
 
 56%
 
-CPL cut in 30 days — B2B account rebuild (RM37.40 → RM16.60)
+CPL cut in 30 days on a B2B takeover and rebuild (RM37.40 → RM16.60)
 
 36%
 
@@ -1007,7 +1017,7 @@ The questions we hear from business owners whose Facebook ads "used to work" or 
 How much do Facebook ads cost in Malaysia?
 +
 
-Ad spend typically runs RM500–20,000/month depending on scale, with RM1,500–2,000/month the realistic floor for the algorithm to optimise. Management fees are separate — see the full breakdown on our Meta ads pricing page . Typical Malaysian CPCs run RM0.50–3.00 and CPMs RM8–25 by industry — more market benchmarks on our Malaysia statistics page .
+Ad spend typically runs RM500–20,000/month depending on scale, with RM1,500–2,000/month the practical floor for lead generation in our accounts. Management fees are separate and start from RM800 a month, depending on objective and account size. See the full breakdown on our Meta ads pricing page . Typical Malaysian CPCs run RM0.50–3.00, with CPMs of RM8 to RM25 for conversion campaigns in our accounts. Awareness campaigns can run near RM1.30. More market benchmarks on our Malaysia statistics page .
 
 Will switching agencies reset my account's performance?
 +
@@ -1027,7 +1037,7 @@ Measurement fixes show within 1–2 weeks. Meaningful CPL or ROAS movement typic
 Do I need a consultancy, or can I run ads myself?
 +
 
-Below roughly RM1,500/month in spend, learn it yourself — a management fee would exceed your media budget. Above that, it's an opportunity-cost question: a consultancy's job is to compress the expensive trial-and-error phase. If your cost per lead has been flat or rising for 3+ months, that's usually the signal to get an outside audit.
+Small budgets can start on our Starter tier , with management fees from RM800 a month. For lead generation, RM1,500 to RM2,000 a month in ad spend is the practical floor in our accounts, because below that results come too slowly to judge. Beyond that, it's an opportunity-cost question: a consultancy's job is to compress the expensive trial-and-error phase. If your cost per lead has been flat or rising for 3+ months, that's usually the signal to get an outside audit.
 
 Get started
 
@@ -1079,7 +1089,7 @@ Read in English →
 
 接手一个账户就四步：先审计，先修追踪，好的广告继续跑、新的在旁边搭，然后每周测素材。第一天就全部暂停？那是最贵的错误。
 
-合理预期： 做对的话，30–90 天内潜在客户成本（CPL）降 30–56%。每月广告费至少 RM1,500–2,000 才跑得动。
+合理预期： 做对的话，30–90 天内潜在客户成本（CPL）降 30–56%。做询问的话，在我们的账户里，每月广告费 RM1,500 到 RM2,000 是比较实际的底线。
 
 账户为什么表现差
 
@@ -1097,7 +1107,7 @@ Boost 买到的是互动，不是询问。账户花了几个月的钱，算法�
 
 #### 3. 学习阶段一直重置
 
-一直改、一直重开，账户永远毕不了业 — 卡在学习阶段的 RM3,000 账户，输给稳定跑的 RM1,500 账户。
+每做一次大改动，广告组就会重新进入学习阶段，所以永远毕不了业。卡在学习阶段的 RM3,000 账户，输给稳定跑的 RM1,500 账户。
 
 #### 4. 素材疲劳
 
@@ -1121,7 +1131,7 @@ Boost 买到的是互动，不是询问。账户花了几个月的钱，算法�
 
 56%
 
-30 天 CPL 降幅 · B2B 账户（RM37.40 → RM16.60）
+30 天 CPL 降幅 · B2B 账户接手重建（RM37.40 → RM16.60）
 
 36%
 
@@ -1144,7 +1154,7 @@ Boost 买到的是互动，不是询问。账户花了几个月的钱，算法�
 在马来西亚投 FB 广告要多少钱？
 +
 
-一般每月 RM500 到 RM20,000，看规模。要让算法跑得动，RM1,500–2,000 是底线。管理费另算，详细看 Meta 广告收费 （英文）。CPC 大概 RM0.50–3.00，CPM RM8–25，看行业。
+一般每月 RM500 到 RM20,000，看规模。做询问的话，在我们的账户里，每月 RM1,500 到 RM2,000 是比较实际的底线。管理费另算，每月 RM800 起，看目标和账户规模，详细看 Meta 广告收费 （英文）。CPC 大概 RM0.50 到 RM3.00。在我们的账户里，转化广告的 CPM 大约 RM8 到 RM25，品牌曝光广告可以低到 RM1.30 左右。
 
 换代理会不会让账户归零？
 +
@@ -1164,7 +1174,7 @@ Boost 买到的是互动，不是询问。账户花了几个月的钱，算法�
 要找代理，还是自己投？
 +
 
-每月低于 RM1,500，自己学着投 — 不然管理费比广告费还贵。高过这个数，就看你愿不愿意花时间试错。CPL 已经三个月没降？那就该找人看看了。
+预算小的话，可以从我们的 Starter 配套 开始，管理费每月 RM800 起。做询问的话，在我们的账户里，每月广告费 RM1,500 到 RM2,000 是比较实际的底线，再低的话结果来得太慢，很难判断好坏。再往上，就看你愿不愿意花时间试错。CPL 已经三个月没降？那就该找人看看了。
 
 开始
 
@@ -1224,22 +1234,24 @@ Typical fit
 
 Starter
 RM500 – 1,800
-RM1,000 – 1,500
+From RM800 (up to RM1,500)
 Local F&B, single-location businesses, brand awareness tests
 
 Growth
 RM1,800 – 5,000
-RM1,500 – 3,000
+RM1,500 – 2,500
 B2B lead gen, beauty & wellness, e-commerce with proven traction
 
 Scale
-RM5,000 – 20,000+
-RM4,000 – 7,000
+RM5,000 – 20,000
+RM2,500 – 4,000
 Fintech, insurance, multi-channel campaigns across Meta, Google & TikTok
+
+Management fees start from RM800 a month, depending on objective and account size. Above RM20,000 a month in ad spend, the fee is about 15% of ad spend. Profit sharing is available for selected clients.
 
 Tiers and what each has produced
 
-Below RM1,500/month in ad spend, Meta's algorithm typically can't exit the learning phase — you end up paying for optimisation that never finishes. Management fees don't scale linearly with ad spend; a well-run RM3,000/month account often outperforms a poorly targeted RM10,000/month one.
+Meta needs about 50 results a week per ad set to finish learning. On small budgets we run fewer ad sets so each one gets enough results. Management fees don't scale linearly with ad spend; a well-run RM3,000/month account often outperforms a poorly targeted RM10,000/month one.
 
 Real client results
 
@@ -1247,11 +1259,11 @@ Real client results
 
 Starter tier — Beauty & Wellness clinic, RM1,500–1,800/month. Cost-per-lead dropped 36% over 3 months, reaching RM14.04 by month 3 against a client target of ≤RM15. The best-performing creative achieved RM9.46 per conversion and built a 30,000+ warm retargeting pool.
 
-Growth tier — B2B Services lead generation. Meta lead gen rebuilt from scratch in 30 days. Cost-per-lead fell 56%, from RM37.40 to RM16.60 — the fastest turnaround we've recorded on a from-scratch rebuild.
+Growth tier: B2B Services lead generation. We took over the Meta lead gen account and rebuilt it in 30 days. Cost-per-lead fell 56%, from RM37.40 to RM16.60. That is the fastest turnaround we've recorded on a takeover and rebuild.
 
 Growth tier — Fashion & Retail, Ramadan campaign. RM18,588 total spend across Meta, Google, and TikTok over 51 days returned RM321,517 in revenue and 1,303 purchases — a 17.3× blended ROAS. Google alone delivered 26× ROAS within that mix.
 
-Scale tier — Insurance & Fintech, 12-month Google Search + PMAX. Budget scaled from RM5,000 to RM20,000/month. Lead volume grew 393% (1,336 → 6,586 leads/month) while cost-per-lead fell 45%, from RM4.40 to RM2.41 — with CPL staying below RM4 throughout the entire scale-up.
+Google Ads example (not Meta): Insurance & Fintech, 12-month Google Search + PMax. Budget scaled from RM5,000 to RM20,000/month. Lead volume grew 393% (1,336 → 6,586 leads/month at peak). Cost per lead fell 45%, from RM4.40 to RM2.41. See our Google Ads service .
 
 By the numbers
 
@@ -1265,7 +1277,7 @@ CPL reduction in 30 days (B2B)
 
 393%
 
-Lead volume growth (12 months)
+Lead volume growth, 12 months (Google Ads)
 
 RM321K
 
@@ -1302,12 +1314,12 @@ Straight answers on Meta ads budgets, fees, and what results are realistic at ea
 How much do Meta ads cost in Malaysia?
 +
 
-Ad spend to Meta typically runs RM500 for small awareness campaigns up to RM20,000/month for scaled performance campaigns. Agency management fees are separate and usually range from RM1,500 to RM7,000/month depending on scope — at scale, fees typically track 15–18% of ad spend. A realistic floor for meaningful optimisation is RM1,500–2,000/month in ad spend.
+Ad spend to Meta typically runs RM500 for small awareness campaigns up to RM20,000/month for scaled performance campaigns. Agency management fees are separate. Ours start from RM800 a month, depending on objective and account size: from RM800 (up to RM1,500) at Starter, RM1,500 to RM2,500 at Growth, and RM2,500 to RM4,000 at Scale. Above RM20,000 a month in ad spend, the fee is about 15% of ad spend. A realistic floor for lead generation in our accounts is RM1,500 to RM2,000 a month in ad spend.
 
 What's a realistic budget to start with?
 +
 
-RM1,500–2,000/month minimum to get meaningful data. Below that, the algorithm can't optimise effectively — you end up paying for the learning phase without ever exiting it. RM5,000+/month is where most B2B and fintech scaling budgets land.
+For Meta lead generation, RM1,500 to RM2,000 a month is the practical floor in our accounts. Below that, results come too slowly to judge. Smaller budgets can still run on our Starter tier, and RM500 a month is possible for awareness campaigns. RM2,000 to RM5,000 is where most B2B budgets land.
 
 What results can I expect for my budget?
 +
@@ -1317,7 +1329,7 @@ It depends heavily on industry and starting point, but real examples: a beauty c
 Is a higher budget always better?
 +
 
-No. Below RM1,500/month, Meta's algorithm can't exit the learning phase, so results are unreliable regardless of creative quality. Above that floor, results scale with budget but not linearly — a well-optimised RM3,000/month campaign often outperforms a poorly targeted RM10,000/month one.
+No. Meta needs about 50 results a week per ad set to finish learning. On small budgets we run fewer ad sets so each one gets enough results. Beyond that, results scale with budget but not linearly. A well-optimised RM3,000/month campaign often outperforms a poorly targeted RM10,000/month one.
 
 Do management fees replace ad spend or come on top?
 +
@@ -1327,7 +1339,7 @@ Management fees are separate from ad spend. Ad spend goes directly to Meta; the 
 How long until Meta ads pay for themselves?
 +
 
-First 2–4 weeks is Meta's learning phase. Meaningful ROAS typically shows by week 6–8 with proper creative testing, and CPL improvements of 30–50%+ are achievable within 1–3 months once creative and audience data compound.
+We allow 2 to 4 weeks before judging results, because Meta's learning phase needs about 50 results per ad set. Meaningful ROAS typically shows by week 6–8 with proper creative testing, and CPL improvements of 30–50%+ are achievable within 1–3 months once creative and audience data compound.
 
 Get started
 
@@ -1441,7 +1453,7 @@ lead volume growth 1,336 → 6,586 a month
 
 4×
 
-budget scaled, RM5K → RM20K CPL under RM4 throughout
+budget scaled RM5K to RM20K CPL down from RM4.40 to RM2.41
 
 26×
 
@@ -1482,7 +1494,7 @@ Have a question that's not here? Message us on WhatsApp — we'll give you a str
 What's the minimum Google Ads budget in Malaysia?
 +
 
-RM3,000/month is our recommended minimum. Less than that and the data is too thin for meaningful optimisation. Below that threshold, the algorithm doesn't get enough conversion signals to make intelligent bid decisions, and you'll spend more time in limbo than in growth. A higher starting budget shortens the learning phase and accelerates results.
+Google has no minimum. We suggest RM1,500 to RM2,000 a month in ad spend, and around RM3,000 for Search in competitive categories. With less, results come in too slowly to judge what is working.
 
 Google Ads vs Meta Ads — which is better?
 +
@@ -1497,7 +1509,7 @@ We structure PMAX asset groups by product or service category, monitor search te
 What's a Quality Score and why does it matter?
 +
 
-Google scores your keyword/ad/landing page relevance on a 1–10 scale. Higher Quality Score means lower cost-per-click for the same ad position — which means more conversions for the same spend. We optimise all three layers: keyword match and intent alignment, ad copy relevance and CTR, and landing page experience including load speed and message match. A Quality Score improvement from 4 to 7 can reduce your CPC by 30–40% on competitive keywords.
+Quality Score is Google's 1 to 10 diagnostic for keyword, ad and landing page relevance. Google says higher quality ads can often lead to lower costs per click. We optimise all three layers: keyword match and intent alignment, ad copy relevance and CTR, and landing page experience including load speed and message match.
 
 Do you manage the ad account or just advise?
 +
@@ -1507,7 +1519,7 @@ Full management. We own the day-to-day: bid adjustments, search term monitoring,
 How long before Google Ads starts converting?
 +
 
-Search campaigns typically show conversion data within 2–3 weeks, once tracking is verified and enough impressions have accumulated. PMAX needs 4–6 weeks of learning phase before optimising — Google's algorithm requires a minimum of 30–50 conversion events before Smart Bidding becomes reliable. We set clear expectations for each phase: data collection, early optimisation, and scaled performance.
+Search campaigns typically show conversion data within 2–3 weeks, once tracking is verified and enough impressions have accumulated. Google recommends running a new Performance Max campaign for at least 6 weeks. It says Smart Bidding can take up to around 50 conversion events or three conversion cycles to calibrate. We set clear expectations for each phase: data collection, early optimisation, and scaled performance.
 
 Is Google Ads the same as Google AdWords or SEM?
 +
@@ -1572,7 +1584,7 @@ Most wasted Google Ads budget in Malaysia hides in two places: conversion events
 
 A proper takeover runs in four steps: pull 90 days of search terms and conversion definitions before changing anything, redefine conversion events around real revenue actions, restructure gradually so accumulated smart-bidding signal is preserved rather than reset, then run weekly search-term hygiene and Quality Score work.
 
-Realistic outcome: a Quality Score improvement from 4 to 7 typically cuts cost-per-click 30–40%. Minimum viable Search budget in Malaysia is around RM3,000/month.
+Realistic outcome: better ad and landing page quality can often lower what you pay per click. Around RM3,000 a month suits Search in competitive categories.
 
 Why accounts underperform
 
@@ -1594,7 +1606,7 @@ Performance Max without brand exclusions cannibalises searches you'd win free, a
 
 #### 4. Quality Score neglect
 
-Google discounts clicks for relevance. A Quality Score of 4 versus 7 on the same keyword can mean paying 30–40% more per click — a silent tax on every ringgit, compounding daily, invisible unless someone looks.
+Better ad and landing page quality can often lower what you pay per click. Neglect it and every click carries a silent tax, invisible unless someone looks.
 
 The takeover process
 
@@ -1606,7 +1618,7 @@ Step 1 — The pre-takeover audit. The last 90 days of search-term reports, conv
 
 Step 2 — Fix measurement before media. Conversion events redefined around actions that mean revenue — a form submission, a WhatsApp conversation, a call — and GA4 linkage verified before any bid-strategy change. Feeding smart bidding the wrong event scales the wrong outcome faster.
 
-Step 3 — Restructure without resetting. Smart-bidding signal lives at campaign level; wholesale rebuilds throw away everything the account has paid to learn. Converting campaigns stay live while negatives tighten, brand splits from non-brand, and PMAX gets governed. Budget migrates gradually — momentum preserved.
+Step 3 — Restructure without resetting. Smart Bidding learns from conversion history across your campaigns, and wholesale rebuilds throw that away. Converting campaigns stay live while negatives tighten, brand splits from non-brand, and PMAX gets governed. Budget migrates gradually — momentum preserved.
 
 Step 4 — The optimisation cadence. Weekly search-term hygiene, negative-list growth, budget to winners, Quality Score work, and plain-language reporting — a lead now costs X, down from Y, because Z. Current account numbers stay published on our Live Results Board .
 
@@ -1620,9 +1632,9 @@ RM2.41
 
 CPL, down 45% — while scaling spend RM5K → RM20K/month
 
-RM76.78
+RM91.47
 
-CPA on medical search, healthcare account, 30 days to 24 Sep 2026
+CPA, healthcare account, 30 days to 5 Oct 2026
 
 26×
 
@@ -1637,7 +1649,7 @@ Straight answers on budgets, PMAX, CPCs, and what switching actually does to an 
 What's the minimum Google Ads budget in Malaysia?
 +
 
-RM3,000/month is a realistic minimum for Search — below that, conversion data is too thin for smart bidding to optimise. Competitive keywords in insurance, legal and healthcare can run RM5–15 per click, so thinner budgets exhaust before the algorithm learns anything.
+Google has no minimum. We suggest RM1,500 to RM2,000 a month in ad spend. Around RM3,000 a month suits Search in competitive categories such as insurance, legal and healthcare. With less, results come in too slowly to judge what is working.
 
 Will switching agencies reset my smart bidding?
 +
@@ -1647,7 +1659,7 @@ Not if the takeover preserves structure. Wholesale rebuilds throw away accumulat
 Why is my cost per click so high?
 +
 
-Usually Quality Score, not the market. Google discounts clicks for ads and landing pages it judges relevant — improving QS from 4 to 7 typically cuts CPC 30–40%. The other usual cause: broad-match keywords spending on irrelevant searches no one has excluded.
+Usually Quality Score, not the market. Better ad and landing page quality can often lower what you pay per click. The other usual cause: broad-match keywords spending on irrelevant searches no one has excluded.
 
 Is Performance Max worth running?
 +
@@ -1912,7 +1924,7 @@ RM20 clicks
 
 About 3 a day
 
-A week of that tells you almost nothing, and automated bidding has too little to learn from.
+A week of that tells you almost nothing. Results come in too slowly to judge.
 
 Start with one focused Search campaign on your highest intent keywords.
 
@@ -1921,7 +1933,7 @@ Google has no minimum. You could run a campaign on RM10 a day. The real question
 
 Our guidance is RM1,500 to RM2,000 a month in ad spend as the floor , the same floor we apply across paid media. For Google Search in competitive categories, we recommend around RM3,000 a month .
 
-The reason is arithmetic. RM2,000 a month is about RM66 a day. If your clicks cost RM5, that buys around 13 clicks a day and roughly 400 a month. That is enough to read the search terms, see what converts and cut what does not. If your clicks cost RM20, the same budget buys about 3 clicks a day. A week of that data tells you almost nothing, and automated bidding has too few conversions to learn from.
+The reason is arithmetic. RM2,000 a month is about RM66 a day. If your clicks cost RM5, that buys around 13 clicks a day and roughly 400 a month. That is enough to read the search terms, see what converts and cut what does not. If your clicks cost RM20, the same budget buys about 3 clicks a day. A week of that data tells you almost nothing, and results come in too slowly to judge.
 
 Below the floor, money is not wasted because Google overcharges. It is wasted because you never collect enough data to make a good decision. Start with one tightly focused Search campaign on your highest intent keywords instead of spreading a small budget across Search, Display and Performance Max. Our Performance Max guide covers when it is worth adding.
 
@@ -1936,19 +1948,19 @@ There is no single Malaysian benchmark. Cost per lead depends on what a customer
 
 Insurance and fintech platform, 12 months. Cost per lead fell 45%, from RM4.40 to RM2.41, while monthly spend scaled from RM5,000 to RM20,000. Leads grew 393%, from 1,336 to 6,586 in the peak month. High search volume and a simple sign up keep each lead cheap.
 
-Healthcare group, 30 days to 24 September 2026. CPA was RM76.78, from 211 conversions on RM16.2K spend. That is the fourth rise in a row as spend scaled: RM55.11, RM61.45, RM69.46, then RM76.78. A newer service line campaign converts at RM59, against RM83 for the main Search campaign. A patient is worth far more than an insurance sign up, so a higher CPA can still be profitable.
+Healthcare group, 30 days to 5 October 2026. CPA was RM91.47, from 175 conversions on RM16.1K spend. That is the fourth rise in a row: RM55.11, RM61.45, RM69.46, RM76.78, then RM91.47. The latest rise came on flat spend. A newer service line campaign converts at RM64, against RM105 for the main Search campaign. A patient is worth far more than an insurance sign up, so a higher CPA can still be profitable.
 
 The lesson: compare your cost per lead with what a customer is worth to you, not with another industry's number. Expect it to rise as you scale, because the cheapest searches get bought first. Current figures sit on our Live Results Board , updated weekly.
 
-From live ADV accounts
+From ADV accounts
 
 RM2.41
 
 Cost per lead, insurance and fintech, down 45% from RM4.40
 
-RM76.78
+RM91.47
 
-CPA, healthcare group, 211 conversions on RM16.2K
+CPA, healthcare group, 175 conversions on RM16.1K, 30 days to 5 Oct 2026
 
 393%
 
@@ -1962,46 +1974,68 @@ Management fees
 
 ### How much does Google Ads management cost in Malaysia?
 
-Typically RM1,500 to RM7,000 a month on top of ad spend, depending on scope. Get in writing what the fee covers.
+Management fees start from RM800 a month, depending on objective and account size. Get in writing what the fee covers.
 
-#### Monthly fee
+Ad spend RM500 to RM1,800
 
-RM1,500 to RM7,000
+#### Starter
 
-A month depending on scope, on top of ad spend.
+From RM800
 
-#### At scale
+Up to RM1,500 a month, depending on objective and account size.
 
-15 to 18%
+Ad spend RM1,800 to RM5,000
 
-Of ad spend. Fees typically track this range.
+#### Growth
 
-#### Profit sharing
+RM1,500 to RM2,500
 
-Tied to targets
+A month, on top of ad spend.
 
-Agreed at the start: cost per lead, ROAS or revenue.
+Ad spend RM5,000 to RM20,000
+
+#### Scale
+
+RM2,500 to RM4,000
+
+A month, on top of ad spend.
+
+Above RM20,000 ad spend
+
+About 15%
+
+Of monthly ad spend.
+
+Profit sharing
+
+Selected clients
+
+Part of the fee is tied to targets agreed at the start: cost per lead, ROAS or revenue.
 
 A fee should buy
 
 Weekly search term reviews Negative keywords Tracking that counts real leads Reports that explain why cost per lead moved
 
-Spending under RM1,500 a month? Learning it yourself usually makes more sense.
+Smaller budgets fit the Starter tier, with fees from RM800 a month.
 
 Read the detail
-Management fees vary with scope, so get in writing what the fee covers. These are the options we publish:
+Management fees start from RM800 a month, depending on objective and account size. Get in writing what the fee covers. These are the tiers we publish:
 
 Fee option | What it looks like
 
-Monthly management fee | Typically RM1,500 to RM7,000 a month depending on scope, on top of ad spend
+Starter | Ad spend RM500 to RM1,800 a month. Fee from RM800, up to RM1,500, depending on objective and account size
 
-At scale | Fees typically track 15 to 18% of ad spend
+Growth | Ad spend RM1,800 to RM5,000 a month. Fee RM1,500 to RM2,500 a month
 
-Profit sharing | Fees tied to targets agreed at the start, such as cost per lead, ROAS or revenue
+Scale | Ad spend RM5,000 to RM20,000 a month. Fee RM2,500 to RM4,000 a month
+
+Above RM20,000 ad spend | Fee about 15% of ad spend
+
+Profit sharing | For selected clients, part of the fee is tied to targets agreed at the start, such as cost per lead, ROAS or revenue
 
 A fee should buy work you can see: weekly search term reviews, negative keywords, conversion tracking that counts real leads, and a report that explains why cost per lead moved. Our Google Ads service page sets out exactly what management includes. For how fees line up against spend tiers on Meta, see our Meta ads pricing guide .
 
-If your ad spend is under RM1,500 a month, a management fee can be bigger than your media budget. At that level, learning it yourself usually makes more sense.
+On a small budget, the fee can come close to your media spend. Our Starter tier is built for ad spend of RM500 to RM1,800 a month, with fees from RM800.
 
 Overpaying
 
@@ -2073,7 +2107,7 @@ Straight answers on budgets, bids, tax and fees.
 How much does Google Ads cost in Malaysia?
 +
 
-There are two costs. Ad spend is paid to Google per click, plus 8% SST, and you control it with a daily budget. Management is a separate monthly fee if you hire help, typically RM1,500 to RM7,000 a month at ADV depending on scope. Most Malaysian SMEs should plan at least RM1,500 to RM2,000 a month in ad spend.
+There are two costs. Ad spend is paid to Google per click, plus 8% SST, and you control it with a daily budget. Management is a separate monthly fee if you hire help. Management fees start from RM800 a month, depending on objective and account size. Most Malaysian SMEs should plan at least RM1,500 to RM2,000 a month in ad spend.
 
 What is the minimum budget for Google Ads in Malaysia?
 +
@@ -2093,7 +2127,7 @@ More advertisers bidding means higher prices. Google Keyword Planner shows top o
 What cost per lead should I expect from Google Ads?
 +
 
-It depends on your industry. One ADV insurance account runs at RM2.41 per lead, while a healthcare account runs at RM76.78 per conversion. Judge your cost per lead against what a customer is worth to you, not against another industry's number.
+It depends on your industry. Our insurance account finished at RM2.41 per lead. A healthcare account ran at RM91.47 per conversion over the 30 days to 5 October 2026. Judge your cost per lead against what a customer is worth to you, not against another industry's number.
 
 Does Google charge tax on ads in Malaysia?
 +
@@ -2243,7 +2277,7 @@ Tracking that counts real enquiries or sales, enough conversions, a budget for t
 
 - Enough conversions A handful a month is too little to learn from.
 
-- Budget for two campaigns RM3,000 a month minimum Usually shared with Search.
+- Budget for two campaigns Around RM3,000 a month Usually shared with Search.
 
 - A full set of assets Text, images, logo and your own video.
 
@@ -2256,7 +2290,7 @@ Read the detail
 
 2. Enough conversions to learn from. Google does not publish a minimum conversion count for PMax. Our view: with only a handful of real conversions a month, PMax has too little to learn from.
 
-3. A budget that can carry two campaigns. Our recommended minimum for Google Ads in Malaysia is RM3,000 a month (see our Google Ads management page). PMax usually shares it with Search, and a thin budget split two ways helps neither. Our Google Ads pricing guide has the full breakdown.
+3. A budget that can carry two campaigns. We suggest around RM3,000 a month if PMax will share the budget with Search (see our Google Ads management page). A thin budget split two ways helps neither. Our Google Ads pricing guide has the full breakdown.
 
 4. A full set of assets. These are Google's current specs per asset group. (Source: Google Ads Help, Performance Max campaigns specs and format requirements, 2026)
 
@@ -2408,9 +2442,9 @@ Clean tracking first, a split by service line, and the expectation that cost per
 
 - Tracking first The first thing we check in every Google Ads audit .
 
-- Split by service line RM59 vs RM83 Separate asset groups, or campaigns when values differ.
+- Split by service line RM59 vs RM83 30 days to 24 Sep 2026. Separate asset groups, or campaigns when values differ.
 
-- Costs rise with spend RM55.11 to RM76.78 The channel report shows where the extra cost went.
+- Costs rise with spend RM55.11 to RM91.47 30 day readings to 5 Oct 2026. The channel report shows where the extra cost went.
 
 Why we split by service line
 
@@ -2419,7 +2453,7 @@ We only run PMax once tracking is clean. It is the first thing we check in every
 
 Second, we split by service line. In a healthcare group's account, over the 30 days to 24 Sep 2026, a newer service line ran in its own campaign at RM59 per conversion, against RM83 for the main Search campaign. That was not a PMax campaign, but the lesson carries over. In one shared campaign the cheaper line would have vanished into an average. In PMax we use separate asset groups, and separate campaigns when service lines have different values, because budget is set per campaign.
 
-Third, we expect cost per result to rise with spend. The same account's CPA rose four periods in a row as spend scaled, from RM55.11 to RM76.78, with 211 conversions on RM16.2K in the latest 30 days. PMax does not escape that. It just hides where the extra cost went unless someone reads the channel report.
+Third, we expect cost per result to rise with spend. The same account's CPA has risen across four consecutive 30 day readings, from RM55.11 to RM91.47, with 175 conversions on RM16.1K in the 30 days to 5 Oct 2026. PMax does not escape that. It just hides where the extra cost went unless someone reads the channel report.
 
 That is how our Google Ads agency service runs PMax. Our guide to advertising costs in Malaysia shows how Google fits next to Meta.
 
@@ -2444,7 +2478,7 @@ Yes, once Search is working and tracking counts real enquiries. If every form fi
 How much budget do I need for Performance Max in Malaysia?
 +
 
-Our recommended minimum for Google Ads in Malaysia is RM3,000 a month, usually shared between PMax and Search. Below that, neither campaign gets enough conversions to learn from.
+We suggest around RM3,000 a month if PMax will share the budget with Search. A thin budget split two ways helps neither, and results come in too slowly to judge.
 
 Can I stop Performance Max from showing on my brand name?
 +
@@ -2780,13 +2814,13 @@ If you find a fault, fix the count first and leave bidding alone while the accou
 
 Bad tracking never appears on your invoice. It appears as decisions made on the wrong number.
 
-RM59 vs RM83
+RM64 vs RM105
 
 Cost per conversion, newer service line against the main Search campaign. Only fair if both count the same action.
 
-RM76.78
+RM91.47
 
-Overall CPA, up from RM55.11 in earlier 30 day readings as spend scaled.
+Overall CPA, up from RM55.11 across four consecutive 30 day readings.
 
 ~100
 
@@ -2796,12 +2830,12 @@ Phantom leads a month if a duplicate tag catches one lead in ten, on 1,000 real 
 
 How much better cost per lead then looks than it really is.
 
-First two: a healthcare group we manage, 30 days to 24 Sep 2026, on our Live Results Board . Last two: a worked example.
+First two: a healthcare group we manage, 30 days to 5 Oct 2026, on our Live Results Board . Last two: a worked example.
 
 Read the detail
-Take a healthcare group we manage. In the 30 days to 24 September 2026, a newer service line campaign ran at RM59 per conversion against RM83 for the main Search campaign. That comparison guides where the next ringgit goes, and it only holds if both campaigns count the same action the same way. If one counted page views, the "cheaper" campaign could be the worse one.
+Take a healthcare group we manage. In the 30 days to 5 October 2026, a newer service line campaign ran at RM64 per conversion against RM105 for the main Search campaign. That comparison guides where the next ringgit goes, and it only holds if both campaigns count the same action the same way. If one counted page views, the "cheaper" campaign could be the worse one.
 
-The account's overall CPA has also risen four months running as spend scaled: RM55.11, RM61.45, RM69.46, then RM76.78 (211 conversions on RM16.2K). It is an uncomfortable trend, and it stays on our Live Results Board . A count padded with page views would have hidden it.
+The account's overall CPA has risen across four consecutive 30 day readings: RM55.11, RM61.45, RM69.46, RM76.78, then RM91.47 (175 conversions on RM16.1K). It is an uncomfortable trend, and it stays on our Live Results Board . A count padded with page views would have hidden it.
 
 Scale raises the stakes. Take an account getting 1,000 real leads a month at RM5 per lead. A duplicate tag on one lead in ten adds about 100 phantom leads a month, and cost per lead looks about 9% better than it really is. Smart Bidding then chases the wrong signal.
 
@@ -3008,7 +3042,7 @@ Part 4 · The offer
 
 ### Do the ads and landing pages earn the click?
 
-Both feed Quality Score, so both affect what you pay per click.
+Both shape the ad quality Google uses in the auction, so both affect what you pay per click.
 
 07 20 min
 
@@ -3082,7 +3116,7 @@ After the audit
 
 ### What does a cleaned-up account look like?
 
-An insurance and fintech platform we manage, after 12 months of tracking fixes, search term work and weekly optimisation. The audit was the starting point, not the cause.
+An insurance and fintech platform we managed, after 12 months of tracking fixes, search term work and weekly optimisation. The audit was the starting point, not the cause.
 
 Current numbers are on our Live Results Board , updated weekly.
 
@@ -3118,7 +3152,7 @@ What we need: view-only access
 
 Google Ads Google Analytics 4 Google Tag Manager Search Console
 
-Tracking faults usually sit between the ad account, your tags and your analytics, so we look at all four. You keep the findings whether or not you hire us, and if the account is in good shape we will say so. Want us to make the fixes? That is our Google Ads agency service .
+Tracking faults usually sit between the ad account, your tags, your analytics and Search Console, so we look at all four. You keep the findings whether or not you hire us, and if the account is in good shape we will say so. Want us to make the fixes? That is our Google Ads agency service .
 
 Common questions
 
@@ -3207,7 +3241,7 @@ The short answer
 
 SEO gets your page ranked in Google's links. AEO gets your answer lifted into the reply — featured snippets and AI Overviews. GEO gets your brand named inside ChatGPT, Perplexity and Gemini. They are layers of one job, not three separate services.
 
-AI engines retrieve from search indexes — Google's, and largely Bing's for ChatGPT search — so a page that cannot rank is rarely cited. What decides who gets picked is whether the content is crawlable, answers the question directly, comes from a business the engine can recognise, and contains something specific enough to cite.
+AI engines retrieve from search indexes. ChatGPT search uses third-party providers including Bing, plus OpenAI's own crawler. A page that cannot rank is rarely cited. What decides who gets picked is whether the content is crawlable, answers the question directly, comes from a business the engine can recognise, and contains something specific enough to cite.
 
 Realistic timeline: technical fixes in days, Google positions over 4–8 weeks, AI citations measured monthly against a fixed question set.
 
@@ -3239,13 +3273,13 @@ What we build
 
 The four layers, in order
 
-Layer 1 — Crawlable. Allow search and AI crawlers in robots.txt, publish an llms.txt file, make sure pages render without JavaScript, and submit the sitemap to both Google Search Console and Bing Webmaster Tools. ChatGPT search leans heavily on Bing's index, so Bing is not optional.
+Layer 1: Make it crawlable. Allow search engines and AI search crawlers in robots.txt, make sure pages render without JavaScript, and submit the sitemap to both Google Search Console and Bing Webmaster Tools. Blocking OAI-SearchBot, Claude-SearchBot or PerplexityBot can remove you from those tools' search answers. GPTBot and ClaudeBot only control AI training. ChatGPT search uses third-party providers including Bing, plus OpenAI's own crawler, so Bing is not optional. An llms.txt file is an optional extra, not a requirement.
 
-Layer 2 — Answerable. Put a direct two-to-three-sentence answer at the top of every page, use question-shaped headings, and add FAQ and HowTo schema that matches the visible text word for word. Every guide on this site opens with a "short answer" box for exactly this reason.
+Layer 2: Make it answerable. Put a direct two-to-three-sentence answer at the top of every page and use question-shaped headings. Every guide on this site opens with a "short answer" box for exactly this reason. Structured data helps engines read the page, but Google says no special schema or llms.txt is needed for AI Overviews. Google has retired HowTo rich results, and FAQ rich results now only show for government and health sites. Where we add FAQ or HowTo schema, it matches the visible text word for word.
 
-Layer 3 — Recognisable. Build one entity graph — Organization and Person schema linked with sameAs to LinkedIn, Google Business Profile and directories — and keep the business name, address and phone identical everywhere.
+Layer 3: Make it recognisable. Build one entity graph — Organization and Person schema linked with sameAs to LinkedIn, Google Business Profile and directories — and keep the business name, address and phone identical everywhere.
 
-Layer 4 — Citable. Publish original, dated, sourced data — statistics pages, published results, expert quotes in the press — then measure a fixed question set every month. Our Malaysia statistics page and Live Results Board are both built to be quoted.
+Layer 4: Make it citable. Publish original, dated, sourced data — statistics pages, published results, expert quotes in the press — then measure a fixed question set every month. Our Malaysia statistics page and Live Results Board are both built to be quoted.
 
 What this has produced
 
@@ -3279,17 +3313,17 @@ SEO gets your page ranked in Google's list of links. AEO (answer engine optimisa
 Do I still need SEO if customers ask ChatGPT instead of Google?
 +
 
-Yes. AI answer engines retrieve from search indexes — Google's for AI Overviews, and largely Bing's for ChatGPT search — so a page that cannot rank is rarely cited. SEO is the entry ticket; AEO and GEO decide whether you are the source that gets picked.
+Yes. AI answer engines retrieve from search indexes. Google AI Overviews draw on Google's index. ChatGPT search uses third-party providers including Bing, plus OpenAI's own crawler. A page that cannot rank is rarely cited. SEO is the entry ticket; AEO and GEO decide whether you are the source that gets picked.
 
 Should I block AI crawlers from my website?
 +
 
-Not if you want to be recommended. Blocking GPTBot, ClaudeBot or PerplexityBot removes you from the answers those tools give. Check your robots.txt and your hosting or CDN settings — Cloudflare offers an AI-crawler block toggle during setup that is easy to leave on by accident.
+Not if you want to be recommended. Blocking OAI-SearchBot, Claude-SearchBot or PerplexityBot can remove you from those tools' search answers. GPTBot and ClaudeBot only control AI training. Check your robots.txt and your hosting or CDN settings — Cloudflare offers an AI-crawler block toggle during setup that is easy to leave on by accident.
 
 How long does AEO and GEO take in Malaysia?
 +
 
-Technical fixes — crawler access, llms.txt, schema, answer blocks — take days. Google positions typically move over 4 to 8 weeks; our own site went from an average position of about 60 to about 12 in five weeks. AI citations shift more unevenly, which is why we re-test a fixed question set every month.
+Technical fixes such as crawler access, schema and answer blocks take days. Google positions typically move over 4 to 8 weeks; our own site went from an average position of about 60 to about 12 in five weeks. AI citations shift more unevenly, which is why we re-test a fixed question set every month.
 
 How do you measure AI visibility?
 +
@@ -3361,11 +3395,11 @@ High-DR backlinks through PR placements, industry citations, and content-led out
 
 #### Answer Engine Optimisation (AEO)
 
-Structured FAQ content, entity definition pages, and JSON-LD schema so ChatGPT, Perplexity, and Gemini cite your brand when users ask the questions you need to own.
+Direct answer blocks, question-shaped headings, and structured data so your answer is lifted into featured snippets, Google AI Overviews and voice answers.
 
 #### Generative Engine Optimisation (GEO)
 
-AI Overview inclusion strategies, E-E-A-T signals, and brand entity building for Google's generative search results. We optimise for the summaries that now appear above organic rankings.
+Brand entity building, E-E-A-T signals, and original data worth citing, so ChatGPT, Perplexity, Gemini and Google's AI Mode name your brand when buyers ask the questions you need to own.
 
 #### Local SEO
 
@@ -3422,28 +3456,29 @@ Local SEO
 
 AEO
 
-#### Get cited by AI assistants
+#### Get your answer into the reply
 
-Structured FAQ pages, entity definitions, and JSON-LD schema that enable ChatGPT, Perplexity, and Gemini to extract and recommend your brand when users ask relevant questions.
+Direct answer blocks, question-shaped headings, and structured data, so your answer is lifted straight into featured snippets, Google AI Overviews and voice answers.
 
-FAQ Schema
-Entity Pages
+Answer Blocks
+Featured Snippets
+AI Overviews
+Voice
 JSON-LD
-ChatGPT
-Perplexity
 
 03
 
 GEO
 
-#### Appear in Google AI Overviews
+#### Get named by AI assistants
 
-E-E-A-T signals, content authority building, and entity optimisation targeted at Google's AI-generated summaries — the AI panel that now appears above organic results for millions of queries.
+Entity building, E-E-A-T signals, and original data worth citing, so ChatGPT, Perplexity, Gemini and Google's AI Mode name and cite your brand in their answers.
 
-AI Overviews
-E-E-A-T
+ChatGPT
+Perplexity
+Gemini
+AI Mode
 Brand Entity
-Generative Search
 
 Common questions
 
@@ -3454,17 +3489,17 @@ If your question isn't covered here, message us on WhatsApp — we reply fast an
 How long does SEO take to show results in Malaysia?
 +
 
-Technical SEO fixes typically take 2–4 weeks to be indexed and reflect improvements. For rankings, expect 3–6 months for competitive terms in Malaysia — faster for long-tail keywords and local queries. Local SEO for Kuala Lumpur-based terms can show movement within 4–8 weeks when Google Business Profile and citation signals are properly set up.
+Most technical fixes ship within days; results take longer. For rankings, expect 3–6 months for competitive terms in Malaysia — faster for long-tail keywords and local queries. Local SEO for Kuala Lumpur-based terms can show movement within 4–8 weeks when Google Business Profile and citation signals are properly set up.
 
 What's AEO and why does it matter now?
 +
 
-AEO (Answer Engine Optimisation) structures your content so AI tools like ChatGPT, Perplexity, and Google Gemini can extract and cite your brand as the answer to relevant questions. As more searches now begin inside AI tools rather than traditional search, being cited there is becoming as important as ranking on Google. ADV implements AEO through structured FAQ content, entity definition pages, and JSON-LD schema markup. The SEO vs AEO vs GEO guide walks through how it works.
+AEO (Answer Engine Optimisation) gets your answer lifted straight into the reply: featured snippets, Google AI Overviews and voice answers. As more searches get answered before anyone clicks a link, being that answer is becoming as important as ranking on Google. ADV implements AEO through direct answer blocks, question-shaped headings, and structured data. The SEO vs AEO vs GEO guide walks through how it works.
 
 What's GEO?
 +
 
-GEO (Generative Engine Optimisation) focuses specifically on Google's AI Overviews — the AI-generated summaries that now appear above organic results on Google Search. GEO involves optimising your content structure, E-E-A-T signals, and brand entity building so Google's generative AI includes your business in its summaries. It is distinct from traditional SEO and AEO, and remains a newer, fast-moving discipline even among agencies that have started offering it.
+GEO (Generative Engine Optimisation) gets your brand named and cited inside ChatGPT, Perplexity, Gemini and Google's AI Mode. GEO involves brand entity building, E-E-A-T signals, and original data worth citing, so generative AI includes your business in its answers. It builds on SEO and AEO, and remains a newer, fast-moving discipline even among agencies that have started offering it.
 
 Do you do link building?
 +
@@ -3598,11 +3633,11 @@ Filed in the content database by campaign, tagged by platform, assigned to the r
 
 The result
 
-From 2–3 hours per brief to under 8 minutes. 15–20x output volume with no additional headcount.
+From 2–3 hours per brief to under 8 minutes. Output several times what a manual process allows, with no additional headcount.
 
-15–20x
+8 min
 
-Output volume increase
+Per brief, down from 2–3 hours
 
 Common Questions
 
@@ -3638,7 +3673,7 @@ No. It removes the bottleneck before your team starts working. They spend less t
 How do you measure ROI on AI automation?
 +
 
-We track time saved per workflow, output volume increase, and downstream metrics — lead response time, conversion rate, and content publish frequency. Most clients see payback within 60–90 days of the system going live.
+We track time saved per workflow, output volume increase, and downstream metrics — lead response time, conversion rate, and content publish frequency. We set a payback target with each client before we build.
 
 Work with ADV
 
@@ -3701,7 +3736,7 @@ The board
 
 ### Current numbers, by vertical.
 
-Last updated: 6 October 2026 · Updated weekly (Mondays, MYT). Each row is one client engagement, anonymised by industry. Active accounts show their most recent reported period; completed campaigns show final figures.
+Last updated: 6 October 2026 · Updated weekly (MYT). Each row is one client engagement, anonymised by industry. Active accounts show their most recent reported period; completed campaigns show final figures.
 
 Vertical
 Channels
@@ -3718,7 +3753,7 @@ Completed
 B2B Services
 Meta lead gen
 CPL RM21.53
-31 lead conversations on RM667 spend in the last 30 days — up from RM15.30 last period as volume halved on lower spend; still 42% below the RM37.40 pre-takeover baseline. Last reported 14 Sep.
+31 lead conversations on RM667 spend in the 30 days to 14 Sep — up from RM15.30 last period as volume halved on lower spend; still 42% below the RM37.40 pre-takeover baseline. Last reported 14 Sep.
 Active
 
 Beauty & Wellness
@@ -3730,7 +3765,7 @@ Ended
 Healthcare & Medical
 Google Search
 CPA RM91.47
-175 conversions on RM16.1K spend in the last 30 days — fifth consecutive rise (RM55.11 → RM61.45 → RM69.46 → RM76.78 → RM91.47) on flat spend; the service-line campaign converts at RM64, the main Search campaign at RM105. A RM85 target CPA went on the main campaign on 2 Oct, so only the last 4 days reflect it
+175 conversions on RM16.1K spend in the last 30 days — the fourth rise in a row (RM55.11 → RM61.45 → RM69.46 → RM76.78 → RM91.47) on flat spend; the service-line campaign converts at RM64, the main Search campaign at RM105. A RM85 target CPA went on the main campaign on 2 Oct, so only the last 4 days reflect it.
 Active
 
 EV Charger Installation
@@ -3775,7 +3810,7 @@ Board totals
 
 Engagements on the board
 
-4
+3
 
 Active accounts reporting
 
@@ -4032,14 +4067,14 @@ Contents
 
 - Sources
 
-Malaysia's digital economy is on a breakout run. With 98% internet penetration, 30.7 million social media users, and a US$39 billion digital economy GMV in 2025 — the fastest growth rate in Southeast Asia — Malaysia is no longer an emerging digital market. It is the market. This page compiles 72 verified statistics from DataReportal, the e-Conomy SEA report (Google/Temasek/Bain), DOSM, MDEC, and more. Every stat is sourced and dated.
+Malaysia's digital economy is on a breakout run. With 98% internet penetration, 30.7 million social media user identities, and a digital economy projected at US$39 billion GMV in 2025, the fastest growth rate in Southeast Asia, Malaysia is no longer an emerging digital market. It is the market. This page compiles 72 verified statistics from DataReportal, the e-Conomy SEA report (Google/Temasek/Bain), DOSM, MDEC, and more. Every stat is sourced and dated.
 
 ### Key Malaysia Digital Marketing Statistics (2026)
 
 The headline numbers across all categories — the stats most frequently cited by journalists, analysts, and marketing teams.
 
 -
-Malaysia's digital economy GMV reached US$39 billion (RM161 billion) in 2025, growing 19% year-on-year — the fastest growth rate in Southeast Asia.
+Malaysia's digital economy GMV was projected to reach US$39 billion (RM161 billion) in 2025, up 19% year on year and the fastest growth rate in Southeast Asia.
 (Source: Google, Temasek, Bain & Company — e-Conomy SEA 2025, 2025)
 
 -
@@ -4047,19 +4082,19 @@ Malaysia's internet penetration reached 98% (35.4 million users) by October 2025
 (Source: DataReportal — Digital 2026: Malaysia, 2025)
 
 -
-30.7 million Malaysians are active on social media (85% of the population) as of late 2025 — an increase of 5.6 million (+22%) in one year.
+Malaysia had 30.7 million active social media user identities in October 2025 (85.0% of the population), up 5.6 million (+22.2%) in a year. DataReportal advises caution when comparing this with earlier editions.
 (Source: DataReportal — Digital 2026: Malaysia, 2025)
 
 -
-Digital advertising accounts for approximately 77% of all Malaysian advertising spend in 2025.
-(Source: Digital in Asia — Malaysia Digital Market Overview, 2025)
+Digital advertising accounted for about 77% of total Malaysian advertising spend in 2024.
+(Source: MAGNA, reported by Bernama, 2026)
 
 -
-TikTok's advertising platform reaches 30.7 million Malaysian adults (86.8% of internet users) — the widest reach of any social platform in the country.
+TikTok reports an ad reach of 30.7 million in Malaysia, equal to 86.8% of internet users. DataReportal notes this exceeds the adult population, so it is ad reach, not a count of unique users.
 (Source: DataReportal — Digital 2026: Malaysia, 2025)
 
 -
-Malaysia's e-commerce GMV hit US$20 billion in 2025 (+21% YoY); platform e-commerce grew 47.6% — among the highest growth rates in Southeast Asia.
+Malaysia's e-commerce GMV was projected at US$20 billion in 2025 (+21% YoY); platform e-commerce grew 47.6% — among the highest growth rates in Southeast Asia.
 (Source: e-Conomy SEA 2025 / Momentum Works, 2025)
 
 -
@@ -4074,11 +4109,11 @@ Malaysia's e-commerce GMV hit US$20 billion in 2025 (+21% YoY); platform e-comme
 
 How large Malaysia's digital economy and advertising market are today, and what's driving the growth.
 
-Malaysia's digital advertising market is projected to reach US$1.12 billion in 2025 — with digital now accounting for 77% of all Malaysian ad spend, up from a minority share just five years ago.
-— Statista / Digital in Asia, 2025
+Digital took about 77% of all Malaysian ad spend in 2024, led by social media (41%) and search (24%). MAGNA forecasts digital's share will reach 85% by 2029.
+(Source: MAGNA, reported by Bernama, 2026)
 
 -
-Malaysia's digital economy GMV grew from US$31 billion in 2024 (+16% YoY) to US$39 billion in 2025 (+19% YoY) — making Malaysia the fastest-growing digital economy in Southeast Asia.
+Malaysia's digital economy GMV was estimated at US$31 billion in 2024 (+16% YoY) and projected at US$39 billion in 2025 (+19% YoY), making Malaysia the fastest-growing digital economy in Southeast Asia.
 (Source: Google, Temasek, Bain — e-Conomy SEA 2024 & 2025, 2024–2025)
 
 -
@@ -4086,19 +4121,19 @@ Malaysia's digital adex reached RM343 million in Q1 2025 (+6.4% YoY) and RM661 m
 (Source: Media Specialists Association / MAA / MDA, 2025)
 
 -
-Digital advertising in Malaysia is projected to grow at a 5.77% CAGR from US$1.12 billion (2025) to US$1.32 billion by 2028.
-(Source: Statista — Digital Advertising Malaysia Market Forecast, 2025)
+Social media took 41% of total Malaysian adex in 2024 and search engines 24%, the two largest channels. MAGNA forecast total adex to grow 6.4% in 2025.
+(Source: MAGNA, reported by Bernama, 2026)
 
 -
 Malaysia's ICT sector contributed RM451.3 billion (23.4% of GDP) in 2024, growing 5.1% year-on-year; ICT GVA alone accounted for 13.9% of GDP.
 (Source: Department of Statistics Malaysia (DOSM), 2024)
 
 -
-Malaysia's total approved digital investments reached RM163.6 billion in 2024 — a 250% year-on-year increase — creating more than 48,000 new jobs, surpassing the prior year's employment figure by 109%.
-(Source: Malaysia Digital Economy Corporation (MDEC), 2024)
+Malaysia approved RM87.4 billion in digital investments in 2025, expected to create more than 31,000 jobs.
+(Source: Malaysia Digital Economy Corporation (MDEC), reported by Bernama, 2026)
 
 -
-MDEC targets a 25.5% digital economy contribution to Malaysia's GDP by end-2025, up from 23.4% in 2024.
+MDEC had targeted a 25.5% digital economy share of GDP by end-2025, up from 23.4% in 2024.
 (Source: Malaysia Digital Economy Corporation (MDEC), 2025)
 
 Malaysia Digital Ad Spend — H1 2024 vs H1 2025 (RM million)
@@ -4106,37 +4141,35 @@ Source: MSA / MAA / MDA, 2025. Based on 21 agencies covering ~60% of total marke
 
 Year | Digital Economy GMV (USD) | YoY Growth | Status
 
-2023 | ~US$26.7B (est.) | — | Historical
+2024 | US$31B | +16% | Estimate (e-Conomy SEA 2024)
 
-2024 | US$31B | +16% | Actual
+2025 | US$39B | +19% ★ Fastest in SEA | Projection (e-Conomy SEA 2025)
 
-2025 | US$39B | +19% ★ Fastest in SEA | Actual
+2030 | US$45B to US$70B | n/a | Projection (e-Conomy SEA 2023)
 
-2030 | US$45B+ | — | Forecast
-
-(Sources: e-Conomy SEA 2024 & 2025 — Google/Temasek/Bain; Statista)
+(Sources: Google, Temasek, Bain: e-Conomy SEA 2023, 2024 and 2025)
 
 ### Social Media & Platform Usage
 
 Platform reach, time spent, and growth trends across Malaysia's social media landscape.
 
-Malaysia has 30.7 million active social media users (85% of population) as of late 2025 — up 5.6 million (+22%) in a single year. Malaysians use an average of 8.12 social platforms daily, second in Southeast Asia only to the Philippines.
-— DataReportal — Digital 2026: Malaysia
+Malaysia had 30.7 million active social media user identities (85.0% of population) in October 2025, up 5.6 million (+22.2%) in a year. Malaysians use an average of 8.12 social platforms each month, second in Southeast Asia only to the Philippines.
+(Sources: DataReportal Digital 2026: Malaysia; DataReportal Digital 2025)
 
 -
 Malaysia had 34.9 million internet users (97.7% penetration) in January 2025, growing to 35.4 million (98.0%) by October 2025 — one of the highest internet penetration rates in the world.
 (Source: DataReportal — Digital 2025 & 2026: Malaysia, 2025)
 
 -
-TikTok's advertising reach in Malaysia grew from 19.3 million adults (72.8% of eligible adults 18+) in January 2025 to 30.7 million adults (86.8% of all internet users) by late 2025.
-(Source: DataReportal — Digital 2025 & 2026: Malaysia, 2025)
+TikTok reports an ad reach of 30.7 million in Malaysia in late 2025, equal to 86.8% of internet users and 114.8% of adults aged 18 and above. DataReportal publishes the figure as reported but notes it exceeds the adult population, so treat it as ad reach, not unique users.
+(Source: DataReportal, Digital 2026: Malaysia, 2025)
 
 -
-YouTube reached 23.6 million users (65.4% of population) in late 2025; Facebook 23.0 million (63.7%); Instagram 16.1 million (44.6%); LinkedIn 10.0 million (27.7%).
+Platform-reported ad reach in late 2025: YouTube 23.6 million (65.4% of population); Facebook 23.0 million (63.7%); Instagram 16.1 million (44.6%). LinkedIn had 10.0 million registered members (27.7%).
 (Source: DataReportal — Digital 2026: Malaysia, 2025)
 
 -
-Malaysians spend an average of 2 hours 46 minutes per day on social media, and use 8.12 different social platforms daily — above the global average of 6.83 and second in SEA only to the Philippines (8.36).
+Malaysians spend an average of 2 hours 46 minutes per day on social media and use an average of 8.12 social platforms each month, above the Digital 2025 global average of 6.83 and second in SEA only to the Philippines (8.36).
 (Source: DataReportal — Digital 2025 Global Overview, 2025)
 
 -
@@ -4144,25 +4177,25 @@ Malaysians spend an average of 8 hours 13 minutes per day online, ranking second
 (Source: DataReportal — Digital 2025 Global Overview, 2025)
 
 -
-Malaysia had 43.3 million active mobile connections in January 2025 — equivalent to 121% of the total population — with 99% classified as broadband (3G/4G/5G).
-(Source: DataReportal — Digital 2025: Malaysia, 2025)
+Malaysia had 44.0 million active cellular mobile connections in late 2025, equal to 122% of the total population. In early 2025, 99% of connections were broadband (3G, 4G or 5G).
+(Source: DataReportal, Digital 2026 and Digital 2025: Malaysia, 2025)
 
-Social Media Platform Reach in Malaysia — Late 2025 (million users)
-Source: DataReportal — Digital 2026: Malaysia (October 2025 snapshot). TikTok figures reflect advertising reach among adults 18+.
+Social Media Platform Ad Reach in Malaysia, Late 2025 (millions)
+Source: DataReportal, Digital 2026: Malaysia (late 2025). Figures are platform-reported ad reach, not unique users; LinkedIn shows registered members. TikTok's figure exceeds the adult population.
 
-Platform | Users (late 2025) | % of Population
+Platform | Ad reach (late 2025) | % of Internet Users
 
-TikTok | 30.7M | 85.0%
+TikTok | 30.7M | 86.8%
 
-YouTube | 23.6M | 65.4%
+YouTube | 23.6M | 66.7%
 
-Facebook | 23.0M | 63.7%
+Facebook | 23.0M | 65.0%
 
-Instagram | 16.1M | 44.6%
+Instagram | 16.1M | 45.5%
 
-LinkedIn | 10.0M | 27.7%
+LinkedIn (members) | 10.0M | 28.3%
 
-(Source: DataReportal — Digital 2026: Malaysia, 2025)
+(Source: DataReportal, Digital 2026: Malaysia, 2025. Ad reach is platform-reported and is not a count of unique users. TikTok's figure exceeds the adult population.)
 
 ### Paid Advertising Benchmarks
 
@@ -4184,24 +4217,24 @@ Travel & Tours surged from 1% of Malaysia's digital adex in Q1 2024 to 9% in Q1 
 (Source: MSA / MAA / MDA — reported by Marketing Interactive, 2025)
 
 -
-Meta Ads (Facebook/Instagram) average CPM for Malaysia is approximately US$4.80; average CPC is approximately US$0.55, based on 2025 industry benchmarks.
-(Source: Adamigo — Meta Ads CPM/CPC Benchmarks by Country, 2025)
+Meta Ads (Facebook/Instagram) CPM for Malaysia is projected at about US$4.80 and CPC at about US$0.55 in 2026, a projection by Adamigo based on industry benchmarks and late 2025 data.
+(Source: Adamigo, Meta Ads CPM/CPC Benchmarks by Country 2026, a 2026 projection)
 
 -
 Programmatic advertising is projected to account for 73% of Malaysia's digital ad spending by 2028, driven by AI-powered targeting and automation.
 (Source: Digital in Asia — Malaysia Digital Market Overview, 2025)
 
 -
-Meta lead-generation campaigns for a Malaysian EV-charger installer delivered lead conversations at RM11.55 each in the 30 days to 24 September 2026 — 959 conversations on RM11,081 of spend, with the best-performing campaign at RM10.15 per lead and a 3.6% CTR.
-(Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
+Meta lead-generation campaigns for a Malaysian EV-charger installer delivered lead conversations at RM13.14 each in the 30 days to 5 October 2026: 844 conversations on RM11,089 of spend, with the best campaign at RM11.55 per lead and a 3.3% CTR.
+(Source: ADV Digital Marketing managed accounts, Live Results Board, October 2026)
 
 -
-Meta awareness campaigns in Malaysia can still be bought at around RM1.19 CPM (cost per 1,000 impressions) in 2026 — a fraction of the US$4.80 (~RM20) benchmark for Malaysian Meta CPMs, when optimised for reach rather than conversions.
-(Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
+An EV-charger client's Meta awareness campaign ran at RM1.30 CPM (cost per 1,000 impressions) in the 30 days to 5 October 2026, optimised for reach rather than conversions. That is far below Adamigo's 2026 projection of US$4.80 for Malaysian Meta CPMs.
+(Source: ADV Digital Marketing managed accounts, Live Results Board, October 2026)
 
 -
-Google Ads for a Malaysian healthcare group cost RM76.78 per conversion on RM16.2K of spend (211 conversions) in the 30 days to 24 September 2026 — the fourth consecutive rise from RM55.11 as budget scaled, with a newer service-line campaign converting at RM59 against RM83 for the main Search campaign. A typical pattern when spend outgrows the highest-intent search volume.
-(Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
+A Malaysian healthcare group's Google Ads cost RM91.47 per conversion over the 30 days to 5 October 2026 (175 conversions on RM16.1K of spend), after four rises in a row from RM55.11. A newer service-line campaign converted at RM64, against RM105 for the main Search campaign.
+(Source: ADV Digital Marketing managed accounts, Live Results Board, October 2026)
 
 -
 Meta lead costs for a Malaysian aesthetics clinic ranged from a best of RM14.04 to RM41.41 per lead conversation in its last reported period in 2026 — a ~3× spread between best and latest periods in the same account, which is why single-month agency case-study figures should be read with caution.
@@ -4224,11 +4257,11 @@ Malaysia's retail e-commerce market was valued at US$10.62 billion in 2025; smar
 
 -
 Shopee is the preferred platform for 65% of Malaysian online shoppers; TikTok Shop is preferred by 26%; Lazada by 11%.
-(Source: Vase.ai — Consumer Shopping Habits in Malaysia, 2025)
+(Source: Vase.ai, Consumer Shopping Habits in Malaysia, survey of 417 consumers, September 2025)
 
 -
 88% of Malaysian online shoppers buy via marketplaces; 71% buy via social platforms; only 26% buy directly from brand websites.
-(Source: Vase.ai — Consumer Shopping Habits in Malaysia, 2025)
+(Source: Vase.ai, Consumer Shopping Habits in Malaysia, survey of 417 consumers, September 2025)
 
 -
 E-commerce shoppers in Malaysia increased by 16% in 2025, with nearly two-thirds of Malaysians now purchasing online.
@@ -4250,39 +4283,39 @@ Fashion/apparel leads Malaysian e-commerce product categories with 26.67% revenu
 
 How Malaysian small and medium businesses are adopting digital tools — and where the gaps remain.
 
-97.2% of Malaysian businesses use computers and 95.3% use the internet — but only 44% use cloud computing and only 54% use data analytics. Near-universal connectivity has not yet translated into advanced digital capability.
-— DOSM / Khazanah Research Institute, 2024
+97.2% of Malaysian businesses used computers and 95.3% used the internet in 2024. Yet in March 2025 the Digital Minister said more than 60% of businesses, over 650,000 MSMEs, were still at a basic level of digitalisation. Near-universal connectivity has not yet translated into advanced digital capability.
+(Sources: DOSM, 2024; Ministry of Digital, reported by The Sun, 2025)
 
 -
 97.2% of Malaysian businesses used computers and 95.3% used the internet in 2024 (up from 96.6% and 94% in 2023); web presence grew to 74.4% of all businesses.
 (Source: DOSM — Usage of ICT and E-commerce, 2024)
 
 -
-Only 44% of Malaysian SMEs use cloud computing and only 54% use data analytics — highlighting a significant gap between connectivity and advanced digital capability.
-(Source: Khazanah Research Institute (KRI), 2024)
+In an SME Corp Malaysia and Huawei survey of 2,033 SMEs (fieldwork May to June 2018), 44% used cloud computing, mostly for storage only, and 54% used some form of data analytics, mostly spreadsheets.
+(Source: SME Corp Malaysia and Huawei, Accelerating Malaysian Digital SMEs white paper, 2018)
 
 -
-Malaysian SMEs and MSMEs contribute 39.1% of GDP (RM613.1 billion) and employ nearly half the national workforce; the MSME sector recorded 5% growth in 2024.
-(Source: Department of Statistics Malaysia (DOSM), 2024)
+Malaysian MSMEs contributed RM689.8 billion, or 39.7% of GDP, in 2025, growing 5.7%. They employed 48.7% of Malaysia's workforce.
+(Source: Department of Statistics Malaysia (DOSM), MSMEs Performance 2025, July 2026)
 
 -
 Malaysia's digital transformation market was valued at US$10.68 billion in 2025; SMEs are the fastest-growing segment, expanding at 19.56% CAGR.
 (Source: Mordor Intelligence — Malaysia Digital Transformation Market, 2025)
 
 -
-Malaysia's Budget 2025 allocated RM50 million in a Digital Matching Grant via Bank Simpanan Nasional (BSN) to accelerate MSME digital transformation.
-(Source: Malaysia Ministry of Finance — Budget 2025, 2024)
+Malaysia's Budget 2025, tabled in October 2024, allocated RM50 million to a Digital Matching Grant via Bank Simpanan Nasional (BSN) to accelerate MSME digital transformation.
+(Source: Malaysia Ministry of Finance, Budget 2025, 2024)
 
 -
-More than 50,000 SMEs onboarded digital tools through MDEC's 100 Go Digital initiative during 2024; a cumulative 21,591 SMEs adopted the initiative in 2023–2024.
-(Source: MDEC — 100 Go Digital Programme, 2024)
+MDEC launched a RM1.5 billion Business Digitalisation Initiative in March 2025, when more than 60% of Malaysian businesses, over 650,000 MSMEs, were still at a basic level of digitalisation.
+(Source: Ministry of Digital and MDEC, reported by The Sun, 2025)
 
 ### Malaysian Consumer Digital Behavior
 
 How Malaysian consumers research, discover, and buy — and what influences their decisions.
 
-35% of Malaysian consumers purchase a product after seeing it on social media. 58% have bought something endorsed by an influencer. Influencer marketing delivers an estimated 11× ROI over traditional advertising in the Malaysian market.
-— Vase.ai / INSG.co, 2025
+35% of Malaysian consumers purchase a product after seeing it on social media. 58% have bought something endorsed by an influencer, and 79% of social media users follow at least one influencer.
+(Sources: Vase.ai survey of 417 consumers, September 2025; INSG.co, 2025)
 
 -
 Malaysians spend an average of 8 hours per day on the internet in 2025, placing them among the heaviest internet users in Southeast Asia.
@@ -4290,15 +4323,15 @@ Malaysians spend an average of 8 hours per day on the internet in 2025, placing 
 
 -
 35% of Malaysian consumers purchase a product after seeing it on social media; 49% prioritize discounts when shopping online; 42% compare prices before purchasing.
-(Source: Vase.ai — Consumer Shopping Habits in Malaysia, 2025)
+(Source: Vase.ai, Consumer Shopping Habits in Malaysia, survey of 417 consumers, September 2025)
 
 -
 40% of Malaysian consumers practice omnichannel shopping (equal online/offline balance); 39% are primarily online-focused; only 4% shop exclusively in physical stores.
-(Source: Vase.ai — Consumer Shopping Habits in Malaysia, 2025)
+(Source: Vase.ai, Consumer Shopping Habits in Malaysia, survey of 417 consumers, September 2025)
 
 -
 71% of Malaysian consumers prefer to shop for fashion online; 84% prefer to buy groceries from physical stores; 60% prefer health & beauty products online.
-(Source: Vase.ai — Consumer Shopping Habits in Malaysia, 2025)
+(Source: Vase.ai, Consumer Shopping Habits in Malaysia, survey of 417 consumers, September 2025)
 
 -
 58% of Malaysian consumers have purchased a product endorsed by an influencer; 79% of social media users follow at least one influencer.
@@ -4309,11 +4342,11 @@ Malaysians spend an average of 8 hours per day on the internet in 2025, placing 
 (Source: INSG.co — Influencer Marketing Statistics in Malaysia, 2025)
 
 -
-Micro-influencers make up 52% of all influencers in Malaysia; nano creators lead on engagement at an average 4.79% engagement rate; influencer marketing delivers an estimated 11× ROI over traditional advertising.
+Micro-influencers make up 52% of all influencers in Malaysia; nano creators lead on engagement at an average 4.79% engagement rate.
 (Source: INSG.co — Influencer Marketing Statistics in Malaysia, 2025)
 
 -
-Bank Negara Malaysia reported a 28% surge in digital payment usage in 2025; DuitNow QR transactions reached approximately 3 billion — double the prior year; e-payment transactions totalled 18.4 billion (+25%), averaging 538 per person annually.
+DuitNow QR transactions reached approximately 3 billion, double the prior year; e-payment transactions totalled 18.4 billion (+25%), averaging 538 per person annually.
 (Source: Bank Negara Malaysia / Digital in Asia, 2025)
 
 ### AI & Marketing Technology Adoption
@@ -4344,8 +4377,8 @@ Approximately 73% of Malaysian businesses currently using AI remain at basic aut
 (Source: Digital in Asia — Malaysia Digital Market Overview, 2025)
 
 -
-Malaysia's 5G coverage reached 82.4% of populated areas by mid-2025; 5G subscriptions grew from 4.6 million (November 2023) to 28.7 million (November 2025).
-(Source: MCMC Malaysia / TelecomLead, 2025)
+Malaysia's 5G network covered about 82.4% of populated areas by December 2024. 5G subscriptions grew from 4.6 million in November 2023 to 28.7 million in November 2025.
+(Sources: GlobalData, reported by RCR Wireless, 2025; MCMC, reported by Malay Mail, 16 December 2025)
 
 ### Malaysia vs Southeast Asia
 
@@ -4355,15 +4388,15 @@ Malaysia grew its digital economy 19% in 2025 — faster than Indonesia, Thailan
 — e-Conomy SEA 2025, Google/Temasek/Bain
 
 -
-Malaysia's internet penetration was 98% in late 2025, versus a SEA regional average of approximately 75%; Singapore is the only other SEA market with comparable penetration.
-(Source: DataReportal — Digital 2026: Malaysia, 2025)
+Malaysia's internet penetration was 98.0% in late 2025, level with Singapore (98.4%) and just behind Brunei (99.0%). Thailand was at 94.7%, Vietnam 84.2%, the Philippines 83.8% and Indonesia 80.5%.
+(Source: DataReportal, Digital 2026 country reports, October 2025 data)
 
 -
-Southeast Asia's social media penetration averages 61.5% of population (2025); Singapore leads at 88.2%; Malaysia is at 85% — the second highest in the region.
-(Source: DataReportal — Digital 2025 Global Overview, 2025)
+Social media user identities equalled 85.0% of Malaysia's population in October 2025, second among the six countries compared here. Singapore led at 90.6%, followed by the Philippines (81.9%), Thailand (79.1%), Vietnam (77.6%) and Indonesia (62.9%).
+(Source: DataReportal, Digital 2026 country reports, October 2025 data)
 
 -
-Malaysians use 8.12 social platforms daily — second in SEA after the Philippines (8.36), ahead of Indonesia (7.93) and Singapore (7.24); all SEA nations exceed the global average of 6.83.
+Malaysians use an average of 8.12 social platforms each month, second in SEA after the Philippines (8.36), ahead of Indonesia (7.93) and Singapore (7.24); all SEA nations exceed the Digital 2025 global average of 6.83.
 (Source: DataReportal — Digital 2025 Global Overview, 2025)
 
 -
@@ -4382,32 +4415,32 @@ Malaysia's median mobile internet speed reached 143.56 Mbps in August 2025 (+34.
 Malaysia attracted 32% of Southeast Asia's total private AI funding — the highest national share in the region — between H2 2024 and H1 2025.
 (Source: e-Conomy SEA 2025 / Artificial Intelligence News, 2025)
 
-Country | Internet Penetration | Social Media (% pop.) | Avg. Platforms Used | Daily Time Online
+Country | Internet Penetration | Social Media User Identities (% pop.)
 
-Philippines | ~76% | ~79% | 8.36 | 8h 52m
+Singapore | 98.4% | 90.6%
 
-Malaysia | 98% | 85% | 8.12 | 8h 13m
+Malaysia | 98.0% | 85.0%
 
-Thailand | ~91% | ~81% | 7.62 | 7h 58m
+Thailand | 94.7% | 79.1%
 
-Indonesia | ~80% | ~66% | 7.93 | 7h 39m
+Vietnam | 84.2% | 77.6%
 
-Vietnam | ~79% | ~74% | 7.04 | 6h 33m
+Philippines | 83.8% | 81.9%
 
-Singapore | ~97% | 88% | 7.24 | 6h 33m
+Indonesia | 80.5% | 62.9%
 
-(Source: DataReportal — Digital 2025 Global Overview, 2025. Some SEA estimates are approximate.)
+(Source: DataReportal, Digital 2026 country reports, all rows October 2025 data. Brunei, not shown, had 99.0% internet penetration.)
 
 ### Future Projections: 2026–2031
 
 Where analyst consensus and government targets see Malaysia's digital economy heading over the next five years.
 
-Malaysia's NIMP 2030 blueprint targets the internet economy generating RM257.2 billion (US$61.3 billion) in annual economic value by 2030 — nearly double the current digital economy GMV of US$39 billion.
-— Malaysia New Industrial Master Plan (NIMP) 2030
+Digital transformation could unlock up to RM257.2 billion (US$61.3 billion) in annual economic value in Malaysia by 2030, according to a 2021 AlphaBeta study.
+(Source: AlphaBeta, reported by The Vibes, October 2021)
 
 -
-Malaysia's digital economy GMV is forecast to exceed US$45 billion by 2030, from US$39 billion in 2025.
-(Source: Statista — Malaysia GMV Digital Economy to 2030, 2025)
+Malaysia's digital economy GMV is projected to reach US$45 billion to US$70 billion by 2030, up from a projected US$39 billion in 2025.
+(Source: Google, Temasek, Bain, e-Conomy SEA 2023 and 2025)
 
 -
 Malaysia's digital transformation market is projected to grow from US$10.68 billion (2025) to US$29.74 billion by 2031 at a CAGR of 18.62%; the SME segment is the fastest-growing at 19.56% CAGR.
@@ -4418,8 +4451,8 @@ Malaysia's retail e-commerce is projected to grow from US$10.62 billion (2025) t
 (Source: Mordor Intelligence — Malaysia E-Commerce Market Report, 2025)
 
 -
-Malaysia's digital advertising market is forecast to grow from US$1.12 billion (2025) to US$1.32 billion by 2028 at a CAGR of 5.77%.
-(Source: Statista — Digital Advertising Malaysia Market Forecast, 2025)
+Digital media's share of total Malaysian adex is forecast to rise to 85% by 2029, from about 77% in 2024.
+(Source: MAGNA, reported by Bernama, 2026)
 
 -
 Malaysia's influencer marketing market is projected to grow from US$82.42 million (2026) to US$119.29 million by 2030 at an annual growth rate of 9.14%.
@@ -4430,8 +4463,8 @@ Programmatic advertising is forecast to account for 73% of Malaysia's total digi
 (Source: Digital in Asia — Malaysia Digital Market Overview, 2025)
 
 -
-Malaysia's 5G subscriptions are projected to represent 84% of all mobile subscriptions by 2029, up from 28.7 million subscriptions in late 2025.
-(Source: TelecomLead / MCMC Malaysia, 2025)
+5G is projected to represent 84% of all mobile subscriptions in Malaysia by 2029. MCMC counted 28.7 million 5G subscriptions in November 2025.
+(Sources: GlobalData, reported by RCR Wireless, 2025; MCMC, reported by Malay Mail, 2025)
 
 -
 Malaysia's data centre infrastructure market is projected to grow from US$5.48 billion (2025) to US$16.02 billion by 2031 at a 19.55% CAGR; Johor is projected to hold 60% of national capacity by 2030.
@@ -4440,22 +4473,22 @@ Malaysia's data centre infrastructure market is projected to grow from US$5.48 b
 ### Frequently Asked Questions
 
 How big is Malaysia's digital marketing market in 2026?
-Malaysia's digital advertising market is projected to reach US$1.12 billion in 2025, growing to US$1.32 billion by 2028 (Statista). Digital advertising now accounts for approximately 77% of all Malaysian ad spend. The broader digital economy GMV hit US$39 billion in 2025 — the fastest growth in Southeast Asia at 19% year-on-year (e-Conomy SEA 2025, Google/Temasek/Bain).
+The latest published figures cover 2024 and 2025. Digital advertising took about 77% of all Malaysian ad spend in 2024, and MAGNA forecasts that share will reach 85% by 2029. The e-Conomy SEA 2025 report (Google, Temasek, Bain) projected Malaysia's digital economy GMV at US$39 billion for 2025, up 19% year on year and the fastest growth in Southeast Asia.
 
 Which social media platforms are most popular in Malaysia?
-As of late 2025: TikTok has the widest advertising reach at 30.7 million adults (86.8% of internet users), followed by YouTube at 23.6 million (65.4%), Facebook at 23.0 million (63.7%), Instagram at 16.1 million (44.6%), and LinkedIn at 10.0 million (27.7%). Source: DataReportal Digital 2026: Malaysia.
+As of late 2025, measured by platform-reported ad reach: TikTok reports 30.7 million (86.8% of internet users), followed by YouTube at 23.6 million (66.7%), Facebook at 23.0 million (65.0%), Instagram at 16.1 million (45.5%), and LinkedIn at 10.0 million registered members (28.3%). DataReportal notes TikTok's figure exceeds the adult population, so read it as ad reach, not unique users. Source: DataReportal Digital 2026: Malaysia.
 
 How many Malaysians use the internet?
-Malaysia had approximately 35.4 million internet users as of October 2025, representing 98% of the total population. Malaysians also spend an average of 8 hours 13 minutes online daily — one of the highest figures in Southeast Asia. Source: DataReportal Digital 2026: Malaysia.
+Malaysia had approximately 35.4 million internet users as of October 2025, representing 98% of the total population (DataReportal Digital 2026). In the Digital 2025 edition, Malaysians spent an average of 8 hours 13 minutes online daily, one of the highest figures in Southeast Asia. Sources: DataReportal Digital 2025 and Digital 2026: Malaysia.
 
 What is the e-commerce market size in Malaysia?
-Malaysia's e-commerce sector GMV reached US$20 billion in 2025 (+21% YoY), with the retail e-commerce segment valued at US$10.62 billion. The DOSM's broader measure of e-commerce income reached RM1.29 trillion in 2024. 72.67% of e-commerce transactions are completed via smartphone. Sources: e-Conomy SEA 2025, Mordor Intelligence, DOSM.
+Malaysia's e-commerce sector GMV was projected to reach US$20 billion in 2025 (+21% YoY, e-Conomy SEA 2025), with the retail e-commerce segment valued at US$10.62 billion. The DOSM's broader measure of e-commerce income reached RM1.29 trillion in 2024. 72.67% of e-commerce transactions are completed via smartphone. Sources: e-Conomy SEA 2025, Mordor Intelligence, DOSM.
 
 How widely are Malaysian businesses adopting AI in marketing?
 74% of Malaysian digital consumers use AI tools daily, and apps with marketed AI features saw 103% revenue growth in H1 2025 vs H1 2024. However, 73% of Malaysian businesses currently using AI remain at basic automation levels. Malaysia attracted 32% of Southeast Asia's private AI funding (US$759 million) between H2 2024 and H1 2025. Sources: e-Conomy SEA 2025, Digital in Asia.
 
 How does Malaysia compare to other Southeast Asian countries digitally?
-Malaysia leads SEA on internet penetration (98%), ranks second on daily social platform usage (8.12 platforms, behind the Philippines at 8.36), and achieved the fastest digital economy growth in SEA at 19% in 2025. Malaysians spend 8 hours 13 minutes online daily — second only to the Philippines. Sources: DataReportal Digital 2025, e-Conomy SEA 2025.
+Malaysia's internet penetration is 98%, level with Singapore (98.4%) and just behind Brunei (99.0%), the highest in Southeast Asia (DataReportal Digital 2026). Malaysians use an average of 8.12 social platforms each month, second in SEA behind the Philippines at 8.36, and spend 8 hours 13 minutes online daily, also second only to the Philippines (DataReportal Digital 2025). Malaysia's digital economy grew 19% in 2025, the fastest in SEA (e-Conomy SEA 2025).
 
 ### Sources
 
@@ -4469,6 +4502,12 @@ Every statistic on this page is sourced from one of the following organisations 
 
 - Google, Temasek, Bain & Company — e-Conomy SEA 2024
 
+- Google, Temasek, Bain & Company, e-Conomy SEA 2023
+
+- DataReportal, Digital 2026 country reports (Singapore, Philippines, Thailand, Indonesia, Vietnam, Brunei)
+
+- MAGNA (reported by Bernama)
+
 - Department of Statistics Malaysia (DOSM)
 
 - Malaysia Digital Economy Corporation (MDEC)
@@ -4476,8 +4515,6 @@ Every statistic on this page is sourced from one of the following organisations 
 - Media Specialists Association (MSA) / MAA / MDA
 
 - Mordor Intelligence — Malaysia E-Commerce & Digital Transformation
-
-- Statista — Digital Advertising Malaysia Market Forecast
 
 - Momentum Works — SEA Platform E-Commerce 2025 Report
 
@@ -4487,7 +4524,9 @@ Every statistic on this page is sourced from one of the following organisations 
 
 - INSG.co — Influencer Marketing Statistics in Malaysia 2026
 
-- Khazanah Research Institute (KRI)
+- SME Corp Malaysia and Huawei, SME digitalisation white paper (2018)
+
+- Ministry of Digital (reported by The Sun)
 
 - Bank Negara Malaysia
 
@@ -4495,9 +4534,13 @@ Every statistic on this page is sourced from one of the following organisations 
 
 - Digital in Asia — Malaysia Digital Market Overview 2026
 
-- TelecomLead / MCMC Malaysia — 5G Adoption Statistics
+- MCMC (reported by Malay Mail)
 
-- Malaysia New Industrial Master Plan (NIMP) 2030
+- GlobalData (reported by RCR Wireless)
+
+- AlphaBeta (2021 study, reported by The Vibes)
+
+- ADV Digital Marketing, Live Results Board (managed accounts)
 
 - Malaysia Ministry of Finance — Budget 2025
 
@@ -4515,10 +4558,234 @@ Need help acting on these numbers? See ADV's SEO, AEO & GEO services or the Meta
 
 tags; CDN script is allowed -->
 
-US$45B by 2030"
-source_name: "Statista"
-source_url: "https://www.statista.com/statistics/1346891/malaysia-gmv-of-digital-economy/"
+100%); Jan 2025 vs Oct 2025 growth comparison removed 2026-10-06"
+source_name: "DataReportal"
+source_url: "https://datareportal.com/reports/digital-2026-malaysia"
 year: 2025
+
+- stat: "Ad reach late 2025: YouTube 23.6M (65.4% pop, 66.7% internet users), Facebook 23.0M (63.7%, 65.0%), Instagram 16.1M (44.6%, 45.5%); LinkedIn 10.0M members (27.7%, 28.3%)"
+source_name: "DataReportal"
+source_url: "https://datareportal.com/reports/digital-2026-malaysia"
+year: 2025
+
+- stat: "8.12 social platforms used each month (Digital 2025; corrected from 'daily' 2026-10-06); 2h46m on social; 8h13m online daily"
+source_name: "DataReportal 2025 Global Overview"
+source_url: "https://technode.global/2025/02/11/digital-2025-nearly-two-thirds-of-southeast-asias-population-are-on-social-media/"
+year: 2025
+
+- stat: "44.0M cellular mobile connections late 2025 (122% of population); 99.0% broadband in early 2025 (Digital 2025)"
+source_name: "DataReportal"
+source_url: "https://datareportal.com/reports/digital-2026-malaysia"
+year: 2025
+
+- stat: "Social media share of adex: 41%→44% (Q1) and 44%→50% (Q2)"
+source_name: "MSA / MAA / MDA"
+source_url: "https://www.marketing-interactive.com/malaysia-s-digital-adex-rebounds-in-1h-2025-fueled-by-social-and-travel-sectors"
+year: 2025
+
+- stat: "Video 22-24%, Display 12-15%, Tech & Electronics 20% of adex H1 2025"
+source_name: "MSA / MAA / MDA"
+source_url: "https://www.businesstoday.com.my/2025/12/08/digital-ad-spend-surges-in-first-half-of-2025/"
+year: 2025
+
+- stat: "Travel & Tours: 1% (Q1 2024) → 9% (Q1 2025) of digital adex"
+source_name: "MSA / Marketing Interactive"
+source_url: "https://www.marketing-interactive.com/malaysia-s-digital-adex-rebounds-in-1h-2025-fueled-by-social-and-travel-sectors"
+year: 2025
+
+- stat: "Meta Ads Malaysia CPM ~US$4.80, CPC ~US$0.55 (Adamigo labels these 2026 projections from late 2025 data)"
+source_name: "Adamigo"
+source_url: "https://www.adamigo.ai/blog/meta-ads-cpm-cpc-benchmarks-by-country-2026"
+year: 2026
+
+- stat: "Programmatic to be 73% of digital ad spend by 2028"
+source_name: "Digital in Asia"
+source_url: "https://digitalinasia.com/malaysia-digital-market-overview-2026/"
+year: 2025
+
+- stat: "E-commerce income RM1.29T in 2024; B2C RM374.7B (+11.3%)"
+source_name: "DOSM"
+source_url: "https://www.businesstoday.com.my/2026/07/01/malaysias-e-commerce-income-hits-rm1-29-trillion-in-2024-as-adoption-expands/"
+year: 2024
+
+- stat: "Retail e-commerce US$10.62B; 72.67% via smartphones; 34.92% digital wallets"
+source_name: "Mordor Intelligence"
+source_url: "https://www.mordorintelligence.com/industry-reports/malaysia-ecommerce-market"
+year: 2025
+
+- stat: "Shopee 65%, TikTok Shop 26%, Lazada 11% shopper preference"
+source_name: "Vase.ai"
+source_url: "https://www.vase.ai/resources/insights-report/retail-shopping-trends-malaysia-2025"
+year: 2025
+
+- stat: "88% via marketplaces, 71% via social, 26% via brand websites"
+source_name: "Vase.ai"
+source_url: "https://www.vase.ai/resources/insights-report/retail-shopping-trends-malaysia-2025"
+year: 2025
+
+- stat: "E-commerce shoppers grew 16%; ~two-thirds of Malaysians buy online"
+source_name: "Ipsos Malaysia"
+source_url: "https://www.ipsos.com/en-my/press-release-e-commerce-landscape-2025"
+year: 2025
+
+- stat: "Live-stream commerce up to 22% of platform GMV in Malaysia"
+source_name: "Digital in Asia"
+source_url: "https://digitalinasia.com/malaysia-digital-market-overview-2026/"
+year: 2025
+
+- stat: "Fashion/apparel 26.67% revenue share; B2C 80.89% of market"
+source_name: "Mordor Intelligence"
+source_url: "https://www.mordorintelligence.com/industry-reports/malaysia-ecommerce-market"
+year: 2025
+
+- stat: "725,285 MSMEs adopted e-commerce by 2025 under MyDIGITAL"
+source_name: "MDEC / Digital in Asia"
+source_url: "https://digitalinasia.com/malaysia-digital-market-overview-2026/"
+year: 2025
+
+- stat: "97.2% use computers, 95.3% use internet, 74.4% have web presence (2024)"
+source_name: "DOSM"
+source_url: "https://www.businesstoday.com.my/2026/07/01/malaysias-e-commerce-income-hits-rm1-29-trillion-in-2024-as-adoption-expands/"
+year: 2024
+
+- stat: "44% of SMEs use cloud (mostly storage), 54% some data analytics (mostly Excel); survey of 2,033 SMEs, May-June 2018 (re-attributed 2026-10-06 from KRI)"
+source_name: "SME Corp Malaysia and Huawei white paper, via The Edge"
+source_url: "https://theedgemalaysia.com/article/news-smes-still-not-using-digitalisation-enablers"
+year: 2018
+
+- stat: "REPLACED 2026-10-06 (were 2023 figures). Now: MSMEs RM689.8B = 39.7% of GDP in 2025, +5.7%; 48.7% of employment"
+source_name: "DOSM, MSMEs Performance 2025 (July 2026)"
+source_url: "https://www.dosm.gov.my/portal-main/release-content/micro-small--medium-enterprises-msmes-performance-2025"
+year: 2025
+
+- stat: "Digital transformation market US$10.68B (2025); SMEs fastest-growing at 19.56% CAGR"
+source_name: "Mordor Intelligence"
+source_url: "https://www.mordorintelligence.com/industry-reports/malaysia-digital-transformation-market"
+year: 2025
+
+- stat: "Budget 2025 (tabled Oct 2024): RM50M Digital Matching Grant via BSN for MSMEs (re-verified 2026-10-06)"
+source_name: "Malaysia Ministry of Finance"
+source_url: "https://www.malaysiakini.com/announcement/729193"
+year: 2024
+
+- stat: "REPLACED 2026-10-06 (100 Go Digital figures contradictory/unsourced). Now: RM1.5B Business Digitalisation Initiative, Mar 2025; >60% of businesses, >650,000 MSMEs at basic digitalisation"
+source_name: "Ministry of Digital / MDEC via The Sun"
+source_url: "https://thesun.my/business/ministry-rolls-out-rm15-billion-business-digitalisation-initiative-to-help-msmes-adopt-digital-tools-lp13850193/"
+year: 2025
+
+- stat: "Malaysians spend 8 hours/day online"
+source_name: "Ipsos / New Straits Times"
+source_url: "https://www.nst.com.my/amp/news/nation/2025/10/1304185/malaysians-spend-8-hours-online-daily-among-regions-heaviest-internet"
+year: 2025
+
+- stat: "35% buy after seeing on social; 49% prioritize discounts; 42% compare prices (Vase.ai sample: 417 consumers, fieldwork to 11 Sep 2025)"
+source_name: "Vase.ai"
+source_url: "https://www.vase.ai/resources/insights-report/retail-shopping-trends-malaysia-2025"
+year: 2025
+
+- stat: "40% omnichannel; 39% online-focused; 4% physical-only"
+source_name: "Vase.ai"
+source_url: "https://www.vase.ai/resources/insights-report/retail-shopping-trends-malaysia-2025"
+year: 2025
+
+- stat: "71% fashion online; 84% groceries offline; 60% health & beauty online"
+source_name: "Vase.ai"
+source_url: "https://www.vase.ai/resources/insights-report/retail-shopping-trends-malaysia-2025"
+year: 2025
+
+- stat: "58% bought from influencer; 79% follow at least one influencer"
+source_name: "INSG.co"
+source_url: "https://www.insg.co/influencer-marketing-malaysia/"
+year: 2025
+
+- stat: "75% use influencer tutorials; 34% factor recommendations into decisions"
+source_name: "INSG.co"
+source_url: "https://www.insg.co/influencer-marketing-malaysia/"
+year: 2025
+
+- stat: "Micro-influencers 52% of total; nano creators 4.79% engagement (11x ROI removed 2026-10-06: uncited, not Malaysia-specific)"
+source_name: "INSG.co"
+source_url: "https://www.insg.co/influencer-marketing-malaysia/"
+year: 2025
+
+- stat: "DuitNow QR ~3B transactions (doubled); 18.4B e-payments +25%; 538/person/year ('28% surge' clause removed 2026-10-06, not in source)"
+source_name: "Bank Negara Malaysia / Digital in Asia"
+source_url: "https://digitalinasia.com/malaysia-digital-market-overview-2026/"
+year: 2025
+
+- stat: "74% use AI daily; 68% chatted with AI; 92% willing to share data"
+source_name: "e-Conomy SEA 2025"
+source_url: "https://techwireasia.com/2025/11/malaysia-digital-economy-leads-sea-growth-2025/"
+year: 2025
+
+- stat: "AI-featured apps: 103% revenue growth H1 2025 vs H1 2024"
+source_name: "e-Conomy SEA 2025"
+source_url: "https://techwireasia.com/2025/11/malaysia-digital-economy-leads-sea-growth-2025/"
+year: 2025
+
+- stat: "Malaysia 32% of SEA AI funding (US$759M)"
+source_name: "e-Conomy SEA 2025 / AI News"
+source_url: "https://www.artificialintelligence-news.com/news/malaysia-ai-investment-32-percent-sea-funding-2025/"
+year: 2025
+
+- stat: "Data centre: 120MW (2024) → 690MW (H1 2025), 50% of SEA planned capacity"
+source_name: "e-Conomy SEA 2025"
+source_url: "https://www.artificialintelligence-news.com/news/malaysia-ai-investment-32-percent-sea-funding-2025/"
+year: 2025
+
+- stat: "Microsoft US$2.2B, Google US$2B, NVIDIA-YTL US$2.36B, Oracle US$6.5B = US$15B+"
+source_name: "MDEC / Digital in Asia"
+source_url: "https://digitalinasia.com/malaysia-digital-market-overview-2026/"
+year: 2024
+
+- stat: "73% of AI-using businesses remain at basic automation levels"
+source_name: "Digital in Asia"
+source_url: "https://digitalinasia.com/malaysia-digital-market-overview-2026/"
+year: 2025
+
+- stat: "5G coverage ~82.4% of populated areas by Dec 2024"
+source_name: "GlobalData via RCR Wireless"
+source_url: "https://www.rcrwireless.com/20250421/5g/5g-mobile-malaysia"
+year: 2025
+- stat: "5G subscriptions 4.6M (Nov 2023) to 28.7M (Nov 2025)"
+source_name: "MCMC via Malay Mail (16 Dec 2025)"
+source_url: "https://www.malaymail.com/news/malaysia/2025/12/16/malaysias-5g-performance-reflects-rapid-expansion-and-strong-user-growth/202107"
+year: 2025
+
+- stat: "REPLACED 2026-10-06 (SEA ~75% average unsourced). Internet penetration Oct 2025: Brunei 99.0%, Singapore 98.4%, Malaysia 98.0%, Thailand 94.7%, Vietnam 84.2%, Philippines 83.8%, Indonesia 80.5%"
+source_name: "DataReportal Digital 2026 country reports"
+source_url: "https://datareportal.com/reports/digital-2026-singapore ; https://datareportal.com/reports/digital-2026-brunei-darussalam ; https://datareportal.com/reports/digital-2026-thailand ; https://datareportal.com/reports/digital-2026-vietnam ; https://datareportal.com/reports/digital-2026-philippines ; https://datareportal.com/reports/digital-2026-indonesia"
+year: 2025
+
+- stat: "REPLACED 2026-10-06 (mixed editions). Social media user identities % pop, Oct 2025: Singapore 90.6%, Malaysia 85.0%, Philippines 81.9%, Thailand 79.1%, Vietnam 77.6%, Indonesia 62.9% (Brunei 64.1%, not shown)"
+source_name: "DataReportal Digital 2026 country reports"
+source_url: "https://datareportal.com/reports/digital-2026-singapore (and the other country reports above)"
+year: 2025
+
+- stat: "Platforms used per month (Digital 2025): Malaysia 8.12; Philippines 8.36; Indonesia 7.93; Singapore 7.24; Thailand and Vietnam 7.11; global 6.83. SEA table columns for platforms and time online dropped 2026-10-06 (Thailand/Vietnam cells were wrong)"
+source_name: "DataReportal 2025 Global Overview"
+source_url: "https://technode.global/2025/02/11/digital-2025-nearly-two-thirds-of-southeast-asias-population-are-on-social-media/"
+year: 2025
+
+- stat: "Malaysia 8h13m online (2nd SEA); Philippines 8h52m; Singapore 6h33m"
+source_name: "DataReportal 2025 Global Overview"
+source_url: "https://technode.global/2025/02/11/digital-2025-nearly-two-thirds-of-southeast-asias-population-are-on-social-media/"
+year: 2025
+
+- stat: "Platform e-commerce: Malaysia +47.6%; Thailand +51.8%; SEA +22.8% YoY"
+source_name: "Momentum Works"
+source_url: "https://thelowdown.momentum.asia/new-report-southeast-asias-platform-ecommerce-reaches-us157-6b-in-2025-with-top-platforms-expanding-share-to-98-8/"
+year: 2025
+
+- stat: "Mobile internet 143.56 Mbps (+34.2% YoY); fixed broadband 154.03 Mbps (+17.6%)"
+source_name: "DataReportal 2026 / Ookla Speedtest"
+source_url: "https://datareportal.com/reports/digital-2026-malaysia"
+year: 2025
+
+- stat: "REPLACED 2026-10-06 (Statista >US$45B unverifiable). Now: GMV projected US$45B to US$70B by 2030"
+source_name: "e-Conomy SEA 2023 via Google Malaysia blog"
+source_url: "https://malaysia.googleblog.com/2023/11/laporan-e-conomy-sea-2023-pemulihan.html"
+year: 2023
 
 - stat: "Digital transformation market US$10.68B → US$29.74B by 2031 (18.62% CAGR)"
 source_name: "Mordor Intelligence"
@@ -4530,10 +4797,10 @@ source_name: "Mordor Intelligence"
 source_url: "https://www.mordorintelligence.com/industry-reports/malaysia-ecommerce-market"
 year: 2025
 
-- stat: "Digital advertising US$1.12B → US$1.32B by 2028 (5.77% CAGR)"
-source_name: "Statista"
-source_url: "https://www.statista.com/outlook/dmo/digital-advertising/malaysia"
-year: 2025
+- stat: "REPLACED 2026-10-06 (Statista figure unverifiable). Now: digital share of total adex to reach 85% by 2029, from about 77% in 2024"
+source_name: "MAGNA via Bernama"
+source_url: "https://www.bernama.com/en/news.php/?id=2509243"
+year: 2026
 
 - stat: "Influencer marketing US$82.42M (2026) → US$119.29M by 2030 (9.14% CAGR)"
 source_name: "INSG.co"
@@ -4545,9 +4812,9 @@ source_name: "Digital in Asia"
 source_url: "https://digitalinasia.com/malaysia-digital-market-overview-2026/"
 year: 2025
 
-- stat: "5G to be 84% of subscriptions by 2029"
-source_name: "TelecomLead / MCMC"
-source_url: "https://telecomlead.com/5g/malaysia-5g-performance-slows-as-adoption-rises-and-dual-network-era-begins-123845"
+- stat: "5G to be 84% of mobile subscriptions by 2029 (re-attributed 2026-10-06 from TelecomLead/MCMC)"
+source_name: "GlobalData via RCR Wireless"
+source_url: "https://www.rcrwireless.com/20250421/5g/5g-mobile-malaysia"
 year: 2025
 
 - stat: "Data centre US$5.48B → US$16.02B by 2031 (19.55% CAGR); Johor 60% of capacity by 2030"
@@ -4555,13 +4822,29 @@ source_name: "Digital in Asia / Mordor Intelligence"
 source_url: "https://digitalinasia.com/malaysia-digital-market-overview-2026/"
 year: 2025
 
-- stat: "NIMP 2030 targets RM257.2B (US$61.3B) internet economy value by 2030"
-source_name: "NIMP 2030 / trade.gov"
-source_url: "https://www.trade.gov/country-commercial-guides/malaysia-digital-economy"
-year: 2025
+- stat: "Digital transformation could unlock up to RM257.2B (US$61.3B) annual economic value by 2030 (re-attributed 2026-10-06: figure is from a 2021 AlphaBeta study, not NIMP 2030)"
+source_name: "AlphaBeta via The Vibes (21 Oct 2021)"
+source_url: "https://www.thevibes.com/index.php/articles/business/45238/digitalisation-could-create-rm257-bil-in-annual-economic-value-by-2030"
+year: 2021
+- stat: "ADV: EV-charger Meta lead conversations RM13.14 each, 844 on RM11,089, 30 days to 5 Oct 2026; best campaign RM11.55, 3.3% CTR"
+source_name: "ADV Digital Marketing Live Results Board (internal)"
+source_url: "https://advmarketing.biz/live-results"
+year: 2026
+- stat: "ADV: EV-charger Meta awareness campaign RM1.30 CPM, 30 days to 5 Oct 2026"
+source_name: "ADV Digital Marketing Live Results Board (internal)"
+source_url: "https://advmarketing.biz/live-results"
+year: 2026
+- stat: "ADV: healthcare Google Ads RM91.47 per conversion (175 conv on RM16.1K), 30 days to 5 Oct 2026; four rises in a row from RM55.11 (55.11, 61.45, 69.46, 76.78, 91.47); service line RM64 vs main Search RM105"
+source_name: "ADV Digital Marketing Live Results Board (internal)"
+source_url: "https://advmarketing.biz/live-results"
+year: 2026
+- stat: "ADV: aesthetics clinic Meta CPL best RM14.04, last reported RM41.41 (engagement ended)"
+source_name: "ADV Digital Marketing Live Results Board (internal)"
+source_url: "https://advmarketing.biz/live-results"
+year: 2026
 
-audit_verified_on: 2026-07-17
-total_stats: 68
-unique_sources: 21
+audit_verified_on: 2026-10-06
+total_stats: 72
+unique_sources: 26
 ============================================================================
 -->
