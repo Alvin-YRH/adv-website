@@ -1284,6 +1284,21 @@
     .in-view .fstep-5 { animation: fsIn .5s ease 1.4s forwards; }
     .in-view .af-travel { animation: afPop .2s ease .3s forwards, afTravel 2.4s linear .3s forwards; }
     .in-view .af-p4 { animation: afPop .4s ease 2.9s forwards; }
+    /* Mobile figure variants: stacked SVG shown at <=600px, desktop SVG unchanged above */
+    .anim-fig svg.af-mobile { display: none; }
+    @media (max-width: 600px) {
+      .anim-fig svg.af-desktop { display: none; }
+      .anim-fig svg.af-mobile { display: block; }
+      .af-mobile .af-label { font-size: 12.5px; }
+      .af-mobile .af-axis { font-size: 12px; }
+    }
+    .af-travel-v { opacity: 0; }
+    .in-view .af-travel-v { animation: afPop .2s ease .3s forwards, afTravelY 2.4s linear .3s forwards; }
+    @keyframes afTravelY { to { transform: translateY(240px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .af-travel-v { opacity: 1; transform: translateY(240px); }
+      .in-view .af-travel-v { animation: none; }
+    }
     @keyframes afTravel { to { transform: translateX(440px); } }
     @keyframes afReset { 0%{transform:scaleX(0)} 24%{transform:scaleX(.6)} 25%{transform:scaleX(0)} 49%{transform:scaleX(.6)} 50%{transform:scaleX(0)} 74%{transform:scaleX(.6)} 75%{transform:scaleX(0)} 100%{transform:scaleX(.42)} }
     @keyframes afFill { to { transform: scaleX(1); } }
@@ -1498,7 +1513,7 @@
     </div>
 
     <div class="anim-fig" style="max-width:800px; margin: 0 auto 40px;">
-<svg viewBox="0 0 800 150" role="img" aria-label="The content-brief workflow: intake form to Make.com to Claude to Notion in under eight minutes" aria-describedby="pipeD" xmlns="http://www.w3.org/2000/svg">
+<svg class="af-desktop" viewBox="0 0 800 150" role="img" aria-label="The content-brief workflow: intake form to Make.com to Claude to Notion in under eight minutes" aria-describedby="pipeD" xmlns="http://www.w3.org/2000/svg">
   <desc id="pipeD">Four nodes light up in sequence — intake form, Make.com, Claude, Notion — while a gold dot travels along the connecting line from the first to the last. A label marks the run as under eight minutes, against two to three hours by hand.</desc>
   <line x1="180" y1="58" x2="620" y2="58" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="af-line af-freq"/>
   <g class="fstep fstep-1">
@@ -1524,6 +1539,37 @@
   <circle cx="180" cy="58" r="5" fill="#D4A853" class="af-travel"/>
   <text x="20" y="124" class="af-axis" style="text-decoration:line-through">2–3 hours per brief, by hand</text>
   <text x="780" y="124" text-anchor="end" class="af-label af-p4" fill="#D4A853">under 8 minutes, no extra headcount</text>
+</svg>
+<svg class="af-mobile" viewBox="0 0 340 372" role="img" aria-label="The content-brief workflow: intake form to Make.com to Claude to Notion in under eight minutes" aria-describedby="pipeDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="pipeDm">Four nodes light up in sequence — intake form, Make.com, Claude, Notion — while a gold dot travels along the connecting line from the first to the last. A label marks the run as under eight minutes, against two to three hours by hand.</desc>
+  <line x1="20" y1="38" x2="20" y2="278" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="af-line af-freq"/>
+  <g class="fstep fstep-1">
+    <line x1="20" y1="38" x2="36" y2="38" stroke="#D4A853" stroke-width="1.5"/>
+    <rect x="36" y="8" width="296" height="60" rx="2" class="af-node" stroke-width="1.5"/>
+    <text x="184" y="35" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Intake form</text>
+    <text x="184" y="55" text-anchor="middle" class="af-axis">structured input</text>
+  </g>
+  <g class="fstep fstep-2">
+    <line x1="20" y1="118" x2="36" y2="118" stroke="#D4A853" stroke-width="1.5"/>
+    <rect x="36" y="88" width="296" height="60" rx="2" class="af-node" stroke-width="1.5"/>
+    <text x="184" y="115" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Make.com</text>
+    <text x="184" y="135" text-anchor="middle" class="af-axis">builds the prompt</text>
+  </g>
+  <g class="fstep fstep-3">
+    <line x1="20" y1="198" x2="36" y2="198" stroke="#D4A853" stroke-width="1.5"/>
+    <rect x="36" y="168" width="296" height="60" rx="2" class="af-node" stroke="#D4A853" stroke-width="1.5"/>
+    <text x="184" y="195" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Claude</text>
+    <text x="184" y="215" text-anchor="middle" class="af-axis">writes the brief</text>
+  </g>
+  <g class="fstep fstep-4">
+    <line x1="20" y1="278" x2="36" y2="278" stroke="#D4A853" stroke-width="1.5"/>
+    <rect x="36" y="248" width="296" height="60" rx="2" class="af-node" stroke-width="1.5"/>
+    <text x="184" y="275" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Notion</text>
+    <text x="184" y="295" text-anchor="middle" class="af-axis">filed &amp; assigned</text>
+  </g>
+  <circle cx="20" cy="38" r="5" fill="#D4A853" class="af-travel-v"/>
+  <text x="20" y="336" class="af-axis" style="text-decoration:line-through">2–3 hours per brief, by hand</text>
+  <text x="20" y="360" class="af-label af-p4" fill="#D4A853">under 8 minutes, no extra headcount</text>
 </svg>
     </div>
 

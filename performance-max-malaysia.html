@@ -149,7 +149,11 @@
   "publisher": {
     "@type": "ProfessionalService",
     "@id": "https://advmarketing.biz/#organization",
-    "name": "ADV Digital Marketing"
+    "name": "ADV Digital Marketing",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://advmarketing.biz/assets/logo-dark.png"
+    }
   }
 }
   </script>
@@ -1286,9 +1290,131 @@
       .pm-bar { transform: scaleX(1); }
       .in-view .pm-flow, .in-view .pm-layer, .in-view .pm-tag, .in-view .pm-bar, .in-view .pm-val { animation: none; }
     }
-  </style>
+
+    /* ── Mobile figure variants (<=600px): narrow-column SVGs replace the wide desktop SVGs ── */
+    .figure-wrap svg.fig-mob { display: none; }
+    .mf-lab  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 13px; fill: currentColor; }
+    .mf-note { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 12px; fill: #9A9490; }
+    @media (max-width: 600px) {
+      .figure-wrap svg.fig-desk { display: none; }
+      .figure-wrap svg.fig-mob { display: block; min-width: 0; width: 100%; height: auto; }
+    }
+
+    /* ── Simplified tiles (6 Oct) ── */
+    .guide-body .takeaway { font-size: 19px; line-height: 1.6; color: var(--black); font-weight: 500; margin: 0 0 28px; max-width: 680px; }
+    .guide-body .tiles { list-style: none; display: grid; gap: 16px; margin: 0 0 24px; padding: 0; align-items: stretch; }
+    .tiles.cols-2 { grid-template-columns: repeat(2, 1fr); }
+    .tiles.cols-3 { grid-template-columns: repeat(3, 1fr); }
+    .guide-body .tiles > li, .tile { background: var(--white); border: 1px solid rgba(13,13,13,0.08); border-top: 3px solid var(--gold); padding: 22px 22px 20px; margin: 0; display: flex; flex-direction: column; gap: 12px; font-size: 14px; line-height: 1.6; color: var(--charcoal); }
+    .tile-icon { width: 30px; height: 30px; color: var(--gold); flex: none; }
+    .tile-body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+    .guide-body .tile-title { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 22px; line-height: 1.2; color: var(--black); }
+    .tile-line { font-size: 14px; line-height: 1.6; color: var(--charcoal); }
+    .tile-chip { align-self: flex-start; border: 1px solid rgba(13,13,13,0.15); border-radius: 999px; padding: 3px 11px; font-size: 12px; font-weight: 600; color: var(--black); background: var(--cream); white-space: nowrap; }
+    .tile-num { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 26px; line-height: 1; color: var(--gold); }
+    .tile-top { display: flex; align-items: center; gap: 12px; }
+    .guide-body .tile-note { font-size: 14px; color: var(--stone); margin: -8px 0 24px; }
+    /* compact channel tiles */
+    .guide-body .tiles.chan > li { padding: 16px 18px; flex-direction: row; align-items: center; gap: 14px; }
+    .tiles.chan .tile-icon { width: 28px; height: 28px; }
+    .tiles.chan .tile-title { font-size: 20px; }
+    .tiles.chan .tile-line { font-size: 13px; line-height: 1.45; }
+    /* two column comparison */
+    .vs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 0 0 16px; align-items: stretch; }
+    .vs-col { background: var(--white); border: 1px solid rgba(13,13,13,0.08); border-top: 3px solid var(--gold); padding: 26px 26px 22px; }
+    .vs-col.dark { background: var(--black); border-color: var(--black); border-top-color: var(--gold); }
+    .guide-body .vs-label { display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--stone); margin-bottom: 12px; line-height: 1.4; }
+    .guide-body .vs-col.dark .vs-label { color: #CFCAC3; }
+    .vs-label .tile-icon { width: 26px; height: 26px; }
+    .guide-body .vs-col h3 { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 26px; line-height: 1.15; color: var(--black); margin-bottom: 6px; }
+    .guide-body .vs-col.dark h3 { color: var(--white); }
+    .guide-body .vs-col .vs-who { font-size: 13px; color: var(--stone); margin-bottom: 14px; line-height: 1.5; }
+    .guide-body .vs-col ul { list-style: none; margin: 0; padding: 0; }
+    .guide-body .vs-col li { position: relative; font-size: 14px; line-height: 1.6; margin: 0 0 8px; padding-left: 20px; }
+    .guide-body .vs-col li::before { content: ''; position: absolute; left: 0; top: 9px; width: 8px; height: 8px; border-radius: 50%; background: var(--gold); }
+    .guide-body .vs-col.dark li { color: #E9E5DD; }
+    /* red flag tiles */
+    .guide-body .tiles.flags > li { background: var(--black); border-color: var(--black); border-top-color: var(--gold); }
+    .tiles.flags .tile-title { color: var(--white); }
+    .tiles.flags .tile-line { color: #CFCAC3; }
+    .flag-label { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); }
+    /* callout line */
+    .guide-body .callout { display: flex; align-items: flex-start; gap: 14px; background: var(--white); border-left: 3px solid var(--black); padding: 16px 20px; font-size: 15px; line-height: 1.6; color: var(--black); margin: 0 0 24px; }
+    .callout .tile-icon { width: 26px; height: 26px; }
+    /* chips row */
+    .access-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 0 0 14px; }
+    .access-label { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); }
+    .access-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .access-chips span { border: 1px solid rgba(13,13,13,0.15); border-radius: 999px; padding: 6px 13px; font-size: 13px; color: var(--black); background: var(--white); }
+    /* big number stats */
+    .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: rgba(13,13,13,0.08); margin: 0 0 24px; align-items: stretch; }
+    .stat-tile { background: var(--white); padding: 26px 24px; }
+    .stat-tile.lead { background: var(--black); }
+    .guide-body .stat-big { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 48px; line-height: 1; letter-spacing: -0.02em; color: var(--black); margin-bottom: 10px; }
+    .guide-body .stat-tile.lead .stat-big { color: var(--gold); }
+    .guide-body .stat-cap { font-size: 14px; line-height: 1.55; color: var(--charcoal); margin: 0; }
+    .guide-body .stat-tile.lead .stat-cap { color: #E9E5DD; }
+    /* numbered step tiles */
+    .guide-body .tiles.steps > li { gap: 8px; }
+    .tiles.steps .tile-title { font-size: 21px; }
+    /* stance quote */
+    .guide-body .stance { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 400; font-size: clamp(24px, 2.4vw, 30px); line-height: 1.3; color: var(--black); border-left: 3px solid var(--gold); padding: 4px 0 4px 22px; margin: 0 0 28px; }
+    /* read the detail */
+    .more { border-top: 1px solid rgba(13,13,13,0.1); padding-top: 12px; margin: 8px 0 0; }
+    .more summary { cursor: pointer; list-style: none; font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--black); display: flex; justify-content: space-between; align-items: center; }
+    .more summary::-webkit-details-marker { display: none; }
+    .more summary::after { content: '+'; color: var(--gold); font-size: 18px; line-height: 1; }
+    .more[open] summary::after { content: '\2212'; }
+    .more summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+    .more > *:not(summary):first-of-type { margin-top: 16px; }
+    .guide-body .more p, .guide-body .more li { font-size: 15px; }
+    @media (max-width: 1024px) { .tiles.cols-3 { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 768px) {
+      .tiles.cols-2, .tiles.cols-3, .vs-grid, .stat-row { grid-template-columns: 1fr; }
+      .guide-body .tiles > li { flex-direction: row; align-items: flex-start; gap: 14px; padding: 18px 18px 16px; }
+      .guide-body .tiles.steps > li { flex-direction: column; gap: 6px; }
+      .tiles.cols-3.chan { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+      .guide-body .tiles.chan > li { padding: 14px 14px; align-items: center; gap: 10px; }
+      .tiles.chan .tile-title { font-size: 18px; }
+      .guide-body .takeaway { font-size: 18px; }
+      .guide-body .stat-big { font-size: 42px; }
+    }
+    .guide-body .closing { margin-top: 28px; }
+      .guide-body .figure-label { color: var(--gold); }
+</style>
 </head>
 <body>
+  <!-- Icon sprite (decorative, line icons) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="pmi-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></g></symbol>
+    <symbol id="pmi-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+    <symbol id="pmi-play" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z"/></g></symbol>
+    <symbol id="pmi-compass" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 13.5 13.5 8.5 15.5 10.5 10.5z"/></g></symbol>
+    <symbol id="pmi-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7.5l9 6 9-6"/></g></symbol>
+    <symbol id="pmi-browser" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></g></symbol>
+    <symbol id="pmi-target" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></g></symbol>
+    <symbol id="pmi-bars" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M7 16v-4M12 16V8M17 16V5"/></g></symbol>
+    <symbol id="pmi-wallet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M16 11h5v4h-5a2 2 0 0 1 0-4zM6 6l9-3 1 3"/></g></symbol>
+    <symbol id="pmi-image" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></g></symbol>
+    <symbol id="pmi-tag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h8l10 10-8 8L3 11z"/><circle cx="7.5" cy="7.5" r="1.5"/></g></symbol>
+    <symbol id="pmi-coins" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></g></symbol>
+    <symbol id="pmi-eyeoff" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l18 18M10.6 6.1A9.8 9.8 0 0 1 12 6c5 0 9 6 9 6a15 15 0 0 1-2.6 3.2M6.6 7.6C4.3 9.2 3 12 3 12s4 6 9 6c1.5 0 2.9-.5 4.1-1.2M9.9 9.9a3 3 0 0 0 4.2 4.2"/></g></symbol>
+    <symbol id="pmi-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z"/><path d="M9 12h6"/></g></symbol>
+    <symbol id="pmi-minus" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></g></symbol>
+    <symbol id="pmi-listminus" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h12M4 12h12M4 18h7M15 18h6"/></g></symbol>
+    <symbol id="pmi-block" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M10 12.5l4 4M14 12.5l-4 4"/></g></symbol>
+    <symbol id="pmi-doc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></g></symbol>
+    <symbol id="pmi-pie" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v9h9"/><circle cx="12" cy="12" r="9"/></g></symbol>
+    <symbol id="pmi-signpost" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M12 5h7l2 2.5-2 2.5h-7M12 12H5l-2 2.5L5 17h7"/></g></symbol>
+    <symbol id="pmi-devices" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="13" height="10" rx="1.5"/><path d="M7 18h5"/><rect x="17" y="9" width="4" height="11" rx="1"/></g></symbol>
+    <symbol id="pmi-flag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4M5 4h12l-2.5 4L17 12H5"/></g></symbol>
+    <symbol id="pmi-cart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 10.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6.2"/><circle cx="9" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/></g></symbol>
+    <symbol id="pmi-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6.5 6.5 0 0 1 3.5 6"/></g></symbol>
+    <symbol id="pmi-split" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-6l-6-6V4M12 15l6-6V4M4 6l2-2 2 2M16 6l2-2 2 2"/></g></symbol>
+    <symbol id="pmi-trend" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></g></symbol>
+    <symbol id="pmi-check" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></g></symbol>
+    <symbol id="pmi-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+  </svg>
 
   <!-- NAV -->
   <nav id="navbar">
@@ -1361,22 +1487,21 @@
     <article class="guide-body">
 
       <h2 id="what-is-pmax">What is Performance Max (PMax)?</h2>
-      <p>Performance Max is a goal-based Google Ads campaign. You give it a budget, a conversion goal and a set of assets. Google's Smart Bidding then decides which channel, placement and search to buy, bidding to maximise conversions or conversion value, with an optional target CPA or target ROAS. (Source: Google Ads Help, About Performance Max campaigns, 2026)</p>
-      <p>Google currently lists six channels for Performance Max. (Source: Google Ads Help, About Performance Max channels, 2026)</p>
-      <ul>
-        <li><strong>Search:</strong> Google.com, the Google Search app and Search partners.</li>
-        <li><strong>Maps:</strong> Google Maps and Waze.</li>
-        <li><strong>YouTube:</strong> video and non-video ads on YouTube.</li>
-        <li><strong>Discover:</strong> ads in the Discover feed.</li>
-        <li><strong>Gmail:</strong> ads inside Gmail inboxes.</li>
-        <li><strong>Google Display Network:</strong> websites and apps, outside Gmail and YouTube.</li>
+      <p class="takeaway">One Google Ads campaign, one budget, six channels. You set the goal and assets. Google's bidding decides where each ringgit goes.</p>
+      <ul class="tiles cols-3 chan">
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-search"/></svg><div class="tile-body"><strong class="tile-title">Search</strong></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-pin"/></svg><div class="tile-body"><strong class="tile-title">Maps</strong></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-play"/></svg><div class="tile-body"><strong class="tile-title">YouTube</strong></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-compass"/></svg><div class="tile-body"><strong class="tile-title">Discover</strong></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-mail"/></svg><div class="tile-body"><strong class="tile-title">Gmail</strong></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-browser"/></svg><div class="tile-body"><strong class="tile-title">Display Network</strong></div></li>
       </ul>
-      <p>Link a Google Merchant Center feed and PMax also serves Shopping ads. The catch: you hand over where the money goes, so what you feed it decides what you get back.</p>
+      <p class="tile-note">Link a Merchant Center feed and PMax also serves Shopping ads.</p>
 
       <div class="figure">
         <p class="figure-label">One budget, six channels, one control layer</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 800 310" role="img" aria-labelledby="pmflowT pmflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 800 310" role="img" aria-labelledby="pmflowT pmflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <title id="pmflowT">How a Performance Max budget flows to Google's channels, then gets filtered by exclusions</title>
   <desc id="pmflowD">A single monthly budget on the left splits into six lines flowing to Search, Maps, YouTube, Discover, Gmail and the Display Network on the right. A gold control layer then appears across the lines. On the Search line it is labelled brand exclusions and negative keywords. On the YouTube and Display lines it is labelled placement exclusions.</desc>
   <rect x="20" y="122" width="150" height="62" fill="#0D0D0D" rx="2"/>
@@ -1410,17 +1535,106 @@
   </g>
   <text x="20" y="304" font-family="'DM Sans',sans-serif" font-size="10" fill="#9A9490">Negatives work on Search and Shopping inventory. Placement exclusions cover Display and YouTube. Sources: Google Ads Help, 2026.</text>
 </svg>
+<svg class="fig-mob" viewBox="0 0 320 456" role="img" aria-labelledby="pmflowTm pmflowDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="pmflowTm">How a Performance Max budget flows to Google's channels, then gets filtered by exclusions</title>
+  <desc id="pmflowDm">A single monthly budget on the left splits into six lines flowing to Search, Maps, YouTube, Discover, Gmail and the Display Network on the right. A gold control layer then appears across the lines. On the Search line it is labelled brand exclusions and negative keywords. On the YouTube and Display lines it is labelled placement exclusions.</desc>
+  <rect x="0" y="0" width="150" height="60" fill="#0D0D0D" rx="2"/>
+  <text x="75" y="29" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="19" font-weight="600" fill="#FAF8F3">One budget</text>
+  <text x="75" y="47" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">RM a month</text>
+  <path d="M30 60 L30 95 Q30 109 44 109 L130 109" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d1"/>
+  <path d="M30 60 L30 155 Q30 169 44 169 L130 169" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d2"/>
+  <path d="M30 60 L30 199 Q30 213 44 213 L130 213" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d3"/>
+  <path d="M30 60 L30 259 Q30 273 44 273 L130 273" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d4"/>
+  <path d="M30 60 L30 303 Q30 317 44 317 L130 317" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d5"/>
+  <path d="M30 60 L30 347 Q30 361 44 361 L130 361" fill="none" stroke="#D4A853" stroke-width="2" pathLength="1" class="pm-flow pm-d6"/>
+  <g font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">
+    <rect x="130" y="92" width="190" height="50" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="113">Search</text>
+    <rect x="130" y="152" width="190" height="34" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="173">Maps</text>
+    <rect x="130" y="196" width="190" height="50" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="217">YouTube</text>
+    <rect x="130" y="256" width="190" height="34" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="277">Discover</text>
+    <rect x="130" y="300" width="190" height="34" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="321">Gmail</text>
+    <rect x="130" y="344" width="190" height="50" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1"/><text x="142" y="365">Display Network</text>
+  </g>
+  <g class="pm-layer">
+    <rect x="88" y="94" width="12" height="280" fill="#D4A853" opacity="0.9"/>
+    <text x="94" y="84" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="12" letter-spacing="1" fill="#0D0D0D">CONTROL LAYER</text>
+  </g>
+  <g class="pm-tag" font-family="'DM Sans',sans-serif" font-size="12" fill="#2B2B2B">
+    <circle cx="94" cy="109" r="5" fill="#0D0D0D"/>
+    <text x="142" y="131">brand exclusions + negatives</text>
+    <circle cx="94" cy="213" r="5" fill="#0D0D0D"/>
+    <text x="142" y="235">placement exclusions</text>
+    <circle cx="94" cy="361" r="5" fill="#0D0D0D"/>
+    <text x="142" y="383">placement exclusions</text>
+  </g>
+  <text x="0" y="416" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">Negatives work on Search and Shopping inventory.</text>
+  <text x="0" y="432" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">Placement exclusions cover Display and YouTube.</text>
+  <text x="0" y="448" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">Sources: Google Ads Help, 2026.</text>
+</svg>
         </div>
       </div>
+      <details class="more">
+        <summary>Read the detail</summary>
+        <p>Performance Max is a goal-based Google Ads campaign. You give it a budget, a conversion goal and a set of assets. Google's Smart Bidding then decides which channel, placement and search to buy, bidding to maximise conversions or conversion value, with an optional target CPA or target ROAS. (Source: Google Ads Help, About Performance Max campaigns, 2026)</p>
+        <p>Google currently lists six channels for Performance Max. (Source: Google Ads Help, About Performance Max channels, 2026)</p>
+        <ul>
+          <li><strong>Search:</strong> Google.com, the Google Search app and Search partners.</li>
+          <li><strong>Maps:</strong> Google Maps and Waze.</li>
+          <li><strong>YouTube:</strong> video and non-video ads on YouTube.</li>
+          <li><strong>Discover:</strong> ads in the Discover feed.</li>
+          <li><strong>Gmail:</strong> ads inside Gmail inboxes.</li>
+          <li><strong>Google Display Network:</strong> websites and apps, outside Gmail and YouTube.</li>
+        </ul>
+        <p>Link a Google Merchant Center feed and PMax also serves Shopping ads. The catch: you hand over where the money goes, so what you feed it decides what you get back.</p>
+      </details>
 
       <h2 id="pmax-vs-search">Should a Malaysian SME run Performance Max or Search?</h2>
-      <p>Start with Search, where people type what they need. Then decide on PMax based on what you sell.</p>
-      <p><strong>Lead generation</strong> (clinics, insurance, B2B services, education, home services): Search first, PMax second. PMax adds reach on YouTube, Display and Gmail, where leads are cheaper but often weaker. If your conversion action counts every form, PMax will find the cheapest forms. Google's own advice for lead campaigns is to optimise toward conversion actions close to the final sale, such as qualified or converted leads, while keeping enough volume to learn from. (Source: Google Ads Help, Answering Your Top Questions About Performance Max, 2026)</p>
-      <p><strong>Ecommerce with a Merchant Center feed:</strong> PMax is often the main campaign. Shopping placements show product, price and image, so a clean feed matters more than clever copy.</p>
-      <p>One rule worth knowing. If a search is identical to an exact match keyword in your Search campaign, Google prioritises the Search campaign over PMax. (Source: Google Ads Help, How Performance Max interacts with other campaigns in your account, 2026) So keep proven keywords in Search on exact match, structured the way our <a href="/google-ads-malaysia">Google Ads Malaysia guide</a> describes, and let PMax work the rest.</p>
-      <p>A simple test: if you cannot yet say what a lead from Search costs you, you are not ready for PMax.</p>
+      <p class="takeaway">Start with Search. Add PMax once you know what a Search lead costs you. Ecommerce with a product feed can lead with PMax.</p>
+      <div class="vs-grid">
+        <div class="vs-col">
+          <p class="vs-label"><svg class="tile-icon" aria-hidden="true"><use href="#pmi-users"/></svg>Lead generation</p>
+          <h3>Search first, PMax second</h3>
+          <p class="vs-who">Clinics, insurance, B2B services, education, home services</p>
+          <ul>
+            <li>PMax adds reach on YouTube, Display and Gmail.</li>
+            <li>Leads there are cheaper but often weaker.</li>
+            <li>Optimise toward qualified leads, not every form.</li>
+          </ul>
+        </div>
+        <div class="vs-col dark">
+          <p class="vs-label"><svg class="tile-icon" aria-hidden="true"><use href="#pmi-cart"/></svg>Ecommerce with a feed</p>
+          <h3>PMax is often the main campaign</h3>
+          <ul>
+            <li>Shopping ads show product, price and image.</li>
+            <li>A clean feed matters more than clever copy.</li>
+          </ul>
+        </div>
+      </div>
+      <ul class="tiles cols-2">
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-search"/></svg><div class="tile-body"><strong class="tile-title">Exact match wins</strong><span class="tile-line">Identical searches go to your Search campaign, not PMax.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-flag"/></svg><div class="tile-body"><strong class="tile-title">Readiness test</strong><span class="tile-line">Cannot say what a Search lead costs? Not ready for PMax.</span></div></li>
+      </ul>
+      <details class="more">
+        <summary>Read the detail</summary>
+        <p>Start with Search, where people type what they need. Then decide on PMax based on what you sell.</p>
+        <p><strong>Lead generation</strong> (clinics, insurance, B2B services, education, home services): Search first, PMax second. PMax adds reach on YouTube, Display and Gmail, where leads are cheaper but often weaker. If your conversion action counts every form, PMax will find the cheapest forms. Google's own advice for lead campaigns is to optimise toward conversion actions close to the final sale, such as qualified or converted leads, while keeping enough volume to learn from. (Source: Google Ads Help, Answering Your Top Questions About Performance Max, 2026)</p>
+        <p><strong>Ecommerce with a Merchant Center feed:</strong> PMax is often the main campaign. Shopping placements show product, price and image, so a clean feed matters more than clever copy.</p>
+        <p>One rule worth knowing. If a search is identical to an exact match keyword in your Search campaign, Google prioritises the Search campaign over PMax. (Source: Google Ads Help, How Performance Max interacts with other campaigns in your account, 2026) So keep proven keywords in Search on exact match, structured the way our <a href="/google-ads-malaysia">Google Ads Malaysia guide</a> describes, and let PMax work the rest.</p>
+        <p>A simple test: if you cannot yet say what a lead from Search costs you, you are not ready for PMax.</p>
+      </details>
 
       <h2 id="prerequisites">What do you need before launching Performance Max?</h2>
+      <p class="takeaway">Tracking that counts real enquiries or sales, enough conversions, a budget for two campaigns, and a full asset set.</p>
+      <ul class="tiles cols-2">
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-target"/></svg><div class="tile-body"><strong class="tile-title">Tracking that records revenue</strong><span class="tile-line">Forms, WhatsApp chats, qualified calls, purchases. Not page views.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-bars"/></svg><div class="tile-body"><strong class="tile-title">Enough conversions</strong><span class="tile-line">A handful a month is too little to learn from.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-wallet"/></svg><div class="tile-body"><strong class="tile-title">Budget for two campaigns</strong><span class="tile-chip">RM3,000 a month minimum</span><span class="tile-line">Usually shared with Search.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-image"/></svg><div class="tile-body"><strong class="tile-title">A full set of assets</strong><span class="tile-line">Text, images, logo and your own video.</span></div></li>
+      </ul>
+      <div class="access-row"><span class="access-label">Google's best practice per asset group</span><div class="access-chips"><span>15 headlines</span><span>5 descriptions</span><span>7 images</span><span>1 video</span></div></div>
+      <div class="access-row"><span class="access-label">Character limits</span><div class="access-chips"><span>Headline 30</span><span>Long headline 90</span><span>Description 90</span><span>Business name 25</span></div></div>
+      <details class="more">
+        <summary>Read the detail</summary>
       <p><strong>1. Conversion tracking that records revenue actions.</strong> Forms, WhatsApp chats, qualified calls, purchases. Not page views. Smart Bidding scales whatever you call a conversion. Our <a href="/google-ads-conversion-tracking-malaysia">conversion tracking guide</a> walks through the setup.</p>
       <p><strong>2. Enough conversions to learn from.</strong> Google does not publish a minimum conversion count for PMax. Our view: with only a handful of real conversions a month, PMax has too little to learn from.</p>
       <p><strong>3. A budget that can carry two campaigns.</strong> Our recommended minimum for Google Ads in Malaysia is RM3,000 a month (see our <a href="/google-ads-agency-malaysia">Google Ads management</a> page). PMax usually shares it with Search, and a thin budget split two ways helps neither. Our <a href="/google-ads-pricing-malaysia">Google Ads pricing guide</a> has the full breakdown.</p>
@@ -1442,13 +1656,38 @@
         </table>
       </div>
       <p>Google's best practice is at least 15 headlines, 5 descriptions, 7 images and 1 video. (Source: Google Ads Help, Optimization tips for Performance Max campaigns, 2026) Supply your own video. An auto-generated slideshow rarely builds trust. For ecommerce, also fix Merchant Center feed errors first, because feed errors become ad errors.</p>
+      </details>
 
       <h2 id="risks">What are the risks of Performance Max?</h2>
+      <p class="takeaway">Left alone, PMax drifts to your own brand and cheap placements, and hides which channel really worked.</p>
+      <ul class="tiles cols-3 flags">
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-tag"/></svg><div class="tile-body"><span class="flag-label">Red flag</span><strong class="tile-title">Spend on your own brand</strong><span class="tile-line">A lovely CPA built on people who already knew you.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-coins"/></svg><div class="tile-body"><span class="flag-label">Red flag</span><strong class="tile-title">Spend on cheap placements</strong><span class="tile-line">Cheap Display and app clicks, while sales stay flat.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-eyeoff"/></svg><div class="tile-body"><span class="flag-label">Red flag</span><strong class="tile-title">Limited transparency</strong><span class="tile-line">No bids per channel. The placement report is not for judging results.</span></div></li>
+      </ul>
+      <p class="tile-note">Our answer: judge PMax on the account's blended cost per lead.</p>
+      <details class="more">
+        <summary>Read the detail</summary>
       <p><strong>Budget drifts to your own brand.</strong> People searching your business name would have found you anyway. PMax can claim those conversions and report a lovely CPA built on people who already knew you.</p>
       <p><strong>Budget drifts to cheap placements.</strong> Display and app inventory is cheap per click. If your goal counts weak actions, PMax buys them there while sales stay flat.</p>
       <p><strong>Limited transparency.</strong> You do not set bids per channel. The PMax placement report shows where ads served and their impressions, and Google itself says it should not be used to evaluate performance because it does not cover all channels. (Source: Google Ads Help, Find or create placement reports for your Performance Max campaigns, 2026) So we judge PMax on the account's blended cost per lead, not its own column.</p>
+      </details>
 
       <h2 id="controls">What controls does Google give you over Performance Max in 2026?</h2>
+      <p class="takeaway">Exclusions, negatives, search themes and two key reports. Negatives only touch Search and Shopping inventory.</p>
+      <ul class="tiles cols-2">
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-shield"/></svg><div class="tile-body"><strong class="tile-title">Brand exclusions</strong><span class="tile-line">Search, Shopping and YouTube search.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-minus"/></svg><div class="tile-body"><strong class="tile-title">Campaign negatives</strong><span class="tile-chip">Up to 10,000</span><span class="tile-line">Search and Shopping only.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-listminus"/></svg><div class="tile-body"><strong class="tile-title">Account negatives</strong><span class="tile-chip">Up to 1,000</span><span class="tile-line">Search and Shopping, PMax included.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-block"/></svg><div class="tile-body"><strong class="tile-title">Placement exclusions</strong><span class="tile-line">Display and YouTube.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-doc"/></svg><div class="tile-body"><strong class="tile-title">Search terms report</strong><span class="tile-line">With landing pages, by ad format.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-pie"/></svg><div class="tile-body"><strong class="tile-title">Channel performance report</strong><span class="tile-line">Clicks, conversions and cost by channel.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-signpost"/></svg><div class="tile-body"><strong class="tile-title">Search themes</strong><span class="tile-chip">Up to 50</span><span class="tile-line">Per asset group, to point PMax at intent.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-devices"/></svg><div class="tile-body"><strong class="tile-title">Device and age controls</strong><span class="tile-line">Plus cost and conversions per asset.</span></div></li>
+      </ul>
+      <p class="callout"><svg class="tile-icon" aria-hidden="true"><use href="#pmi-flag"/></svg><span>Negatives do nothing on Display, YouTube or Gmail. There, your conversion goal does the steering.</span></p>
+      <details class="more">
+        <summary>Read the detail</summary>
       <p>More than at launch. This is what we verified on Google's help pages in October 2026.</p>
       <ul>
         <li><strong>Brand exclusions.</strong> Brand lists stop PMax serving on your own brand, competitors or sub-brands, across Search, Shopping and YouTube search inventory. They also catch misspellings.</li>
@@ -1462,11 +1701,35 @@
       </ul>
       <p class="source-note">(Source: Google Ads Help, Performance Max control and reporting pages, 2026)</p>
       <p>Note the gap: negative keywords do nothing on Display, YouTube or Gmail. There, your conversion goal does most of the steering.</p>
+      </details>
 
       <h2 id="learning">How long does Performance Max take to learn?</h2>
+      <p class="takeaway">Give a new PMax campaign at least 6 weeks before you judge it, and change one thing at a time.</p>
+      <div class="stat-row">
+        <div class="stat-tile lead"><p class="stat-big">6 weeks</p><p class="stat-cap">Minimum run for a new campaign</p></div>
+        <div class="stat-tile"><p class="stat-big">1 to 2 weeks</p><p class="stat-cap">Or one full conversion cycle, after any significant change</p></div>
+        <div class="stat-tile"><p class="stat-big">Week 2</p><p class="stat-cap">Too early to pause because the CPA looks high</p></div>
+      </div>
+      <details class="more">
+        <summary>Read the detail</summary>
       <p>Google's guidance is to run a new PMax campaign for at least 6 weeks, and to allow 1 to 2 weeks, or at least one full conversion cycle, after a significant change. (Source: Google Ads Help, Optimization tips for Performance Max campaigns, 2026) So do not change budget, goal and assets in the same week, and do not pause it in week two because the CPA looks high.</p>
+      </details>
 
       <h2 id="setup">How do you set up Performance Max step by step?</h2>
+      <p class="takeaway">Fix tracking and protect Search first, add your exclusions, then build the campaign and judge it at 6 weeks.</p>
+      <ol class="tiles cols-3 steps">
+        <li><span class="tile-num">01</span><strong class="tile-title">Audit conversion tracking</strong><span class="tile-line">One revenue conversion, tested with a real enquiry.</span></li>
+        <li><span class="tile-num">02</span><strong class="tile-title">Protect your Search campaign</strong><span class="tile-line">Proven keywords on exact match keep priority.</span></li>
+        <li><span class="tile-num">03</span><strong class="tile-title">Add brand exclusions</strong><span class="tile-line">Your own brand and any you will not pay for.</span></li>
+        <li><span class="tile-num">04</span><strong class="tile-title">Load negative keywords</strong><span class="tile-line">Obvious waste (jobs, free, training), plus a campaign list.</span></li>
+        <li><span class="tile-num">05</span><strong class="tile-title">Add placement exclusions</strong><span class="tile-line">At account level, from data you already have.</span></li>
+        <li><span class="tile-num">06</span><strong class="tile-title">Create the campaign</strong><span class="tile-line">Maximise conversions first. Target CPA once costs are stable.</span></li>
+        <li><span class="tile-num">07</span><strong class="tile-title">Build asset groups by service line</strong><span class="tile-line">One per service line or product category, each with its own final URL.</span></li>
+        <li><span class="tile-num">08</span><strong class="tile-title">Decide on final URL expansion</strong><span class="tile-line">Leave it on only if your other pages convert.</span></li>
+        <li><span class="tile-num">09</span><strong class="tile-title">Review weekly, judge at 6 weeks</strong><span class="tile-line">Read the reports weekly. Judge on blended cost per lead.</span></li>
+      </ol>
+      <details class="more">
+        <summary>Read the detail</summary>
       <ol class="checklist">
         <li><strong>Audit conversion tracking.</strong> One primary conversion that means revenue, tested with a real enquiry.</li>
         <li><strong>Protect your Search campaign.</strong> Keep proven keywords on exact match in Search so they keep priority.</li>
@@ -1478,15 +1741,21 @@
         <li><strong>Decide on final URL expansion.</strong> Leave it on only if your other pages convert.</li>
         <li><strong>Review weekly, judge at 6 weeks.</strong> Read the search terms, channel performance and placement reports weekly. Judge on blended cost per lead.</li>
       </ol>
+      </details>
 
       <h2 id="adv-approach">How does ADV run Performance Max?</h2>
-      <p>We only run PMax once tracking is clean. It is the first thing we check in every <a href="/google-ads-audit-malaysia">Google Ads audit</a>. An account that counts page views as conversions gets worse under PMax, not better.</p>
-      <p>Second, we split by service line. In a healthcare group's account, over the 30 days to 24 Sep 2026, a newer service line ran in its own campaign at RM59 per conversion, against RM83 for the main Search campaign. That was not a PMax campaign, but the lesson carries over. In one shared campaign the cheaper line would have vanished into an average. In PMax we use separate asset groups, and separate campaigns when service lines have different values, because budget is set per campaign.</p>
+      <p class="takeaway">Clean tracking first, a split by service line, and the expectation that cost per result rises as spend grows.</p>
+      <blockquote class="stance">"An account that counts page views as conversions gets worse under PMax, not better."</blockquote>
+      <ul class="tiles cols-3">
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-check"/></svg><div class="tile-body"><strong class="tile-title">Tracking first</strong><span class="tile-line">The first thing we check in every <a href="/google-ads-audit-malaysia">Google Ads audit</a>.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-split"/></svg><div class="tile-body"><strong class="tile-title">Split by service line</strong><span class="tile-chip">RM59 vs RM83</span><span class="tile-line">Separate asset groups, or campaigns when values differ.</span></div></li>
+        <li><svg class="tile-icon" aria-hidden="true"><use href="#pmi-trend"/></svg><div class="tile-body"><strong class="tile-title">Costs rise with spend</strong><span class="tile-chip">RM55.11 to RM76.78</span><span class="tile-line">The channel report shows where the extra cost went.</span></div></li>
+      </ul>
 
       <div class="figure">
         <p class="figure-label">Why we split by service line</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 720 160" role="img" aria-labelledby="pmsplitT pmsplitD" style="width:100%; height:auto; max-width:720px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 720 160" role="img" aria-labelledby="pmsplitT pmsplitD" style="width:100%; height:auto; max-width:720px;" xmlns="http://www.w3.org/2000/svg">
   <title id="pmsplitT">Cost per conversion by campaign, healthcare group, 30 days to 24 September 2026</title>
   <desc id="pmsplitD">Two horizontal bars. The newer service line campaign cost RM59 per conversion. The main Search campaign cost RM83 per conversion. Neither was a Performance Max campaign.</desc>
   <text x="0" y="16" class="af-axis">Cost per conversion, healthcare group, 30 days to 24 Sep 2026</text>
@@ -1500,11 +1769,33 @@
   <text x="610" y="120" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="pm-val">RM83</text>
   <text x="0" y="150" class="af-axis">Separate campaigns by service line. Not Performance Max results.</text>
 </svg>
+<svg class="fig-mob" viewBox="0 0 320 180" role="img" aria-labelledby="pmsplitTm pmsplitDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="pmsplitTm">Cost per conversion by campaign, healthcare group, 30 days to 24 September 2026</title>
+  <desc id="pmsplitDm">Two horizontal bars. The newer service line campaign cost RM59 per conversion. The main Search campaign cost RM83 per conversion. Neither was a Performance Max campaign.</desc>
+  <text x="0" y="14" class="mf-note">Cost per conversion, healthcare group,</text>
+  <text x="0" y="30" class="mf-note">30 days to 24 Sep 2026</text>
+  <text x="0" y="58" class="mf-lab">Newer service line campaign</text>
+  <rect x="0" y="66" width="260" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="66" width="184.6" height="14" rx="7" fill="#D4A853" class="pm-bar"/>
+  <text x="194.6" y="78" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="pm-val">RM59</text>
+  <text x="0" y="110" class="mf-lab">Main Search campaign</text>
+  <rect x="0" y="118" width="260" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="118" width="260" height="14" rx="7" fill="#0D0D0D" class="pm-bar"/>
+  <text x="270" y="130" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="pm-val">RM83</text>
+  <text x="0" y="158" class="mf-note">Separate campaigns by service line.</text>
+  <text x="0" y="174" class="mf-note">Not Performance Max results.</text>
+</svg>
         </div>
       </div>
 
+      <details class="more">
+        <summary>Read the detail</summary>
+      <p>We only run PMax once tracking is clean. It is the first thing we check in every Google Ads audit. An account that counts page views as conversions gets worse under PMax, not better.</p>
+      <p>Second, we split by service line. In a healthcare group's account, over the 30 days to 24 Sep 2026, a newer service line ran in its own campaign at RM59 per conversion, against RM83 for the main Search campaign. That was not a PMax campaign, but the lesson carries over. In one shared campaign the cheaper line would have vanished into an average. In PMax we use separate asset groups, and separate campaigns when service lines have different values, because budget is set per campaign.</p>
       <p>Third, we expect cost per result to rise with spend. The same account's CPA rose four periods in a row as spend scaled, from RM55.11 to RM76.78, with 211 conversions on RM16.2K in the latest 30 days. PMax does not escape that. It just hides where the extra cost went unless someone reads the channel report.</p>
-      <p>That is how our <a href="/google-ads-agency-malaysia">Google Ads agency service</a> runs PMax. Current numbers are on our <a href="/live-results">Live Results Board</a>, and our guide to <a href="/advertising-malaysia">advertising costs in Malaysia</a> shows how Google fits next to Meta.</p>
+      <p>That is how our <a href="/google-ads-agency-malaysia">Google Ads agency service</a> runs PMax. Our guide to <a href="/advertising-malaysia">advertising costs in Malaysia</a> shows how Google fits next to Meta.</p>
+      </details>
+      <p class="closing">Current numbers are on our <a href="/live-results">Live Results Board</a>.</p>
     </article>
   </section>
 

@@ -1209,6 +1209,14 @@
     .in-view .fstep-5 { animation: fsIn .5s ease 1.4s forwards; }
     .in-view .af-travel { animation: afPop .2s ease .3s forwards, afTravel 2.4s linear .3s forwards; }
     .in-view .af-p4 { animation: afPop .4s ease 2.9s forwards; }
+    /* Mobile figure variants: stacked SVG shown at <=600px, desktop SVG unchanged above */
+    .anim-fig svg.af-mobile { display: none; }
+    @media (max-width: 600px) {
+      .anim-fig svg.af-desktop { display: none; }
+      .anim-fig svg.af-mobile { display: block; }
+      .af-mobile .af-label { font-size: 12.5px; }
+      .af-mobile .af-axis { font-size: 12px; }
+    }
     @keyframes afTravel { to { transform: translateX(440px); } }
     @keyframes afReset { 0%{transform:scaleX(0)} 24%{transform:scaleX(.6)} 25%{transform:scaleX(0)} 49%{transform:scaleX(.6)} 50%{transform:scaleX(0)} 74%{transform:scaleX(.6)} 75%{transform:scaleX(0)} 100%{transform:scaleX(.42)} }
     @keyframes afFill { to { transform: scaleX(1); } }
@@ -1396,7 +1404,7 @@
       </div>
     </div>
       <div class="anim-fig anim-fig--dark" style="grid-column:1 / -1; max-width:820px; margin:8px 0 0;">
-<svg viewBox="0 0 800 250" role="img" aria-label="How an AI answer engine assembles a reply and which sources it cites" aria-describedby="aaD" xmlns="http://www.w3.org/2000/svg">
+<svg class="af-desktop" viewBox="0 0 800 250" role="img" aria-label="How an AI answer engine assembles a reply and which sources it cites" aria-describedby="aaD" xmlns="http://www.w3.org/2000/svg">
   <desc id="aaD">A buyer asks an AI which digital marketing agency in KL is best. The engine pulls three sources: a directory listing, a competitor blog, and a structured page from advmarketing.biz. The assembled answer carries three citation chips; the third, pointing to the structured page, lights up as cited.</desc>
   <g class="fstep fstep-1">
     <rect x="20" y="22" width="260" height="44" rx="22" class="af-panel"/>
@@ -1436,6 +1444,49 @@
   </g>
   <text x="620" y="192" class="af-label af-p2" fill="#D4A853">← your page, cited</text>
   <text x="20" y="236" class="af-axis">Answer engines don't rank pages — they pick sources. Structured, specific, verifiable pages get picked.</text>
+</svg>
+<svg class="af-mobile" viewBox="0 0 340 500" role="img" aria-label="How an AI answer engine assembles a reply and which sources it cites" aria-describedby="aaDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="aaDm">A buyer asks an AI which digital marketing agency in KL is best. The engine pulls three sources: a directory listing, a competitor blog, and a structured page from advmarketing.biz. The assembled answer carries three citation chips; the third, pointing to the structured page, lights up as cited.</desc>
+  <g class="fstep fstep-1">
+    <rect x="6" y="6" width="328" height="44" rx="22" class="af-panel"/>
+    <text x="170" y="33" text-anchor="middle" class="af-label">"best digital marketing agency in KL?"</text>
+    <text x="10" y="72" class="af-axis">asked in ChatGPT · Perplexity · AI Overviews</text>
+  </g>
+  <line x1="170" y1="82" x2="170" y2="104" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="af-line af-freq"/>
+  <g class="fstep fstep-2">
+    <rect x="6" y="108" width="328" height="40" rx="2" class="af-panel"/>
+    <text x="20" y="133" class="af-label">Directory listing</text>
+  </g>
+  <g class="fstep fstep-3">
+    <rect x="6" y="156" width="328" height="40" rx="2" class="af-panel"/>
+    <text x="20" y="181" class="af-label">Competitor blog post</text>
+  </g>
+  <g class="fstep fstep-4">
+    <rect x="6" y="204" width="328" height="58" rx="2" class="af-panel-gold"/>
+    <text x="20" y="228" class="af-label" fill="#D4A853">advmarketing.biz</text>
+    <text x="20" y="250" class="af-axis">structured · specific · verifiable</text>
+  </g>
+  <line x1="170" y1="264" x2="170" y2="290" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="af-line af-ctr" style="stroke:#D4A853"/>
+  <g class="fstep fstep-5">
+    <rect x="6" y="294" width="328" height="134" rx="2" class="af-panel"/>
+    <text x="20" y="318" class="af-axis">AI ANSWER</text>
+    <rect x="20" y="330" width="290" height="6" rx="3" fill="rgba(250,248,243,0.35)"/>
+    <rect x="20" y="344" width="252" height="6" rx="3" fill="rgba(250,248,243,0.35)"/>
+    <rect x="20" y="358" width="272" height="6" rx="3" fill="rgba(250,248,243,0.35)"/>
+    <rect x="20" y="372" width="204" height="6" rx="3" fill="rgba(250,248,243,0.35)"/>
+    <rect x="20" y="394" width="30" height="24" rx="2" class="af-panel"/>
+    <text x="35" y="410" text-anchor="middle" class="af-axis">1</text>
+    <rect x="56" y="394" width="30" height="24" rx="2" class="af-panel"/>
+    <text x="71" y="410" text-anchor="middle" class="af-axis">2</text>
+  </g>
+  <g class="af-p1">
+    <rect x="92" y="394" width="30" height="24" rx="2" fill="#D4A853"/>
+    <text x="107" y="410" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="12" font-weight="600" fill="#0D0D0D">3</text>
+  </g>
+  <text x="132" y="411" class="af-label af-p2" fill="#D4A853">← your page, cited</text>
+  <text x="6" y="456" class="af-axis">Answer engines don't rank pages — they pick</text>
+  <text x="6" y="473" class="af-axis">sources. Structured, specific, verifiable</text>
+  <text x="6" y="490" class="af-axis">pages get picked.</text>
 </svg>
       </div>
   </section>

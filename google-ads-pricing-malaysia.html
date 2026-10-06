@@ -53,7 +53,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": "https://advmarketing.biz/google-ads-pricing-malaysia#article",
     "headline": "Google Ads Pricing Malaysia 2026: What Google Ads Really Costs in RM",
+    "image": "https://advmarketing.biz/assets/logo-dark.png",
     "description": "What Google Ads costs a Malaysian business in 2026: ad spend versus management fee, how Google's auction, CPC and daily budget work, real RM bid ranges from Google Keyword Planner, a realistic minimum budget, ADV's published management fees, and how to tell if you are overpaying.",
     "datePublished": "2026-10-06",
     "dateModified": "2026-10-06",
@@ -1233,9 +1235,75 @@
       .split-lab, .bid-lab { opacity: 1; }
       .in-view .split-seg, .in-view .split-lab, .in-view .bid-bar, .in-view .bid-lab { animation: none; }
     }
+
+    /* ── Mobile figure variants (<=600px): narrow-column SVGs replace the wide desktop SVGs ── */
+    .figure-wrap svg.fig-mob { display: none; }
+    .mf-lab  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 13px; fill: currentColor; }
+    .mf-note { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 12px; fill: #9A9490; }
+    @media (max-width: 600px) {
+      .figure-wrap svg.fig-desk { display: none; }
+      .figure-wrap svg.fig-mob { display: block; min-width: 0; width: 100%; height: auto; }
+    }
+
+    /* ── Simplified tiles (6 Oct) ── */
+    .guide-sec p.takeaway, .takeaway { font-size: 19px; line-height: 1.6; color: var(--black); font-weight: 500; max-width: 720px; margin: 0 0 28px; }
+    .approach-left .takeaway { color: var(--white); font-size: 19px; line-height: 1.6; font-weight: 500; margin-bottom: 28px; }
+    .tiles { display: grid; gap: 16px; margin: 8px 0 28px; align-items: start; }
+    .tiles-2 { grid-template-columns: 1fr 1fr; }
+    .tiles-3 { grid-template-columns: repeat(3, 1fr); }
+    .tile { background: var(--white); border: 1px solid rgba(13,13,13,0.08); border-top: 3px solid var(--gold); padding: 26px 24px 24px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+    .tile-head { display: flex; align-items: center; gap: 12px; }
+    .tile-icon { width: 32px; height: 32px; color: var(--gold); flex: none; }
+    .tile-num { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 22px; line-height: 1; color: var(--gold); }
+    .tile-kicker { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--stone); margin-left: auto; }
+    .tile-title { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 24px; line-height: 1.2; color: var(--black); }
+    .tile-big .tile-title { font-size: 30px; }
+    .guide-sec .tile p, .tile p { font-size: 15px; line-height: 1.6; color: var(--charcoal); margin: 0; max-width: none; }
+    .tile-stat { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 34px; line-height: 1.05; color: var(--black); letter-spacing: -0.01em; }
+    .tile-flag { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--stone); }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chips span { border: 1px solid rgba(13,13,13,0.15); border-radius: 999px; padding: 5px 12px; font-size: 12px; line-height: 1.4; color: var(--black); background: var(--white); }
+    .chips span.chip-gold { border-color: var(--gold); color: var(--black); background: rgba(212,168,83,0.12); }
+    .stat-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: rgba(13,13,13,0.08); margin-top: 4px; }
+    .stat-pair div { background: var(--cream); padding: 14px 12px; }
+    .stat-pair strong { display: block; font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 34px; line-height: 1; color: var(--black); margin-bottom: 6px; }
+    .stat-pair span { display: block; font-size: 12px; line-height: 1.4; color: var(--charcoal); }
+    .tier-row { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: rgba(13,13,13,0.1); margin: 8px 0 28px; align-items: stretch; }
+    .tier { background: var(--white); padding: 30px 28px; border-top: 3px solid var(--gold); }
+    .tier-label { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+    .tier-num { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: clamp(32px, 3vw, 40px); line-height: 1.05; letter-spacing: -0.02em; color: var(--black); margin-bottom: 8px; }
+    .guide-sec .tier p { font-size: 15px; line-height: 1.6; margin: 0; }
+    .sub-label { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin: 8px 0 12px; }
+    .guide-sec p.tip { font-size: 15px; line-height: 1.6; color: var(--charcoal); border-left: 2px solid var(--gold); padding-left: 14px; margin: 0 0 24px; }
+    .access-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin: 0 0 24px; }
+    .guide-sec .access-label { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin: 0; }
+    details.more { border-top: 1px solid rgba(13,13,13,0.1); padding-top: 14px; margin-top: 12px; max-width: 820px; }
+    details.more summary { cursor: pointer; list-style: none; font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--black); display: flex; justify-content: space-between; align-items: center; }
+    details.more summary::-webkit-details-marker { display: none; }
+    details.more summary::after { content: '+'; color: var(--gold); font-size: 18px; line-height: 1; }
+    details.more[open] summary::after { content: '\2212'; }
+    details.more summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+    details.more > :not(summary):first-of-type { margin-top: 18px; }
+    details.more p { font-size: 15px; }
+    details.more.on-dark { border-top-color: rgba(255,255,255,0.12); }
+    details.more.on-dark summary { color: var(--cream); }
+    details.more.on-dark .approach-body { font-size: 14px; margin-bottom: 16px; }
+    @media (max-width: 1024px) { .tiles-3 { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 768px) {
+      .tiles-2, .tiles-3, .tier-row, .stat-pair.stack { grid-template-columns: 1fr; }
+      .guide-sec p.takeaway, .takeaway, .approach-left .takeaway { font-size: 17px; }
+      .tile { padding: 22px 20px 20px; }
+      .tier { padding: 24px 20px; }
+    }
+    @media (max-width: 600px) {
+      .data-table { min-width: 0; font-size: 14px; }
+      .data-table th { font-size: 16px; padding: 12px 8px; }
+      .data-table td { padding: 12px 8px; }
+    }
   </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="pr-cursor" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l14 7.5-6 1.5-2.5 6z"/><path d="M13 12l6 6"/></g></symbol><symbol id="pr-person" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-3.9 3.1-6.5 7-6.5s7 2.6 7 6.5"/></g></symbol><symbol id="pr-podium" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M4 20v-7h5v7M9 20V8h6v12M15 20v-10h5v10"/><path d="M12 3.5v1.5"/></g></symbol><symbol id="pr-tag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-7 7z"/><circle cx="7.5" cy="8" r="1.5"/></g></symbol><symbol id="pr-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></g></symbol><symbol id="pr-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 19c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M16.5 13.6c2.6.3 4.5 2.3 4.5 5"/></g></symbol><symbol id="pr-star" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"/></g></symbol><symbol id="pr-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol><symbol id="pr-spread" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M7 8l-4 4 4 4M17 8l4 4-4 4"/></g></symbol><symbol id="pr-down" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v9M8 12.5l4 4 4-4"/></g></symbol><symbol id="pr-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></g></symbol><symbol id="pr-target" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></g></symbol><symbol id="pr-gauge" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17a8 8 0 1 1 16 0"/><path d="M12 17l-3-5"/><path d="M3 20h18"/></g></symbol><symbol id="pr-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4M12 15v2"/></g></symbol><symbol id="pr-trend" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></g></symbol><symbol id="pr-wallet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18M16 15h2"/></g></symbol><symbol id="pr-percent" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5 5 19"/><circle cx="7" cy="7" r="2.5"/><circle cx="17" cy="17" r="2.5"/></g></symbol><symbol id="pr-flag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4M5 4h12l-2.5 4L17 12H5"/></g></symbol></svg>
 
   <!-- NAV -->
   <nav id="navbar">
@@ -1308,15 +1376,27 @@
     <div class="guide-inner">
       <p class="section-label">The two costs</p>
       <h2 class="guide-h2">What are the two costs of Google Ads in Malaysia?</h2>
-      <p class="lede">Every Google Ads budget splits into money that buys clicks and money that pays for running the account. Most first-time advertisers only budget for the first.</p>
-      <p><strong>The first cost is ad spend.</strong> It goes straight to Google, and on Search you only pay it when someone clicks your ad. Google charges no flat fee and no monthly subscription, and you set the budget yourself (Source: Google Ads Help, 2026). Google Ads accounts with a Malaysian business address are also subject to 8% sales and service tax, which has applied since 1 March 2024 (Source: Google Ads Help, 2026).</p>
-      <p><strong>The second cost is management.</strong> That is what you pay a person or agency to pick keywords, write ads, set up conversion tracking, read the search terms and move budget to what works. Run the account yourself and this cost is your time. Hire someone and it is a monthly fee that sits on top of ad spend, not inside it.</p>
-      <p>Always ask which of the two numbers you are being quoted. A "RM3,000 package" that includes the fee can leave far less for clicks than you think. When we scope a <a href="/google-ads-agency-malaysia">Google Ads management engagement</a>, ad spend and fee are always written as two separate lines.</p>
+      <p class="takeaway">You pay Google for clicks, plus 8% SST. If someone runs the account for you, their fee is a separate monthly cost on top.</p>
+      <div class="tiles tiles-2">
+        <div class="tile tile-big">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-cursor"/></svg><span class="tile-kicker">Cost 1</span></div>
+          <h3 class="tile-title">Ad spend</h3>
+          <p>Paid straight to Google. On Search, only when someone clicks. You set the budget.</p>
+          <div class="chips"><span>No flat fee</span><span>No subscription</span><span class="chip-gold">+ 8% SST</span></div>
+        </div>
+        <div class="tile tile-big">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-person"/></svg><span class="tile-kicker">Cost 2</span></div>
+          <h3 class="tile-title">Management fee</h3>
+          <p>Paid to whoever runs the account. It sits on top of ad spend, not inside it.</p>
+          <div class="chips"><span>Do it yourself: your time</span><span>Hire help: monthly fee</span></div>
+        </div>
+      </div>
+      <p class="tip">Always ask which of the two numbers a quote covers.</p>
 
       <div class="figure">
         <p class="figure-label">Where an example month goes</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 800 172" role="img" aria-labelledby="splitT splitD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 800 172" role="img" aria-labelledby="splitT splitD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <title id="splitT">Example monthly Google Ads cost split</title>
   <desc id="splitD">A single bar splits an example month of RM4,740. RM3,000 of ad spend goes to Google and only this part buys clicks. RM240 is the 8 percent SST on that spend. RM1,500 is the management fee paid to the agency on top of ad spend.</desc>
   <text x="0" y="16" class="af-label">Example month, one Google Search campaign</text>
@@ -1338,9 +1418,40 @@
   </g>
   <text x="0" y="164" class="af-label split-lab sl-4" fill="#D4A853">Total RM4,740. Only the gold part buys clicks.</text>
 </svg>
+<svg class="fig-mob" viewBox="0 0 320 232" role="img" aria-labelledby="splitTm splitDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="splitTm">Example monthly Google Ads cost split</title>
+  <desc id="splitDm">A single bar splits an example month of RM4,740. RM3,000 of ad spend goes to Google and only this part buys clicks. RM240 is the 8 percent SST on that spend. RM1,500 is the management fee paid to the agency on top of ad spend.</desc>
+  <text x="0" y="14" class="mf-lab">Example month, one Google Search campaign</text>
+  <rect x="0" y="26" width="320" height="28" class="af-track"/>
+  <rect x="0" y="26" width="202.4" height="28" fill="#D4A853" class="split-seg split-1"/>
+  <rect x="202.4" y="26" width="16.4" height="28" fill="#9A9490" class="split-seg split-2"/>
+  <rect x="218.8" y="26" width="101.2" height="28" fill="#2B2B2B" class="split-seg split-3"/>
+  <g class="split-lab sl-1">
+    <rect x="0" y="76" width="10" height="10" fill="#D4A853"/>
+    <text x="18" y="86" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">RM3,000 ad spend</text>
+    <text x="18" y="104" class="mf-note">Paid to Google, only when someone clicks</text>
+  </g>
+  <g class="split-lab sl-2">
+    <rect x="0" y="124" width="10" height="10" fill="#9A9490"/>
+    <text x="18" y="133" class="mf-note">RM240 SST (8%)</text>
+  </g>
+  <g class="split-lab sl-3">
+    <rect x="0" y="156" width="10" height="10" fill="#2B2B2B"/>
+    <text x="18" y="166" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">RM1,500 management fee</text>
+    <text x="18" y="184" class="mf-note">Paid to the agency, on top of ad spend</text>
+  </g>
+  <text x="0" y="220" class="mf-lab split-lab sl-4" fill="#D4A853">Total RM4,740. Only the gold part buys clicks.</text>
+</svg>
         </div>
       </div>
       <p class="source-note">Illustration using the low end of ADV's published fee range. Fee shown excluding tax.</p>
+      <details class="more">
+        <summary>Read the detail</summary>
+        <p>Every Google Ads budget splits into money that buys clicks and money that pays for running the account. Most first-time advertisers only budget for the first.</p>
+        <p><strong>The first cost is ad spend.</strong> It goes straight to Google, and on Search you only pay it when someone clicks your ad. Google charges no flat fee and no monthly subscription, and you set the budget yourself (Source: Google Ads Help, 2026). Google Ads accounts with a Malaysian business address are also subject to 8% sales and service tax, which has applied since 1 March 2024 (Source: Google Ads Help, 2026).</p>
+        <p><strong>The second cost is management.</strong> That is what you pay a person or agency to pick keywords, write ads, set up conversion tracking, read the search terms and move budget to what works. Run the account yourself and this cost is your time. Hire someone and it is a monthly fee that sits on top of ad spend, not inside it.</p>
+        <p>Always ask which of the two numbers you are being quoted. A "RM3,000 package" that includes the fee can leave far less for clicks than you think. When we scope a <a href="/google-ads-agency-malaysia">Google Ads management engagement</a>, ad spend and fee are always written as two separate lines.</p>
+      </details>
     </div>
   </section>
 
@@ -1349,6 +1460,30 @@
     <div class="guide-inner">
       <p class="section-label">How Google charges</p>
       <h2 class="guide-h2">How does Google charge for ads?</h2>
+      <p class="takeaway">Each search is an auction. You pay per click, often less than your bid, and your daily budget caps the monthly bill.</p>
+      <div class="tiles tiles-3">
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-podium"/></svg><span class="tile-num">01</span></div>
+          <h3 class="tile-title">An auction on every search</h3>
+          <p>Google uses Ad Rank to pick which ads show, and in what order.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-tag"/></svg><span class="tile-num">02</span></div>
+          <h3 class="tile-title">You pay up to your bid</h3>
+          <p>Often less. Just enough to beat the ad ranked below you.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-calendar"/></svg><span class="tile-num">03</span></div>
+          <h3 class="tile-title">The daily budget rules</h3>
+          <div class="stat-pair">
+            <div><strong>2×</strong><span>daily budget, max on one busy day</span></div>
+            <div><strong>30.4×</strong><span>daily budget, max for the month</span></div>
+          </div>
+          <p>RM100 a day never bills more than RM3,040 a month.</p>
+        </div>
+      </div>
+      <details class="more">
+        <summary>Read the detail</summary>
       <p>Google Ads runs an auction every time someone searches. Your ad competes with every other advertiser bidding on that search, and Google uses Ad Rank to decide which ads show and in what order.</p>
       <p>On Search you pay per click. Your maximum cost per click bid is the most you will typically pay, but Google says you are often charged less, sometimes much less. You only pay what is needed to clear the Ad Rank thresholds and beat the advertiser ranked just below you (Source: Google Ads Help, 2026).</p>
       <p>You control spend with an average daily budget for each campaign. Two rules catch people out:</p>
@@ -1359,6 +1494,7 @@
       <div class="callout">
         <p>A campaign set at <strong>RM100 a day</strong> might spend RM170 on a busy Monday and RM40 on a quiet Sunday, but it will not bill more than <strong>RM3,040</strong> for the month. A day at double budget is normal. Judge the monthly total.</p>
       </div>
+      </details>
     </div>
   </section>
 
@@ -1367,27 +1503,36 @@
     <div class="guide-inner">
       <p class="section-label">Cost per click</p>
       <h2 class="guide-h2">What drives your cost per click?</h2>
-      <p>Two businesses bidding on the same keyword can pay very different prices per click. Google lists six things that feed Ad Rank: your bid, the quality of your ad and landing page, Ad Rank thresholds, how competitive the auction is, the context of the search, and the expected impact of your ad assets (Source: Google Ads Help, 2026). In practice they fall into three groups.</p>
-    </div>
-    <div class="services-grid driver-grid">
-      <div class="service-card">
-        <h3 class="service-title">Competition</h3>
-        <div class="service-divider"></div>
-        <p class="service-desc">Your bid, the minimum thresholds, and how close competing ads are. In crowded Malaysian categories such as insurance, legal and healthcare, more advertisers chase the same top spots, so the price goes up.</p>
+      <p class="takeaway">Competition, quality and context set your price per click. Quality is the one lever fully in your control.</p>
+      <div class="tiles tiles-3">
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-users"/></svg></div>
+          <h3 class="tile-title">Competition</h3>
+          <p>More advertisers chasing the same top spots pushes the price up.</p>
+          <div class="chips"><span>Your bid</span><span>Thresholds</span><span>Competing ads</span></div>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-star"/></svg><span class="tile-kicker">In your control</span></div>
+          <h3 class="tile-title">Quality</h3>
+          <p>Higher quality ads can often lead to lower CPCs.</p>
+          <div class="chips"><span>Ad</span><span>Landing page</span></div>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-pin"/></svg></div>
+          <h3 class="tile-title">Context</h3>
+          <p>What was searched, and where, when and on what device.</p>
+          <div class="chips"><span>Search term</span><span>Location</span><span>Device</span><span>Time</span><span>Assets</span></div>
+        </div>
       </div>
-      <div class="service-card">
-        <h3 class="service-title">Quality</h3>
-        <div class="service-divider"></div>
-        <p class="service-desc">How useful and relevant Google judges your ad and landing page to be. Google says higher quality ads can often lead to lower CPCs. This is the one lever fully in your control.</p>
-      </div>
-      <div class="service-card">
-        <h3 class="service-title">Context</h3>
-        <div class="service-divider"></div>
-        <p class="service-desc">The search term itself, the person's location, their device and the time of the search, plus how your sitelinks, callouts and other assets are expected to perform.</p>
-      </div>
-    </div>
-    <div class="guide-inner" style="margin-top:40px;">
+      <p class="tip">Quality Score (1 to 10 per keyword) shows where the quality part needs work.</p>
+      <details class="more">
+        <summary>Read the detail</summary>
+        <p>Two businesses bidding on the same keyword can pay very different prices per click. Google lists six things that feed Ad Rank: your bid, the quality of your ad and landing page, Ad Rank thresholds, how competitive the auction is, the context of the search, and the expected impact of your ad assets (Source: Google Ads Help, 2026). In practice they fall into three groups.</p>
+        <p><strong>Competition.</strong> Your bid, the minimum thresholds, and how close competing ads are. In crowded Malaysian categories such as insurance, legal and healthcare, more advertisers chase the same top spots, so the price goes up.</p>
+        <p><strong>Quality.</strong> How useful and relevant Google judges your ad and landing page to be. Google says higher quality ads can often lead to lower CPCs. This is the one lever fully in your control.</p>
+        <p><strong>Context.</strong> The search term itself, the person's location, their device and the time of the search, plus how your sitelinks, callouts and other assets are expected to perform.</p>
       <p>Quality Score is where you see the quality part. It is a 1 to 10 rating for each keyword, built from expected clickthrough rate, ad relevance and landing page experience. Google is clear that Quality Score is a diagnostic tool, not an input in the auction (Source: Google Ads Help, 2026). But it measures the same things the auction rewards, so a main keyword stuck at 3 or 4 tells you exactly where to work: the ad, the landing page, or the click appeal.</p>
+      </details>
     </div>
   </section>
 
@@ -1396,7 +1541,7 @@
     <div class="guide-inner">
       <p class="section-label">Real RM numbers</p>
       <h2 class="guide-h2">How much does a Google Ads click cost in Malaysia?</h2>
-      <p>Here are the top of page bid ranges Google Keyword Planner shows for six Malaysian searches in our own category. The low number is roughly the 20th percentile of what advertisers have historically bid to appear at the top of the page. The high number is roughly the 80th percentile (Source: Google Ads Help, 2026).</p>
+      <p class="takeaway">Top of page bids in Malaysia run from RM4 to RM320. Specific searches cost far less than broad ones.</p>
 
       <div class="data-table-wrap">
         <table class="data-table">
@@ -1418,7 +1563,7 @@
       <div class="figure">
         <p class="figure-label">Same platform, very different prices</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 800 300" role="img" aria-labelledby="bidT bidD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 800 300" role="img" aria-labelledby="bidT bidD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <title id="bidT">Top of page bid ranges in Malaysia for six keywords</title>
   <desc id="bidD">Horizontal range bars on a scale from RM0 to RM320. google ads malaysia RM13 to RM320. performance max RM46 to RM320. google ads pricing malaysia RM6 to RM320. sem agency malaysia RM5 to RM81. google ads conversion tracking RM4 to RM77. google ads agency malaysia RM11 to RM61. Source: Google Keyword Planner, Malaysia, October 2026.</desc>
   <line x1="250" y1="22" x2="250" y2="248" class="af-axisline" stroke-width="1"/>
@@ -1464,11 +1609,76 @@
   <text x="770" y="268" text-anchor="middle" class="af-axis">RM320</text>
   <text x="0" y="294" class="af-axis">Top of page bid ranges. Google Keyword Planner, Malaysia, October 2026. Bids, not what you will pay per click.</text>
 </svg>
+<svg class="fig-mob" viewBox="0 0 320 370" role="img" aria-labelledby="bidTm bidDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="bidTm">Top of page bid ranges in Malaysia for six keywords</title>
+  <desc id="bidDm">Horizontal range bars on a scale from RM0 to RM320. google ads malaysia RM13 to RM320. performance max RM46 to RM320. google ads pricing malaysia RM6 to RM320. sem agency malaysia RM5 to RM81. google ads conversion tracking RM4 to RM77. google ads agency malaysia RM11 to RM61. Source: Google Keyword Planner, Malaysia, October 2026.</desc>
+  <text x="0" y="14" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">google ads malaysia</text>
+  <text x="320" y="14" text-anchor="end" class="mf-note bid-lab bl-1">RM13 to RM320</text>
+  <rect x="0" y="24" width="320" height="10" rx="5" class="af-track"/>
+  <line x1="80" y1="21" x2="80" y2="37" class="af-axisline" stroke-width="1"/><line x1="160" y1="21" x2="160" y2="37" class="af-axisline" stroke-width="1"/><line x1="240" y1="21" x2="240" y2="37" class="af-axisline" stroke-width="1"/>
+  <rect x="13" y="24" width="307" height="10" rx="5" fill="#D4A853" class="bid-bar bd-1"/>
+  <text x="0" y="64" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">performance max</text>
+  <text x="320" y="64" text-anchor="end" class="mf-note bid-lab bl-2">RM46 to RM320</text>
+  <rect x="0" y="74" width="320" height="10" rx="5" class="af-track"/>
+  <line x1="80" y1="71" x2="80" y2="87" class="af-axisline" stroke-width="1"/><line x1="160" y1="71" x2="160" y2="87" class="af-axisline" stroke-width="1"/><line x1="240" y1="71" x2="240" y2="87" class="af-axisline" stroke-width="1"/>
+  <rect x="46" y="74" width="274" height="10" rx="5" fill="#D4A853" class="bid-bar bd-2"/>
+  <text x="0" y="114" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">google ads pricing malaysia</text>
+  <text x="320" y="114" text-anchor="end" class="mf-note bid-lab bl-3">RM6 to RM320</text>
+  <rect x="0" y="124" width="320" height="10" rx="5" class="af-track"/>
+  <line x1="80" y1="121" x2="80" y2="137" class="af-axisline" stroke-width="1"/><line x1="160" y1="121" x2="160" y2="137" class="af-axisline" stroke-width="1"/><line x1="240" y1="121" x2="240" y2="137" class="af-axisline" stroke-width="1"/>
+  <rect x="6" y="124" width="314" height="10" rx="5" fill="#D4A853" class="bid-bar bd-3"/>
+  <text x="0" y="164" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">sem agency malaysia</text>
+  <text x="320" y="164" text-anchor="end" class="mf-note bid-lab bl-4">RM5 to RM81</text>
+  <rect x="0" y="174" width="320" height="10" rx="5" class="af-track"/>
+  <line x1="80" y1="171" x2="80" y2="187" class="af-axisline" stroke-width="1"/><line x1="160" y1="171" x2="160" y2="187" class="af-axisline" stroke-width="1"/><line x1="240" y1="171" x2="240" y2="187" class="af-axisline" stroke-width="1"/>
+  <rect x="5" y="174" width="76" height="10" rx="5" fill="#2B2B2B" class="bid-bar bd-4"/>
+  <text x="0" y="214" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">google ads conversion tracking</text>
+  <text x="320" y="214" text-anchor="end" class="mf-note bid-lab bl-5">RM4 to RM77</text>
+  <rect x="0" y="224" width="320" height="10" rx="5" class="af-track"/>
+  <line x1="80" y1="221" x2="80" y2="237" class="af-axisline" stroke-width="1"/><line x1="160" y1="221" x2="160" y2="237" class="af-axisline" stroke-width="1"/><line x1="240" y1="221" x2="240" y2="237" class="af-axisline" stroke-width="1"/>
+  <rect x="4" y="224" width="73" height="10" rx="5" fill="#2B2B2B" class="bid-bar bd-5"/>
+  <text x="0" y="264" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">google ads agency malaysia</text>
+  <text x="320" y="264" text-anchor="end" class="mf-note bid-lab bl-6">RM11 to RM61</text>
+  <rect x="0" y="274" width="320" height="10" rx="5" class="af-track"/>
+  <line x1="80" y1="271" x2="80" y2="287" class="af-axisline" stroke-width="1"/><line x1="160" y1="271" x2="160" y2="287" class="af-axisline" stroke-width="1"/><line x1="240" y1="271" x2="240" y2="287" class="af-axisline" stroke-width="1"/>
+  <rect x="11" y="274" width="50" height="10" rx="5" fill="#2B2B2B" class="bid-bar bd-6"/>
+
+  <text x="0" y="304" class="mf-note">RM0</text>
+  <text x="80" y="304" text-anchor="middle" class="mf-note">RM80</text>
+  <text x="160" y="304" text-anchor="middle" class="mf-note">RM160</text>
+  <text x="240" y="304" text-anchor="middle" class="mf-note">RM240</text>
+  <text x="320" y="304" text-anchor="end" class="mf-note">RM320</text>
+  <text x="0" y="332" class="mf-note">Top of page bid ranges.</text>
+  <text x="0" y="348" class="mf-note">Google Keyword Planner, Malaysia, October 2026.</text>
+  <text x="0" y="364" class="mf-note">Bids, not what you will pay per click.</text>
+</svg>
         </div>
       </div>
 
-      <p style="margin-top:32px;">Three things stand out. <strong>First, the spread is huge.</strong> The same keyword can run from RM13 to RM320 depending on who is bidding, when and where. <strong>Second, these are bids, not prices.</strong> Your actual cost per click is often lower, and better ads pull it lower again. <strong>Third, specific searches are cheaper than broad ones.</strong> "google ads agency malaysia" tops out at RM61 while "google ads malaysia" reaches RM320, because the broad term pulls in every advertiser who sells anything close to it.</p>
-      <p>Run your own keywords through Keyword Planner before you set a budget. Your industry's range is the only one that matters. For cost benchmarks across Google, Meta and TikTok, see <a href="/advertising-malaysia">what advertising costs in Malaysia</a>.</p>
+      <div class="tiles tiles-3" style="margin-top:32px;">
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-spread"/></svg></div>
+          <h3 class="tile-title">The spread is huge</h3>
+          <p>One keyword runs from RM13 to RM320.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-down"/></svg></div>
+          <h3 class="tile-title">Bids, not prices</h3>
+          <p>Your actual cost per click is often lower.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-search"/></svg></div>
+          <h3 class="tile-title">Specific is cheaper</h3>
+          <p>"google ads agency malaysia" tops out at RM61. "google ads malaysia" reaches RM320.</p>
+        </div>
+      </div>
+      <p class="tip">Run your own keywords through Keyword Planner before you set a budget.</p>
+      <details class="more">
+        <summary>Read the detail</summary>
+        <p>Here are the top of page bid ranges Google Keyword Planner shows for six Malaysian searches in our own category. The low number is roughly the 20th percentile of what advertisers have historically bid to appear at the top of the page. The high number is roughly the 80th percentile (Source: Google Ads Help, 2026).</p>
+        <p>Three things stand out. <strong>First, the spread is huge.</strong> The same keyword can run from RM13 to RM320 depending on who is bidding, when and where. <strong>Second, these are bids, not prices.</strong> Your actual cost per click is often lower, and better ads pull it lower again. <strong>Third, specific searches are cheaper than broad ones.</strong> "google ads agency malaysia" tops out at RM61 while "google ads malaysia" reaches RM320, because the broad term pulls in every advertiser who sells anything close to it.</p>
+        <p>Run your own keywords through Keyword Planner before you set a budget. Your industry's range is the only one that matters. For cost benchmarks across Google, Meta and TikTok, see <a href="/advertising-malaysia">what advertising costs in Malaysia</a>.</p>
+      </details>
     </div>
   </section>
 
@@ -1477,10 +1687,40 @@
     <div class="guide-inner">
       <p class="section-label">Minimum budget</p>
       <h2 class="guide-h2">What is the minimum Google Ads budget in Malaysia?</h2>
+      <p class="takeaway">Google has no minimum. Plan RM1,500 to RM2,000 a month in ad spend so you collect enough data to make good decisions.</p>
+      <div class="tier-row">
+        <div class="tier">
+          <p class="tier-label">General floor</p>
+          <div class="tier-num">RM1,500 to RM2,000</div>
+          <p>A month in ad spend. The same floor we apply across paid media.</p>
+        </div>
+        <div class="tier">
+          <p class="tier-label">Competitive Search</p>
+          <div class="tier-num">Around RM3,000</div>
+          <p>A month for Google Search in categories such as insurance, legal and healthcare.</p>
+        </div>
+      </div>
+      <p class="sub-label">The arithmetic: RM2,000 a month is about RM66 a day</p>
+      <div class="tiles tiles-2">
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-cursor"/></svg><span class="tile-kicker">RM5 clicks</span></div>
+          <div class="tile-stat">About 13 a day</div>
+          <p>Roughly 400 a month. Enough to read the search terms and see what converts.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-cursor"/></svg><span class="tile-kicker">RM20 clicks</span></div>
+          <div class="tile-stat">About 3 a day</div>
+          <p>A week of that tells you almost nothing, and automated bidding has too little to learn from.</p>
+        </div>
+      </div>
+      <p class="tip">Start with one focused Search campaign on your highest intent keywords.</p>
+      <details class="more">
+        <summary>Read the detail</summary>
       <p>Google has no minimum. You could run a campaign on RM10 a day. The real question is how little you can spend and still learn something.</p>
       <p>Our guidance is <strong>RM1,500 to RM2,000 a month in ad spend as the floor</strong>, the same floor we apply across paid media. For Google Search in competitive categories, we recommend <strong>around RM3,000 a month</strong>.</p>
       <p>The reason is arithmetic. RM2,000 a month is about RM66 a day. If your clicks cost RM5, that buys around 13 clicks a day and roughly 400 a month. That is enough to read the search terms, see what converts and cut what does not. If your clicks cost RM20, the same budget buys about 3 clicks a day. A week of that data tells you almost nothing, and automated bidding has too few conversions to learn from.</p>
       <p>Below the floor, money is not wasted because Google overcharges. It is wasted because you never collect enough data to make a good decision. Start with one tightly focused Search campaign on your highest intent keywords instead of spreading a small budget across Search, Display and Performance Max. Our <a href="/performance-max-malaysia">Performance Max guide</a> covers when it is worth adding.</p>
+      </details>
     </div>
   </section>
 
@@ -1489,10 +1729,14 @@
     <div class="approach-left">
       <p class="section-label light">Cost per lead</p>
       <h2 class="approach-headline">What cost per lead should you expect from Google Ads?</h2>
+      <p class="takeaway">There is no single Malaysian benchmark. Compare your cost per lead with what a customer is worth to you.</p>
+      <details class="more on-dark">
+        <summary>Read the detail</summary>
       <p class="approach-body">There is no single Malaysian benchmark. Cost per lead depends on what a customer is worth in your industry and how many advertisers want the same customer. Two of our own Google accounts show the range.</p>
       <p class="approach-body"><strong>Insurance and fintech platform, 12 months.</strong> Cost per lead fell 45%, from RM4.40 to RM2.41, while monthly spend scaled from RM5,000 to RM20,000. Leads grew 393%, from 1,336 to 6,586 in the peak month. High search volume and a simple sign up keep each lead cheap.</p>
       <p class="approach-body"><strong>Healthcare group, 30 days to 24 September 2026.</strong> CPA was RM76.78, from 211 conversions on RM16.2K spend. That is the fourth rise in a row as spend scaled: RM55.11, RM61.45, RM69.46, then RM76.78. A newer service line campaign converts at RM59, against RM83 for the main Search campaign. A patient is worth far more than an insurance sign up, so a higher CPA can still be profitable.</p>
       <p class="approach-body">The lesson: compare your cost per lead with what a customer is worth to you, not with another industry's number. Expect it to rise as you scale, because the cheapest searches get bought first. Current figures sit on our <a href="/live-results">Live Results Board</a>, updated weekly.</p>
+      </details>
     </div>
     <div class="approach-right">
       <p class="section-label light">From live ADV accounts</p>
@@ -1522,6 +1766,34 @@
     <div class="guide-inner">
       <p class="section-label">Management fees</p>
       <h2 class="guide-h2">How much does Google Ads management cost in Malaysia?</h2>
+      <p class="takeaway">Typically RM1,500 to RM7,000 a month on top of ad spend, depending on scope. Get in writing what the fee covers.</p>
+      <div class="tiles tiles-3">
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-wallet"/></svg></div>
+          <h3 class="tile-title">Monthly fee</h3>
+          <div class="tile-stat">RM1,500 to RM7,000</div>
+          <p>A month depending on scope, on top of ad spend.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-percent"/></svg></div>
+          <h3 class="tile-title">At scale</h3>
+          <div class="tile-stat">15 to 18%</div>
+          <p>Of ad spend. Fees typically track this range.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-flag"/></svg></div>
+          <h3 class="tile-title">Profit sharing</h3>
+          <div class="tile-stat">Tied to targets</div>
+          <p>Agreed at the start: cost per lead, ROAS or revenue.</p>
+        </div>
+      </div>
+      <div class="access-row">
+        <p class="access-label">A fee should buy</p>
+        <div class="chips"><span>Weekly search term reviews</span><span>Negative keywords</span><span>Tracking that counts real leads</span><span>Reports that explain why cost per lead moved</span></div>
+      </div>
+      <p class="tip">Spending under RM1,500 a month? Learning it yourself usually makes more sense.</p>
+      <details class="more">
+        <summary>Read the detail</summary>
       <p>Management fees vary with scope, so get in writing what the fee covers. These are the options we publish:</p>
       <div class="data-table-wrap">
         <table class="data-table">
@@ -1537,6 +1809,7 @@
       </div>
       <p>A fee should buy work you can see: weekly search term reviews, negative keywords, conversion tracking that counts real leads, and a report that explains why cost per lead moved. Our <a href="/google-ads-agency-malaysia">Google Ads service page</a> sets out exactly what management includes. For how fees line up against spend tiers on Meta, see our <a href="/meta-ads-pricing-malaysia">Meta ads pricing guide</a>.</p>
       <p>If your ad spend is under RM1,500 a month, a management fee can be bigger than your media budget. At that level, learning it yourself usually makes more sense.</p>
+      </details>
     </div>
   </section>
 
@@ -1545,6 +1818,42 @@
     <div class="guide-inner">
       <p class="section-label">Overpaying</p>
       <h2 class="guide-h2">How do you know if you are overpaying for Google Ads?</h2>
+      <p class="takeaway">Overpaying shows up as small leaks, not one big number. If two or more of these apply, an audit usually pays for itself.</p>
+      <div class="tiles tiles-3">
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-search"/></svg><span class="tile-kicker">Red flag</span></div>
+          <h3 class="tile-title">Nobody reads the search terms</h3>
+          <p>In our audits, broad match with no negatives often sends 20 to 40% of spend to searches that never buy.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-target"/></svg><span class="tile-kicker">Red flag</span></div>
+          <h3 class="tile-title">Conversions are not real leads</h3>
+          <p>Page views or button clicks counted as conversions send bidding after the wrong thing.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-gauge"/></svg><span class="tile-kicker">Red flag</span></div>
+          <h3 class="tile-title">Quality Score stuck at 3 or 4</h3>
+          <p>On your main keywords. Check the ad, landing page and expected clickthrough rate.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-tag"/></svg><span class="tile-kicker">Red flag</span></div>
+          <h3 class="tile-title">Performance Max buys your brand</h3>
+          <p>You may be paying for people already searching for you by name.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-lock"/></svg><span class="tile-kicker">Red flag</span></div>
+          <h3 class="tile-title">You cannot see your account</h3>
+          <p>You should always have admin access, whoever runs it.</p>
+        </div>
+        <div class="tile">
+          <div class="tile-head"><svg class="tile-icon" aria-hidden="true"><use href="#pr-trend"/></svg><span class="tile-kicker">Red flag</span></div>
+          <h3 class="tile-title">Cost per lead rising, unexplained</h3>
+          <p>Three months up and nobody can say why. Rising with scale can be normal.</p>
+        </div>
+      </div>
+      <p class="tip">Run the full checklist with our <a href="/google-ads-audit-malaysia">Google Ads audit guide</a>.</p>
+      <details class="more">
+        <summary>Read the detail</summary>
       <p>Overpaying rarely shows up as one big number. It shows up as small leaks. Check these six.</p>
       <ul class="guide-list">
         <li><strong>Nobody reads the search terms report.</strong> In our audits, broad match with no negative keywords often sends 20 to 40% of spend to searches that will never buy.</li>
@@ -1555,6 +1864,7 @@
         <li><strong>Cost per lead has risen for three months and nobody can explain why.</strong> Rising costs can be normal when you scale. Unexplained rising costs are not.</li>
       </ul>
       <p>If two or more apply, an audit will usually pay for itself. Our <a href="/google-ads-audit-malaysia">Google Ads audit guide</a> walks through the full checklist, and our <a href="/google-ads-malaysia">Google Ads takeover guide</a> shows how we fix accounts without resetting what they have learned. Or let us run the audit on your account for free through our <a href="/google-ads-agency-malaysia">Google Ads agency service</a>.</p>
+      </details>
     </div>
   </section>
 

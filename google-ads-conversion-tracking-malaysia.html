@@ -53,6 +53,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": "https://advmarketing.biz/google-ads-conversion-tracking-malaysia#article",
     "headline": "Google Ads Conversion Tracking: Not Converting, or Not Counting?",
     "description": "Why Google Ads often looks like it is not converting when the real fault is tracking. What should count as a conversion for a Malaysian SME, how forms, WhatsApp clicks, calls and purchases are tracked, primary vs secondary conversion actions, common faults, enhanced conversions, Consent Mode v2, and a 15 minute self check.",
     "datePublished": "2026-10-06",
@@ -60,6 +61,7 @@
     "inLanguage": "en-MY",
     "url": "https://advmarketing.biz/google-ads-conversion-tracking-malaysia",
     "mainEntityOfPage": "https://advmarketing.biz/google-ads-conversion-tracking-malaysia#webpage",
+    "image": "https://advmarketing.biz/assets/logo-dark.png",
     "author": {
       "@type": "Person",
       "@id": "https://advmarketing.biz/#alvin-yap",
@@ -147,7 +149,7 @@
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://advmarketing.biz" },
+      { "@type": "ListItem", "position": 1, "name": "ADV Digital Marketing", "item": "https://advmarketing.biz" },
       { "@type": "ListItem", "position": 2, "name": "Guides", "item": "https://advmarketing.biz/guides" },
       { "@type": "ListItem", "position": 3, "name": "Google Ads Conversion Tracking Malaysia", "item": "https://advmarketing.biz/google-ads-conversion-tracking-malaysia" }
     ]
@@ -169,7 +171,7 @@
     "isPartOf": { "@type": "WebSite", "@id": "https://advmarketing.biz/#website", "name": "ADV Digital Marketing", "url": "https://advmarketing.biz" },
     "about": { "@type": "ProfessionalService", "@id": "https://advmarketing.biz/#organization" },
     "breadcrumb": { "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://advmarketing.biz" },
+      { "@type": "ListItem", "position": 1, "name": "ADV Digital Marketing", "item": "https://advmarketing.biz" },
       { "@type": "ListItem", "position": 2, "name": "Guides", "item": "https://advmarketing.biz/guides" },
       { "@type": "ListItem", "position": 3, "name": "Google Ads Conversion Tracking Malaysia", "item": "https://advmarketing.biz/google-ads-conversion-tracking-malaysia" }
     ] },
@@ -1241,6 +1243,15 @@
       .in-view .cf-clicks, .in-view .cf-bar, .in-view .cf-ghost, .in-view .cf-rep, .in-view .cf-real, .in-view .cf-strike, .in-view .pr-line { animation: none; }
     }
 
+    /* ── Mobile figure variants (<=600px): narrow-column SVGs replace the desktop SVGs ── */
+    .anim-fig svg.fig-mob { display: none; }
+    .mf-lab  { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 13px; fill: currentColor; }
+    .mf-note { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; font-size: 12px; fill: #9A9490; }
+    @media (max-width: 600px) {
+      .anim-fig svg.fig-desk { display: none; }
+      .anim-fig svg.fig-mob { display: block; }
+    }
+
     @media (max-width: 1024px) {
       #guide { padding: 72px 32px 24px; }
     }
@@ -1249,9 +1260,97 @@
       .guide-section { margin-bottom: 64px; }
       .guide-fig { padding: 22px 18px 18px; }
     }
+
+    /* ── Simplified tiles (6 Oct) ── */
+    .guide-section .takeaway { font-size: 18px; line-height: 1.6; font-weight: 500; color: var(--black); border-left: 2px solid var(--gold); padding-left: 18px; margin: -6px 0 28px; max-width: 660px; }
+    .tile-icon { width: 32px; height: 32px; color: var(--gold); flex: none; display: block; }
+    .guide-section .check-flag { font-size: 15px; line-height: 1.6; color: var(--charcoal); margin-bottom: 12px; }
+    .guide-section .check-flag:last-child { margin-bottom: 0; }
+    .guide-section .check-flag > span { display: block; font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--stone); margin-bottom: 4px; }
+
+    .vs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 4px 0 28px; align-items: start; }
+    .vs-card { background: var(--white); border: 1px solid rgba(13,13,13,0.08); border-top: 3px solid var(--stone); padding: 26px 26px 22px; }
+    .vs-card--gold { border-top-color: var(--gold); }
+    .guide-section .vs-kicker { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--stone); margin: 16px 0 6px; }
+    .guide-section .vs-card--gold .vs-kicker { color: var(--gold); }
+    .guide-section .vs-title, .guide-section .vs-card h3 { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 24px; line-height: 1.2; color: var(--black); margin: 14px 0 12px; }
+
+    .chip-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .chip-row span { border: 1px solid rgba(13,13,13,0.15); border-radius: 999px; padding: 6px 13px; font-size: 13px; line-height: 1.3; color: var(--black); background: var(--cream); }
+    .chip-row--muted span { color: var(--stone); border-style: dashed; }
+
+    .act-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 4px 0 20px; align-items: start; }
+    .act-card { background: var(--white); border: 1px solid rgba(13,13,13,0.08); border-top: 3px solid var(--gold); padding: 24px 24px 20px; }
+    .act-top { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .act-name { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 24px; line-height: 1.1; color: var(--black); }
+    .act-chip { margin-left: auto; border: 1px solid rgba(13,13,13,0.12); border-radius: 999px; padding: 5px 10px; font-size: 10px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--stone); white-space: nowrap; }
+    .guide-section .tip { font-size: 15px; line-height: 1.65; background: var(--white); border-left: 3px solid var(--gold); padding: 14px 18px; margin: 0 0 24px; }
+
+    .check-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 4px 0 8px; align-items: start; }
+    .check-item { background: var(--white); border: 1px solid rgba(13,13,13,0.08); border-top: 3px solid var(--gold); padding: 26px 26px 20px; display: flex; flex-direction: column; }
+    .check-top { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+    .check-icon { width: 32px; height: 32px; color: var(--gold); flex: none; }
+    .check-num { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 22px; line-height: 1; color: var(--gold); }
+    .check-time { margin-left: auto; border: 1px solid rgba(13,13,13,0.12); border-radius: 999px; padding: 5px 10px; font-size: 10px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--stone); white-space: nowrap; }
+    .guide-section .check-title { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 23px; line-height: 1.2; color: var(--black); margin: 0 0 10px; }
+    .check-more { border-top: 1px solid rgba(13,13,13,0.08); padding-top: 12px; margin-top: 4px; }
+    .check-more p { font-size: 14px !important; line-height: 1.7 !important; margin: 12px 0 4px !important; }
+
+    .step-grid { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 4px 0 24px; align-items: start; }
+    .step-grid li { background: var(--white); border: 1px solid rgba(13,13,13,0.08); border-top: 3px solid var(--gold); padding: 22px 24px 20px; margin: 0; }
+    .step-grid .check-top { margin-bottom: 10px; }
+    .guide-section .step-title { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 22px; line-height: 1.2; color: var(--black); margin: 0 0 6px; }
+    .guide-section .step-line { font-size: 15px; line-height: 1.6; margin: 0; }
+
+    .stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: rgba(13,13,13,0.08); margin: 4px 0 16px; align-items: stretch; }
+    .stat-tile { background: var(--white); padding: 26px 24px 22px; }
+    .guide-section .stat-big { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 44px; line-height: 1; letter-spacing: -0.01em; font-variant-numeric: lining-nums; color: var(--black); margin: 0 0 12px; }
+    .stat-big small { font-size: 22px; color: var(--stone); font-weight: 600; }
+    .guide-section .stat-cap { font-size: 14px; line-height: 1.55; color: var(--charcoal); margin: 0; }
+    .guide-section .stat-note { font-size: 13px; line-height: 1.6; color: var(--stone); margin-bottom: 18px; }
+
+    details.more { border-top: 1px solid rgba(13,13,13,0.1); border-bottom: 1px solid rgba(13,13,13,0.1); padding: 14px 0; margin: 8px 0 0; }
+    details.more[open] { padding-bottom: 6px; }
+    details.more > :not(summary):first-of-type { margin-top: 16px; }
+    .more p, .more li { font-size: 15px !important; }
+    .more .ct-table-wrap { margin-top: 16px; }
+    .more summary, .check-more summary { cursor: pointer; list-style: none; font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--black); display: flex; justify-content: space-between; align-items: center; }
+    .more summary::-webkit-details-marker, .check-more summary::-webkit-details-marker { display: none; }
+    .more summary::after, .check-more summary::after { content: '+'; color: var(--gold); font-size: 16px; line-height: 1; }
+    .more[open] summary::after, .check-more[open] summary::after { content: '\2212'; }
+    .more summary:focus-visible, .check-more summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+    @media (max-width: 768px) {
+      .vs-grid, .act-grid, .check-grid, .step-grid, .stat-row { grid-template-columns: 1fr; }
+      .vs-card, .act-card, .check-item { padding: 22px 20px 18px; }
+      .step-grid li, .stat-tile { padding: 20px 20px 18px; }
+      .guide-section .takeaway { font-size: 17px; padding-left: 14px; }
+      .guide-section .stat-big { font-size: 38px; }
+    }
   </style>
 </head>
 <body>
+
+  <!-- Icon sprite (line icons, 24x24, stroke currentColor) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="ct-ic-inbox" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13.5 5.5 5h13l2.5 8.5V19H3z"/><path d="M3 13.5h5l1.5 2.5h5l1.5-2.5h5"/></g></symbol>
+    <symbol id="ct-ic-calc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M8 7.5h8"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01M8.5 16h.01M12 16h.01M15.5 16h.01"/></g></symbol>
+    <symbol id="ct-ic-form" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M8.5 8h7M8.5 12h7M8.5 16h4"/></g></symbol>
+    <symbol id="ct-ic-chat" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-4.2A8 8 0 1 1 20 11.5z"/><path d="M9 10.5h6M9 13.5h3.5"/></g></symbol>
+    <symbol id="ct-ic-phone" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h3.5L10 8 8 9.5a11 11 0 0 0 6.5 6.5L16 14l4 1.5V19a1.5 1.5 0 0 1-1.5 1.5A15.5 15.5 0 0 1 3.5 5.5 1.5 1.5 0 0 1 5 4z"/></g></symbol>
+    <symbol id="ct-ic-cart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2.5l2 11h10.5l2-8H6.3"/><circle cx="9" cy="19" r="1.3"/><circle cx="17" cy="19" r="1.3"/></g></symbol>
+    <symbol id="ct-ic-tag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h8l10 10-8 8L3 11z"/><circle cx="7.5" cy="7.5" r="1.5"/></g></symbol>
+    <symbol id="ct-ic-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M7 20v-6M12 20V8M17 20V4"/></g></symbol>
+    <symbol id="ct-ic-target" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></g></symbol>
+    <symbol id="ct-ic-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></g></symbol>
+    <symbol id="ct-ic-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="1.5"/><path d="M16 8V5.5A1.5 1.5 0 0 0 14.5 4h-9A1.5 1.5 0 0 0 4 5.5v9A1.5 1.5 0 0 0 5.5 16H8"/></g></symbol>
+    <symbol id="ct-ic-browser" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></g></symbol>
+    <symbol id="ct-ic-reload" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v5h-5"/></g></symbol>
+    <symbol id="ct-ic-tally" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5v14M10 5v14M14 5v14M18 5v14M3.5 16 20.5 8"/></g></symbol>
+    <symbol id="ct-ic-signal-off" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l18 18"/><path d="M8.5 16.5a5 5 0 0 1 7 0"/><path d="M5 12.5a10 10 0 0 1 5-2.6M19 12.5a10 10 0 0 0-2.8-1.9"/><path d="M2 8.8A15 15 0 0 1 6.5 6M22 8.8A15 15 0 0 0 11 4.6"/><path d="M12 20h.01"/></g></symbol>
+    <symbol id="ct-ic-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.5-3 8-7 9.5-4-1.5-7-5-7-9.5V6z"/><path d="M9 12l2 2 4-4"/></g></symbol>
+    <symbol id="ct-ic-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="1.5"/><path d="M8 10.5v-3a4 4 0 0 1 8 0v3"/><path d="M12 14.5V17"/></g></symbol>
+  </svg>
 
   <!-- NAV -->
   <nav id="navbar">
@@ -1325,13 +1424,27 @@
 
       <article class="guide-section" id="not-converting">
         <h2>Is Google Ads not converting, or is it not counting?</h2>
-        <p>Two different problems hide behind "Google Ads is not converting". One is real: clicks arrive and nobody enquires. The other is counting: people do enquire, but Google Ads never hears about it, or hears about the wrong things.</p>
-        <p>The counting problem does more damage. Smart Bidding sets bids from the conversions you report. Report zero and it has nothing to learn from. Report an inflated number and it buys more of the wrong traffic. <a href="/google-ads-malaysia">Our main Google Ads guide</a> calls this the first leak: conversions that are not revenue. This page is the practical version.</p>
+        <p class="takeaway">Often the ads are fine and the count is wrong. Smart Bidding learns only from the conversions you report, so check the count first.</p>
+
+        <div class="vs-grid">
+          <div class="vs-card">
+            <svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-inbox"/></svg>
+            <p class="vs-kicker">Not converting</p>
+            <p class="vs-title">Clicks arrive. Nobody enquires.</p>
+            <p class="check-flag"><span>Look at</span>Search terms, ads and the landing page, once tracking is clean.</p>
+          </div>
+          <div class="vs-card vs-card--gold">
+            <svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-calc"/></svg>
+            <p class="vs-kicker">Not counting</p>
+            <p class="vs-title">People enquire. Google Ads never hears, or hears the wrong things.</p>
+            <p class="check-flag"><span>Why it hurts more</span>Report zero and Smart Bidding learns nothing. Report too many and it buys the wrong traffic.</p>
+          </div>
+        </div>
 
         <figure class="guide-fig">
           <p class="figure-label">Same account, two ways of counting</p>
           <div class="anim-fig">
-<svg viewBox="0 0 400 165" role="img" aria-labelledby="cfT cfD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 400 165" role="img" aria-labelledby="cfT cfD" xmlns="http://www.w3.org/2000/svg">
   <title id="cfT">Reported conversions inflated by page views, then the real enquiry count</title>
   <desc id="cfD">An illustrative account with RM3,000 spend and 1,000 ad clicks. A gold bar for reported conversions grows to 400 when contact page views are counted, which looks like RM7.50 per conversion. The bar then drops to 40 real enquiries, which is RM75 per lead.</desc>
   <text x="0" y="14" class="af-label">Ad clicks</text>
@@ -1348,46 +1461,135 @@
   <text x="0" y="140" class="af-axis">Illustrative numbers. Same spend, same clicks.</text>
   <text x="0" y="156" class="af-axis">Smart Bidding optimises to whichever count you give it.</text>
 </svg>
+<svg class="fig-mob" viewBox="0 0 300 192" role="img" aria-labelledby="cfTm cfDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="cfTm">Reported conversions inflated by page views, then the real enquiry count</title>
+  <desc id="cfDm">An illustrative account with RM3,000 spend and 1,000 ad clicks. A gold bar for reported conversions grows to 400 when contact page views are counted, which looks like RM7.50 per conversion. The bar then drops to 40 real enquiries, which is RM75 per lead.</desc>
+  <text x="0" y="14" class="mf-lab">Ad clicks</text>
+  <text x="300" y="14" text-anchor="end" class="mf-note">1,000 clicks · RM3,000 spend</text>
+  <rect x="0" y="22" width="300" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="22" width="300" height="14" rx="7" fill="#2B2B2B" class="cf-clicks"/>
+  <text x="0" y="62" class="mf-lab">Conversions reported to Smart Bidding</text>
+  <text x="300" y="80" text-anchor="end" class="mf-note cf-rep">400 counted · RM7.50 each</text>
+  <line x1="147" y1="76" x2="300" y2="76" stroke="#0D0D0D" stroke-width="1.2" pathLength="1" class="cf-strike"/>
+  <rect x="0" y="88" width="300" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="88" width="120" height="14" rx="7" fill="none" stroke="#9A9490" stroke-width="1" stroke-dasharray="3 3" class="cf-ghost"/>
+  <rect x="0" y="88" width="120" height="14" rx="7" class="cf-bar"/>
+  <text x="0" y="126" class="mf-lab cf-real" font-weight="600">40 real enquiries · RM75 each</text>
+  <text x="0" y="156" class="mf-note">Illustrative numbers. Same spend, same clicks.</text>
+  <text x="0" y="172" class="mf-note">Smart Bidding optimises to whichever count</text>
+  <text x="0" y="188" class="mf-note">you give it.</text>
+</svg>
           </div>
         </figure>
 
-        <p>So before you rewrite ads or blame the agency, confirm the count. When we take over an account through our <a href="/google-ads-agency-malaysia">Google Ads management service</a>, tracking is checked before a single bid changes.</p>
+        <details class="more">
+          <summary>Read the detail</summary>
+          <p>Two different problems hide behind "Google Ads is not converting". One is real: clicks arrive and nobody enquires. The other is counting: people do enquire, but Google Ads never hears about it, or hears about the wrong things.</p>
+          <p>The counting problem does more damage. Smart Bidding sets bids from the conversions you report. Report zero and it has nothing to learn from. Report an inflated number and it buys more of the wrong traffic. <a href="/google-ads-malaysia">Our main Google Ads guide</a> calls this the first leak: conversions that are not revenue. This page is the practical version.</p>
+          <p>So before you rewrite ads or blame the agency, confirm the count. When we take over an account through our <a href="/google-ads-agency-malaysia">Google Ads management service</a>, tracking is checked before a single bid changes.</p>
+        </details>
       </article>
 
       <article class="guide-section" id="what-counts">
         <h2>What should count as a conversion for a Malaysian SME?</h2>
-        <p>A conversion is the moment someone raises their hand. For most Malaysian SMEs, that means one of four actions.</p>
-        <div class="ct-table-wrap">
-          <table class="ct-table">
-            <thead>
-              <tr><th>Action</th><th>How it is tracked</th><th>What to know</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Lead form</td><td>Google Ads conversion tag (Google tag or Google Tag Manager) on a real submission, or a GA4 event imported into Google Ads</td><td>Fire on the submission, not when the form page loads. Count: One.</td></tr>
-              <tr><td>WhatsApp</td><td>A click event on your wa.me link or WhatsApp button, set up as a website conversion</td><td>It records the click, not a sent message. Some people open WhatsApp and never type.</td></tr>
-              <tr><td>Phone call</td><td>Clicks on a number on your mobile website, Clicks on call ads and assets, or Import call conversions</td><td>Google forwarding numbers are not available in Malaysia, so Google does not measure real call length here.</td></tr>
-              <tr><td>Purchase</td><td>Google Ads tag on the order confirmation page, with the order value and a transaction ID</td><td>Count: Every. The transaction ID stops a page reload counting the same order twice.</td></tr>
-            </tbody>
-          </table>
+        <p class="takeaway">The moment someone raises their hand. For most Malaysian SMEs that is a form, a WhatsApp click, a call or a purchase.</p>
+
+        <div class="act-grid">
+          <div class="act-card">
+            <div class="act-top"><svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-form"/></svg><span class="act-name">Lead form</span><span class="act-chip">Count: One</span></div>
+            <p class="check-flag"><span>Tracked by</span>The Google Ads tag on a real submit, or an imported GA4 event.</p>
+            <p class="check-flag"><span>Watch</span>Fire on the submission, not when the form page loads.</p>
+          </div>
+          <div class="act-card">
+            <div class="act-top"><svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-chat"/></svg><span class="act-name">WhatsApp</span></div>
+            <p class="check-flag"><span>Tracked by</span>A click on your wa.me link or WhatsApp button.</p>
+            <p class="check-flag"><span>Limit</span>It records the click, not a sent message.</p>
+          </div>
+          <div class="act-card">
+            <div class="act-top"><svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-phone"/></svg><span class="act-name">Phone call</span></div>
+            <p class="check-flag"><span>Tracked by</span>Number clicks on your mobile site, call ad clicks, or imported call conversions.</p>
+            <p class="check-flag"><span>Limit</span>Google forwarding numbers are not available in Malaysia, so Google does not measure real call length.</p>
+          </div>
+          <div class="act-card">
+            <div class="act-top"><svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-cart"/></svg><span class="act-name">Purchase</span><span class="act-chip">Count: Every</span></div>
+            <p class="check-flag"><span>Tracked by</span>The Google Ads tag on the order confirmation page, with value and transaction ID.</p>
+            <p class="check-flag"><span>Watch</span>The transaction ID stops a page reload counting one order twice.</p>
+          </div>
         </div>
-        <p><strong>WhatsApp is a proxy.</strong> Google Ads cannot see inside a chat, only the click on your button. Compare clicks with the chats your team actually received that week. If clicks are double the real chats, your true cost per lead is roughly double what Google Ads reports.</p>
-        <p><strong>Calls are similar.</strong> Google's call reporting runs on Google forwarding numbers, and Malaysia is not on Google's list of countries where they are available <span class="src">(Source: Google Ads Help, About call reporting, checked October 2026)</span>. Google says mobile number clicks track the click, not the call, and for call ad clicks it estimates whether a meaningful call happened. If calls matter, log them in a CRM and use Import call conversions <span class="src">(Source: Google Ads Help, About phone call conversion tracking, 2026)</span>.</p>
+        <p class="tip"><strong>WhatsApp is a proxy.</strong> Compare WhatsApp clicks with the chats your team actually received each week.</p>
+
+        <details class="more">
+          <summary>Read the detail</summary>
+          <p>A conversion is the moment someone raises their hand. For most Malaysian SMEs, that means one of four actions.</p>
+          <div class="ct-table-wrap">
+            <table class="ct-table">
+              <thead>
+                <tr><th>Action</th><th>How it is tracked</th><th>What to know</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Lead form</td><td>Google Ads conversion tag (Google tag or Google Tag Manager) on a real submission, or a GA4 event imported into Google Ads</td><td>Fire on the submission, not when the form page loads. Count: One.</td></tr>
+                <tr><td>WhatsApp</td><td>A click event on your wa.me link or WhatsApp button, set up as a website conversion</td><td>It records the click, not a sent message. Some people open WhatsApp and never type.</td></tr>
+                <tr><td>Phone call</td><td>Clicks on a number on your mobile website, Clicks on call ads and assets, or Import call conversions</td><td>Google forwarding numbers are not available in Malaysia, so Google does not measure real call length here.</td></tr>
+                <tr><td>Purchase</td><td>Google Ads tag on the order confirmation page, with the order value and a transaction ID</td><td>Count: Every. The transaction ID stops a page reload counting the same order twice.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p><strong>WhatsApp is a proxy.</strong> Google Ads cannot see inside a chat, only the click on your button. Compare clicks with the chats your team actually received that week. If clicks are double the real chats, your true cost per lead is roughly double what Google Ads reports.</p>
+          <p><strong>Calls are similar.</strong> Google's call reporting runs on Google forwarding numbers, and Malaysia is not on Google's list of countries where they are available <span class="src">(Source: Google Ads Help, About call reporting, checked October 2026)</span>. Google says mobile number clicks track the click, not the call, and for call ad clicks it estimates whether a meaningful call happened. If calls matter, log them in a CRM and use Import call conversions <span class="src">(Source: Google Ads Help, About phone call conversion tracking, 2026)</span>.</p>
+        </details>
       </article>
 
       <article class="guide-section" id="tag-or-ga4">
         <h2>Google Ads tag or GA4 import: which should you use?</h2>
-        <p>Both work. The Google Ads tag sends the conversion straight to Google Ads. A GA4 import shares a key event from Google Analytics with Google Ads.</p>
-        <p>Two traps. Google says conversions created from Google Analytics are secondary by default and can only be updated to primary in Google Ads <span class="src">(Source: Google Ads Help, About primary and secondary conversion actions, 2026)</span>, so a perfect GA4 lead event can still be ignored by Smart Bidding. And if the tag and the import both track the same form as primary, every lead counts twice. Pick one source per action and make it primary.</p>
+        <p class="takeaway">Both work. Pick one source per action and make it primary, or every lead gets counted twice.</p>
+
+        <div class="vs-grid">
+          <div class="vs-card vs-card--gold">
+            <svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-tag"/></svg>
+            <p class="vs-kicker">Option 1</p>
+            <p class="vs-title">Google Ads tag</p>
+            <p class="check-flag"><span>What it does</span>Sends the conversion straight to Google Ads.</p>
+            <p class="check-flag"><span>Trap</span>Do not also make a GA4 import of the same form primary.</p>
+          </div>
+          <div class="vs-card vs-card--gold">
+            <svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-chart"/></svg>
+            <p class="vs-kicker">Option 2</p>
+            <p class="vs-title">GA4 import</p>
+            <p class="check-flag"><span>What it does</span>Shares a key event from Google Analytics with Google Ads.</p>
+            <p class="check-flag"><span>Trap</span>Secondary by default. Switch it to primary inside Google Ads, or Smart Bidding ignores it.</p>
+          </div>
+        </div>
+
+        <details class="more">
+          <summary>Read the detail</summary>
+          <p>Both work. The Google Ads tag sends the conversion straight to Google Ads. A GA4 import shares a key event from Google Analytics with Google Ads.</p>
+          <p>Two traps. Google says conversions created from Google Analytics are secondary by default and can only be updated to primary in Google Ads <span class="src">(Source: Google Ads Help, About primary and secondary conversion actions, 2026)</span>, so a perfect GA4 lead event can still be ignored by Smart Bidding. And if the tag and the import both track the same form as primary, every lead counts twice. Pick one source per action and make it primary.</p>
+        </details>
       </article>
 
       <article class="guide-section" id="primary-secondary">
         <h2>What is the difference between primary and secondary conversions?</h2>
-        <p>Primary actions are reported in the Conversions column and used for bidding when their goal is used for bidding. Secondary actions are observation only: they show in All conversions and are not used for bidding, unless they sit inside a custom goal <span class="src">(Source: Google Ads Help, 2026)</span>.</p>
+        <p class="takeaway">Primary actions drive bidding. Secondary actions are for watching only. Make primary only the actions you would pay for.</p>
+
+        <div class="vs-grid">
+          <div class="vs-card vs-card--gold">
+            <svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-target"/></svg>
+            <p class="vs-kicker">Primary</p>
+            <p class="vs-title">Conversions column. Used for bidding.</p>
+            <div class="chip-row"><span>Form submit</span><span>WhatsApp click</span><span>Call</span><span>Purchase</span></div>
+          </div>
+          <div class="vs-card">
+            <svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-eye"/></svg>
+            <p class="vs-kicker">Secondary</p>
+            <p class="vs-title">All conversions column. Not used for bidding.</p>
+            <div class="chip-row chip-row--muted"><span>Page views</span><span>Scroll depth</span><span>Time on site</span></div>
+          </div>
+        </div>
 
         <figure class="guide-fig">
           <p class="figure-label">Where each conversion action goes</p>
           <div class="anim-fig">
-<svg viewBox="0 0 400 252" role="img" aria-labelledby="prT prD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-desk" viewBox="0 0 400 252" role="img" aria-labelledby="prT prD" xmlns="http://www.w3.org/2000/svg">
   <title id="prT">Primary conversion actions feed bidding, secondary actions are observation only</title>
   <desc id="prD">Form submit, WhatsApp click and call button click connect to a primary box: reported in the Conversions column and used for bidding. Contact page view connects to a secondary box: reported in All conversions and not used for bidding.</desc>
   <rect x="250" y="14" width="150" height="118" rx="2" fill="#FAF8F3" stroke="#D4A853" stroke-width="1.5"/>
@@ -1420,55 +1622,223 @@
   <path d="M170 191 C210 191 210 196 250 196" fill="none" stroke="#9A9490" stroke-width="1.2" pathLength="1" class="pr-line pr-l4"/>
   <text x="0" y="248" class="af-axis">Exception: a secondary action inside a custom goal is used for bidding.</text>
 </svg>
+<svg class="fig-mob" viewBox="0 0 300 302" role="img" aria-labelledby="prTm prDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="prTm">Primary conversion actions feed bidding, secondary actions are observation only</title>
+  <desc id="prDm">Form submit, WhatsApp click and call button click connect to a primary box: reported in the Conversions column and used for bidding. Contact page view connects to a secondary box: reported in All conversions and not used for bidding.</desc>
+  <rect x="164" y="14" width="136" height="118" rx="2" fill="#FAF8F3" stroke="#D4A853" stroke-width="1.5"/>
+  <text x="176" y="44" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Primary</text>
+  <text x="176" y="70" class="mf-note">Conversions column</text>
+  <text x="176" y="88" class="mf-note">Used for bidding</text>
+  <rect x="164" y="160" width="136" height="96" rx="2" fill="#FAF8F3" stroke="#9A9490" stroke-width="1.2"/>
+  <text x="176" y="186" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Secondary</text>
+  <text x="176" y="206" class="mf-note">All conversions</text>
+  <text x="176" y="222" class="mf-note">column</text>
+  <text x="176" y="240" class="mf-note">Not used for bidding</text>
+  <g class="fstep fstep-1">
+    <rect x="0" y="14" width="134" height="30" rx="15" fill="#FAF8F3" stroke="#0D0D0D" stroke-width="1"/>
+    <text x="12" y="33" class="mf-lab">Form submit</text>
+  </g>
+  <g class="fstep fstep-2">
+    <rect x="0" y="58" width="134" height="30" rx="15" fill="#FAF8F3" stroke="#0D0D0D" stroke-width="1"/>
+    <text x="12" y="77" class="mf-lab">WhatsApp click</text>
+  </g>
+  <g class="fstep fstep-3">
+    <rect x="0" y="102" width="134" height="30" rx="15" fill="#FAF8F3" stroke="#0D0D0D" stroke-width="1"/>
+    <text x="12" y="121" class="mf-lab">Call button click</text>
+  </g>
+  <g class="fstep fstep-4">
+    <rect x="0" y="176" width="134" height="30" rx="15" fill="#FAF8F3" stroke="#9A9490" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="12" y="195" class="mf-lab" fill="#9A9490">Contact page view</text>
+  </g>
+  <path d="M134 29 C149 29 149 58 164 58" fill="none" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="pr-line pr-l1"/>
+  <path d="M134 73 C149 73 149 73 164 73" fill="none" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="pr-line pr-l2"/>
+  <path d="M134 117 C149 117 149 88 164 88" fill="none" stroke="#D4A853" stroke-width="1.5" pathLength="1" class="pr-line pr-l3"/>
+  <path d="M134 191 C149 191 149 200 164 200" fill="none" stroke="#9A9490" stroke-width="1.2" pathLength="1" class="pr-line pr-l4"/>
+  <text x="0" y="280" class="mf-note">Exception: a secondary action inside a custom</text>
+  <text x="0" y="296" class="mf-note">goal is used for bidding.</text>
+</svg>
           </div>
         </figure>
 
-        <p>Google warns that getting this wrong can stop Smart Bidding from optimising effectively. Primary should hold only actions you would pay for: a form submit, a WhatsApp click, a call, a purchase. Page views, scroll depth and time on site belong in secondary, if anywhere.</p>
+        <details class="more">
+          <summary>Read the detail</summary>
+          <p>Primary actions are reported in the Conversions column and used for bidding when their goal is used for bidding. Secondary actions are observation only: they show in All conversions and are not used for bidding, unless they sit inside a custom goal <span class="src">(Source: Google Ads Help, 2026)</span>.</p>
+          <p>Google warns that getting this wrong can stop Smart Bidding from optimising effectively. Primary should hold only actions you would pay for: a form submit, a WhatsApp click, a call, a purchase. Page views, scroll depth and time on site belong in secondary, if anywhere.</p>
+        </details>
       </article>
 
       <article class="guide-section" id="common-faults">
         <h2>Which tracking faults make Google Ads look like it is not converting?</h2>
-        <p>We look for these first on any account. Each one either hides real leads or invents fake ones.</p>
-        <ul class="guide-list">
-          <li><strong>Duplicate counting.</strong> The same form tracked by the tag and a GA4 import, both primary, or the tag installed twice. Leads double on paper. Your inbox does not change.</li>
-          <li><strong>Page views counted as leads.</strong> A "conversion" that fires when someone loads the contact or pricing page. The account looks brilliant while the phone stays quiet.</li>
-          <li><strong>A thank-you page that fires on load.</strong> People reach it without submitting, through a menu link, a bookmark or search. Google notes that reloading a confirmation page can fire the tag again, and a transaction ID lets it drop duplicate purchases <span class="src">(Source: Google Ads Help, 2026)</span>. For leads, set Count to One and keep the page out of menus and search.</li>
-          <li><strong>Count set to Every for leads.</strong> Google recommends One conversion for leads and Every conversion for purchases. But Every is the default for website actions, so many lead forms count every repeat submit <span class="src">(Source: Google Ads Help, About conversion counting options, 2026)</span>.</li>
-          <li><strong>Tags not firing.</strong> A site rebuild or new form plugin quietly breaks the tag. Google shows Unverified, Tag inactive or Needs attention in the Tracking status column <span class="src">(Source: Google Ads Help, 2026)</span>. Leads keep arriving, Google Ads sees none, and Smart Bidding has nothing to work with.</li>
-          <li><strong>Consent settings that block tags.</strong> See the next section. It matters less for Malaysian traffic than most articles suggest.</li>
-        </ul>
+        <p class="takeaway">Six faults we look for first on any account. Each one either hides real leads or invents fake ones.</p>
+
+        <div class="check-grid">
+          <article class="check-item">
+            <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ct-ic-copy"/></svg><span class="check-num">01</span></div>
+            <h3 class="check-title">Duplicate counting</h3>
+            <p class="check-flag"><span>Red flag</span>Leads double on paper. Your inbox does not change.</p>
+            <details class="check-more">
+              <summary>Why it happens</summary>
+              <p>The same form tracked by the tag and a GA4 import, both primary, or the tag installed twice. Leads double on paper. Your inbox does not change.</p>
+            </details>
+          </article>
+          <article class="check-item">
+            <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ct-ic-browser"/></svg><span class="check-num">02</span></div>
+            <h3 class="check-title">Page views counted as leads</h3>
+            <p class="check-flag"><span>Red flag</span>The account looks brilliant while the phone stays quiet.</p>
+            <details class="check-more">
+              <summary>Why it happens</summary>
+              <p>A "conversion" that fires when someone loads the contact or pricing page. The account looks brilliant while the phone stays quiet.</p>
+            </details>
+          </article>
+          <article class="check-item">
+            <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ct-ic-reload"/></svg><span class="check-num">03</span></div>
+            <h3 class="check-title">A thank-you page that fires on load</h3>
+            <p class="check-flag"><span>Red flag</span>Reached without submitting, through a menu link, bookmark or search.</p>
+            <details class="check-more">
+              <summary>Why it happens</summary>
+              <p>People reach it without submitting, through a menu link, a bookmark or search. Google notes that reloading a confirmation page can fire the tag again, and a transaction ID lets it drop duplicate purchases <span class="src">(Source: Google Ads Help, 2026)</span>. For leads, set Count to One and keep the page out of menus and search.</p>
+            </details>
+          </article>
+          <article class="check-item">
+            <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ct-ic-tally"/></svg><span class="check-num">04</span></div>
+            <h3 class="check-title">Count set to Every for leads</h3>
+            <p class="check-flag"><span>Red flag</span>Every repeat submit counts as another lead.</p>
+            <details class="check-more">
+              <summary>Why it happens</summary>
+              <p>Google recommends One conversion for leads and Every conversion for purchases. But Every is the default for website actions, so many lead forms count every repeat submit <span class="src">(Source: Google Ads Help, About conversion counting options, 2026)</span>.</p>
+            </details>
+          </article>
+          <article class="check-item">
+            <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ct-ic-signal-off"/></svg><span class="check-num">05</span></div>
+            <h3 class="check-title">Tags not firing</h3>
+            <p class="check-flag"><span>Red flag</span>Unverified, Tag inactive or Needs attention in the Tracking status column.</p>
+            <details class="check-more">
+              <summary>Why it happens</summary>
+              <p>A site rebuild or new form plugin quietly breaks the tag. Google shows Unverified, Tag inactive or Needs attention in the Tracking status column <span class="src">(Source: Google Ads Help, 2026)</span>. Leads keep arriving, Google Ads sees none, and Smart Bidding has nothing to work with.</p>
+            </details>
+          </article>
+          <article class="check-item">
+            <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ct-ic-shield"/></svg><span class="check-num">06</span></div>
+            <h3 class="check-title">Consent settings that block tags</h3>
+            <p class="check-flag"><span>Red flag</span>A banner that blocks tags until visitors respond can make conversions vanish.</p>
+            <details class="check-more">
+              <summary>Why it happens</summary>
+              <p>See the <a href="#enhanced-consent">next section</a>. It matters less for Malaysian traffic than most articles suggest.</p>
+            </details>
+          </article>
+        </div>
       </article>
 
       <article class="guide-section" id="enhanced-consent">
         <h2>Do you need enhanced conversions and Consent Mode v2 in Malaysia?</h2>
-        <h3>Enhanced conversions for leads</h3>
-        <p>Enhanced conversions sends first-party data from your form, such as an email address, hashed with SHA256, to improve the accuracy of conversion measurement <span class="src">(Source: Google Ads Help, About enhanced conversions, 2026)</span>. The leads version is built for sales that close offline. Your form sends hashed details when the enquiry arrives. When that lead becomes a customer, you import the same details from your CRM and Google matches the sale to the ad click <span class="src">(Source: Google Ads Help, About enhanced conversions for leads, 2026)</span>. For a clinic or an insurance agent, this teaches Smart Bidding the difference between an enquiry and a customer. It needs a working CRM and an import through Google Ads Data Manager or the API, so treat it as stage two.</p>
-        <h3>Consent Mode v2</h3>
-        <p>Consent mode passes visitors' cookie choices to Google and adjusts how Google tags behave. Version 2 added two signals, ad_user_data and ad_personalization. Google's requirement to collect and share consent applies to advertisers receiving data from users in the European Economic Area <span class="src">(Source: Google Tag Manager Help, Updates to consent mode for traffic in the EEA, 2026)</span>. Malaysia is not in the EEA, so for Malaysian traffic that requirement is not why conversions are missing.</p>
-        <p>It matters if you get European visitors or already run a consent banner. Google says basic consent mode blocks tags until the visitor responds to the banner, while advanced mode loads tags with consent denied, sends cookieless pings and supports an advertiser-specific conversion model <span class="src">(Source: Google Ads Help, About consent mode, 2026)</span>. A banner that blocks tags can make conversions vanish. Malaysian privacy law is a question for your lawyer.</p>
+        <p class="takeaway">Enhanced conversions is stage two, once you have a CRM. Google's Consent Mode v2 requirement covers EEA traffic, and Malaysia is not in the EEA.</p>
+
+        <div class="vs-grid">
+          <div class="vs-card vs-card--gold">
+            <svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-lock"/></svg>
+            <h3>Enhanced conversions for leads</h3>
+            <p class="check-flag"><span>What it does</span>Sends hashed form details with each enquiry. Later you import CRM sales and Google matches them to the ad click.</p>
+            <p class="check-flag"><span>Does it apply in Malaysia?</span>Suits sales that close offline, like a clinic or insurance agent. Needs a working CRM, so treat it as stage two.</p>
+          </div>
+          <div class="vs-card">
+            <svg class="tile-icon" aria-hidden="true"><use href="#ct-ic-shield"/></svg>
+            <h3>Consent Mode v2</h3>
+            <p class="check-flag"><span>What it does</span>Passes visitors' cookie choices to Google and adjusts how Google tags behave.</p>
+            <p class="check-flag"><span>Does it apply in Malaysia?</span>Google's requirement to collect and share consent applies to advertisers receiving data from users in the European Economic Area. Malaysia is not in the EEA, so for Malaysian traffic that requirement is not why conversions are missing. It matters if you get European visitors or already run a consent banner.</p>
+          </div>
+        </div>
+
+        <details class="more">
+          <summary>Read the detail</summary>
+          <p><strong>Enhanced conversions for leads.</strong> Enhanced conversions sends first-party data from your form, such as an email address, hashed with SHA256, to improve the accuracy of conversion measurement <span class="src">(Source: Google Ads Help, About enhanced conversions, 2026)</span>. The leads version is built for sales that close offline. Your form sends hashed details when the enquiry arrives. When that lead becomes a customer, you import the same details from your CRM and Google matches the sale to the ad click <span class="src">(Source: Google Ads Help, About enhanced conversions for leads, 2026)</span>. For a clinic or an insurance agent, this teaches Smart Bidding the difference between an enquiry and a customer. It needs a working CRM and an import through Google Ads Data Manager or the API, so treat it as stage two.</p>
+          <p><strong>Consent Mode v2.</strong> Consent mode passes visitors' cookie choices to Google and adjusts how Google tags behave. Version 2 added two signals, ad_user_data and ad_personalization. Google's requirement to collect and share consent applies to advertisers receiving data from users in the European Economic Area <span class="src">(Source: Google Tag Manager Help, Updates to consent mode for traffic in the EEA, 2026)</span>. Malaysia is not in the EEA, so for Malaysian traffic that requirement is not why conversions are missing.</p>
+          <p>It matters if you get European visitors or already run a consent banner. Google says basic consent mode blocks tags until the visitor responds to the banner, while advanced mode loads tags with consent denied, sends cookieless pings and supports an advertiser-specific conversion model <span class="src">(Source: Google Ads Help, About consent mode, 2026)</span>. A banner that blocks tags can make conversions vanish. Malaysian privacy law is a question for your lawyer.</p>
+        </details>
       </article>
 
       <article class="guide-section" id="self-check">
         <h2>How do you check your conversion tracking in 15 minutes?</h2>
-        <p>No developer needed. You need admin access to Google Ads and your phone.</p>
-        <ol class="guide-list">
-          <li><strong>Read the tracking status (3 minutes).</strong> Go to Goals, then Conversions, then Summary. Anything showing Unverified, Tag inactive or Needs attention goes to the top of the list. Hover on the status for a Troubleshoot option that opens Tag Assistant.</li>
-          <li><strong>List what is primary (3 minutes).</strong> For each primary action, ask: would I pay for this? If not, make it secondary.</li>
-          <li><strong>Check the count setting (2 minutes).</strong> Leads should be One. Purchases should be Every.</li>
-          <li><strong>Look for duplicates (2 minutes).</strong> Do two primary actions describe the same thing, such as a form tag and a GA4 lead event? Keep one.</li>
-          <li><strong>Run a live test (3 minutes).</strong> Open your site in Tag Assistant. Submit the form with a test entry, then click your WhatsApp and call buttons. Each should fire once, and nothing should fire when a page simply loads. Then open the thank-you page directly. If a conversion fires, anyone can trigger it.</li>
-          <li><strong>Compare against reality (2 minutes).</strong> Compare last week's Google Ads conversions with the enquiries that reached your inbox, WhatsApp and CRM. A small gap is normal. Double, either way, means something is broken.</li>
+        <p class="takeaway">Six checks, no developer. You need admin access to Google Ads and your phone.</p>
+
+        <ol class="step-grid">
+          <li>
+            <div class="check-top"><span class="check-num">01</span><span class="check-time">3 min</span></div>
+            <p class="step-title">Read the tracking status</p>
+            <p class="step-line">Goals, then Conversions, then Summary. Flag Unverified, Tag inactive or Needs attention.</p>
+          </li>
+          <li>
+            <div class="check-top"><span class="check-num">02</span><span class="check-time">3 min</span></div>
+            <p class="step-title">List what is primary</p>
+            <p class="step-line">For each primary action, ask: would I pay for this? If not, make it secondary.</p>
+          </li>
+          <li>
+            <div class="check-top"><span class="check-num">03</span><span class="check-time">2 min</span></div>
+            <p class="step-title">Check the count setting</p>
+            <p class="step-line">Leads should be One. Purchases should be Every.</p>
+          </li>
+          <li>
+            <div class="check-top"><span class="check-num">04</span><span class="check-time">2 min</span></div>
+            <p class="step-title">Look for duplicates</p>
+            <p class="step-line">Two primary actions for the same thing, like a form tag and a GA4 lead event? Keep one.</p>
+          </li>
+          <li>
+            <div class="check-top"><span class="check-num">05</span><span class="check-time">3 min</span></div>
+            <p class="step-title">Run a live test</p>
+            <p class="step-line">In Tag Assistant, submit a test form and click WhatsApp and call. Each fires once. Nothing fires on page load.</p>
+          </li>
+          <li>
+            <div class="check-top"><span class="check-num">06</span><span class="check-time">2 min</span></div>
+            <p class="step-title">Compare against reality</p>
+            <p class="step-line">Last week's conversions against real enquiries. Double, either way, means something is broken.</p>
+          </li>
         </ol>
-        <p>If you find a fault, fix the count first and leave bidding alone while the account settles, or you cannot tell which change moved the numbers. This is also the first thing we check in a <a href="/google-ads-audit-malaysia">Google Ads audit</a>.</p>
+        <p>Found a fault? Fix the count first, then leave bidding alone while it settles. It is the first thing we check in a <a href="/google-ads-audit-malaysia">Google Ads audit</a>.</p>
+
+        <details class="more">
+          <summary>Read the detail</summary>
+          <ol class="guide-list">
+            <li><strong>Read the tracking status (3 minutes).</strong> Go to Goals, then Conversions, then Summary. Anything showing Unverified, Tag inactive or Needs attention goes to the top of the list. Hover on the status for a Troubleshoot option that opens Tag Assistant.</li>
+            <li><strong>List what is primary (3 minutes).</strong> For each primary action, ask: would I pay for this? If not, make it secondary.</li>
+            <li><strong>Check the count setting (2 minutes).</strong> Leads should be One. Purchases should be Every.</li>
+            <li><strong>Look for duplicates (2 minutes).</strong> Do two primary actions describe the same thing, such as a form tag and a GA4 lead event? Keep one.</li>
+            <li><strong>Run a live test (3 minutes).</strong> Open your site in Tag Assistant. Submit the form with a test entry, then click your WhatsApp and call buttons. Each should fire once, and nothing should fire when a page simply loads. Then open the thank-you page directly. If a conversion fires, anyone can trigger it.</li>
+            <li><strong>Compare against reality (2 minutes).</strong> Compare last week's Google Ads conversions with the enquiries that reached your inbox, WhatsApp and CRM. A small gap is normal. Double, either way, means something is broken.</li>
+          </ol>
+          <p>If you find a fault, fix the count first and leave bidding alone while the account settles, or you cannot tell which change moved the numbers.</p>
+        </details>
       </article>
 
       <article class="guide-section" id="cost">
         <h2>What does bad tracking actually cost?</h2>
-        <p>Bad tracking never appears on your invoice. It appears as decisions made on the wrong number.</p>
-        <p>Take a healthcare group we manage. In the 30 days to 24 September 2026, a newer service line campaign ran at RM59 per conversion against RM83 for the main Search campaign. That comparison guides where the next ringgit goes, and it only holds if both campaigns count the same action the same way. If one counted page views, the "cheaper" campaign could be the worse one.</p>
-        <p>The account's overall CPA has also risen four months running as spend scaled: RM55.11, RM61.45, RM69.46, then RM76.78 (211 conversions on RM16.2K). It is an uncomfortable trend, and it stays on our <a href="/live-results">Live Results Board</a>. A count padded with page views would have hidden it.</p>
-        <p>Scale raises the stakes. Take an account getting 1,000 real leads a month at RM5 per lead. A duplicate tag on one lead in ten adds about 100 phantom leads a month, and cost per lead looks about 9% better than it really is. Smart Bidding then chases the wrong signal.</p>
-        <p>Clicks are not cheap either. Top of page bids in Malaysia run from RM4 to RM77 for "google ads conversion tracking" and RM13 to RM320 for "google ads malaysia" <span class="src">(Source: Google Keyword Planner, Malaysia, October 2026)</span>. Bids vary hugely by keyword, but every click bought on bad data is real money. See <a href="/google-ads-pricing-malaysia">Google Ads pricing in Malaysia</a>, <a href="/advertising-malaysia">how Google compares with other channels</a>, and our <a href="/performance-max-malaysia">Performance Max guide</a>, where clean data matters even more. If you want tracking kept clean as part of ongoing work, it sits inside our <a href="/google-ads-agency-malaysia">Google Ads agency service</a>.</p>
+        <p class="takeaway">Bad tracking never appears on your invoice. It appears as decisions made on the wrong number.</p>
+
+        <div class="stat-row">
+          <div class="stat-tile">
+            <p class="stat-big">RM59 <small>vs</small> RM83</p>
+            <p class="stat-cap">Cost per conversion, newer service line against the main Search campaign. Only fair if both count the same action.</p>
+          </div>
+          <div class="stat-tile">
+            <p class="stat-big">RM76.78</p>
+            <p class="stat-cap">Overall CPA, up from RM55.11 in earlier 30 day readings as spend scaled.</p>
+          </div>
+          <div class="stat-tile">
+            <p class="stat-big">~100</p>
+            <p class="stat-cap">Phantom leads a month if a duplicate tag catches one lead in ten, on 1,000 real leads.</p>
+          </div>
+          <div class="stat-tile">
+            <p class="stat-big">~9%</p>
+            <p class="stat-cap">How much better cost per lead then looks than it really is.</p>
+          </div>
+        </div>
+        <p class="stat-note">First two: a healthcare group we manage, 30 days to 24 Sep 2026, on our <a href="/live-results">Live Results Board</a>. Last two: a worked example.</p>
+
+        <details class="more">
+          <summary>Read the detail</summary>
+          <p>Take a healthcare group we manage. In the 30 days to 24 September 2026, a newer service line campaign ran at RM59 per conversion against RM83 for the main Search campaign. That comparison guides where the next ringgit goes, and it only holds if both campaigns count the same action the same way. If one counted page views, the "cheaper" campaign could be the worse one.</p>
+          <p>The account's overall CPA has also risen four months running as spend scaled: RM55.11, RM61.45, RM69.46, then RM76.78 (211 conversions on RM16.2K). It is an uncomfortable trend, and it stays on our <a href="/live-results">Live Results Board</a>. A count padded with page views would have hidden it.</p>
+          <p>Scale raises the stakes. Take an account getting 1,000 real leads a month at RM5 per lead. A duplicate tag on one lead in ten adds about 100 phantom leads a month, and cost per lead looks about 9% better than it really is. Smart Bidding then chases the wrong signal.</p>
+          <p>Clicks are not cheap either. Top of page bids in Malaysia run from RM4 to RM77 for "google ads conversion tracking" and RM13 to RM320 for "google ads malaysia" <span class="src">(Source: Google Keyword Planner, Malaysia, October 2026)</span>. Bids vary hugely by keyword, but every click bought on bad data is real money. See <a href="/google-ads-pricing-malaysia">Google Ads pricing in Malaysia</a>, <a href="/advertising-malaysia">how Google compares with other channels</a>, and our <a href="/performance-max-malaysia">Performance Max guide</a>, where clean data matters even more. If you want tracking kept clean as part of ongoing work, it sits inside our <a href="/google-ads-agency-malaysia">Google Ads agency service</a>.</p>
+        </details>
       </article>
 
     </div>
