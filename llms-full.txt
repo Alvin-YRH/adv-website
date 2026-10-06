@@ -3163,7 +3163,7 @@ The board
 
 ### Current numbers, by vertical.
 
-Last updated: 24 September 2026 · Updated weekly (Mondays, MYT). Each row is one client engagement, anonymised by industry. Active accounts show their most recent reported period; completed campaigns show final figures.
+Last updated: 6 October 2026 · Updated weekly (Mondays, MYT). Each row is one client engagement, anonymised by industry. Active accounts show their most recent reported period; completed campaigns show final figures.
 
 Vertical
 Channels
@@ -3191,14 +3191,14 @@ Ended
 
 Healthcare & Medical
 Google Search
-CPA RM76.78
-211 conversions on RM16.2K spend in the last 30 days — fourth consecutive rise (RM55.11 → RM61.45 → RM69.46 → RM76.78) as spend scaled; a newer service-line campaign converts at RM59, the main Search campaign at RM83
+CPA RM91.47
+175 conversions on RM16.1K spend in the last 30 days — fifth consecutive rise (RM55.11 → RM61.45 → RM69.46 → RM76.78 → RM91.47) on flat spend; the service-line campaign converts at RM64, the main Search campaign at RM105. A RM85 target CPA went on the main campaign on 2 Oct, so only the last 4 days reflect it
 Active
 
 EV Charger Installation
 Meta lead gen + awareness
-CPL RM11.55
-959 lead conversations on RM11,081 spend in the last 30 days — up from RM10.19 as volume dipped on flat spend; best campaign RM10.15/lead at 3.6% CTR; awareness at RM1.19 CPM
+CPL RM13.14
+844 lead conversations on RM11,089 spend in the last 30 days — up from RM11.55 as volume fell 12% on flat spend; best campaign RM11.55/lead at 3.3% CTR; awareness at RM1.30 CPM
 Active
 
 Fashion & Retail
