@@ -1150,6 +1150,17 @@
       .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .fstep, .in-view .af-fillfast, .in-view .af-leak, .in-view .af-l1 { animation: none; }
     }
   </style>
+  <style>
+    /* Mobile figure variants: below 600px a narrow-column SVG (.fig-m) replaces the desktop SVG (.fig-d) */
+    .anim-fig svg.fig-m, .figure-wrap svg.fig-m { display: none; }
+    @media (max-width: 600px) {
+      .anim-fig svg.fig-d, .figure-wrap svg.fig-d { display: none; }
+      .anim-fig svg.fig-m { display: block; width: 100%; height: auto; max-width: 400px; }
+      .figure-wrap svg.fig-m { display: block; min-width: 0; width: 100%; height: auto; max-width: 460px; margin: 0 auto; }
+      svg.fig-m .af-label { font-size: 12.5px; }
+      svg.fig-m .af-axis, svg.fig-m .af-mark { font-size: 12.5px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1243,7 +1254,7 @@
         <div class="service-divider"></div>
         <p class="service-desc">Smart bidding scales whatever it's told a conversion is. Count page views as conversions and the account "converts" beautifully while the phone stays silent.</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 170" role="img" aria-label="Reported conversions climb while actual enquiries stay flat" aria-describedby="cvD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 400 170" role="img" aria-label="Reported conversions climb while actual enquiries stay flat" aria-describedby="cvD" xmlns="http://www.w3.org/2000/svg">
   <desc id="cvD">One month of an account that counts page views as conversions: the reported conversions line climbs steeply while the actual enquiries line stays almost flat along the bottom.</desc>
   <line x1="40" y1="140" x2="360" y2="140" class="af-axisline" stroke-width="1"/>
   <line x1="40" y1="30" x2="40" y2="140" class="af-axisline" stroke-width="1"/>
@@ -1255,6 +1266,18 @@
   <text x="360" y="118" text-anchor="end" class="af-label">Actual enquiries →</text>
   <text x="46" y="52" class="af-mark af-cross">smart bidding scales this</text>
 </svg>
+<svg class="fig-m" viewBox="0 0 260 184" role="img" aria-label="Reported conversions climb while actual enquiries stay flat" aria-describedby="cvDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="cvDm">One month of an account that counts page views as conversions: the reported conversions line climbs steeply while the actual enquiries line stays almost flat along the bottom.</desc>
+  <line x1="8" y1="154" x2="252" y2="154" class="af-axisline" stroke-width="1"/>
+  <line x1="8" y1="44" x2="8" y2="154" class="af-axisline" stroke-width="1"/>
+  <text x="8" y="172" class="af-axis">Day 1</text>
+  <text x="252" y="172" text-anchor="end" class="af-axis">Day 30</text>
+  <polyline points="8,146 42.3,136 76.6,122 110.9,106 145.2,90 179.6,76 213.9,64 248.2,54" fill="none" stroke="#D4A853" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-freq"/>
+  <polyline points="8,144 42.3,143 76.6,142 110.9,142 145.2,141 179.6,141 213.9,140 248.2,140" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-ctr af-ink-stroke"/>
+  <text x="12" y="62" class="af-mark af-cross">smart bidding scales this</text>
+  <text x="252" y="30" text-anchor="end" class="af-label" fill="#D4A853">Reported conversions ↑</text>
+  <text x="252" y="128" text-anchor="end" class="af-label">Actual enquiries →</text>
+</svg>
         </div>
       </div>
       <div class="service-card">
@@ -1262,7 +1285,7 @@
         <div class="service-divider"></div>
         <p class="service-desc">Broad match with no negative keywords quietly spends on searches that will never buy — in our audits, 20–40% of the budget.</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 96" role="img" aria-label="Broad match without negatives: 20 to 40 percent of budget goes to searches that never buy" aria-describedby="lkD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 400 96" role="img" aria-label="Broad match without negatives: 20 to 40 percent of budget goes to searches that never buy" aria-describedby="lkD" xmlns="http://www.w3.org/2000/svg">
   <desc id="lkD">A monthly budget bar fills completely, then a segment of roughly a third at the right end is revealed as spend on irrelevant searches nobody excluded.</desc>
   <text x="0" y="16" class="af-label">Monthly budget</text>
   <rect x="0" y="26" width="400" height="14" rx="7" class="af-track"/>
@@ -1271,6 +1294,18 @@
   <text x="0" y="62" class="af-axis">Searches that buy</text>
   <text x="400" y="62" text-anchor="end" class="af-mark af-l1">20–40% · searches nobody excluded</text>
   <text x="0" y="86" class="af-axis">Typical audit finding, broad match with no negatives</text>
+</svg>
+<svg class="fig-m" viewBox="0 0 260 124" role="img" aria-label="Broad match without negatives: 20 to 40 percent of budget goes to searches that never buy" aria-describedby="lkDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="lkDm">A monthly budget bar fills completely, then a segment of roughly a third at the right end is revealed as spend on irrelevant searches nobody excluded.</desc>
+  <text x="0" y="16" class="af-label">Monthly budget</text>
+  <rect x="0" y="26" width="260" height="14" rx="7" class="af-track"/>
+  <rect x="0" y="26" width="260" height="14" rx="7" fill="#D4A853" class="af-fillfast"/>
+  <rect x="169" y="26" width="91" height="14" rx="7" fill="#9A9490" class="af-leak"/>
+  <text x="0" y="60" class="af-axis">Searches that buy</text>
+  <text x="260" y="60" text-anchor="end" class="af-mark af-l1">20–40% · searches</text>
+  <text x="260" y="76" text-anchor="end" class="af-mark af-l1">nobody excluded</text>
+  <text x="0" y="102" class="af-axis">Typical audit finding,</text>
+  <text x="0" y="118" class="af-axis">broad match with no negatives</text>
 </svg>
         </div>
       </div>
@@ -1296,7 +1331,7 @@
       <div class="figure">
         <p class="figure-label">The takeover, in four steps</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 800 190" role="img" aria-labelledby="gaflowT gaflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 800 190" role="img" aria-labelledby="gaflowT gaflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <title id="gaflowT">The four-step Google Ads account takeover process</title>
   <desc id="gaflowD">Step one, audit ninety days of search terms, conversion definitions, Quality Score distribution and Performance Max placements. Step two, redefine conversion events around revenue before changing bid strategies. Step three, restructure gradually so smart bidding signal is preserved rather than reset. Step four, run weekly search-term hygiene, negative keyword growth and Quality Score work.</desc>
 <g class="fstep fstep-1">
@@ -1343,6 +1378,45 @@
 
 
 </g></svg>
+<svg class="fig-m" viewBox="0 0 300 423" role="img" aria-labelledby="gaflowTm gaflowDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="gaflowTm">The four-step Google Ads account takeover process</title>
+  <desc id="gaflowDm">Step one, audit ninety days of search terms, conversion definitions, Quality Score distribution and Performance Max placements. Step two, redefine conversion events around revenue before changing bid strategies. Step three, restructure gradually so smart bidding signal is preserved rather than reset. Step four, run weekly search-term hygiene, negative keyword growth and Quality Score work.</desc>
+<g class="fstep fstep-1">
+    <rect x="1" y="1" width="298" height="87" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="26" r="13" fill="#D4A853"/>
+    <text x="26" y="31" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="48" y="32" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Pre-takeover audit</text>
+    <text x="17" y="56" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">90 days of search terms, conversion</text>
+    <text x="17" y="73" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">definitions, Quality Score, PMAX</text>
+    <path d="M 26 93 L 26 107 M 22 103 L 26 107 L 30 103" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-2">
+    <rect x="1" y="112" width="298" height="87" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="137" r="13" fill="#2B2B2B"/>
+    <text x="26" y="142" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="48" y="143" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Fix measurement</text>
+    <text x="17" y="167" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Redefine conversions around revenue before</text>
+    <text x="17" y="184" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">touching bid strategies.</text>
+    <path d="M 26 204 L 26 218 M 22 214 L 26 218 L 30 214" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-3">
+    <rect x="1" y="223" width="298" height="87" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="248" r="13" fill="#D4A853"/>
+    <text x="26" y="253" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="48" y="254" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Restructure, don't reset</text>
+    <text x="17" y="278" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Converting campaigns stay live; budget</text>
+    <text x="17" y="295" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">migrates gradually.</text>
+    <path d="M 26 315 L 26 329 M 22 325 L 26 329 L 30 325" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-4">
+    <rect x="1" y="334" width="298" height="87" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="359" r="13" fill="#2B2B2B"/>
+    <text x="26" y="364" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="48" y="365" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Optimisation cadence</text>
+    <text x="17" y="389" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Weekly search-term hygiene, negatives,</text>
+    <text x="17" y="406" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Quality Score work.</text>
+</g>
+</svg>
         </div>
       </div>
 

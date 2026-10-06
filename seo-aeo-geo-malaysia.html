@@ -1235,6 +1235,17 @@
   </style>
 
   <style>.af-ink-fill { fill: #0D0D0D; } .service-card:hover .af-ink-fill { fill: #FAF8F3; }</style>
+  <style>
+    /* Mobile figure variants: below 600px a narrow-column SVG (.fig-m) replaces the desktop SVG (.fig-d) */
+    .anim-fig svg.fig-m, .figure-wrap svg.fig-m { display: none; }
+    @media (max-width: 600px) {
+      .anim-fig svg.fig-d, .figure-wrap svg.fig-d { display: none; }
+      .anim-fig svg.fig-m { display: block; width: 100%; height: auto; max-width: 400px; }
+      .figure-wrap svg.fig-m { display: block; min-width: 0; width: 100%; height: auto; max-width: 460px; margin: 0 auto; }
+      svg.fig-m .af-label { font-size: 12.5px; }
+      svg.fig-m .af-axis, svg.fig-m .af-mark { font-size: 12.5px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1320,7 +1331,7 @@
       </p>
     </div>
     <div class="anim-fig" style="max-width:640px; margin: 0 0 48px;">
-<svg viewBox="0 0 400 150" role="img" aria-label="Ranked versus named: one Malaysian healthcare group across 20 buying-intent questions" aria-describedby="rvD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 400 150" role="img" aria-label="Ranked versus named: one Malaysian healthcare group across 20 buying-intent questions" aria-describedby="rvD" xmlns="http://www.w3.org/2000/svg">
   <desc id="rvD">Out of the same 20 buying-intent questions, the business ranked in Google's top 10 for 16, was named by Perplexity for 13, and was named by ChatGPT for 10.</desc>
   <text x="0" y="22" class="af-label">Google top 10</text>
   <rect x="120" y="10" width="260" height="16" rx="2" class="af-track"/>
@@ -1335,6 +1346,23 @@
   <rect x="120" y="90" width="130" height="16" rx="2" fill="#D4A853" class="af-grow af-g3"/>
   <text x="258" y="103" class="af-label af-val af-v3">10/20</text>
   <text x="0" y="140" class="af-axis">Same 20 questions · one Malaysian healthcare group · baseline Sep 2026</text>
+</svg>
+<svg class="fig-m" viewBox="0 0 340 182" role="img" aria-label="Ranked versus named: one Malaysian healthcare group across 20 buying-intent questions" aria-describedby="rvDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="rvDm">Out of the same 20 buying-intent questions, the business ranked in Google's top 10 for 16, was named by Perplexity for 13, and was named by ChatGPT for 10.</desc>
+  <text x="0" y="14" class="af-label">Google top 10</text>
+  <rect x="0" y="22" width="300" height="16" rx="2" class="af-track"/>
+  <rect x="0" y="22" width="240" height="16" rx="2" fill="#0D0D0D" class="af-grow af-g1 af-ink-fill"/>
+  <text x="248" y="35" class="af-label af-val af-v1">16/20</text>
+  <text x="0" y="62" class="af-label">Named by Perplexity</text>
+  <rect x="0" y="70" width="300" height="16" rx="2" class="af-track"/>
+  <rect x="0" y="70" width="195" height="16" rx="2" fill="#D4A853" class="af-grow af-g2"/>
+  <text x="203" y="83" class="af-label af-val af-v2">13/20</text>
+  <text x="0" y="110" class="af-label">Named by ChatGPT</text>
+  <rect x="0" y="118" width="300" height="16" rx="2" class="af-track"/>
+  <rect x="0" y="118" width="150" height="16" rx="2" fill="#D4A853" class="af-grow af-g3"/>
+  <text x="158" y="131" class="af-label af-val af-v3">10/20</text>
+  <text x="0" y="160" class="af-axis">Same 20 questions · one Malaysian</text>
+  <text x="0" y="176" class="af-axis">healthcare group · baseline Sep 2026</text>
 </svg>
     </div>
 
@@ -1371,7 +1399,7 @@
       <div class="figure">
         <p class="figure-label">The four layers, in order</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 800 190" role="img" aria-label="The four layers of SEO, AEO and GEO" aria-describedby="sflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 800 190" role="img" aria-label="The four layers of SEO, AEO and GEO" aria-describedby="sflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
     <desc id="sflowD">Layer one, make the site crawlable by search and AI crawlers. Layer two, make every page answerable with a direct answer and matching FAQ schema. Layer three, make the business recognisable as one consistent entity. Layer four, make it citable with original dated data, published results and press quotes.</desc>
 <g class="fstep fstep-1">
     <rect x="14" y="30" width="172" height="145" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
@@ -1414,6 +1442,44 @@
     <text x="616" y="125" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">published results,</text>
     <text x="616" y="140" font-family="'DM Sans',sans-serif" font-size="11.5" fill="#9A9490">press quotes.</text>
 </g></svg>
+<svg class="fig-m" viewBox="0 0 300 423" role="img" aria-label="The four layers of SEO, AEO and GEO" aria-describedby="sflowDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="sflowDm">Layer one, make the site crawlable by search and AI crawlers. Layer two, make every page answerable with a direct answer and matching FAQ schema. Layer three, make the business recognisable as one consistent entity. Layer four, make it citable with original dated data, published results and press quotes.</desc>
+<g class="fstep fstep-1">
+    <rect x="1" y="1" width="298" height="87" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="26" r="13" fill="#D4A853"/>
+    <text x="26" y="31" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="48" y="32" font-family="'Cormorant Garamond',serif" font-size="19" font-weight="600" fill="#0D0D0D">Crawlable</text>
+    <text x="17" y="56" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Open to Google, Bing and AI crawlers;</text>
+    <text x="17" y="73" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">llms.txt, sitemaps.</text>
+    <path d="M 26 93 L 26 107 M 22 103 L 26 107 L 30 103" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-2">
+    <rect x="1" y="112" width="298" height="87" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="137" r="13" fill="#2B2B2B"/>
+    <text x="26" y="142" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="48" y="143" font-family="'Cormorant Garamond',serif" font-size="19" font-weight="600" fill="#0D0D0D">Answerable</text>
+    <text x="17" y="167" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Direct answer at the top; FAQ schema that</text>
+    <text x="17" y="184" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">matches the page.</text>
+    <path d="M 26 204 L 26 218 M 22 214 L 26 218 L 30 214" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-3">
+    <rect x="1" y="223" width="298" height="87" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="248" r="13" fill="#D4A853"/>
+    <text x="26" y="253" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="48" y="254" font-family="'Cormorant Garamond',serif" font-size="19" font-weight="600" fill="#0D0D0D">Recognisable</text>
+    <text x="17" y="278" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">One entity: schema, GBP, directories — same</text>
+    <text x="17" y="295" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">name everywhere.</text>
+    <path d="M 26 315 L 26 329 M 22 325 L 26 329 L 30 325" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-4">
+    <rect x="1" y="334" width="298" height="87" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="359" r="13" fill="#2B2B2B"/>
+    <text x="26" y="364" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="48" y="365" font-family="'Cormorant Garamond',serif" font-size="19" font-weight="600" fill="#0D0D0D">Citable</text>
+    <text x="17" y="389" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Original dated data, published results, press</text>
+    <text x="17" y="406" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">quotes.</text>
+</g>
+</svg>
         </div>
       </div>
 

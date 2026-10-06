@@ -1255,6 +1255,17 @@
       .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .af-arc, .in-view .af-n, .in-view .af-c, .in-view .fstep, .in-view .fstep-5, .in-view .af-travel, .in-view .af-p4, .in-view .af-p1, .in-view .af-p2, .in-view .af-fillfast, .in-view .af-leak, .in-view .af-l1 { animation: none; }
     }
   </style>
+  <style>
+    /* Mobile figure variants: below 600px a narrow-column SVG (.fig-m) replaces the desktop SVG (.fig-d) */
+    .anim-fig svg.fig-m, .figure-wrap svg.fig-m { display: none; }
+    @media (max-width: 600px) {
+      .anim-fig svg.fig-d, .figure-wrap svg.fig-d { display: none; }
+      .anim-fig svg.fig-m { display: block; width: 100%; height: auto; max-width: 400px; }
+      .figure-wrap svg.fig-m { display: block; min-width: 0; width: 100%; height: auto; max-width: 460px; margin: 0 auto; }
+      svg.fig-m .af-label { font-size: 12.5px; }
+      svg.fig-m .af-axis, svg.fig-m .af-mark { font-size: 12.5px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1389,7 +1400,7 @@
         <p><strong>PMAX vs Search balance.</strong> In the Malaysian market, full PMAX reliance often dilutes intent-rich Search traffic. We calibrate the budget split based on your conversion data, not Google's defaults.</p>
       </div>
       <div class="anim-fig anim-fig--dark" style="max-width:420px; margin:32px 0 0;">
-<svg viewBox="0 0 400 312" role="img" aria-label="The Google Ads revenue loop: signal, learn, scale" aria-describedby="gloopD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 400 312" role="img" aria-label="The Google Ads revenue loop: signal, learn, scale" aria-describedby="gloopD" xmlns="http://www.w3.org/2000/svg">
   <desc id="gloopD">Three nodes on a circle connected clockwise. Signal: conversions defined as real enquiries, not page views. Learn: smart bidding optimises on clean data. Scale: budget moves to proven search terms while negatives cut the waste, which sharpens the signal. The loop compounds every cycle.</desc>
   <g class="af-n af-n1">
     <circle cx="200.0" cy="45.0" r="34" class="af-ring-gold" stroke-width="1.5"/>
@@ -1417,6 +1428,35 @@
   <circle cx="164.4" cy="51.9" r="3" fill="#D4A853" class="af-n af-c"/>
   <text x="200" y="136" text-anchor="middle" class="af-label af-c" fill="#D4A853">compounds</text>
   <text x="200" y="152" text-anchor="middle" class="af-label af-c" fill="#D4A853">every cycle</text>
+</svg>
+<svg class="fig-m" viewBox="0 0 340 306" role="img" aria-label="The Google Ads revenue loop: signal, learn, scale" aria-describedby="gloopDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="gloopDm">Three nodes on a circle connected clockwise. Signal: conversions defined as real enquiries, not page views. Learn: smart bidding optimises on clean data. Scale: budget moves to proven search terms while negatives cut the waste, which sharpens the signal. The loop compounds every cycle.</desc>
+  <g class="af-n af-n1">
+    <circle cx="170" cy="82" r="34" class="af-ring-gold" stroke-width="1.5"/>
+    <text x="170" y="88" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#FAF8F3">Signal</text>
+  </g>
+  <text x="170" y="14" text-anchor="middle" class="af-axis af-n af-n1">Real enquiries counted,</text>
+  <text x="170" y="30" text-anchor="middle" class="af-axis af-n af-n1">not page views</text>
+  <path d="M 205.2 89.2 A 90 90 0 0 1 259.3 183" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" pathLength="1" class="af-arc af-a1"/>
+  <circle cx="259.3" cy="183" r="3" fill="#D4A853" class="af-n af-n2"/>
+  <g class="af-n af-n2">
+    <circle cx="247.9" cy="217" r="34" class="af-ring" stroke-width="1.5"/>
+    <text x="247.9" y="223" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#FAF8F3">Learn</text>
+  </g>
+  <text x="247.9" y="281" text-anchor="middle" class="af-axis af-n af-n2">Smart bidding</text>
+  <text x="247.9" y="297" text-anchor="middle" class="af-axis af-n af-n2">on clean data</text>
+  <path d="M 224.2 243.9 A 90 90 0 0 1 115.8 243.9" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" pathLength="1" class="af-arc af-a2"/>
+  <circle cx="115.8" cy="243.9" r="3" fill="#D4A853" class="af-n af-n3"/>
+  <g class="af-n af-n3">
+    <circle cx="92.1" cy="217" r="34" class="af-ring" stroke-width="1.5"/>
+    <text x="92.1" y="223" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#FAF8F3">Scale</text>
+  </g>
+  <text x="92.1" y="281" text-anchor="middle" class="af-axis af-n af-n3">Budget to proven terms,</text>
+  <text x="92.1" y="297" text-anchor="middle" class="af-axis af-n af-n3">negatives out</text>
+  <path d="M 80.7 183 A 90 90 0 0 1 134.8 89.2" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" pathLength="1" class="af-arc af-a3"/>
+  <circle cx="134.8" cy="89.2" r="3" fill="#D4A853" class="af-n af-c"/>
+  <text x="170" y="170" text-anchor="middle" class="af-label af-c" fill="#D4A853">compounds</text>
+  <text x="170" y="187" text-anchor="middle" class="af-label af-c" fill="#D4A853">every cycle</text>
 </svg>
       </div>
     </div>

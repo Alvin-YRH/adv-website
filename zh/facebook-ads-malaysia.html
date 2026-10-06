@@ -1205,6 +1205,17 @@
       .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .fstep { animation: none; }
     }
   </style>
+  <style>
+    /* Mobile figure variants: below 600px a narrow-column SVG (.fig-m) replaces the desktop SVG (.fig-d) */
+    .anim-fig svg.fig-m, .figure-wrap svg.fig-m { display: none; }
+    @media (max-width: 600px) {
+      .anim-fig svg.fig-d, .figure-wrap svg.fig-d { display: none; }
+      .anim-fig svg.fig-m { display: block; width: 100%; height: auto; max-width: 400px; }
+      .figure-wrap svg.fig-m { display: block; min-width: 0; width: 100%; height: auto; max-width: 460px; margin: 0 auto; }
+      svg.fig-m .af-label { font-size: 12.5px; }
+      svg.fig-m .af-axis, svg.fig-m .af-mark { font-size: 12.5px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1307,7 +1318,7 @@
         <div class="service-divider"></div>
         <p class="service-desc">一直改、一直重开，账户永远毕不了业 — 卡在学习阶段的 RM3,000 账户，输给稳定跑的 RM1,500 账户。</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 132" role="img" aria-label="学习阶段：一直改 vs 稳定跑" aria-describedby="lpD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 400 132" role="img" aria-label="学习阶段：一直改 vs 稳定跑" aria-describedby="lpD" xmlns="http://www.w3.org/2000/svg">
     <desc id="lpD">上排：每次修改都把学习进度归零，账户永远卡在学习中。下排：不去动它，进度一路填满，毕业。</desc>
   <text x="0" y="22" class="af-label">一直改</text>
   <rect x="0" y="30" width="400" height="10" rx="5" class="af-track"/>
@@ -1322,6 +1333,21 @@
   <text x="400" y="92" text-anchor="end" class="af-label af-endB" fill="#D4A853">✓ 毕业</text>
   <text x="0" y="128" class="af-axis">同样的 7 天</text>
 </svg>
+<svg class="fig-m" viewBox="0 0 260 138" role="img" aria-label="学习阶段：一直改 vs 稳定跑" aria-describedby="lpDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="lpDm">上排：每次修改都把学习进度归零，账户永远卡在学习中。下排：不去动它，进度一路填满，毕业。</desc>
+  <text x="0" y="18" class="af-label">一直改</text>
+  <rect x="0" y="27" width="260" height="10" rx="5" class="af-track"/>
+  <rect x="0" y="27" width="260" height="10" rx="5" fill="#9A9490" class="af-barA"/>
+  <text x="78" y="56" class="af-mark af-m1">✎ 改</text>
+  <text x="130" y="56" class="af-mark af-m2">✎ 改</text>
+  <text x="182" y="56" class="af-mark af-m3">✎ 改</text>
+  <text x="260" y="18" text-anchor="end" class="af-label af-endA">还在学习</text>
+  <text x="0" y="90" class="af-label">稳定跑</text>
+  <rect x="0" y="99" width="260" height="10" rx="5" class="af-track"/>
+  <rect x="0" y="99" width="260" height="10" rx="5" fill="#D4A853" class="af-barB"/>
+  <text x="260" y="90" text-anchor="end" class="af-label af-endB" fill="#D4A853">✓ 毕业</text>
+  <text x="0" y="132" class="af-axis">同样的 7 天</text>
+</svg>
         </div>
       </div>
       <div class="service-card">
@@ -1329,7 +1355,7 @@
         <div class="service-divider"></div>
         <p class="service-desc">同一条广告跑太久：频次往上，点击往下。不是"FB 没用了"，是大家看腻了。</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 170" role="img" aria-label="素材疲劳：频次上升，点击率下降" aria-describedby="cfD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 400 170" role="img" aria-label="素材疲劳：频次上升，点击率下降" aria-describedby="cfD" xmlns="http://www.w3.org/2000/svg">
     <desc id="cfD">同一条广告跑八周：频次一路上升，点击率一路下滑，第五周交叉。</desc>
   <line x1="40" y1="140" x2="360" y2="140" class="af-axisline" stroke-width="1"/>
   <line x1="40" y1="30" x2="40" y2="140" class="af-axisline" stroke-width="1"/>
@@ -1341,6 +1367,19 @@
   <text x="246" y="78" class="af-mark af-cross">同一条广告</text>
   <text x="360" y="40" text-anchor="end" class="af-label" fill="#D4A853">频次 ↑</text>
   <text x="360" y="132" text-anchor="end" class="af-label">点击率 ↓</text>
+</svg>
+<svg class="fig-m" viewBox="0 0 260 174" role="img" aria-label="素材疲劳：频次上升，点击率下降" aria-describedby="cfDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="cfDm">同一条广告跑八周：频次一路上升，点击率一路下滑，第五周交叉。</desc>
+  <line x1="8" y1="150" x2="252" y2="150" class="af-axisline" stroke-width="1"/>
+  <line x1="8" y1="34" x2="8" y2="150" class="af-axisline" stroke-width="1"/>
+  <text x="8" y="168" class="af-axis">第 1 周</text>
+  <text x="252" y="168" text-anchor="end" class="af-axis">第 8 周</text>
+  <polyline points="8,132 42.3,124 76.6,112 110.9,96 145.2,80 179.6,66 213.9,54 248.2,46" fill="none" stroke="#D4A853" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-freq"/>
+  <polyline points="8,54 42.3,58 76.6,64 110.9,74 145.2,88 179.6,104 213.9,118 248.2,128" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-ctr af-ink-stroke"/>
+  <circle cx="157.4" cy="86" r="4" stroke-width="1.5" class="af-cross af-dot"/>
+  <text x="166.4" y="81" class="af-mark af-cross">同一条广告</text>
+  <text x="252" y="42" text-anchor="end" class="af-label" fill="#D4A853">频次 ↑</text>
+  <text x="252" y="142" text-anchor="end" class="af-label">点击率 ↓</text>
 </svg>
         </div>
       </div>
@@ -1356,7 +1395,7 @@
       <div class="figure">
         <p class="figure-label">接手的四个步骤</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 800 190" role="img" aria-labelledby="fbflowT fbflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 800 190" role="img" aria-labelledby="fbflowT fbflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <title id="fbflowT">Facebook 广告账户接手的四个步骤</title>
   <desc id="fbflowD">第一步，动手前审计结构、Pixel 与 Conversions API 健康度、归因和素材历史。第二步，先修复追踪再花钱。第三步，表现好的广告组继续跑，同时并行重建修正后的结构。第四步，每周素材测试，明确的停用与放量规则。</desc>
 <g class="fstep fstep-1">
@@ -1403,6 +1442,42 @@
 
 
 </g></svg>
+<svg class="fig-m" viewBox="0 0 300 372" role="img" aria-labelledby="fbflowTm fbflowDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="fbflowTm">Facebook 广告账户接手的四个步骤</title>
+  <desc id="fbflowDm">第一步，动手前审计结构、Pixel 与 Conversions API 健康度、归因和素材历史。第二步，先修复追踪再花钱。第三步，表现好的广告组继续跑，同时并行重建修正后的结构。第四步，每周素材测试，明确的停用与放量规则。</desc>
+<g class="fstep fstep-1">
+    <rect x="1" y="1" width="298" height="87" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="26" r="13" fill="#D4A853"/>
+    <text x="26" y="31" text-anchor="middle" font-family="'DM Sans','Noto Sans SC','PingFang SC',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="48" y="32" font-family="'Cormorant Garamond','Noto Serif SC','Songti SC',serif" font-size="18" font-weight="600" fill="#0D0D0D">接手前审计</text>
+    <text x="17" y="56" font-family="'DM Sans','Noto Sans SC','PingFang SC',sans-serif" font-size="12.5" fill="#9A9490">结构、Pixel 与 CAPI 健康度、归因、</text>
+    <text x="17" y="73" font-family="'DM Sans','Noto Sans SC','PingFang SC',sans-serif" font-size="12.5" fill="#9A9490">素材历史 — 动手之前</text>
+    <path d="M 26 93 L 26 107 M 22 103 L 26 107 L 30 103" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-2">
+    <rect x="1" y="112" width="298" height="70" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="137" r="13" fill="#2B2B2B"/>
+    <text x="26" y="142" text-anchor="middle" font-family="'DM Sans','Noto Sans SC','PingFang SC',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="48" y="143" font-family="'Cormorant Garamond','Noto Serif SC','Songti SC',serif" font-size="18" font-weight="600" fill="#0D0D0D">先修复追踪</text>
+    <text x="17" y="167" font-family="'DM Sans','Noto Sans SC','PingFang SC',sans-serif" font-size="12.5" fill="#9A9490">花钱之前先把追踪修好。信号错，投放就错。</text>
+    <path d="M 26 187 L 26 201 M 22 197 L 26 201 L 30 197" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-3">
+    <rect x="1" y="206" width="298" height="70" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="231" r="13" fill="#D4A853"/>
+    <text x="26" y="236" text-anchor="middle" font-family="'DM Sans','Noto Sans SC','PingFang SC',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="48" y="237" font-family="'Cormorant Garamond','Noto Serif SC','Songti SC',serif" font-size="18" font-weight="600" fill="#0D0D0D">并行重建</text>
+    <text x="17" y="261" font-family="'DM Sans','Noto Sans SC','PingFang SC',sans-serif" font-size="12.5" fill="#9A9490">赢家继续跑，修正后的结构在旁边搭建。</text>
+    <path d="M 26 281 L 26 295 M 22 291 L 26 295 L 30 291" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-4">
+    <rect x="1" y="300" width="298" height="70" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="325" r="13" fill="#2B2B2B"/>
+    <text x="26" y="330" text-anchor="middle" font-family="'DM Sans','Noto Sans SC','PingFang SC',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="48" y="331" font-family="'Cormorant Garamond','Noto Serif SC','Songti SC',serif" font-size="18" font-weight="600" fill="#0D0D0D">优化节奏</text>
+    <text x="17" y="355" font-family="'DM Sans','Noto Sans SC','PingFang SC',sans-serif" font-size="12.5" fill="#9A9490">每周素材测试，明确的停用与放量规则。</text>
+</g>
+</svg>
         </div>
       </div>
 

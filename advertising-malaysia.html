@@ -1164,6 +1164,17 @@
       .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .fstep, .in-view .fstep-5, .in-view .af-grow, .in-view .af-val, .in-view .af-rise, .in-view .af-p1, .in-view .af-p2, .in-view .af-p3, .in-view .af-fillfast, .in-view .af-leak, .in-view .af-l1 { animation: none; }
     }
   </style>
+  <style>
+    /* Mobile figure variants: below 600px a narrow-column SVG (.fig-m) replaces the desktop SVG (.fig-d) */
+    .anim-fig svg.fig-m, .figure-wrap svg.fig-m { display: none; }
+    @media (max-width: 600px) {
+      .anim-fig svg.fig-d, .figure-wrap svg.fig-d { display: none; }
+      .anim-fig svg.fig-m { display: block; width: 100%; height: auto; max-width: 400px; }
+      .figure-wrap svg.fig-m { display: block; min-width: 0; width: 100%; height: auto; max-width: 460px; margin: 0 auto; }
+      svg.fig-m .af-label { font-size: 12.5px; }
+      svg.fig-m .af-axis, svg.fig-m .af-mark { font-size: 12.5px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1303,7 +1314,7 @@
     <div class="figure">
       <p class="figure-label">What a lead actually costs</p>
       <div class="figure-wrap">
-<svg viewBox="0 0 800 320" role="img" aria-label="Cost per lead by channel across live Malaysian ad accounts" aria-describedby="cplDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 800 320" role="img" aria-label="Cost per lead by channel across live Malaysian ad accounts" aria-describedby="cplDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <desc id="cplDesc">Insurance and fintech on Google Search RM2.41; EV charger installation on Meta RM7.82 best campaign and RM9.75 blended; B2B services on Meta RM15.30; beauty and wellness on Meta RM41.74; specialist healthcare on Google Search RM61.45.</desc>
   <rect x="250" y="0" width="14" height="14" fill="#D4A853"/>
   <text x="270" y="11" font-family="'DM Sans',sans-serif" font-size="11" letter-spacing="0.08em" fill="#9A9490">META</text>
@@ -1330,13 +1341,42 @@
   <text x="704.3" y="264" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v6">RM61.45</text>
   <text x="250" y="310" font-family="'DM Sans',sans-serif" font-size="11" fill="#9A9490">Meta = cost per lead conversation · Google = cost per acquisition · 30-day figures, live accounts</text>
 </svg>
+<svg class="fig-m" viewBox="0 0 340 396" role="img" aria-label="Cost per lead by channel across live Malaysian ad accounts" aria-describedby="cplDescM" xmlns="http://www.w3.org/2000/svg">
+  <desc id="cplDescM">Insurance and fintech on Google Search RM2.41; EV charger installation on Meta RM7.82 best campaign and RM9.75 blended; B2B services on Meta RM15.30; beauty and wellness on Meta RM41.74; specialist healthcare on Google Search RM61.45.</desc>
+  <rect x="0" y="0" width="14" height="14" fill="#D4A853"/>
+  <text x="20" y="11.5" font-family="'DM Sans',sans-serif" font-size="12" letter-spacing="0.08em" fill="#9A9490">META</text>
+  <rect x="80" y="0" width="14" height="14" fill="#2B2B2B"/>
+  <text x="100" y="11.5" font-family="'DM Sans',sans-serif" font-size="12" letter-spacing="0.08em" fill="#9A9490">GOOGLE SEARCH</text>
+  <line x1="0" y1="28" x2="340" y2="28" stroke="#0D0D0D" stroke-width="1" opacity="0.15"/>
+  <text x="0" y="54" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">Insurance &amp; fintech</text>
+  <rect x="0" y="62" width="10.4" height="20" fill="#2B2B2B" rx="1" class="af-grow af-g1"/>
+  <text x="18.4" y="77" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v1">RM2.41</text>
+  <text x="0" y="104" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">EV charger — best campaign</text>
+  <rect x="0" y="112" width="33.9" height="20" fill="#D4A853" rx="1" class="af-grow af-g2"/>
+  <text x="41.9" y="127" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v2">RM7.82</text>
+  <text x="0" y="154" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">EV charger — blended</text>
+  <rect x="0" y="162" width="42.2" height="20" fill="#D4A853" rx="1" class="af-grow af-g3"/>
+  <text x="50.2" y="177" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v3">RM9.75</text>
+  <text x="0" y="204" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">B2B services</text>
+  <rect x="0" y="212" width="66.2" height="20" fill="#D4A853" rx="1" class="af-grow af-g4"/>
+  <text x="74.2" y="227" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v4">RM15.30</text>
+  <text x="0" y="254" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">Beauty &amp; wellness</text>
+  <rect x="0" y="262" width="180.7" height="20" fill="#D4A853" rx="1" class="af-grow af-g5"/>
+  <text x="188.7" y="277" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v5">RM41.74</text>
+  <text x="0" y="304" font-family="'DM Sans',sans-serif" font-size="13" fill="#0D0D0D">Specialist healthcare</text>
+  <rect x="0" y="312" width="266" height="20" fill="#2B2B2B" rx="1" class="af-grow af-g6"/>
+  <text x="274" y="327" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#0D0D0D" class="af-val af-v6">RM61.45</text>
+  <text x="0" y="354" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">Meta = cost per lead conversation ·</text>
+  <text x="0" y="371" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">Google = cost per acquisition ·</text>
+  <text x="0" y="388" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">30-day figures, live accounts</text>
+</svg>
       </div>
     </div>
 
     <div class="figure">
       <p class="figure-label">Monthly budget floors</p>
       <div class="figure-wrap">
-<svg viewBox="0 0 800 348" role="img" aria-label="Monthly ad budget floors by channel in Malaysia" aria-describedby="ladderDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 800 348" role="img" aria-label="Monthly ad budget floors by channel in Malaysia" aria-describedby="ladderDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <desc id="ladderDesc">Meta awareness campaigns work from RM500 to RM1,000 per month. Meta lead generation needs RM1,500 to RM2,000 per month for the algorithm to optimise. Google Search needs around RM3,000 per month for smart bidding to learn. Multi-channel campaigns become viable from RM5,000 per month. Agency management fees are separate from ad spend.</desc>
 <g class="fstep fstep-1">
   <g transform="translate(81.0,148)">
@@ -1385,6 +1425,51 @@
   <text x="26" y="340" font-family="'DM Sans',sans-serif" font-size="11" fill="#9A9490">Ad spend only — agency management fees sit on top.</text>
 
 </g></svg>
+<svg class="fig-m" viewBox="0 0 340 414" role="img" aria-label="Monthly ad budget floors by channel in Malaysia" aria-describedby="ladderDescM" xmlns="http://www.w3.org/2000/svg">
+  <desc id="ladderDescM">Meta awareness campaigns work from RM500 to RM1,000 per month. Meta lead generation needs RM1,500 to RM2,000 per month for the algorithm to optimise. Google Search needs around RM3,000 per month for smart bidding to learn. Multi-channel campaigns become viable from RM5,000 per month. Agency management fees are separate from ad spend.</desc>
+<g class="fstep fstep-1">
+  <g transform="translate(192,13)">
+    <path d="M4 9v6h4l5 4V5L8 9H4z M17.5 8.5a5 5 0 010 7 M20.5 5.5a9 9 0 010 13" fill="none" stroke="#2B2B2B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="scale(1.1)"/>
+  </g>
+  <rect x="0" y="0" width="180" height="54" fill="#2B2B2B" opacity="0.14" rx="2"/>
+  <rect x="0" y="0" width="3" height="54" fill="#2B2B2B"/>
+  <text x="14" y="25" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">RM500–1,000</text>
+  <text x="14" y="44" font-family="'DM Sans',sans-serif" font-size="12" letter-spacing="0.05em" fill="#2B2B2B">META AWARENESS</text>
+  <text x="0" y="74" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Reach only. Not built to generate enquiries.</text>
+</g>
+<g class="fstep fstep-2">
+  <g transform="translate(228,109)">
+    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="scale(1.1)"/>
+  </g>
+  <rect x="0" y="96" width="216" height="54" fill="#D4A853" opacity="0.2" rx="2"/>
+  <rect x="0" y="96" width="3" height="54" fill="#D4A853"/>
+  <text x="14" y="121" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">RM1,500–2,000</text>
+  <text x="14" y="140" font-family="'DM Sans',sans-serif" font-size="12" letter-spacing="0.05em" fill="#D4A853">META LEAD GENERATION</text>
+  <text x="0" y="170" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Meta's floor for real optimisation.</text>
+</g>
+<g class="fstep fstep-3">
+  <g transform="translate(264,205)">
+    <path d="M11 19a8 8 0 100-16 8 8 0 000 16z M21 21l-4.35-4.35" fill="none" stroke="#2B2B2B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="scale(1.1)"/>
+  </g>
+  <rect x="0" y="192" width="252" height="54" fill="#2B2B2B" opacity="0.14" rx="2"/>
+  <rect x="0" y="192" width="3" height="54" fill="#2B2B2B"/>
+  <text x="14" y="217" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">RM3,000</text>
+  <text x="14" y="236" font-family="'DM Sans',sans-serif" font-size="12" letter-spacing="0.05em" fill="#2B2B2B">GOOGLE SEARCH</text>
+  <text x="0" y="266" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Enough data for smart bidding to learn.</text>
+</g>
+<g class="fstep fstep-4">
+  <g transform="translate(300,301)">
+    <path d="M12 2L2 7l10 5 10-5-10-5z M2 17l10 5 10-5 M2 12l10 5 10-5" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="scale(1.1)"/>
+  </g>
+  <rect x="0" y="288" width="288" height="54" fill="#D4A853" opacity="0.2" rx="2"/>
+  <rect x="0" y="288" width="3" height="54" fill="#D4A853"/>
+  <text x="14" y="313" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">RM5,000+</text>
+  <text x="14" y="332" font-family="'DM Sans',sans-serif" font-size="12" letter-spacing="0.05em" fill="#D4A853">MULTI-CHANNEL</text>
+  <text x="0" y="362" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Where Meta and Google together pay.</text>
+  <text x="0" y="392" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">Ad spend only — agency management</text>
+  <text x="0" y="408" font-family="'DM Sans',sans-serif" font-size="12" fill="#9A9490">fees sit on top.</text>
+</g>
+</svg>
       </div>
     </div>
   </section>
@@ -1397,7 +1482,7 @@
 
       <div class="figure" style="margin:28px 0 34px;">
         <div class="figure-wrap" style="background:var(--cream); padding:20px; border-radius:2px;">
-<svg viewBox="0 0 800 300" role="img" aria-label="How to choose an advertising channel in Malaysia" aria-describedby="flowDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 800 300" role="img" aria-label="How to choose an advertising channel in Malaysia" aria-describedby="flowDesc" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <desc id="flowDesc">Start by asking whether people already search for what you sell. If yes, use Google Search to capture existing intent, with a minimum of RM3,000 per month. If no, use Meta to create demand, with a minimum of RM1,500 to RM2,000 per month. If your budget is under RM3,000 per month, run only one channel.</desc>
 <g class="fstep fstep-1">  <rect x="180" y="8" width="440" height="52" fill="#0D0D0D" rx="2"/>
   <text x="400" y="32" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" letter-spacing="0.06em" fill="#FAF8F3">DO PEOPLE ALREADY SEARCH FOR</text>
@@ -1425,6 +1510,35 @@
   <text x="400" y="275" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="14" fill="#0D0D0D">Under RM3,000/month? Run one channel properly, not two badly.</text>
 
 </g></svg>
+<svg class="fig-m" viewBox="0 0 300 456" role="img" aria-label="How to choose an advertising channel in Malaysia" aria-describedby="flowDescM" xmlns="http://www.w3.org/2000/svg">
+  <desc id="flowDescM">Start by asking whether people already search for what you sell. If yes, use Google Search to capture existing intent, with a minimum of RM3,000 per month. If no, use Meta to create demand, with a minimum of RM1,500 to RM2,000 per month. If your budget is under RM3,000 per month, run only one channel.</desc>
+<g class="fstep fstep-1">  <rect x="0" y="0" width="300" height="58" fill="#0D0D0D" rx="2"/>
+  <text x="150" y="25" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="12.5" letter-spacing="0.06em" fill="#FAF8F3">DO PEOPLE ALREADY SEARCH FOR</text>
+  <text x="150" y="44" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="12.5" letter-spacing="0.06em" fill="#FAF8F3">WHAT YOU SELL?</text>
+</g>
+<g class="fstep fstep-2">  <path d="M 10 58 L 10 122 L 20 122" fill="none" stroke="#0D0D0D" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 10 58 L 10 278 L 20 278" fill="none" stroke="#0D0D0D" stroke-width="1.5" opacity="0.4"/>
+  <text x="24" y="83" font-family="'DM Sans',sans-serif" font-size="12.5" font-weight="600" fill="#2B2B2B">YES</text>
+  <text x="24" y="239" font-family="'DM Sans',sans-serif" font-size="12.5" font-weight="600" fill="#2B2B2B">NO</text>
+</g>
+<g class="fstep fstep-3">  <rect x="21" y="92" width="278" height="124" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2" rx="2"/>
+  <text x="36" y="122" font-family="'Cormorant Garamond',serif" font-size="24" font-weight="600" fill="#0D0D0D">Google Search</text>
+  <text x="36" y="148" font-family="'DM Sans',sans-serif" font-size="13" fill="#2B2B2B">Capture demand that already</text>
+  <text x="36" y="166" font-family="'DM Sans',sans-serif" font-size="13" fill="#2B2B2B">exists, at the moment it exists.</text>
+  <text x="36" y="198" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#2B2B2B">Floor: RM3,000/month</text>
+</g>
+<g class="fstep fstep-4">  <rect x="21" y="248" width="278" height="124" fill="#FFFFFF" stroke="#D4A853" stroke-width="2" rx="2"/>
+  <text x="36" y="278" font-family="'Cormorant Garamond',serif" font-size="24" font-weight="600" fill="#0D0D0D">Meta</text>
+  <text x="36" y="304" font-family="'DM Sans',sans-serif" font-size="13" fill="#2B2B2B">Create the demand Google will</text>
+  <text x="36" y="322" font-family="'DM Sans',sans-serif" font-size="13" fill="#2B2B2B">later capture.</text>
+  <text x="36" y="354" font-family="'DM Sans',sans-serif" font-size="13" font-weight="600" fill="#D4A853">Floor: RM1,500–2,000/month</text>
+</g>
+<g class="fstep fstep-5">  <rect x="0" y="394" width="300" height="60" fill="#D4A853" opacity="0.12" rx="2"/>
+  <rect x="0" y="394" width="3" height="60" fill="#D4A853"/>
+  <text x="152" y="420" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="14" fill="#0D0D0D">Under RM3,000/month? Run one</text>
+  <text x="152" y="439" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="14" fill="#0D0D0D">channel properly, not two badly.</text>
+</g>
+</svg>
         </div>
       </div>
 

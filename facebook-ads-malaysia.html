@@ -1146,6 +1146,17 @@
       .in-view .af-barA, .in-view .af-barB, .in-view .af-mark, .in-view .af-endA, .in-view .af-endB, .in-view .af-line, .in-view .af-cross, .in-view .fstep { animation: none; }
     }
   </style>
+  <style>
+    /* Mobile figure variants: below 600px a narrow-column SVG (.fig-m) replaces the desktop SVG (.fig-d) */
+    .anim-fig svg.fig-m, .figure-wrap svg.fig-m { display: none; }
+    @media (max-width: 600px) {
+      .anim-fig svg.fig-d, .figure-wrap svg.fig-d { display: none; }
+      .anim-fig svg.fig-m { display: block; width: 100%; height: auto; max-width: 400px; }
+      .figure-wrap svg.fig-m { display: block; min-width: 0; width: 100%; height: auto; max-width: 460px; margin: 0 auto; }
+      svg.fig-m .af-label { font-size: 12.5px; }
+      svg.fig-m .af-axis, svg.fig-m .af-mark { font-size: 12.5px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -1250,7 +1261,7 @@
         <div class="service-divider"></div>
         <p class="service-desc">Every edit or restart sends the account back to the start of learning — it never graduates. A RM3,000/month account stuck in learning loses to a stable RM1,500 one.</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 132" role="img" aria-label="Learning phase: constant edits vs left alone" aria-describedby="lpD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 400 132" role="img" aria-label="Learning phase: constant edits vs left alone" aria-describedby="lpD" xmlns="http://www.w3.org/2000/svg">
     <desc id="lpD">Top row: every edit resets learning progress to zero, so the account never leaves the learning phase. Bottom row: left alone, progress fills once and the account graduates.</desc>
   <text x="0" y="22" class="af-label">Constant edits</text>
   <rect x="0" y="30" width="400" height="10" rx="5" class="af-track"/>
@@ -1265,6 +1276,21 @@
   <text x="400" y="92" text-anchor="end" class="af-label af-endB" fill="#D4A853">✓ Graduated</text>
   <text x="0" y="128" class="af-axis">Same 7 days</text>
 </svg>
+<svg class="fig-m" viewBox="0 0 260 138" role="img" aria-label="Learning phase: constant edits vs left alone" aria-describedby="lpDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="lpDm">Top row: every edit resets learning progress to zero, so the account never leaves the learning phase. Bottom row: left alone, progress fills once and the account graduates.</desc>
+  <text x="0" y="18" class="af-label">Constant edits</text>
+  <rect x="0" y="27" width="260" height="10" rx="5" class="af-track"/>
+  <rect x="0" y="27" width="260" height="10" rx="5" fill="#9A9490" class="af-barA"/>
+  <text x="78" y="56" class="af-mark af-m1">✎ edit</text>
+  <text x="130" y="56" class="af-mark af-m2">✎ edit</text>
+  <text x="182" y="56" class="af-mark af-m3">✎ edit</text>
+  <text x="260" y="18" text-anchor="end" class="af-label af-endA">Still learning</text>
+  <text x="0" y="90" class="af-label">Left alone</text>
+  <rect x="0" y="99" width="260" height="10" rx="5" class="af-track"/>
+  <rect x="0" y="99" width="260" height="10" rx="5" fill="#D4A853" class="af-barB"/>
+  <text x="260" y="90" text-anchor="end" class="af-label af-endB" fill="#D4A853">✓ Graduated</text>
+  <text x="0" y="132" class="af-axis">Same 7 days</text>
+</svg>
         </div>
       </div>
       <div class="service-card">
@@ -1272,7 +1298,7 @@
         <div class="service-divider"></div>
         <p class="service-desc">Same ad for months: frequency climbs, CTR slides. It looks like "Facebook stopped working" — it's just the same ad shown too many times.</p>
         <div class="anim-fig">
-<svg viewBox="0 0 400 170" role="img" aria-label="Creative fatigue: frequency up, CTR down" aria-describedby="cfD" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 400 170" role="img" aria-label="Creative fatigue: frequency up, CTR down" aria-describedby="cfD" xmlns="http://www.w3.org/2000/svg">
     <desc id="cfD">One ad running for eight weeks: frequency climbs while click-through rate slides, crossing around week five.</desc>
   <line x1="40" y1="140" x2="360" y2="140" class="af-axisline" stroke-width="1"/>
   <line x1="40" y1="30" x2="40" y2="140" class="af-axisline" stroke-width="1"/>
@@ -1284,6 +1310,19 @@
   <text x="246" y="78" class="af-mark af-cross">same ad</text>
   <text x="360" y="40" text-anchor="end" class="af-label" fill="#D4A853">Frequency ↑</text>
   <text x="360" y="132" text-anchor="end" class="af-label">CTR ↓</text>
+</svg>
+<svg class="fig-m" viewBox="0 0 260 174" role="img" aria-label="Creative fatigue: frequency up, CTR down" aria-describedby="cfDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="cfDm">One ad running for eight weeks: frequency climbs while click-through rate slides, crossing around week five.</desc>
+  <line x1="8" y1="150" x2="252" y2="150" class="af-axisline" stroke-width="1"/>
+  <line x1="8" y1="34" x2="8" y2="150" class="af-axisline" stroke-width="1"/>
+  <text x="8" y="168" class="af-axis">Week 1</text>
+  <text x="252" y="168" text-anchor="end" class="af-axis">Week 8</text>
+  <polyline points="8,132 42.3,124 76.6,112 110.9,96 145.2,80 179.6,66 213.9,54 248.2,46" fill="none" stroke="#D4A853" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-freq"/>
+  <polyline points="8,54 42.3,58 76.6,64 110.9,74 145.2,88 179.6,104 213.9,118 248.2,128" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="af-line af-ctr af-ink-stroke"/>
+  <circle cx="157.4" cy="86" r="4" stroke-width="1.5" class="af-cross af-dot"/>
+  <text x="166.4" y="81" class="af-mark af-cross">same ad</text>
+  <text x="252" y="42" text-anchor="end" class="af-label" fill="#D4A853">Frequency ↑</text>
+  <text x="252" y="142" text-anchor="end" class="af-label">CTR ↓</text>
 </svg>
         </div>
       </div>
@@ -1299,7 +1338,7 @@
       <div class="figure">
         <p class="figure-label">The takeover, in four steps</p>
         <div class="figure-wrap">
-<svg viewBox="0 0 800 190" role="img" aria-labelledby="fbflowT fbflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
+<svg class="fig-d" viewBox="0 0 800 190" role="img" aria-labelledby="fbflowT fbflowD" style="width:100%; height:auto; max-width:800px;" xmlns="http://www.w3.org/2000/svg">
   <title id="fbflowT">The four-step Facebook ads account takeover process</title>
   <desc id="fbflowD">Step one, pre-takeover audit of structure, pixel and Conversions API health, attribution and creative history before changing anything. Step two, fix measurement before spending. Step three, keep winning ad sets running while rebuilding the corrected structure in parallel. Step four, run a weekly creative testing cadence with explicit kill and scale rules.</desc>
 <g class="fstep fstep-1">
@@ -1346,6 +1385,45 @@
 
 
 </g></svg>
+<svg class="fig-m" viewBox="0 0 300 423" role="img" aria-labelledby="fbflowTm fbflowDm" xmlns="http://www.w3.org/2000/svg">
+  <title id="fbflowTm">The four-step Facebook ads account takeover process</title>
+  <desc id="fbflowDm">Step one, pre-takeover audit of structure, pixel and Conversions API health, attribution and creative history before changing anything. Step two, fix measurement before spending. Step three, keep winning ad sets running while rebuilding the corrected structure in parallel. Step four, run a weekly creative testing cadence with explicit kill and scale rules.</desc>
+<g class="fstep fstep-1">
+    <rect x="1" y="1" width="298" height="87" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="26" r="13" fill="#D4A853"/>
+    <text x="26" y="31" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="48" y="32" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Pre-takeover audit</text>
+    <text x="17" y="56" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Structure, pixel and CAPI health,</text>
+    <text x="17" y="73" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">attribution, creative history — before</text>
+    <path d="M 26 93 L 26 107 M 22 103 L 26 107 L 30 103" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-2">
+    <rect x="1" y="112" width="298" height="87" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="137" r="13" fill="#2B2B2B"/>
+    <text x="26" y="142" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="48" y="143" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Fix measurement</text>
+    <text x="17" y="167" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Repair tracking before spending. Bad signal</text>
+    <text x="17" y="184" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">in, bad delivery out.</text>
+    <path d="M 26 204 L 26 218 M 22 214 L 26 218 L 30 214" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-3">
+    <rect x="1" y="223" width="298" height="87" fill="#FFFFFF" stroke="#D4A853" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="248" r="13" fill="#D4A853"/>
+    <text x="26" y="253" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="48" y="254" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Rebuild in parallel</text>
+    <text x="17" y="278" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Winners keep running while the corrected</text>
+    <text x="17" y="295" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">structure is built alongside.</text>
+    <path d="M 26 315 L 26 329 M 22 325 L 26 329 L 30 325" fill="none" stroke="#D4A853" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g class="fstep fstep-4">
+    <rect x="1" y="334" width="298" height="87" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.5" rx="2" opacity="0.95"/>
+    <circle cx="26" cy="359" r="13" fill="#2B2B2B"/>
+    <text x="26" y="364" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="48" y="365" font-family="'Cormorant Garamond',serif" font-size="18" font-weight="600" fill="#0D0D0D">Optimisation cadence</text>
+    <text x="17" y="389" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">Weekly creative testing with explicit kill and</text>
+    <text x="17" y="406" font-family="'DM Sans',sans-serif" font-size="12.5" fill="#9A9490">scale rules.</text>
+</g>
+</svg>
         </div>
       </div>
 
