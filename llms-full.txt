@@ -2369,7 +2369,7 @@ Google Ads Audit · 2026 Checklist
 
 ## The Google Ads Audit Checklist We Use
 
-Eleven checks, in the order we run them on every account that comes to us for a free audit. Do it yourself in an afternoon, or send us read-only access and we will run it for you.
+Eleven checks, in the order we run them on every account that comes to us for a free audit. Do it yourself in an afternoon, or send us view-only access to Google Ads, Google Analytics 4, Google Tag Manager and Search Console and we will run it for you.
 
 Get a Free Account Audit
 Start the Checklist
@@ -2580,7 +2580,7 @@ When we run this checklist for you, the findings come in writing, in plain langu
 
 - A fix order, so data fixes come before spending changes.
 
-We only need read-only access. You keep the findings whether or not you hire us, and if the account is in good shape we will say so. If you want us to make the fixes, that is our Google Ads agency service .
+We only need view-only access to Google Ads, Google Analytics 4, Google Tag Manager and Search Console, because tracking faults usually sit between the ad account, your tags and your analytics. You keep the findings whether or not you hire us, and if the account is in good shape we will say so. If you want us to make the fixes, that is our Google Ads agency service .
 
 Common questions
 
@@ -2606,7 +2606,7 @@ If you only serve customers physically in your area, Presence is usually safer. 
 Is the ADV Google Ads audit really free?
 +
 
-Yes. Send us read-only access, which lets us view campaigns and reports without changing anything. You keep the findings whether or not you hire us. No obligation and no pitch deck.
+Yes. Send us view-only access to Google Ads, Google Analytics 4, Google Tag Manager and Search Console. View-only means we can see campaigns, tags and reports without changing anything. You keep the findings whether or not you hire us. No obligation and no pitch deck.
 
 Can an audit alone lower my cost per lead?
 +
@@ -2617,7 +2617,7 @@ Free Google Ads audit
 
 ### Want us to run the checklist for you?
 
-Send us read-only access and we will run all 11 checks on your account for free. You get the findings in writing and keep them whether or not you hire us. No obligation, no pitch deck. WhatsApp +60 16 334 3549 or email Alvin.Yap@advmarketing.biz .
+Send us view-only access to Google Ads, Google Analytics 4, Google Tag Manager and Search Console and we will run all 11 checks on your account for free. You get the findings in writing and keep them whether or not you hire us. No obligation, no pitch deck. WhatsApp +60 16 334 3549 or email Alvin.Yap@advmarketing.biz .
 
 Get a Free Audit on WhatsApp
 
