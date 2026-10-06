@@ -1724,6 +1724,31 @@ The two costs
 
 ### What are the two costs of Google Ads in Malaysia?
 
+You pay Google for clicks, plus 8% SST. If someone runs the account for you, their fee is a separate monthly cost on top.
+
+Cost 1
+
+#### Ad spend
+
+Paid straight to Google. On Search, only when someone clicks. You set the budget.
+
+No flat fee No subscription + 8% SST
+
+Cost 2
+
+#### Management fee
+
+Paid to whoever runs the account. It sits on top of ad spend, not inside it.
+
+Do it yourself: your time Hire help: monthly fee
+
+Always ask which of the two numbers a quote covers.
+
+Where an example month goes
+
+Illustration using the low end of ADV's published fee range. Fee shown excluding tax.
+
+Read the detail
 Every Google Ads budget splits into money that buys clicks and money that pays for running the account. Most first-time advertisers only budget for the first.
 
 The first cost is ad spend. It goes straight to Google, and on Search you only pay it when someone clicks your ad. Google charges no flat fee and no monthly subscription, and you set the budget yourself (Source: Google Ads Help, 2026). Google Ads accounts with a Malaysian business address are also subject to 8% sales and service tax, which has applied since 1 March 2024 (Source: Google Ads Help, 2026).
@@ -1732,14 +1757,35 @@ The second cost is management. That is what you pay a person or agency to pick k
 
 Always ask which of the two numbers you are being quoted. A "RM3,000 package" that includes the fee can leave far less for clicks than you think. When we scope a Google Ads management engagement , ad spend and fee are always written as two separate lines.
 
-Where an example month goes
-
-Illustration using the low end of ADV's published fee range. Fee shown excluding tax.
-
 How Google charges
 
 ### How does Google charge for ads?
 
+Each search is an auction. You pay per click, often less than your bid, and your daily budget caps the monthly bill.
+
+01
+
+#### An auction on every search
+
+Google uses Ad Rank to pick which ads show, and in what order.
+
+02
+
+#### You pay up to your bid
+
+Often less. Just enough to beat the ad ranked below you.
+
+03
+
+#### The daily budget rules
+
+2× daily budget, max on one busy day
+
+30.4× daily budget, max for the month
+
+RM100 a day never bills more than RM3,040 a month.
+
+Read the detail
 Google Ads runs an auction every time someone searches. Your ad competes with every other advertiser bidding on that search, and Google uses Ad Rank to decide which ads show and in what order.
 
 On Search you pay per click. Your maximum cost per click bid is the most you will typically pay, but Google says you are often charged less, sometimes much less. You only pay what is needed to clear the Ad Rank thresholds and beat the advertiser ranked just below you (Source: Google Ads Help, 2026).
@@ -1756,19 +1802,38 @@ Cost per click
 
 ### What drives your cost per click?
 
-Two businesses bidding on the same keyword can pay very different prices per click. Google lists six things that feed Ad Rank: your bid, the quality of your ad and landing page, Ad Rank thresholds, how competitive the auction is, the context of the search, and the expected impact of your ad assets (Source: Google Ads Help, 2026). In practice they fall into three groups.
+Competition, quality and context set your price per click. Quality is the one lever fully in your control.
 
 #### Competition
 
-Your bid, the minimum thresholds, and how close competing ads are. In crowded Malaysian categories such as insurance, legal and healthcare, more advertisers chase the same top spots, so the price goes up.
+More advertisers chasing the same top spots pushes the price up.
+
+Your bid Thresholds Competing ads
+
+In your control
 
 #### Quality
 
-How useful and relevant Google judges your ad and landing page to be. Google says higher quality ads can often lead to lower CPCs. This is the one lever fully in your control.
+Higher quality ads can often lead to lower CPCs.
+
+Ad Landing page
 
 #### Context
 
-The search term itself, the person's location, their device and the time of the search, plus how your sitelinks, callouts and other assets are expected to perform.
+What was searched, and where, when and on what device.
+
+Search term Location Device Time Assets
+
+Quality Score (1 to 10 per keyword) shows where the quality part needs work.
+
+Read the detail
+Two businesses bidding on the same keyword can pay very different prices per click. Google lists six things that feed Ad Rank: your bid, the quality of your ad and landing page, Ad Rank thresholds, how competitive the auction is, the context of the search, and the expected impact of your ad assets (Source: Google Ads Help, 2026). In practice they fall into three groups.
+
+Competition. Your bid, the minimum thresholds, and how close competing ads are. In crowded Malaysian categories such as insurance, legal and healthcare, more advertisers chase the same top spots, so the price goes up.
+
+Quality. How useful and relevant Google judges your ad and landing page to be. Google says higher quality ads can often lead to lower CPCs. This is the one lever fully in your control.
+
+Context. The search term itself, the person's location, their device and the time of the search, plus how your sitelinks, callouts and other assets are expected to perform.
 
 Quality Score is where you see the quality part. It is a 1 to 10 rating for each keyword, built from expected clickthrough rate, ad relevance and landing page experience. Google is clear that Quality Score is a diagnostic tool, not an input in the auction (Source: Google Ads Help, 2026). But it measures the same things the auction rewards, so a main keyword stuck at 3 or 4 tells you exactly where to work: the ad, the landing page, or the click appeal.
 
@@ -1776,7 +1841,7 @@ Real RM numbers
 
 ### How much does a Google Ads click cost in Malaysia?
 
-Here are the top of page bid ranges Google Keyword Planner shows for six Malaysian searches in our own category. The low number is roughly the 20th percentile of what advertisers have historically bid to appear at the top of the page. The high number is roughly the 80th percentile (Source: Google Ads Help, 2026).
+Top of page bids in Malaysia run from RM4 to RM320. Specific searches cost far less than broad ones.
 
 Keyword | Top of page bid, low | Top of page bid, high
 
@@ -1796,6 +1861,23 @@ Google Keyword Planner, Malaysia, October 2026.
 
 Same platform, very different prices
 
+#### The spread is huge
+
+One keyword runs from RM13 to RM320.
+
+#### Bids, not prices
+
+Your actual cost per click is often lower.
+
+#### Specific is cheaper
+
+"google ads agency malaysia" tops out at RM61. "google ads malaysia" reaches RM320.
+
+Run your own keywords through Keyword Planner before you set a budget.
+
+Read the detail
+Here are the top of page bid ranges Google Keyword Planner shows for six Malaysian searches in our own category. The low number is roughly the 20th percentile of what advertisers have historically bid to appear at the top of the page. The high number is roughly the 80th percentile (Source: Google Ads Help, 2026).
+
 Three things stand out. First, the spread is huge. The same keyword can run from RM13 to RM320 depending on who is bidding, when and where. Second, these are bids, not prices. Your actual cost per click is often lower, and better ads pull it lower again. Third, specific searches are cheaper than broad ones. "google ads agency malaysia" tops out at RM61 while "google ads malaysia" reaches RM320, because the broad term pulls in every advertiser who sells anything close to it.
 
 Run your own keywords through Keyword Planner before you set a budget. Your industry's range is the only one that matters. For cost benchmarks across Google, Meta and TikTok, see what advertising costs in Malaysia .
@@ -1804,6 +1886,37 @@ Minimum budget
 
 ### What is the minimum Google Ads budget in Malaysia?
 
+Google has no minimum. Plan RM1,500 to RM2,000 a month in ad spend so you collect enough data to make good decisions.
+
+General floor
+
+RM1,500 to RM2,000
+
+A month in ad spend. The same floor we apply across paid media.
+
+Competitive Search
+
+Around RM3,000
+
+A month for Google Search in categories such as insurance, legal and healthcare.
+
+The arithmetic: RM2,000 a month is about RM66 a day
+
+RM5 clicks
+
+About 13 a day
+
+Roughly 400 a month. Enough to read the search terms and see what converts.
+
+RM20 clicks
+
+About 3 a day
+
+A week of that tells you almost nothing, and automated bidding has too little to learn from.
+
+Start with one focused Search campaign on your highest intent keywords.
+
+Read the detail
 Google has no minimum. You could run a campaign on RM10 a day. The real question is how little you can spend and still learn something.
 
 Our guidance is RM1,500 to RM2,000 a month in ad spend as the floor , the same floor we apply across paid media. For Google Search in competitive categories, we recommend around RM3,000 a month .
@@ -1816,6 +1929,9 @@ Cost per lead
 
 ### What cost per lead should you expect from Google Ads?
 
+There is no single Malaysian benchmark. Compare your cost per lead with what a customer is worth to you.
+
+Read the detail
 There is no single Malaysian benchmark. Cost per lead depends on what a customer is worth in your industry and how many advertisers want the same customer. Two of our own Google accounts show the range.
 
 Insurance and fintech platform, 12 months. Cost per lead fell 45%, from RM4.40 to RM2.41, while monthly spend scaled from RM5,000 to RM20,000. Leads grew 393%, from 1,336 to 6,586 in the peak month. High search volume and a simple sign up keep each lead cheap.
@@ -1846,6 +1962,33 @@ Management fees
 
 ### How much does Google Ads management cost in Malaysia?
 
+Typically RM1,500 to RM7,000 a month on top of ad spend, depending on scope. Get in writing what the fee covers.
+
+#### Monthly fee
+
+RM1,500 to RM7,000
+
+A month depending on scope, on top of ad spend.
+
+#### At scale
+
+15 to 18%
+
+Of ad spend. Fees typically track this range.
+
+#### Profit sharing
+
+Tied to targets
+
+Agreed at the start: cost per lead, ROAS or revenue.
+
+A fee should buy
+
+Weekly search term reviews Negative keywords Tracking that counts real leads Reports that explain why cost per lead moved
+
+Spending under RM1,500 a month? Learning it yourself usually makes more sense.
+
+Read the detail
 Management fees vary with scope, so get in writing what the fee covers. These are the options we publish:
 
 Fee option | What it looks like
@@ -1864,6 +2007,47 @@ Overpaying
 
 ### How do you know if you are overpaying for Google Ads?
 
+Overpaying shows up as small leaks, not one big number. If two or more of these apply, an audit usually pays for itself.
+
+Red flag
+
+#### Nobody reads the search terms
+
+In our audits, broad match with no negatives often sends 20 to 40% of spend to searches that never buy.
+
+Red flag
+
+#### Conversions are not real leads
+
+Page views or button clicks counted as conversions send bidding after the wrong thing.
+
+Red flag
+
+#### Quality Score stuck at 3 or 4
+
+On your main keywords. Check the ad, landing page and expected clickthrough rate.
+
+Red flag
+
+#### Performance Max buys your brand
+
+You may be paying for people already searching for you by name.
+
+Red flag
+
+#### You cannot see your account
+
+You should always have admin access, whoever runs it.
+
+Red flag
+
+#### Cost per lead rising, unexplained
+
+Three months up and nobody can say why. Rising with scale can be normal.
+
+Run the full checklist with our Google Ads audit guide .
+
+Read the detail
 Overpaying rarely shows up as one big number. It shows up as small leaks. Check these six.
 
 - Nobody reads the search terms report. In our audits, broad match with no negative keywords often sends 20 to 40% of spend to searches that will never buy.
@@ -1975,6 +2159,25 @@ Performance Max (PMax) is a Google Ads campaign type that runs one budget across
 
 ### What is Performance Max (PMax)?
 
+One Google Ads campaign, one budget, six channels. You set the goal and assets. Google's bidding decides where each ringgit goes.
+
+- Search
+
+- Maps
+
+- YouTube
+
+- Discover
+
+- Gmail
+
+- Display Network
+
+Link a Merchant Center feed and PMax also serves Shopping ads.
+
+One budget, six channels, one control layer
+
+Read the detail
 Performance Max is a goal-based Google Ads campaign. You give it a budget, a conversion goal and a set of assets. Google's Smart Bidding then decides which channel, placement and search to buy, bidding to maximise conversions or conversion value, with an optional target CPA or target ROAS. (Source: Google Ads Help, About Performance Max campaigns, 2026)
 
 Google currently lists six channels for Performance Max. (Source: Google Ads Help, About Performance Max channels, 2026)
@@ -1993,10 +2196,35 @@ Google currently lists six channels for Performance Max. (Source: Google Ads Hel
 
 Link a Google Merchant Center feed and PMax also serves Shopping ads. The catch: you hand over where the money goes, so what you feed it decides what you get back.
 
-One budget, six channels, one control layer
-
 ### Should a Malaysian SME run Performance Max or Search?
 
+Start with Search. Add PMax once you know what a Search lead costs you. Ecommerce with a product feed can lead with PMax.
+
+Lead generation
+
+#### Search first, PMax second
+
+Clinics, insurance, B2B services, education, home services
+
+- PMax adds reach on YouTube, Display and Gmail.
+
+- Leads there are cheaper but often weaker.
+
+- Optimise toward qualified leads, not every form.
+
+Ecommerce with a feed
+
+#### PMax is often the main campaign
+
+- Shopping ads show product, price and image.
+
+- A clean feed matters more than clever copy.
+
+- Exact match wins Identical searches go to your Search campaign, not PMax.
+
+- Readiness test Cannot say what a Search lead costs? Not ready for PMax.
+
+Read the detail
 Start with Search, where people type what they need. Then decide on PMax based on what you sell.
 
 Lead generation (clinics, insurance, B2B services, education, home services): Search first, PMax second. PMax adds reach on YouTube, Display and Gmail, where leads are cheaper but often weaker. If your conversion action counts every form, PMax will find the cheapest forms. Google's own advice for lead campaigns is to optimise toward conversion actions close to the final sale, such as qualified or converted leads, while keeping enough volume to learn from. (Source: Google Ads Help, Answering Your Top Questions About Performance Max, 2026)
@@ -2009,6 +2237,21 @@ A simple test: if you cannot yet say what a lead from Search costs you, you are 
 
 ### What do you need before launching Performance Max?
 
+Tracking that counts real enquiries or sales, enough conversions, a budget for two campaigns, and a full asset set.
+
+- Tracking that records revenue Forms, WhatsApp chats, qualified calls, purchases. Not page views.
+
+- Enough conversions A handful a month is too little to learn from.
+
+- Budget for two campaigns RM3,000 a month minimum Usually shared with Search.
+
+- A full set of assets Text, images, logo and your own video.
+
+Google's best practice per asset group 15 headlines 5 descriptions 7 images 1 video
+
+Character limits Headline 30 Long headline 90 Description 90 Business name 25
+
+Read the detail
 1. Conversion tracking that records revenue actions. Forms, WhatsApp chats, qualified calls, purchases. Not page views. Smart Bidding scales whatever you call a conversion. Our conversion tracking guide walks through the setup.
 
 2. Enough conversions to learn from. Google does not publish a minimum conversion count for PMax. Our view: with only a handful of real conversions a month, PMax has too little to learn from.
@@ -2037,6 +2280,17 @@ Google's best practice is at least 15 headlines, 5 descriptions, 7 images and 1 
 
 ### What are the risks of Performance Max?
 
+Left alone, PMax drifts to your own brand and cheap placements, and hides which channel really worked.
+
+- Red flag Spend on your own brand A lovely CPA built on people who already knew you.
+
+- Red flag Spend on cheap placements Cheap Display and app clicks, while sales stay flat.
+
+- Red flag Limited transparency No bids per channel. The placement report is not for judging results.
+
+Our answer: judge PMax on the account's blended cost per lead.
+
+Read the detail
 Budget drifts to your own brand. People searching your business name would have found you anyway. PMax can claim those conversions and report a lovely CPA built on people who already knew you.
 
 Budget drifts to cheap placements. Display and app inventory is cheap per click. If your goal counts weak actions, PMax buys them there while sales stay flat.
@@ -2045,6 +2299,27 @@ Limited transparency. You do not set bids per channel. The PMax placement report
 
 ### What controls does Google give you over Performance Max in 2026?
 
+Exclusions, negatives, search themes and two key reports. Negatives only touch Search and Shopping inventory.
+
+- Brand exclusions Search, Shopping and YouTube search.
+
+- Campaign negatives Up to 10,000 Search and Shopping only.
+
+- Account negatives Up to 1,000 Search and Shopping, PMax included.
+
+- Placement exclusions Display and YouTube.
+
+- Search terms report With landing pages, by ad format.
+
+- Channel performance report Clicks, conversions and cost by channel.
+
+- Search themes Up to 50 Per asset group, to point PMax at intent.
+
+- Device and age controls Plus cost and conversions per asset.
+
+Negatives do nothing on Display, YouTube or Gmail. There, your conversion goal does the steering.
+
+Read the detail
 More than at launch. This is what we verified on Google's help pages in October 2026.
 
 - Brand exclusions. Brand lists stop PMax serving on your own brand, competitors or sub-brands, across Search, Shopping and YouTube search inventory. They also catch misspellings.
@@ -2069,9 +2344,43 @@ Note the gap: negative keywords do nothing on Display, YouTube or Gmail. There, 
 
 ### How long does Performance Max take to learn?
 
+Give a new PMax campaign at least 6 weeks before you judge it, and change one thing at a time.
+
+6 weeks
+Minimum run for a new campaign
+
+1 to 2 weeks
+Or one full conversion cycle, after any significant change
+
+Week 2
+Too early to pause because the CPA looks high
+
+Read the detail
 Google's guidance is to run a new PMax campaign for at least 6 weeks, and to allow 1 to 2 weeks, or at least one full conversion cycle, after a significant change. (Source: Google Ads Help, Optimization tips for Performance Max campaigns, 2026) So do not change budget, goal and assets in the same week, and do not pause it in week two because the CPA looks high.
 
 ### How do you set up Performance Max step by step?
+
+Fix tracking and protect Search first, add your exclusions, then build the campaign and judge it at 6 weeks.
+
+- 01 Audit conversion tracking One revenue conversion, tested with a real enquiry.
+
+- 02 Protect your Search campaign Proven keywords on exact match keep priority.
+
+- 03 Add brand exclusions Your own brand and any you will not pay for.
+
+- 04 Load negative keywords Obvious waste (jobs, free, training), plus a campaign list.
+
+- 05 Add placement exclusions At account level, from data you already have.
+
+- 06 Create the campaign Maximise conversions first. Target CPA once costs are stable.
+
+- 07 Build asset groups by service line One per service line or product category, each with its own final URL.
+
+- 08 Decide on final URL expansion Leave it on only if your other pages convert.
+
+- 09 Review weekly, judge at 6 weeks Read the reports weekly. Judge on blended cost per lead.
+
+Read the detail
 
 - Audit conversion tracking. One primary conversion that means revenue, tested with a real enquiry.
 
@@ -2093,15 +2402,28 @@ Google's guidance is to run a new PMax campaign for at least 6 weeks, and to all
 
 ### How does ADV run Performance Max?
 
-We only run PMax once tracking is clean. It is the first thing we check in every Google Ads audit . An account that counts page views as conversions gets worse under PMax, not better.
+Clean tracking first, a split by service line, and the expectation that cost per result rises as spend grows.
 
-Second, we split by service line. In a healthcare group's account, over the 30 days to 24 Sep 2026, a newer service line ran in its own campaign at RM59 per conversion, against RM83 for the main Search campaign. That was not a PMax campaign, but the lesson carries over. In one shared campaign the cheaper line would have vanished into an average. In PMax we use separate asset groups, and separate campaigns when service lines have different values, because budget is set per campaign.
+"An account that counts page views as conversions gets worse under PMax, not better."
+
+- Tracking first The first thing we check in every Google Ads audit .
+
+- Split by service line RM59 vs RM83 Separate asset groups, or campaigns when values differ.
+
+- Costs rise with spend RM55.11 to RM76.78 The channel report shows where the extra cost went.
 
 Why we split by service line
 
+Read the detail
+We only run PMax once tracking is clean. It is the first thing we check in every Google Ads audit. An account that counts page views as conversions gets worse under PMax, not better.
+
+Second, we split by service line. In a healthcare group's account, over the 30 days to 24 Sep 2026, a newer service line ran in its own campaign at RM59 per conversion, against RM83 for the main Search campaign. That was not a PMax campaign, but the lesson carries over. In one shared campaign the cheaper line would have vanished into an average. In PMax we use separate asset groups, and separate campaigns when service lines have different values, because budget is set per campaign.
+
 Third, we expect cost per result to rise with spend. The same account's CPA rose four periods in a row as spend scaled, from RM55.11 to RM76.78, with 211 conversions on RM16.2K in the latest 30 days. PMax does not escape that. It just hides where the extra cost went unless someone reads the channel report.
 
-That is how our Google Ads agency service runs PMax. Current numbers are on our Live Results Board , and our guide to advertising costs in Malaysia shows how Google fits next to Meta.
+That is how our Google Ads agency service runs PMax. Our guide to advertising costs in Malaysia shows how Google fits next to Meta.
+
+Current numbers are on our Live Results Board .
 
 Common questions
 
@@ -2191,16 +2513,60 @@ If Google Ads looks like it is not converting, check the tracking before you tou
 
 ### Is Google Ads not converting, or is it not counting?
 
+Often the ads are fine and the count is wrong. Smart Bidding learns only from the conversions you report, so check the count first.
+
+Not converting
+
+Clicks arrive. Nobody enquires.
+
+Look at Search terms, ads and the landing page, once tracking is clean.
+
+Not counting
+
+People enquire. Google Ads never hears, or hears the wrong things.
+
+Why it hurts more Report zero and Smart Bidding learns nothing. Report too many and it buys the wrong traffic.
+
+Same account, two ways of counting
+
+Read the detail
 Two different problems hide behind "Google Ads is not converting". One is real: clicks arrive and nobody enquires. The other is counting: people do enquire, but Google Ads never hears about it, or hears about the wrong things.
 
 The counting problem does more damage. Smart Bidding sets bids from the conversions you report. Report zero and it has nothing to learn from. Report an inflated number and it buys more of the wrong traffic. Our main Google Ads guide calls this the first leak: conversions that are not revenue. This page is the practical version.
-
-Same account, two ways of counting
 
 So before you rewrite ads or blame the agency, confirm the count. When we take over an account through our Google Ads management service , tracking is checked before a single bid changes.
 
 ### What should count as a conversion for a Malaysian SME?
 
+The moment someone raises their hand. For most Malaysian SMEs that is a form, a WhatsApp click, a call or a purchase.
+
+Lead form Count: One
+
+Tracked by The Google Ads tag on a real submit, or an imported GA4 event.
+
+Watch Fire on the submission, not when the form page loads.
+
+WhatsApp
+
+Tracked by A click on your wa.me link or WhatsApp button.
+
+Limit It records the click, not a sent message.
+
+Phone call
+
+Tracked by Number clicks on your mobile site, call ad clicks, or imported call conversions.
+
+Limit Google forwarding numbers are not available in Malaysia, so Google does not measure real call length.
+
+Purchase Count: Every
+
+Tracked by The Google Ads tag on the order confirmation page, with value and transaction ID.
+
+Watch The transaction ID stops a page reload counting one order twice.
+
+WhatsApp is a proxy. Compare WhatsApp clicks with the chats your team actually received each week.
+
+Read the detail
 A conversion is the moment someone raises their hand. For most Malaysian SMEs, that means one of four actions.
 
 Action | How it is tracked | What to know
@@ -2219,49 +2585,182 @@ Calls are similar. Google's call reporting runs on Google forwarding numbers, an
 
 ### Google Ads tag or GA4 import: which should you use?
 
+Both work. Pick one source per action and make it primary, or every lead gets counted twice.
+
+Option 1
+
+Google Ads tag
+
+What it does Sends the conversion straight to Google Ads.
+
+Trap Do not also make a GA4 import of the same form primary.
+
+Option 2
+
+GA4 import
+
+What it does Shares a key event from Google Analytics with Google Ads.
+
+Trap Secondary by default. Switch it to primary inside Google Ads, or Smart Bidding ignores it.
+
+Read the detail
 Both work. The Google Ads tag sends the conversion straight to Google Ads. A GA4 import shares a key event from Google Analytics with Google Ads.
 
 Two traps. Google says conversions created from Google Analytics are secondary by default and can only be updated to primary in Google Ads (Source: Google Ads Help, About primary and secondary conversion actions, 2026) , so a perfect GA4 lead event can still be ignored by Smart Bidding. And if the tag and the import both track the same form as primary, every lead counts twice. Pick one source per action and make it primary.
 
 ### What is the difference between primary and secondary conversions?
 
-Primary actions are reported in the Conversions column and used for bidding when their goal is used for bidding. Secondary actions are observation only: they show in All conversions and are not used for bidding, unless they sit inside a custom goal (Source: Google Ads Help, 2026) .
+Primary actions drive bidding. Secondary actions are for watching only. Make primary only the actions you would pay for.
+
+Primary
+
+Conversions column. Used for bidding.
+
+Form submit WhatsApp click Call Purchase
+
+Secondary
+
+All conversions column. Not used for bidding.
+
+Page views Scroll depth Time on site
 
 Where each conversion action goes
+
+Read the detail
+Primary actions are reported in the Conversions column and used for bidding when their goal is used for bidding. Secondary actions are observation only: they show in All conversions and are not used for bidding, unless they sit inside a custom goal (Source: Google Ads Help, 2026) .
 
 Google warns that getting this wrong can stop Smart Bidding from optimising effectively. Primary should hold only actions you would pay for: a form submit, a WhatsApp click, a call, a purchase. Page views, scroll depth and time on site belong in secondary, if anywhere.
 
 ### Which tracking faults make Google Ads look like it is not converting?
 
-We look for these first on any account. Each one either hides real leads or invents fake ones.
+Six faults we look for first on any account. Each one either hides real leads or invents fake ones.
 
-- Duplicate counting. The same form tracked by the tag and a GA4 import, both primary, or the tag installed twice. Leads double on paper. Your inbox does not change.
+01
 
-- Page views counted as leads. A "conversion" that fires when someone loads the contact or pricing page. The account looks brilliant while the phone stays quiet.
+#### Duplicate counting
 
-- A thank-you page that fires on load. People reach it without submitting, through a menu link, a bookmark or search. Google notes that reloading a confirmation page can fire the tag again, and a transaction ID lets it drop duplicate purchases (Source: Google Ads Help, 2026) . For leads, set Count to One and keep the page out of menus and search.
+Red flag Leads double on paper. Your inbox does not change.
 
-- Count set to Every for leads. Google recommends One conversion for leads and Every conversion for purchases. But Every is the default for website actions, so many lead forms count every repeat submit (Source: Google Ads Help, About conversion counting options, 2026) .
+Why it happens
+The same form tracked by the tag and a GA4 import, both primary, or the tag installed twice. Leads double on paper. Your inbox does not change.
 
-- Tags not firing. A site rebuild or new form plugin quietly breaks the tag. Google shows Unverified, Tag inactive or Needs attention in the Tracking status column (Source: Google Ads Help, 2026) . Leads keep arriving, Google Ads sees none, and Smart Bidding has nothing to work with.
+02
 
-- Consent settings that block tags. See the next section. It matters less for Malaysian traffic than most articles suggest.
+#### Page views counted as leads
+
+Red flag The account looks brilliant while the phone stays quiet.
+
+Why it happens
+A "conversion" that fires when someone loads the contact or pricing page. The account looks brilliant while the phone stays quiet.
+
+03
+
+#### A thank-you page that fires on load
+
+Red flag Reached without submitting, through a menu link, bookmark or search.
+
+Why it happens
+People reach it without submitting, through a menu link, a bookmark or search. Google notes that reloading a confirmation page can fire the tag again, and a transaction ID lets it drop duplicate purchases (Source: Google Ads Help, 2026) . For leads, set Count to One and keep the page out of menus and search.
+
+04
+
+#### Count set to Every for leads
+
+Red flag Every repeat submit counts as another lead.
+
+Why it happens
+Google recommends One conversion for leads and Every conversion for purchases. But Every is the default for website actions, so many lead forms count every repeat submit (Source: Google Ads Help, About conversion counting options, 2026) .
+
+05
+
+#### Tags not firing
+
+Red flag Unverified, Tag inactive or Needs attention in the Tracking status column.
+
+Why it happens
+A site rebuild or new form plugin quietly breaks the tag. Google shows Unverified, Tag inactive or Needs attention in the Tracking status column (Source: Google Ads Help, 2026) . Leads keep arriving, Google Ads sees none, and Smart Bidding has nothing to work with.
+
+06
+
+#### Consent settings that block tags
+
+Red flag A banner that blocks tags until visitors respond can make conversions vanish.
+
+Why it happens
+See the next section . It matters less for Malaysian traffic than most articles suggest.
 
 ### Do you need enhanced conversions and Consent Mode v2 in Malaysia?
 
+Enhanced conversions is stage two, once you have a CRM. Google's Consent Mode v2 requirement covers EEA traffic, and Malaysia is not in the EEA.
+
 #### Enhanced conversions for leads
 
-Enhanced conversions sends first-party data from your form, such as an email address, hashed with SHA256, to improve the accuracy of conversion measurement (Source: Google Ads Help, About enhanced conversions, 2026) . The leads version is built for sales that close offline. Your form sends hashed details when the enquiry arrives. When that lead becomes a customer, you import the same details from your CRM and Google matches the sale to the ad click (Source: Google Ads Help, About enhanced conversions for leads, 2026) . For a clinic or an insurance agent, this teaches Smart Bidding the difference between an enquiry and a customer. It needs a working CRM and an import through Google Ads Data Manager or the API, so treat it as stage two.
+What it does Sends hashed form details with each enquiry. Later you import CRM sales and Google matches them to the ad click.
+
+Does it apply in Malaysia? Suits sales that close offline, like a clinic or insurance agent. Needs a working CRM, so treat it as stage two.
 
 #### Consent Mode v2
 
-Consent mode passes visitors' cookie choices to Google and adjusts how Google tags behave. Version 2 added two signals, ad_user_data and ad_personalization. Google's requirement to collect and share consent applies to advertisers receiving data from users in the European Economic Area (Source: Google Tag Manager Help, Updates to consent mode for traffic in the EEA, 2026) . Malaysia is not in the EEA, so for Malaysian traffic that requirement is not why conversions are missing.
+What it does Passes visitors' cookie choices to Google and adjusts how Google tags behave.
+
+Does it apply in Malaysia? Google's requirement to collect and share consent applies to advertisers receiving data from users in the European Economic Area. Malaysia is not in the EEA, so for Malaysian traffic that requirement is not why conversions are missing. It matters if you get European visitors or already run a consent banner.
+
+Read the detail
+Enhanced conversions for leads. Enhanced conversions sends first-party data from your form, such as an email address, hashed with SHA256, to improve the accuracy of conversion measurement (Source: Google Ads Help, About enhanced conversions, 2026) . The leads version is built for sales that close offline. Your form sends hashed details when the enquiry arrives. When that lead becomes a customer, you import the same details from your CRM and Google matches the sale to the ad click (Source: Google Ads Help, About enhanced conversions for leads, 2026) . For a clinic or an insurance agent, this teaches Smart Bidding the difference between an enquiry and a customer. It needs a working CRM and an import through Google Ads Data Manager or the API, so treat it as stage two.
+
+Consent Mode v2. Consent mode passes visitors' cookie choices to Google and adjusts how Google tags behave. Version 2 added two signals, ad_user_data and ad_personalization. Google's requirement to collect and share consent applies to advertisers receiving data from users in the European Economic Area (Source: Google Tag Manager Help, Updates to consent mode for traffic in the EEA, 2026) . Malaysia is not in the EEA, so for Malaysian traffic that requirement is not why conversions are missing.
 
 It matters if you get European visitors or already run a consent banner. Google says basic consent mode blocks tags until the visitor responds to the banner, while advanced mode loads tags with consent denied, sends cookieless pings and supports an advertiser-specific conversion model (Source: Google Ads Help, About consent mode, 2026) . A banner that blocks tags can make conversions vanish. Malaysian privacy law is a question for your lawyer.
 
 ### How do you check your conversion tracking in 15 minutes?
 
-No developer needed. You need admin access to Google Ads and your phone.
+Six checks, no developer. You need admin access to Google Ads and your phone.
+
+-
+01 3 min
+
+Read the tracking status
+
+Goals, then Conversions, then Summary. Flag Unverified, Tag inactive or Needs attention.
+
+-
+02 3 min
+
+List what is primary
+
+For each primary action, ask: would I pay for this? If not, make it secondary.
+
+-
+03 2 min
+
+Check the count setting
+
+Leads should be One. Purchases should be Every.
+
+-
+04 2 min
+
+Look for duplicates
+
+Two primary actions for the same thing, like a form tag and a GA4 lead event? Keep one.
+
+-
+05 3 min
+
+Run a live test
+
+In Tag Assistant, submit a test form and click WhatsApp and call. Each fires once. Nothing fires on page load.
+
+-
+06 2 min
+
+Compare against reality
+
+Last week's conversions against real enquiries. Double, either way, means something is broken.
+
+Found a fault? Fix the count first, then leave bidding alone while it settles. It is the first thing we check in a Google Ads audit .
+
+Read the detail
 
 - Read the tracking status (3 minutes). Go to Goals, then Conversions, then Summary. Anything showing Unverified, Tag inactive or Needs attention goes to the top of the list. Hover on the status for a Troubleshoot option that opens Tag Assistant.
 
@@ -2275,12 +2774,31 @@ No developer needed. You need admin access to Google Ads and your phone.
 
 - Compare against reality (2 minutes). Compare last week's Google Ads conversions with the enquiries that reached your inbox, WhatsApp and CRM. A small gap is normal. Double, either way, means something is broken.
 
-If you find a fault, fix the count first and leave bidding alone while the account settles, or you cannot tell which change moved the numbers. This is also the first thing we check in a Google Ads audit .
+If you find a fault, fix the count first and leave bidding alone while the account settles, or you cannot tell which change moved the numbers.
 
 ### What does bad tracking actually cost?
 
 Bad tracking never appears on your invoice. It appears as decisions made on the wrong number.
 
+RM59 vs RM83
+
+Cost per conversion, newer service line against the main Search campaign. Only fair if both count the same action.
+
+RM76.78
+
+Overall CPA, up from RM55.11 in earlier 30 day readings as spend scaled.
+
+~100
+
+Phantom leads a month if a duplicate tag catches one lead in ten, on 1,000 real leads.
+
+~9%
+
+How much better cost per lead then looks than it really is.
+
+First two: a healthcare group we manage, 30 days to 24 Sep 2026, on our Live Results Board . Last two: a worked example.
+
+Read the detail
 Take a healthcare group we manage. In the 30 days to 24 September 2026, a newer service line campaign ran at RM59 per conversion against RM83 for the main Search campaign. That comparison guides where the next ringgit goes, and it only holds if both campaigns count the same action the same way. If one counted page views, the "cheaper" campaign could be the worse one.
 
 The account's overall CPA has also risen four months running as spend scaled: RM55.11, RM61.45, RM69.46, then RM76.78 (211 conversions on RM16.2K). It is an uncomfortable trend, and it stays on our Live Results Board . A count padded with page views would have hidden it.
@@ -2386,7 +2904,7 @@ How to use this checklist
 
 ### How do you audit a Google Ads account?
 
-Work through the checks in order. Each one says what to look at, where it sits in Google Ads, what bad looks like, and how long it takes. Order matters: if check 1 fails, the numbers in checks 2 to 11 are not telling you the truth.
+Work through the 11 checks in order. If check 1 fails, the numbers in checks 2 to 11 are not telling you the truth. Tap "How to check" on any card for the steps.
 
 The audit, ticked in sequence
 
@@ -2398,11 +2916,13 @@ Part 1 · The data
 
 The data. Smart bidding chases whatever the account calls a conversion, so a broken definition spoils every later finding.
 
-01
+01 30 to 45 min
 
 #### Conversion tracking: is what is counted real?
 
-About 30 to 45 min
+Red flag Page views or WhatsApp icon clicks counted as primary conversions next to real leads.
+
+How to check
 
 Look at Every conversion action, whether it is Primary or Secondary, and what it fires on. Primary actions fill the Conversions column and drive bidding. Secondary actions are observation only (Source: Google Ads Help, 2026).
 Where Goals menu, then Conversions, then Summary.
@@ -2410,11 +2930,13 @@ Bad looks like Page views or WhatsApp icon clicks counted as primary conversions
 
 If this fails, fix it before anything else. Our Google Ads conversion tracking guide covers the setup.
 
-02
+02 15 min
 
 #### Account structure and campaign types
 
-About 15 min
+Red flag Many small campaigns, each too thin to learn.
+
+How to check
 
 Look at Which campaign types are running, how budget splits between them, and whether brand searches sit apart from generic ones.
 Where The Campaigns table, last 90 days.
@@ -2426,21 +2948,25 @@ Part 2 · The waste
 
 Read what people really searched, then check that keywords and ads are tight enough to earn good Quality Scores.
 
-03
+03 30 to 60 min
 
 #### Search terms and negative keywords
 
-About 30 to 60 min
+Red flag Spend on job seekers ("jawatan kosong"), freebie hunters, DIY searches or places you do not serve, in English and in Malay.
+
+How to check
 
 Look at What people actually typed before clicking, over 90 days, sorted by cost. A keyword is what you bid on. A search term is what they searched (Source: Google Ads Help, 2026).
 Where Campaigns, then Insights and reports, then Search terms.
 Bad looks like Spend on job seekers ("jawatan kosong"), freebie hunters, DIY searches or places you do not serve, in English and in Malay. A negative keyword list nobody has touched for months.
 
-04
+04 20 min
 
 #### Match types, ad relevance and Quality Score
 
-About 20 min
+Red flag Broad match on manual bidding, when Google says it is critical to use Smart Bidding with broad match.
+
+How to check
 
 Look at The mix of broad, phrase and exact match, and Quality Score. Its three components are expected clickthrough rate, ad relevance and landing page experience, each rated Above average, Average or Below average (Source: Google Ads Help, 2026).
 Where Keywords, then the columns icon, then the Quality score section.
@@ -2452,21 +2978,25 @@ Part 3 · The engine
 
 Automated bidding needs conversions to work with. Budget only helps if you are losing impressions to budget.
 
-05
+05 10 min
 
 #### Bidding strategy versus conversion volume
 
-About 10 min
+Red flag A Target CPA campaign with a handful of conversions a month, or targets edited every few days.
+
+How to check
 
 Look at Each campaign's bid strategy, set against the conversions it actually records each month.
 Where Each campaign's settings, under Bidding.
 Bad looks like A Target CPA campaign with a handful of conversions a month, or targets edited every few days. Google recommends judging Target CPA over the last 30 days with at least 30 conversions (Source: Google Ads Help, 2026).
 
-06
+06 10 min
 
 #### Budget and impression share
 
-About 10 min
+Red flag Your best campaign losing impressions to budget while a weak one has money to spare.
+
+How to check
 
 Look at Why your ads did not show. Search lost IS (budget) and Search lost IS (rank) split the reason, and both are campaign level columns (Source: Google Ads Help, 2026).
 Where Add both as columns in the Campaigns table.
@@ -2480,21 +3010,25 @@ Part 4 · The offer
 
 Both feed Quality Score, so both affect what you pay per click.
 
-07
+07 20 min
 
 #### Ads and assets
 
-About 20 min
+Red flag One ad per ad group with three headlines.
+
+How to check
 
 Look at Your responsive search ads and the assets around them. Each ad takes up to 15 headlines and 4 descriptions, and Ad strength is rated from Poor to Excellent (Source: Google Ads Help, 2026).
 Where The Ads view and the Assets view.
 Bad looks like One ad per ad group with three headlines. Promotions that ended months ago. An old number in a call asset. No mention of WhatsApp, when that is how most Malaysian customers want to reach you.
 
-08
+08 15 min
 
 #### Landing page and speed
 
-About 15 min
+Red flag Every ad pointing at the homepage.
+
+How to check
 
 Look at Where each ad sends people, whether the page answers the search, and how it loads on a phone.
 Where Campaigns, then Insights and reports, then Landing pages. Check the Mobile-friendly click rate column.
@@ -2506,21 +3040,25 @@ Part 5 · The settings
 
 Three quick checks that most accounts we review have skipped.
 
-09
+09 5 min
 
 #### Location targeting: Presence or Presence or interest
 
-About 5 min
+Red flag A Petaling Jaya clinic left on the default, reaching people outside its area who only searched about it.
+
+How to check
 
 Look at "Presence or interest" is the default and reaches people in, regularly in, or who have shown interest in your targeted locations. "Presence" reaches people in or regularly in them (Source: Google Ads Help, 2026).
 Where Each campaign's settings, under Locations.
 Bad looks like A Petaling Jaya clinic left on the default, reaching people outside its area who only searched about it. With Singapore next door and many Malaysians searching from abroad, that traffic is real. Local service businesses usually want Presence. Travel, property and education businesses selling overseas may want the default.
 
-10
+10 20 to 30 min
 
 #### Performance Max checks
 
-About 20 to 30 min
+Red flag Most conversions coming from your own brand name, with no brand exclusions set.
+
+How to check
 
 Look at Which searches Performance Max is matching, and whether it is taking your own brand searches.
 Where Campaigns, then Search terms, then "Search terms and landing pages for Performance Max". Negative keywords in Performance Max only apply to Search and Shopping inventory (Source: Google Ads Help, 2026).
@@ -2528,11 +3066,13 @@ Bad looks like Most conversions coming from your own brand name, with no brand e
 
 More in our Performance Max guide .
 
-11
+11 10 to 15 min
 
 #### Change history, access and ownership
 
-About 10 to 15 min
+Red flag Performance swings after changes or auto-applied recommendations nobody approved.
+
+How to check
 
 Look at What changed recently, who can get into the account, and whose account it really is.
 Where Campaigns menu, then Change history, which covers the past 2 years. Admin menu, then Access and security.
@@ -2542,9 +3082,7 @@ After the audit
 
 ### What does a cleaned-up account look like?
 
-An audit is a list of problems. Results come from fixing them and managing the account every week. One example of where sustained cleanup can lead is an insurance and fintech platform we manage.
-
-Over 12 months, cost per lead fell 45% from RM4.40 to RM2.41, while leads grew from 1,336 a month to 6,586 in the peak month and spend scaled from RM5,000 to RM20,000 a month. That was a year of tracking fixes, search term work and weekly optimisation. The audit was the starting point, not the cause.
+An insurance and fintech platform we manage, after 12 months of tracking fixes, search term work and weekly optimisation. The audit was the starting point, not the cause.
 
 Current numbers are on our Live Results Board , updated weekly.
 
@@ -2568,19 +3106,19 @@ The free audit
 
 ### What does ADV's free audit report contain?
 
-When we run this checklist for you, the findings come in writing, in plain language:
+Written findings, in plain language:
 
 - A short summary of the issues costing you the most.
-
 - The result of all 11 checks, marked fine, worth fixing, or urgent.
-
 - What your conversion setup counts now, and what it should count.
-
 - Search terms we would exclude, ready to add as negatives.
-
 - A fix order, so data fixes come before spending changes.
 
-We only need view-only access to Google Ads, Google Analytics 4, Google Tag Manager and Search Console, because tracking faults usually sit between the ad account, your tags and your analytics. You keep the findings whether or not you hire us, and if the account is in good shape we will say so. If you want us to make the fixes, that is our Google Ads agency service .
+What we need: view-only access
+
+Google Ads Google Analytics 4 Google Tag Manager Search Console
+
+Tracking faults usually sit between the ad account, your tags and your analytics, so we look at all four. You keep the findings whether or not you hire us, and if the account is in good shape we will say so. Want us to make the fixes? That is our Google Ads agency service .
 
 Common questions
 
@@ -3352,24 +3890,57 @@ Category · Google Ads
 
 ### Google Ads Malaysia
 
-Search, Performance Max, and Display — how we audit accounts, govern PMAX, and scale without resetting smart bidding.
+Search, Performance Max and tracking: how we audit accounts, what Google Ads costs, and how we scale without resetting smart bidding.
 
-How We Fix Google Ad Accounts →
-Google Ads Pricing Malaysia 2026 →
-Performance Max for Malaysian SMEs →
-Not Converting, or Not Counting? →
-The Google Ads Audit Checklist We Use →
-Google Ads Agency Service →
+Start here
+
+#### How We Fix Google Ad Accounts
+
+The four leaks we find in almost every audit, and the order we fix them in.
+
+Pricing
+
+#### Google Ads Pricing Malaysia 2026
+
+How Google charges, real RM bid ranges from Keyword Planner, the minimum budget and what management costs.
+
+Guide
+
+#### Performance Max for Malaysian SMEs
+
+Where PMax runs, when to pick it over Search, and the controls Google gives you in 2026.
+
+Guide
+
+#### Not Converting, or Not Counting?
+
+Conversion tracking for forms, WhatsApp and calls, plus a 15 minute self check.
+
+Checklist
+
+#### The Google Ads Audit Checklist We Use
+
+The 11 checks we run on every account. Do it yourself, or send us view-only access and we run it free.
+
+Service
+
+#### Google Ads Agency Service
+
+Search, Performance Max, Display and YouTube, run by the founder with results published weekly.
 
 From real accounts
 
 393%
 
-Lead growth in 12 months — insurance & fintech platform
+Lead growth in 12 months, insurance & fintech platform
 
-RM76.78
+26×
 
-CPA on medical search, healthcare account, 30 days to 24 Sep 2026
+ROAS from Google Ads, retail brand, 51 day seasonal campaign
+
+RM91.47
+
+CPA on medical search, healthcare account, 30 days to 5 Oct 2026
 
 Category · SEO, AEO & GEO
 
