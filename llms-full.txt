@@ -14,7 +14,7 @@
 > LinkedIn (company): https://www.linkedin.com/company/advmarksolution/
 
 This file contains the full text of every page on advmarketing.biz.
-Generated 2026-10-04. Structured index: https://advmarketing.biz/llms.txt
+Generated 2026-10-06. Structured index: https://advmarketing.biz/llms.txt
 
 
 
@@ -731,6 +731,9 @@ Go deeper
 Meta Ads Pricing →
 Facebook Ads Guide →
 Google Ads Guide →
+Facebook Ads Agency →
+Google Ads Agency →
+Live Results Board →
 
 
 ==============================================================================
@@ -738,7 +741,7 @@ Google Ads Guide →
 URL: https://advmarketing.biz/meta-ads-agency-malaysia
 ==============================================================================
 
-Meta Ads Agency Malaysia — Facebook & Instagram | ADV
+Facebook Ads Agency Malaysia | Results Published Weekly
 
 ← Back to all services
 
@@ -1338,7 +1341,7 @@ SEO & AEO
 URL: https://advmarketing.biz/google-ads-agency-malaysia
 ==============================================================================
 
-Google Ads Agency Malaysia — Search, PMAX & Display | ADV
+Google Ads Agency Malaysia | Results Published Weekly
 
 ADV Digital Marketing
 /
@@ -1490,6 +1493,16 @@ How long before Google Ads starts converting?
 +
 
 Search campaigns typically show conversion data within 2–3 weeks, once tracking is verified and enough impressions have accumulated. PMAX needs 4–6 weeks of learning phase before optimising — Google's algorithm requires a minimum of 30–50 conversion events before Smart Bidding becomes reliable. We set clear expectations for each phase: data collection, early optimisation, and scaled performance.
+
+Is Google Ads the same as Google AdWords or SEM?
++
+
+Yes, mostly. Google AdWords was renamed Google Ads in 2018, so it is the same platform. SEM, or search engine marketing, is the wider term for paid search, and in Malaysia that almost always means Google Ads. We manage all of it: Search, Performance Max, Display and YouTube.
+
+Do you work with businesses in Johor Bahru?
++
+
+Yes. We are based in Kuala Lumpur and manage Google Ads for businesses across Malaysia, including Johor and Selangor. Account access, weekly reporting and calls all run remotely, so your location makes no difference to how the account is managed.
 
 Ready to start
 
@@ -2423,7 +2436,7 @@ We typically respond within 2 business hours.
 URL: https://advmarketing.biz/malaysia-digital-marketing-statistics-2026
 ==============================================================================
 
-72 Malaysia Digital Marketing Statistics 2026 (Updated Sept)
+72 Malaysia Digital Marketing Statistics 2026 (Updated Oct)
 
 Malaysia Digital Marketing — 2026 Research Report
 
@@ -2433,7 +2446,7 @@ By Alvin Yap
 
 Founder, ADV Digital Marketing
 
-Last updated: September 14, 2026
+Last updated: October 6, 2026
 
 Contents
 
@@ -2621,15 +2634,15 @@ Programmatic advertising is projected to account for 73% of Malaysia's digital a
 (Source: Digital in Asia — Malaysia Digital Market Overview, 2025)
 
 -
-Meta lead-generation campaigns for a Malaysian EV-charger installer delivered lead conversations at RM10.19 each in the 30 days to 14 September 2026 — 1,068 conversations on RM10,884 of spend, with the best-performing campaign at RM8.69 per lead and a 4.0% CTR.
+Meta lead-generation campaigns for a Malaysian EV-charger installer delivered lead conversations at RM11.55 each in the 30 days to 24 September 2026 — 959 conversations on RM11,081 of spend, with the best-performing campaign at RM10.15 per lead and a 3.6% CTR.
 (Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
 
 -
-Meta awareness campaigns in Malaysia can still be bought at around RM1.16 CPM (cost per 1,000 impressions) in 2026 — a fraction of the US$4.80 (~RM20) benchmark for Malaysian Meta CPMs, when optimised for reach rather than conversions.
+Meta awareness campaigns in Malaysia can still be bought at around RM1.19 CPM (cost per 1,000 impressions) in 2026 — a fraction of the US$4.80 (~RM20) benchmark for Malaysian Meta CPMs, when optimised for reach rather than conversions.
 (Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
 
 -
-Google Ads for a Malaysian healthcare group cost RM69.46 per conversion on RM15.3K of spend (220 conversions) in the 30 days to 14 September 2026, at a 9.7% search CTR — up from RM55.11 two weeks earlier as budget scaled, a typical pattern when spend outgrows the highest-intent search volume.
+Google Ads for a Malaysian healthcare group cost RM76.78 per conversion on RM16.2K of spend (211 conversions) in the 30 days to 24 September 2026 — the fourth consecutive rise from RM55.11 as budget scaled, with a newer service-line campaign converting at RM59 against RM83 for the main Search campaign. A typical pattern when spend outgrows the highest-intent search volume.
 (Source: ADV Digital Marketing managed accounts — Live Results Board, September 2026)
 
 -
