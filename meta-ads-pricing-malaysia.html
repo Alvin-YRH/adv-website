@@ -1195,6 +1195,14 @@
     .in-view .af-rise { animation: afRise .7s cubic-bezier(.2,.7,.2,1) forwards; }
     .in-view .af-r1{animation-delay:.3s} .in-view .af-r2{animation-delay:.6s} .in-view .af-r3{animation-delay:.9s}
     .in-view .af-p1 { animation: afPop .4s ease 1.3s forwards; } .in-view .af-p2 { animation: afPop .4s ease 1.6s forwards; } .in-view .af-p3 { animation: afPop .4s ease 1.9s forwards; }
+    /* Mobile figure variants: stacked SVG shown at <=600px, desktop SVG unchanged above */
+    .anim-fig svg.af-mobile { display: none; }
+    @media (max-width: 600px) {
+      .anim-fig svg.af-desktop { display: none; }
+      .anim-fig svg.af-mobile { display: block; }
+      .af-mobile .af-label { font-size: 12.5px; }
+      .af-mobile .af-axis { font-size: 12px; }
+    }
     @keyframes afRise { to { transform: scaleY(1); } }
     @keyframes afReset { 0%{transform:scaleX(0)} 24%{transform:scaleX(.6)} 25%{transform:scaleX(0)} 49%{transform:scaleX(.6)} 50%{transform:scaleX(0)} 74%{transform:scaleX(.6)} 75%{transform:scaleX(0)} 100%{transform:scaleX(.42)} }
     @keyframes afFill { to { transform: scaleX(1); } }
@@ -1318,7 +1326,7 @@
 
     <div class="anim-fig" style="max-width:800px; margin: 0 0 32px;">
       <p style="font-family:'DM Sans',sans-serif; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold); margin:0 0 12px;">Tiers and what each has produced</p>
-<svg viewBox="0 0 920 300" role="img" aria-label="Meta ads budget tiers in Malaysia and what each has produced" aria-describedby="tierD" xmlns="http://www.w3.org/2000/svg">
+<svg class="af-desktop" viewBox="0 0 920 300" role="img" aria-label="Meta ads budget tiers in Malaysia and what each has produced" aria-describedby="tierD" xmlns="http://www.w3.org/2000/svg">
   <desc id="tierD">Three rising columns: Starter RM500 to 1,800 a month, part of it below the RM1,500 learning-phase floor, produced a 36 percent cost-per-lead cut over three months for a beauty clinic. Growth RM1,800 to 5,000 produced a 56 percent cost-per-lead cut in 30 days for a B2B account and a 17.3 times ROAS for a fashion retailer. Scale RM5,000 to 20,000 plus produced a 45 percent cost-per-lead cut while budget scaled four times for an insurance account.</desc>
   <line x1="40" y1="205" x2="760" y2="205" stroke="#0D0D0D" stroke-width="1" stroke-dasharray="4 4" opacity="0.5" pathLength="1" class="af-line af-freq"/>
   <text x="774" y="201" class="af-axis">RM1,500 floor</text>
@@ -1348,6 +1356,41 @@
   <text x="554" y="26" class="af-label af-p3" fill="#D4A853">−45% CPL while scaling spend 4× · insurance</text>
   <line x1="40" y1="250" x2="760" y2="250" stroke="#0D0D0D" stroke-width="1" opacity="0.2"/>
   <text x="60" y="284" class="af-axis">Ad spend only — management fees sit on top. Results from live client accounts; current figures on the Live Results Board.</text>
+</svg>
+<svg class="af-mobile" viewBox="0 0 340 404" role="img" aria-label="Meta ads budget tiers in Malaysia and what each has produced" aria-describedby="tierDm" xmlns="http://www.w3.org/2000/svg">
+  <desc id="tierDm">Three rising bars: Starter RM500 to 1,800 a month, part of it below the RM1,500 learning-phase floor, produced a 36 percent cost-per-lead cut over three months for a beauty clinic. Growth RM1,800 to 5,000 produced a 56 percent cost-per-lead cut in 30 days for a B2B account and a 17.3 times ROAS for a fashion retailer. Scale RM5,000 to 20,000 plus produced a 45 percent cost-per-lead cut while budget scaled four times for an insurance account.</desc>
+  <text x="90" y="14" class="af-axis">RM1,500 floor</text>
+  <text x="90" y="30" class="af-axis">below this, Meta never</text>
+  <text x="90" y="46" class="af-axis">finishes learning</text>
+  <g class="af-rise af-r1">
+    <rect x="16" y="58" width="132" height="32" fill="#2B2B2B" opacity="0.14" rx="2"/>
+    <rect x="16" y="58" width="3" height="32" fill="#2B2B2B"/>
+    <text x="90" y="80" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Starter</text>
+    <text x="16" y="111" class="af-label">RM500–1,800 / month</text>
+  </g>
+  <text x="16" y="131" class="af-label af-p1" fill="#D4A853">−36% CPL in 3 months · beauty clinic</text>
+  <g class="af-rise af-r2">
+    <rect x="16" y="150" width="220" height="32" fill="#D4A853" opacity="0.2" rx="2"/>
+    <rect x="16" y="150" width="3" height="32" fill="#D4A853"/>
+    <text x="90" y="172" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Growth</text>
+    <text x="16" y="203" class="af-label">RM1,800–5,000 / month</text>
+  </g>
+  <text x="16" y="223" class="af-label af-p2" fill="#D4A853">−56% CPL in 30 days · B2B</text>
+  <text x="16" y="241" class="af-label af-p2" fill="#D4A853">17.3× ROAS · fashion retail</text>
+  <g class="af-rise af-r3">
+    <rect x="16" y="260" width="308" height="32" fill="#2B2B2B" opacity="0.14" rx="2"/>
+    <rect x="16" y="260" width="3" height="32" fill="#2B2B2B"/>
+    <text x="90" y="282" font-family="'Cormorant Garamond',serif" font-size="20" font-weight="600" fill="#0D0D0D">Scale</text>
+    <text x="16" y="313" class="af-label">RM5,000–20,000+ / month</text>
+  </g>
+  <text x="16" y="333" class="af-label af-p3" fill="#D4A853">−45% CPL while scaling spend 4× · insurance</text>
+  <line x1="82" y1="2" x2="82" y2="96" stroke="#0D0D0D" stroke-width="1" stroke-dasharray="4 4" opacity="0.5" pathLength="1" class="af-line af-freq"/>
+  <line x1="82" y1="146" x2="82" y2="186" stroke="#0D0D0D" stroke-width="1" stroke-dasharray="4 4" opacity="0.5" pathLength="1" class="af-line af-freq"/>
+  <line x1="82" y1="256" x2="82" y2="296" stroke="#0D0D0D" stroke-width="1" stroke-dasharray="4 4" opacity="0.5" pathLength="1" class="af-line af-freq"/>
+  <line x1="16" y1="348" x2="324" y2="348" stroke="#0D0D0D" stroke-width="1" opacity="0.2"/>
+  <text x="16" y="366" class="af-axis">Ad spend only — management fees sit on top.</text>
+  <text x="16" y="382" class="af-axis">Results from live client accounts; current</text>
+  <text x="16" y="398" class="af-axis">figures on the Live Results Board.</text>
 </svg>
     </div>
 

@@ -70,6 +70,8 @@
   "breadcrumb": {
     "@id": "https://advmarketing.biz/google-ads-audit-malaysia#breadcrumb"
   },
+    "datePublished": "2026-10-06",
+    "dateModified": "2026-10-06",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -1310,9 +1312,40 @@
       .check-dl dd { margin-bottom: 12px; }
       .check-title { font-size: 23px; }
     }
-  </style>
+  
+    /* ── Simplified tiles (6 Oct) ── */
+    .check-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; align-items: start; }
+    .check-item { background: var(--white); border: 1px solid rgba(13,13,13,0.08); border-top: 3px solid var(--gold); border-left: 1px solid rgba(13,13,13,0.08); padding: 28px 28px 22px; margin-top: 0; display: flex; flex-direction: column; }
+    .check-top { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+    .check-icon { width: 34px; height: 34px; color: var(--gold); flex: none; }
+    .check-top .check-num { font-size: 22px; }
+    .check-top .check-time { margin-left: auto; border: 1px solid rgba(13,13,13,0.12); border-radius: 999px; padding: 5px 10px; font-size: 10px; }
+    .check-item .check-title { font-size: 24px; flex: none; margin-bottom: 12px; }
+    .check-flag { font-size: 15px; line-height: 1.6; color: var(--charcoal); margin-bottom: 16px; }
+    .check-flag span { display: block; font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--stone); margin-bottom: 4px; }
+    .check-more { border-top: 1px solid rgba(13,13,13,0.08); padding-top: 12px; }
+    .check-more summary { cursor: pointer; list-style: none; font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--black); display: flex; justify-content: space-between; }
+    .check-more summary::-webkit-details-marker { display: none; }
+    .check-more summary::after { content: '+'; color: var(--gold); font-size: 16px; line-height: 1; }
+    .check-more[open] summary::after { content: '−'; }
+    .check-more summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+    .check-more .check-dl { margin-top: 16px; grid-template-columns: 1fr; gap: 2px; }
+    .check-more .check-dl dd { margin-bottom: 12px; font-size: 14px; }
+    .check-more .check-extra { font-size: 14px; }
+    .report-tiles { list-style: none; display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; background: rgba(13,13,13,0.08); margin: 12px 0 36px; }
+    .report-tiles li { background: var(--white); padding: 26px 20px; font-size: 14px; line-height: 1.6; color: var(--charcoal); display: flex; flex-direction: column; gap: 14px; }
+    .tile-icon { width: 32px; height: 32px; color: var(--gold); }
+    .access-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; margin-bottom: 20px; }
+    .access-label { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); }
+    .access-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .access-chips span { border: 1px solid rgba(13,13,13,0.15); border-radius: 999px; padding: 7px 14px; font-size: 13px; color: var(--black); background: var(--white); }
+    @media (max-width: 1024px) { .report-tiles { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 768px) { .check-grid { grid-template-columns: 1fr; } .report-tiles { grid-template-columns: 1fr; } .report-tiles li { flex-direction: row; align-items: flex-start; } .tile-icon { flex: none; } }
+</style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="ic-target" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></g></symbol><symbol id="ic-tree" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M6 16v-2h12v2"/></g></symbol><symbol id="ic-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></g></symbol><symbol id="ic-funnel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h18l-7 8.5V19l-4 2v-8.5z"/></g></symbol><symbol id="ic-trend" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></g></symbol><symbol id="ic-pie" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v9h9"/><circle cx="12" cy="12" r="9"/></g></symbol><symbol id="ic-megaphone" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10v4h4l8 5V5L7 10z"/><path d="M18 9a4 4 0 0 1 0 6"/></g></symbol><symbol id="ic-browser" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></g></symbol><symbol id="ic-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol><symbol id="ic-layers" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5z"/><path d="M3 13l9 5 9-5"/></g></symbol><symbol id="ic-key" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M11 12 20 3M16 7l3 3M14 9l2 2"/></g></symbol><symbol id="ic-doc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></g></symbol><symbol id="ic-lights" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2.5" width="8" height="19" rx="4"/><circle cx="12" cy="7" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="17" r="1.6"/></g></symbol><symbol id="ic-check" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></g></symbol><symbol id="ic-minus" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></g></symbol><symbol id="ic-order" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6h11M10 12h11M10 18h11M4 5l1.5-1V9M3.5 14.5a1.5 1.5 0 1 1 2.6 1L3.5 19h3"/></g></symbol></svg>
+
 
   <!-- NAV -->
   <nav id="navbar">
@@ -1386,7 +1419,7 @@
     <div class="guide-inner">
       <p class="section-label">How to use this checklist</p>
       <h2 class="guide-h2">How do you audit a Google Ads account?</h2>
-      <p class="guide-p">Work through the checks in order. Each one says what to look at, where it sits in Google Ads, what bad looks like, and how long it takes. Order matters: if check 1 fails, the numbers in checks 2 to 11 are not telling you the truth.</p>
+      <p class="guide-p">Work through the 11 checks in order. If check 1 fails, the numbers in checks 2 to 11 are not telling you the truth. Tap "How to check" on any card for the steps.</p>
       <div class="figure">
         <p class="figure-label">The audit, ticked in sequence</p>
         <div class="anim-fig ak-fig">
@@ -1468,161 +1501,190 @@
         <p class="section-label">Part 1 · The data</p>
         <h2 class="guide-h2">What should you check first in a Google Ads audit?</h2>
         <p class="guide-p">The data. Smart bidding chases whatever the account calls a conversion, so a broken definition spoils every later finding.</p>
+        <div class="check-grid">
         <article class="check-item" id="check-1">
-          <div class="check-head">
-            <span class="check-num">01</span>
-            <h3 class="check-title">Conversion tracking: is what is counted real?</h3>
-            <span class="check-time">About 30 to 45 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-target"/></svg><span class="check-num">01</span><span class="check-time">30 to 45 min</span></div>
+          <h3 class="check-title">Conversion tracking: is what is counted real?</h3>
+          <p class="check-flag"><span>Red flag</span>Page views or WhatsApp icon clicks counted as primary conversions next to real leads.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>Every conversion action, whether it is Primary or Secondary, and what it fires on. Primary actions fill the Conversions column and drive bidding. Secondary actions are observation only (Source: Google Ads Help, 2026).</dd>
             <dt>Where</dt><dd>Goals menu, then Conversions, then Summary.</dd>
             <dt>Bad looks like</dt><dd>Page views or WhatsApp icon clicks counted as primary conversions next to real leads. Two tags firing for one lead. More conversions than the enquiries your team actually received.</dd>
           </dl>
-          <p class="check-extra">If this fails, fix it before anything else. Our <a href="/google-ads-conversion-tracking-malaysia">Google Ads conversion tracking guide</a> covers the setup.</p>
+            <p class="check-extra">If this fails, fix it before anything else. Our <a href="/google-ads-conversion-tracking-malaysia">Google Ads conversion tracking guide</a> covers the setup.</p>
+          </details>
         </article>
         <article class="check-item" id="check-2">
-          <div class="check-head">
-            <span class="check-num">02</span>
-            <h3 class="check-title">Account structure and campaign types</h3>
-            <span class="check-time">About 15 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-tree"/></svg><span class="check-num">02</span><span class="check-time">15 min</span></div>
+          <h3 class="check-title">Account structure and campaign types</h3>
+          <p class="check-flag"><span>Red flag</span>Many small campaigns, each too thin to learn.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>Which campaign types are running, how budget splits between them, and whether brand searches sit apart from generic ones.</dd>
             <dt>Where</dt><dd>The Campaigns table, last 90 days.</dd>
             <dt>Bad looks like</dt><dd>Many small campaigns, each too thin to learn. Brand and generic keywords mixed together, so cheap brand clicks hide an expensive generic campaign.</dd>
           </dl>
+            
+          </details>
         </article>
+        </div>
       </div>
       <div class="check-group">
         <p class="section-label">Part 2 · The waste</p>
         <h2 class="guide-h2">How do you find wasted spend in a Google Ads account?</h2>
         <p class="guide-p">Read what people really searched, then check that keywords and ads are tight enough to earn good Quality Scores.</p>
+        <div class="check-grid">
         <article class="check-item" id="check-3">
-          <div class="check-head">
-            <span class="check-num">03</span>
-            <h3 class="check-title">Search terms and negative keywords</h3>
-            <span class="check-time">About 30 to 60 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-search"/></svg><span class="check-num">03</span><span class="check-time">30 to 60 min</span></div>
+          <h3 class="check-title">Search terms and negative keywords</h3>
+          <p class="check-flag"><span>Red flag</span>Spend on job seekers ("jawatan kosong"), freebie hunters, DIY searches or places you do not serve, in English and in Malay.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>What people actually typed before clicking, over 90 days, sorted by cost. A keyword is what you bid on. A search term is what they searched (Source: Google Ads Help, 2026).</dd>
             <dt>Where</dt><dd>Campaigns, then Insights and reports, then Search terms.</dd>
             <dt>Bad looks like</dt><dd>Spend on job seekers ("jawatan kosong"), freebie hunters, DIY searches or places you do not serve, in English and in Malay. A negative keyword list nobody has touched for months.</dd>
           </dl>
+            
+          </details>
         </article>
         <article class="check-item" id="check-4">
-          <div class="check-head">
-            <span class="check-num">04</span>
-            <h3 class="check-title">Match types, ad relevance and Quality Score</h3>
-            <span class="check-time">About 20 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-funnel"/></svg><span class="check-num">04</span><span class="check-time">20 min</span></div>
+          <h3 class="check-title">Match types, ad relevance and Quality Score</h3>
+          <p class="check-flag"><span>Red flag</span>Broad match on manual bidding, when Google says it is critical to use Smart Bidding with broad match.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>The mix of broad, phrase and exact match, and Quality Score. Its three components are expected clickthrough rate, ad relevance and landing page experience, each rated Above average, Average or Below average (Source: Google Ads Help, 2026).</dd>
             <dt>Where</dt><dd>Keywords, then the columns icon, then the Quality score section.</dd>
             <dt>Bad looks like</dt><dd>Broad match on manual bidding, when Google says it is critical to use Smart Bidding with broad match. Top spending keywords rated Below average on the same component, which shows you what to fix.</dd>
           </dl>
+            
+          </details>
         </article>
+        </div>
       </div>
       <div class="check-group">
         <p class="section-label">Part 3 · The engine</p>
         <h2 class="guide-h2">Are bidding and budget set up so the account can learn?</h2>
         <p class="guide-p">Automated bidding needs conversions to work with. Budget only helps if you are losing impressions to budget.</p>
+        <div class="check-grid">
         <article class="check-item" id="check-5">
-          <div class="check-head">
-            <span class="check-num">05</span>
-            <h3 class="check-title">Bidding strategy versus conversion volume</h3>
-            <span class="check-time">About 10 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-trend"/></svg><span class="check-num">05</span><span class="check-time">10 min</span></div>
+          <h3 class="check-title">Bidding strategy versus conversion volume</h3>
+          <p class="check-flag"><span>Red flag</span>A Target CPA campaign with a handful of conversions a month, or targets edited every few days.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>Each campaign's bid strategy, set against the conversions it actually records each month.</dd>
             <dt>Where</dt><dd>Each campaign's settings, under Bidding.</dd>
             <dt>Bad looks like</dt><dd>A Target CPA campaign with a handful of conversions a month, or targets edited every few days. Google recommends judging Target CPA over the last 30 days with at least 30 conversions (Source: Google Ads Help, 2026).</dd>
           </dl>
+            
+          </details>
         </article>
         <article class="check-item" id="check-6">
-          <div class="check-head">
-            <span class="check-num">06</span>
-            <h3 class="check-title">Budget and impression share</h3>
-            <span class="check-time">About 10 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-pie"/></svg><span class="check-num">06</span><span class="check-time">10 min</span></div>
+          <h3 class="check-title">Budget and impression share</h3>
+          <p class="check-flag"><span>Red flag</span>Your best campaign losing impressions to budget while a weak one has money to spare.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>Why your ads did not show. Search lost IS (budget) and Search lost IS (rank) split the reason, and both are campaign level columns (Source: Google Ads Help, 2026).</dd>
             <dt>Where</dt><dd>Add both as columns in the Campaigns table.</dd>
             <dt>Bad looks like</dt><dd>Your best campaign losing impressions to budget while a weak one has money to spare. Heavy loss to rank, which means Quality Score or bids, so a bigger budget will not fix it.</dd>
           </dl>
-          <p class="check-extra">For realistic RM budgets, see our <a href="/google-ads-pricing-malaysia">Google Ads pricing guide</a> and <a href="/advertising-malaysia">what ads cost in Malaysia</a>.</p>
+            <p class="check-extra">For realistic RM budgets, see our <a href="/google-ads-pricing-malaysia">Google Ads pricing guide</a> and <a href="/advertising-malaysia">what ads cost in Malaysia</a>.</p>
+          </details>
         </article>
+        </div>
       </div>
       <div class="check-group">
         <p class="section-label">Part 4 · The offer</p>
         <h2 class="guide-h2">Do the ads and landing pages earn the click?</h2>
         <p class="guide-p">Both feed Quality Score, so both affect what you pay per click.</p>
+        <div class="check-grid">
         <article class="check-item" id="check-7">
-          <div class="check-head">
-            <span class="check-num">07</span>
-            <h3 class="check-title">Ads and assets</h3>
-            <span class="check-time">About 20 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-megaphone"/></svg><span class="check-num">07</span><span class="check-time">20 min</span></div>
+          <h3 class="check-title">Ads and assets</h3>
+          <p class="check-flag"><span>Red flag</span>One ad per ad group with three headlines.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>Your responsive search ads and the assets around them. Each ad takes up to 15 headlines and 4 descriptions, and Ad strength is rated from Poor to Excellent (Source: Google Ads Help, 2026).</dd>
             <dt>Where</dt><dd>The Ads view and the Assets view.</dd>
             <dt>Bad looks like</dt><dd>One ad per ad group with three headlines. Promotions that ended months ago. An old number in a call asset. No mention of WhatsApp, when that is how most Malaysian customers want to reach you.</dd>
           </dl>
+            
+          </details>
         </article>
         <article class="check-item" id="check-8">
-          <div class="check-head">
-            <span class="check-num">08</span>
-            <h3 class="check-title">Landing page and speed</h3>
-            <span class="check-time">About 15 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-browser"/></svg><span class="check-num">08</span><span class="check-time">15 min</span></div>
+          <h3 class="check-title">Landing page and speed</h3>
+          <p class="check-flag"><span>Red flag</span>Every ad pointing at the homepage.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>Where each ad sends people, whether the page answers the search, and how it loads on a phone.</dd>
             <dt>Where</dt><dd>Campaigns, then Insights and reports, then Landing pages. Check the Mobile-friendly click rate column.</dd>
             <dt>Bad looks like</dt><dd>Every ad pointing at the homepage. Slow loading on mobile data. Eight-field forms. Google calls landing page speed one of the easiest ways to improve mobile ad results (Source: Google Ads Help, 2026).</dd>
           </dl>
+            
+          </details>
         </article>
+        </div>
       </div>
       <div class="check-group">
         <p class="section-label">Part 5 · The settings</p>
         <h2 class="guide-h2">Which settings quietly leak budget in Malaysia?</h2>
         <p class="guide-p">Three quick checks that most accounts we review have skipped.</p>
+        <div class="check-grid">
         <article class="check-item" id="check-9">
-          <div class="check-head">
-            <span class="check-num">09</span>
-            <h3 class="check-title">Location targeting: Presence or Presence or interest</h3>
-            <span class="check-time">About 5 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-pin"/></svg><span class="check-num">09</span><span class="check-time">5 min</span></div>
+          <h3 class="check-title">Location targeting: Presence or Presence or interest</h3>
+          <p class="check-flag"><span>Red flag</span>A Petaling Jaya clinic left on the default, reaching people outside its area who only searched about it.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>"Presence or interest" is the default and reaches people in, regularly in, or who have shown interest in your targeted locations. "Presence" reaches people in or regularly in them (Source: Google Ads Help, 2026).</dd>
             <dt>Where</dt><dd>Each campaign's settings, under Locations.</dd>
             <dt>Bad looks like</dt><dd>A Petaling Jaya clinic left on the default, reaching people outside its area who only searched about it. With Singapore next door and many Malaysians searching from abroad, that traffic is real. Local service businesses usually want Presence. Travel, property and education businesses selling overseas may want the default.</dd>
           </dl>
+            
+          </details>
         </article>
         <article class="check-item" id="check-10">
-          <div class="check-head">
-            <span class="check-num">10</span>
-            <h3 class="check-title">Performance Max checks</h3>
-            <span class="check-time">About 20 to 30 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-layers"/></svg><span class="check-num">10</span><span class="check-time">20 to 30 min</span></div>
+          <h3 class="check-title">Performance Max checks</h3>
+          <p class="check-flag"><span>Red flag</span>Most conversions coming from your own brand name, with no brand exclusions set.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>Which searches Performance Max is matching, and whether it is taking your own brand searches.</dd>
             <dt>Where</dt><dd>Campaigns, then Search terms, then "Search terms and landing pages for Performance Max". Negative keywords in Performance Max only apply to Search and Shopping inventory (Source: Google Ads Help, 2026).</dd>
             <dt>Bad looks like</dt><dd>Most conversions coming from your own brand name, with no brand exclusions set. Asset groups with one image and generic text. Nobody checking overlap with Search.</dd>
           </dl>
-          <p class="check-extra">More in our <a href="/performance-max-malaysia">Performance Max guide</a>.</p>
+            <p class="check-extra">More in our <a href="/performance-max-malaysia">Performance Max guide</a>.</p>
+          </details>
         </article>
         <article class="check-item" id="check-11">
-          <div class="check-head">
-            <span class="check-num">11</span>
-            <h3 class="check-title">Change history, access and ownership</h3>
-            <span class="check-time">About 10 to 15 min</span>
-          </div>
-          <dl class="check-dl">
+          <div class="check-top"><svg class="check-icon" aria-hidden="true"><use href="#ic-key"/></svg><span class="check-num">11</span><span class="check-time">10 to 15 min</span></div>
+          <h3 class="check-title">Change history, access and ownership</h3>
+          <p class="check-flag"><span>Red flag</span>Performance swings after changes or auto-applied recommendations nobody approved.</p>
+          <details class="check-more">
+            <summary>How to check</summary>
+            <dl class="check-dl">
             <dt>Look at</dt><dd>What changed recently, who can get into the account, and whose account it really is.</dd>
             <dt>Where</dt><dd>Campaigns menu, then Change history, which covers the past 2 years. Admin menu, then Access and security.</dd>
             <dt>Bad looks like</dt><dd>Performance swings after changes or auto-applied recommendations nobody approved. A former agency or staff member still holding Admin. Only one admin, which Google itself flags as a risk. An account under someone else's login.</dd>
           </dl>
+            
+          </details>
         </article>
+        </div>
       </div>
     </div>
   </section>
@@ -1632,8 +1694,7 @@
     <div>
       <p class="section-label light">After the audit</p>
       <h2 class="approach-headline">What does a cleaned-up account look like?</h2>
-      <p class="approach-body">An audit is a list of problems. Results come from fixing them and managing the account every week. One example of where sustained cleanup can lead is an insurance and fintech platform we manage.</p>
-      <p class="approach-body">Over 12 months, cost per lead fell 45% from RM4.40 to RM2.41, while leads grew from 1,336 a month to 6,586 in the peak month and spend scaled from RM5,000 to RM20,000 a month. That was a year of tracking fixes, search term work and weekly optimisation. The audit was the starting point, not the cause.</p>
+      <p class="approach-body">An insurance and fintech platform we manage, after 12 months of tracking fixes, search term work and weekly optimisation. The audit was the starting point, not the cause.</p>
       <p class="approach-body">Current numbers are on our <a href="/live-results">Live Results Board</a>, updated weekly.</p>
     </div>
     <div>
@@ -1663,15 +1724,13 @@
     <div class="guide-inner">
       <p class="section-label">The free audit</p>
       <h2 class="guide-h2">What does ADV's free audit report contain?</h2>
-      <p class="guide-p">When we run this checklist for you, the findings come in writing, in plain language:</p>
-      <ul class="report-list">
-        <li>A short summary of the issues costing you the most.</li>
-        <li>The result of all 11 checks, marked fine, worth fixing, or urgent.</li>
-        <li>What your conversion setup counts now, and what it should count.</li>
-        <li>Search terms we would exclude, ready to add as negatives.</li>
-        <li>A fix order, so data fixes come before spending changes.</li>
-      </ul>
-      <p class="guide-p">We only need view-only access to Google Ads, Google Analytics 4, Google Tag Manager and Search Console, because tracking faults usually sit between the ad account, your tags and your analytics. You keep the findings whether or not you hire us, and if the account is in good shape we will say so. If you want us to make the fixes, that is our <a href="/google-ads-agency-malaysia">Google Ads agency service</a>.</p>
+      <p class="guide-p">Written findings, in plain language:</p>
+      <ul class="report-tiles"><li><svg class="tile-icon" aria-hidden="true"><use href="#ic-doc"/></svg><span>A short summary of the issues costing you the most.</span></li><li><svg class="tile-icon" aria-hidden="true"><use href="#ic-lights"/></svg><span>The result of all 11 checks, marked fine, worth fixing, or urgent.</span></li><li><svg class="tile-icon" aria-hidden="true"><use href="#ic-check"/></svg><span>What your conversion setup counts now, and what it should count.</span></li><li><svg class="tile-icon" aria-hidden="true"><use href="#ic-minus"/></svg><span>Search terms we would exclude, ready to add as negatives.</span></li><li><svg class="tile-icon" aria-hidden="true"><use href="#ic-order"/></svg><span>A fix order, so data fixes come before spending changes.</span></li></ul>
+      <div class="access-row">
+        <p class="access-label">What we need: view-only access</p>
+        <div class="access-chips"><span>Google Ads</span><span>Google Analytics 4</span><span>Google Tag Manager</span><span>Search Console</span></div>
+      </div>
+      <p class="guide-p">Tracking faults usually sit between the ad account, your tags and your analytics, so we look at all four. You keep the findings whether or not you hire us, and if the account is in good shape we will say so. Want us to make the fixes? That is our <a href="/google-ads-agency-malaysia">Google Ads agency service</a>.</p>
     </div>
   </section>
 

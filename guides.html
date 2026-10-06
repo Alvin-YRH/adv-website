@@ -592,6 +592,26 @@
       line-height: 1.5;
     }
 
+
+    /* ── GOOGLE ADS CATEGORY (dark card grid, mirrors the Facebook section) ── */
+    #google { background: var(--black); padding: 120px 64px; }
+    #google .services-headline { color: var(--white); }
+    #google .services-intro { color: var(--stone); }
+    #google .services-grid { background: rgba(255,255,255,0.08); }
+    #google .service-card { background: var(--black); }
+    #google .service-title { color: var(--white); }
+    #google .service-desc { color: var(--stone); }
+    #google .service-divider { background: rgba(255,255,255,0.12); }
+    #google .service-card:hover { background: var(--cream); }
+    #google .service-card:hover .service-title { color: var(--black); }
+    #google .service-card:hover .service-desc { color: var(--charcoal); }
+    #google .service-card:hover .service-divider { background: rgba(13,13,13,0.1); }
+    #google .service-card:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
+    .google-proof-label { margin: 80px 0 24px; }
+    .google-stats { grid-template-columns: repeat(3, 1fr); }
+    @media (max-width: 1024px) { #google { padding: 80px 32px; } .google-proof-label { margin-top: 56px; } }
+    @media (max-width: 768px) { #google { padding: 64px 24px; } .google-stats { grid-template-columns: 1fr; } }
+
     /* ── WHO THIS IS FOR (cream 3-col) ── */
     #who {
       background: var(--cream);
@@ -1148,33 +1168,69 @@
   </section>
 
   <!-- GOOGLE ADS CATEGORY -->
-  <section id="approach" style="background:var(--black);">
-    <div class="approach-left">
-      <p class="section-label light">Category · Google Ads</p>
-      <h2 class="approach-headline">Google Ads<br>Malaysia</h2>
-      <p class="approach-body">
-        Search, Performance Max, and Display — how we audit accounts, govern PMAX, and scale without resetting smart bidding.
-      </p>
-      <p class="approach-body">
-        <a href="/google-ads-malaysia" style="color:var(--gold);">How We Fix Google Ad Accounts →</a><br><br>
-        <a href="/google-ads-pricing-malaysia" style="color:var(--gold);">Google Ads Pricing Malaysia 2026 →</a><br><br>
-        <a href="/performance-max-malaysia" style="color:var(--gold);">Performance Max for Malaysian SMEs →</a><br><br>
-        <a href="/google-ads-conversion-tracking-malaysia" style="color:var(--gold);">Not Converting, or Not Counting? →</a><br><br>
-        <a href="/google-ads-audit-malaysia" style="color:var(--gold);">The Google Ads Audit Checklist We Use →</a><br><br>
-        <a href="/google-ads-agency-malaysia" style="color:var(--gold);">Google Ads Agency Service →</a>
+  <section id="google">
+    <div class="services-header">
+      <div>
+        <p class="section-label light">Category · Google Ads</p>
+        <h2 class="services-headline">
+          Google Ads<br>Malaysia
+        </h2>
+      </div>
+      <p class="services-intro">
+        Search, Performance Max and tracking: how we audit accounts, what Google Ads costs, and how we scale without resetting smart bidding.
       </p>
     </div>
-    <div class="approach-right">
-      <p class="section-label light">From real accounts</p>
-      <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-number">393%</div>
-          <div class="stat-label">Lead growth in 12 months — insurance &amp; fintech platform</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number">RM76.78</div>
-          <div class="stat-label">CPA on medical search, healthcare account, 30 days to 24 Sep 2026</div>
-        </div>
+    <div class="services-grid">
+      <a href="/google-ads-malaysia" class="service-card" style="text-decoration:none; color:inherit; display:block;">
+        <p style="font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--gold); margin-bottom:10px;">Start here</p>
+        <h3 class="service-title">How We Fix Google Ad Accounts</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">The four leaks we find in almost every audit, and the order we fix them in.</p>
+      </a>
+      <a href="/google-ads-pricing-malaysia" class="service-card" style="text-decoration:none; color:inherit; display:block;">
+        <p style="font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--gold); margin-bottom:10px;">Pricing</p>
+        <h3 class="service-title">Google Ads Pricing Malaysia 2026</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">How Google charges, real RM bid ranges from Keyword Planner, the minimum budget and what management costs.</p>
+      </a>
+      <a href="/performance-max-malaysia" class="service-card" style="text-decoration:none; color:inherit; display:block;">
+        <p style="font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--gold); margin-bottom:10px;">Guide</p>
+        <h3 class="service-title">Performance Max for Malaysian SMEs</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">Where PMax runs, when to pick it over Search, and the controls Google gives you in 2026.</p>
+      </a>
+      <a href="/google-ads-conversion-tracking-malaysia" class="service-card" style="text-decoration:none; color:inherit; display:block;">
+        <p style="font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--gold); margin-bottom:10px;">Guide</p>
+        <h3 class="service-title">Not Converting, or Not Counting?</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">Conversion tracking for forms, WhatsApp and calls, plus a 15 minute self check.</p>
+      </a>
+      <a href="/google-ads-audit-malaysia" class="service-card" style="text-decoration:none; color:inherit; display:block;">
+        <p style="font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--gold); margin-bottom:10px;">Checklist</p>
+        <h3 class="service-title">The Google Ads Audit Checklist We Use</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">The 11 checks we run on every account. Do it yourself, or send us view-only access and we run it free.</p>
+      </a>
+      <a href="/google-ads-agency-malaysia" class="service-card" style="text-decoration:none; color:inherit; display:block;">
+        <p style="font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--gold); margin-bottom:10px;">Service</p>
+        <h3 class="service-title">Google Ads Agency Service</h3>
+        <div class="service-divider"></div>
+        <p class="service-desc">Search, Performance Max, Display and YouTube, run by the founder with results published weekly.</p>
+      </a>
+    </div>
+    <p class="section-label light google-proof-label">From real accounts</p>
+    <div class="stats-grid google-stats">
+      <div class="stat-card">
+        <div class="stat-number">393%</div>
+        <div class="stat-label">Lead growth in 12 months, insurance &amp; fintech platform</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">26×</div>
+        <div class="stat-label">ROAS from Google Ads, retail brand, 51 day seasonal campaign</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">RM91.47</div>
+        <div class="stat-label">CPA on medical search, healthcare account, 30 days to 5 Oct 2026</div>
       </div>
     </div>
   </section>
