@@ -14,7 +14,7 @@
 > LinkedIn (company): https://www.linkedin.com/company/advmarksolution/
 
 This file contains the full text of every page on advmarketing.biz.
-Generated 2026-10-06. Structured index: https://advmarketing.biz/llms.txt
+Generated 2026-10-16. Structured index: https://advmarketing.biz/llms.txt
 
 
 
@@ -304,9 +304,9 @@ SEO vs AEO vs GEO: Get Cited by AI
 Why ChatGPT and AI Overviews skip most Malaysian sites, and the four layers that fix it.
 →
 
-Proof
-Live Results Board
-Anonymised client cost-per-lead and ROAS, updated weekly. The misses stay up too.
+Playbook
+Marketing in Malaysia
+Keywords and ads per language, with real English, Malay and Chinese search demand.
 →
 
 Pricing
@@ -759,6 +759,461 @@ Google Ads Guide →
 Facebook Ads Agency →
 Google Ads Agency →
 Live Results Board →
+Marketing in Malaysia Playbook →
+
+
+==============================================================================
+# Marketing in Malaysia: The Localisation Playbook
+URL: https://advmarketing.biz/marketing-in-malaysia
+==============================================================================
+
+Marketing in Malaysia: The Localisation Playbook (2026)
+
+← All guides & resources
+
+Marketing in Malaysia · 2026 Guide
+
+## The Malaysia Playbook
+
+A standard playbook plans keywords by search demand. A Malaysia playbook plans them by language and its demand, writes copy per language, and changes with the industry.
+
+Get a Free Account Audit
+See the Search Data
+
+"Same need. Three languages. Three different keyword lists."
+
+Standard vs Malaysia
+
+### What changes when you market in Malaysia?
+
+The short answer
+
+Marketing in Malaysia means planning by language, not only by search demand. People search the same need in English, Malay, Chinese and local spellings like "aircond", and each wording has its own volume and cost. So keyword lists, ad copy and landing pages are built per language, and how much each language matters depends on your industry.
+
+Standard playbook vs Malaysia playbook
+
+Standard playbook vs Malaysia playbook
+What you plan | Standard playbook | Malaysia playbook
+
+Keywords | One list, ranked by search demand. | Separate lists per language: English, Malay, Chinese and Malaysian spellings like "aircond". Each one has its own demand.
+
+Ad copy | One set of ads, translated at best. | Written per language, because people search and decide differently in each.
+
+Platform by audience | The same mix for everyone. | Matched to who you sell to. In our accounts, Instagram works well for Chinese-speaking audiences in lead generation, and TikTok works best with Malay-language content.
+
+Lead capture | A form on a landing page. | WhatsApp first for most industries. The website's role depends on the industry.
+
+Calendar | Black Friday and Q4. | Ramadan and Hari Raya, Chinese New Year, Deepavali, 11.11 and 12.12. These are the major Malaysian sales and festive periods.
+
+Costs | USD benchmarks. | RM benchmarks, plus 8% SST on Google ad spend for Malaysian business accounts.
+
+Compliance | Platform policy only. | Platform policy plus Malaysian rules. For example, health service ads need approval from the Medicine Advertisements Board (KKLIU) before they run, under Act 290.
+
+Start with keywords and copy. That is where the two playbooks differ most.
+
+Read the detail
+Most marketing playbooks are written for one language market. You research keywords, rank them by search volume, write one set of ads and send everyone to the same landing page. In Malaysia that leaves money on the table, because the same need is searched in several languages and spellings, and each one behaves like its own small market.
+
+Keywords and copy. A Malay speaker looking for car insurance types "insurans kereta". A Chinese speaker looking for a dentist types 牙医 . Plenty of people type "aircond", the way Malaysians say it, not "aircon". Each wording has its own search volume and its own bid range, so each one needs its own list and its own ads. Translating one English ad is not enough, because people search and decide differently in each language.
+
+Platforms. We match platforms to who you sell to, not one mix for everyone. In the accounts we run, Instagram works well for Chinese-speaking audiences in lead generation, and TikTok works best with Malay-language content. Our Meta ads service plans Facebook and Instagram around that.
+
+Lead capture. For most industries, the lead goes to WhatsApp first. The website still matters, but its role depends on the industry.
+
+Calendar. Ramadan and Hari Raya, Chinese New Year, Deepavali, 11.11 and 12.12 are the major Malaysian sales and festive periods. Plan creative and budget around them instead of a Black Friday and Q4 calendar.
+
+Costs and tax. Use RM benchmarks, not USD ones. Google ad spend for Malaysian business accounts carries 8% SST on top. Our Google Ads pricing guide and advertising costs guide have the RM numbers.
+
+Compliance. Platform policy is only the first check. Malaysian rules apply too. Health service ads need approval from the Medicine Advertisements Board (KKLIU) before they run, under Act 290.
+
+Search demand by language
+
+### Which language do Malaysians search in?
+
+It depends on what they need. Malay leads car insurance, a local spelling leads aircon service, and Chinese demand for dentists is large.
+
+Insurance
+
+#### Malay beats English for car insurance
+
+12,100 "insurans kereta" Malay
+
+9,900 "car insurance" English
+
+Average monthly searches
+
+Aircon
+
+#### The local spelling wins
+
+6,600 "aircond service" Mixed
+
+3,600 "aircon service" English
+
+Almost twice as many searches
+
+Dental
+
+#### Chinese dental demand is big, and cheaper
+
+5,400 searches for 牙医 Chinese
+
+RM0.98 low bid, against RM1.91 for "dental clinic"
+
+About half the English low bid
+
+Monthly searches by language, seven industries
+
+No figure was returned for "klinik gigi", "physiotherapy", "fisioterapi" or "penapis air". They are listed in the full data below. (Source: Google Keyword Planner, Malaysia, Oct 2025 to Sep 2026)
+
+See the full data, all 28 keywords
+
+Average monthly Google searches and top of page bid ranges in Malaysia, by keyword and language, Oct 2025 to Sep 2026
+Keyword | Language | Searches a month | Top of page bid
+
+Aircon service
+
+aircond service | Mixed | 6,600 | RM2.80 to RM9.36
+
+aircon service | English | 3,600 | RM2.96 to RM10.25
+
+servis aircond | Malay | 1,900 | RM2.20 to RM6.86
+
+冷气维修 | Chinese | 320 | RM2.59 to RM9.82
+
+servis aircon | Malay | 90 | RM2.41 to RM6.97
+
+冷气清洗 | Chinese | 50 | RM2.19 to RM4.69
+
+Dental
+
+dental clinic | English | 12,100 | RM1.91 to RM6.06
+
+牙医 | Chinese | 5,400 | RM0.98 to RM4.72
+
+klinik gigi | Malay | No data returned | No data returned
+
+EV charger
+
+ev charger malaysia | English | 880 | RM0.76 to RM3.29
+
+ev charger installation | English | 390 | RM1.81 to RM8.01
+
+pengecas ev | Malay | 40 | RM0.45 to RM3.14
+
+电动车充电桩 | Chinese | 10 | No bid data
+
+Insurance
+
+insurans kereta | Malay | 12,100 | RM1.53 to RM6.23
+
+car insurance | English | 9,900 | RM2.38 to RM9.18
+
+medical insurance malaysia | English | 1,600 | RM2.89 to RM9.49
+
+insurans perubatan | Malay | 260 | RM1.47 to RM3.45
+
+汽车保险 | Chinese | 170 | RM1.30 to RM5.11
+
+Cleaning
+
+cleaning service | English | 4,400 | RM2.80 to RM7.20
+
+house cleaning | English | 590 | RM2.58 to RM6.97
+
+servis cuci rumah | Malay | 140 | RM1.59 to RM4.20
+
+清洁服务 | Chinese | 90 | RM2.41 to RM6.62
+
+Physiotherapy
+
+物理治疗 | Chinese | 1,600 | RM2.50 to RM8.91
+
+physiotherapy | English | No data returned | No data returned
+
+fisioterapi | Malay | No data returned | No data returned
+
+Water filter
+
+water filter | English | 9,900 | RM1.31 to RM4.53
+
+滤水器 | Chinese | 170 | RM0.98 to RM2.92
+
+penapis air | Malay | No data returned | No data returned
+
+Average monthly searches and top of page bid range in RM, Google Search. (Source: Google Keyword Planner, Malaysia, Oct 2025 to Sep 2026)
+
+How to read this data
+
+- Keyword Planner reports total searches in Malaysia for each exact wording. It does not split searches by the searcher's language.
+
+- Chinese terms are matched in Google's grouped form, so close variants can be counted together.
+
+- "No data returned" means Google did not report a figure. It does not mean nobody searches.
+
+- Google rounds small volumes, so treat small numbers as a rough guide.
+
+Read the detail
+We ran English, Malay, Chinese and Malaysian spelling versions of the same need through Google Keyword Planner for seven industries. The point was simple: does one English keyword list capture Malaysian demand? In most of these industries it does not.
+
+Malay beats English for car insurance. "insurans kereta" gets 12,100 searches a month against 9,900 for "car insurance". An English only campaign would miss the bigger of the two.
+
+The Malaysian spelling wins for aircon. "aircond service" is searched 6,600 times a month, almost twice as often as "aircon service" at 3,600. Add "servis aircond" at 1,900 and the Malay and local spellings together outweigh the textbook English term.
+
+Chinese demand for dentists is large. 牙医 gets 5,400 searches a month. Its low top of page bid is RM0.98, about half the RM1.91 for "dental clinic".
+
+Malay or Chinese terms usually have the lower bid. In every industry here with more than one priced term, the lowest bid at the low end of the range belongs to a Malay or Chinese term. "pengecas ev" starts at RM0.45 against RM0.76 for "ev charger malaysia". 滤水器 starts at RM0.98 against RM1.31 for "water filter". Bids are not final prices. What you pay depends on competition and the quality of your ads and landing pages.
+
+Some industries really are English led. "ev charger malaysia", "cleaning service" and "water filter" carry most of the demand in their groups. That is the point of checking: you only add languages where the demand is.
+
+The same lists feed your content too. Pages written in the language people search in are also the pages search engines and AI answers can match. Our SEO, AEO and GEO guide covers that side.
+
+By industry
+
+### Does it depend on the industry?
+
+Yes. The languages, the platforms and the rules change with what you sell.
+
+Healthcare
+
+#### Healthcare and clinics
+
+- Health service ads need KKLIU approval before they run.
+
+- Demand is in English and Chinese: "dental clinic" 12,100 a month, 牙医 5,400.
+
+- For physiotherapy, only the Chinese term 物理治疗 returned data: 1,600.
+
+- Bookings often happen on WhatsApp, so the chat flow matters as much as the ad.
+
+Home services
+
+#### Home services: aircon and cleaning
+
+- Malaysian spelling leads: "aircond service" 6,600 against "aircon service" 3,600.
+
+- Malay terms add real demand: "servis aircond" 1,900.
+
+- Cleaning is English led: "cleaning service" 4,400.
+
+- Location matters. Target the areas you actually cover.
+
+EV and energy
+
+#### EV and home energy
+
+- Search is English led: "ev charger malaysia" 880 a month.
+
+- The Malay term is the cheapest: "pengecas ev" bids from RM0.45.
+
+- Chinese demand barely registers: 电动车充电桩 10 a month.
+
+Insurance
+
+#### Insurance and finance
+
+- Malay leads car insurance: "insurans kereta" 12,100 against "car insurance" 9,900.
+
+- English leads medical cover: "medical insurance malaysia" 1,600 against "insurans perubatan" 260.
+
+- Malay bids start lower: RM1.53 against RM2.38 for car insurance.
+
+Retail
+
+#### Retail and e-commerce
+
+- Plan around festive and double date sales: Ramadan and Hari Raya, Chinese New Year, Deepavali, 11.11 and 12.12.
+
+- Marketplaces like Shopee and Lazada matter alongside your own store.
+
+- Home products can be English led: "water filter" 9,900 a month, 滤水器 170.
+
+Read the detail
+Healthcare and clinics. Rules come first. Health service ads need approval from the Medicine Advertisements Board (KKLIU) before they run, under Act 290, on top of Google and Meta policy. On search, the dental data shows demand in English and Chinese, while "klinik gigi" returned no figure. For physiotherapy, only the Chinese term 物理治疗 returned data, at 1,600 a month. Patients often book on WhatsApp, so the reply flow matters as much as the ad.
+
+Home services. Build in Malaysian spellings and Malay terms. "aircond service" outsearches "aircon service", and "servis aircond" adds 1,900 more a month. Cleaning leans English, with "cleaning service" at 4,400. Location matters because buyers want someone who can come to them, so set your targeting to the areas you actually serve.
+
+EV and home energy. Search is English led. "ev charger malaysia" at 880 and "ev charger installation" at 390 carry the demand. The Malay term "pengecas ev" is small at 40 a month but has the lowest bids, from RM0.45. Chinese search barely registers.
+
+Insurance and finance. Malay leads car insurance, and English leads medical insurance. Run both languages, each with its own ads. The Malay terms also start at lower bids.
+
+Retail and e-commerce. The calendar matters most: Ramadan and Hari Raya, Chinese New Year, Deepavali, 11.11 and 12.12 are the major sales and festive periods. Marketplaces like Shopee and Lazada sit alongside your own store, so plan where each campaign sends people. Our Google Ads service and Meta ads service both plan by industry, not one template.
+
+Step by step
+
+### How do you build keyword lists by language?
+
+Six steps. Keep each language separate from keyword to landing page, then judge it on cost per lead.
+
+01
+
+#### List the need in every language
+
+Write how people say it in English, Malay and Chinese, plus local spellings like "aircond".
+
+02
+
+#### Check demand for each wording
+
+Run every version through Google Keyword Planner, set to Malaysia.
+
+03
+
+#### Group ad groups by language
+
+Keep each language in its own ad group, so keywords, ads and bids stay matched.
+
+04
+
+#### Write ads in the keyword's language
+
+A Malay search gets a Malay ad. A Chinese search gets a Chinese ad.
+
+05
+
+#### Send each language to a matching page
+
+A landing page or a WhatsApp message in the same language as the ad.
+
+06
+
+#### Compare cost per lead by language
+
+Not just cost per click. A cheap click only counts if it turns into a lead.
+
+The last step is the one most people skip. A low bid is only a good deal if the leads come in.
+
+Read the detail
+1. List the need in every language. Start with what the customer wants, not with one keyword. Write how people say it in English, Malay and Chinese, then add local spellings. "aircond", "servis aircond" and 冷气维修 are all the same need.
+
+2. Check demand for each wording. Put every version into Google Keyword Planner with the location set to Malaysia. Note the monthly searches and the top of page bid range for each. Drop the ones with no demand, but remember that "no data returned" is not the same as zero.
+
+3. Group ad groups by language. Mixing languages in one ad group means one ad has to serve every searcher. Separate ad groups keep each keyword, ad and bid matched.
+
+4. Write ads in the keyword's language. Write each ad for how that audience searches and decides, not as a word for word translation of the English ad.
+
+5. Send each language to a matching page. A Malay ad that lands on an English page loses people. Use a landing page in the same language, or open a WhatsApp chat with a first message in that language.
+
+6. Compare cost per lead by language. Cheaper bids do not always mean cheaper leads. Track leads by ad group and compare cost per lead, not only cost per click. That is how we run language splits inside our Google Ads management .
+
+Platform by audience
+
+### Which platform suits which audience?
+
+Match the platform to who you sell to and the language they use. This is what we see in our accounts, not a rule for every business.
+
+In our accounts
+
+#### Instagram
+
+Chinese-speaking audiences
+
+Works well for lead generation with Chinese-speaking buyers.
+
+In our accounts
+
+#### TikTok
+
+Malay-language content
+
+Works best when the content itself is in Malay.
+
+In our accounts
+
+#### Google Search
+
+Urgent, searched needs
+
+Best where people already look for the answer, like a broken aircond.
+
+Depends
+
+#### Your website
+
+Role depends on industry
+
+Some buyers decide on WhatsApp. Others want a page to read first.
+
+Test it in your own account. Your buyers may behave differently.
+
+Read the detail
+These are patterns from the accounts we run, not universal truths. They are a sensible starting point for testing.
+
+Instagram works well for Chinese-speaking audiences in lead generation. Our Facebook ads guide covers how we fix Meta accounts, and the Chinese version is written for Chinese-speaking business owners.
+
+TikTok works best with Malay-language content.
+
+Google Search fits needs that are urgent and already searched, such as an aircond that stops working. The language data above tells you which wording to bid on.
+
+Your website plays a different role by industry. In some, buyers decide on WhatsApp and the site only needs to build trust. In others, people want a page to read and compare before they message. Decide which one your buyers are before you build the page.
+
+Localisation questions
+
+### What Malaysian businesses ask about language and ads.
+
+Straight answers on language, spelling, cost and rules.
+
+Should I run ads in Malay, English or Chinese?
++
+
+It depends on who you sell to and what they search. Check demand for each wording in Google Keyword Planner first. In our check, Malay led car insurance, with 12,100 monthly searches for "insurans kereta" against 9,900 for "car insurance", while English led dental clinic searches. Run each language that has demand in its own ad group, with ads written in that language.
+
+Do Malaysians search in Manglish or local spellings?
++
+
+Yes, often. "aircond service" is searched 6,600 times a month in Malaysia, almost twice as often as "aircon service" at 3,600. Build local spellings into your keyword list, not only textbook English.
+
+Is Malay or Chinese advertising cheaper?
++
+
+In this data, Malay and Chinese terms usually had lower top of page bids. The low end for 牙医 was RM0.98 against RM1.91 for "dental clinic", and "insurans kereta" started at RM1.53 against RM2.38 for "car insurance". These are bids, not final prices. What you actually pay depends on competition and the quality of your ads and landing pages.
+
+Does every industry need all three languages?
++
+
+No. Run the languages your buyers search in. EV charger searches are mostly in English, car insurance has strong Malay demand, and dentists have strong Chinese demand. Check the numbers for your own keywords before you build campaigns in all three.
+
+Do health ads in Malaysia need approval?
++
+
+Yes. Ads for health services need approval from the Medicine Advertisements Board (KKLIU) before they run, under Act 290. Approval from Google or Meta is not enough on its own.
+
+Should leads go to WhatsApp or a landing page in Malaysia?
++
+
+For most industries we run, WhatsApp comes first. The website still has a role, and it depends on the industry: some buyers decide on WhatsApp, others want a page to read before they message.
+
+Get started
+
+### Which languages are your ads missing?
+
+Send us access and we will run a free ad account audit: your keyword lists by language, your ad copy, where leads land and what each lead costs. You keep the findings whether or not you hire us. No obligation, no pitch deck.
+
+Get a Free Ad Account Audit
+
+WhatsApp +60 16 334 3549 · Email Alvin.Yap@advmarketing.biz
+
+We typically respond within 2 business hours.
+
+Go deeper
+
+Advertising Costs in Malaysia
+→
+
+Facebook Ads Guide
+→
+
+FB 广告指南 (中文)
+→
+
+Google Ads Pricing Guide
+→
+
+Meta Ads Pricing Guide
+→
+
+Live Results Board
+→
 
 
 ==============================================================================
@@ -1058,6 +1513,9 @@ Pricing & Results
 →
 
 Live Results Board
+→
+
+Marketing in Malaysia Playbook
 →
 
 
@@ -4012,6 +4470,12 @@ Research
 #### Malaysia Digital Marketing Statistics 2026
 
 72 verified, sourced statistics on Malaysian ad spend, social media penetration, e-commerce growth, and AI adoption.
+
+Playbook
+
+#### Marketing in Malaysia: The Localisation Playbook
+
+How the Malaysia playbook differs, with real English, Malay and Chinese search demand by industry. Keywords, copy, platforms and rules.
 
 Get started
 
