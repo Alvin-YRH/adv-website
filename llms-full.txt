@@ -14,7 +14,7 @@
 > LinkedIn (company): https://www.linkedin.com/company/advmarksolution/
 
 This file contains the full text of every page on advmarketing.biz.
-Generated 2026-10-16. Structured index: https://advmarketing.biz/llms.txt
+Generated 2026-10-26. Structured index: https://advmarketing.biz/llms.txt
 
 
 
@@ -288,9 +288,9 @@ FB 广告账户烧钱没结果？我们怎么修
 同一套接手流程的中文版，附真实马币数字。
 →
 
-Guide
-How We Fix Google Ads Accounts
-The four leaks we find in almost every audit, and the order we fix them in.
+Checklist
+Choosing a Digital Marketing Agency
+8 questions to ask, red flags to avoid, fair fees in RM and a scorecard.
 →
 
 Pricing
@@ -768,6 +768,7 @@ Facebook Ads Agency →
 Google Ads Agency →
 Live Results Board →
 Marketing in Malaysia Playbook →
+Choosing an Agency →
 
 
 ==============================================================================
@@ -1223,6 +1224,454 @@ Meta Ads Pricing Guide
 →
 
 Live Results Board
+→
+
+
+==============================================================================
+# Choosing a Digital Marketing Agency in Malaysia
+URL: https://advmarketing.biz/digital-marketing-agency-malaysia
+==============================================================================
+
+Choosing a Digital Marketing Agency in Malaysia (2026)
+
+WhatsApp us
+
+← All guides & resources
+
+Agency guide · 2026
+
+## Choosing a Digital Marketing Agency in Malaysia
+
+By Alvin Yap, founder of ADV · Updated 26 October 2026
+
+Most business owners pick an agency on the pitch. Pick on the answers instead. Here is what to ask, the red flags, what it costs in RM, and a scorecard to compare agencies side by side.
+
+Get the Scorecard
+See the 8 Questions
+
+"Ask who runs your account. Then ask to see the dates."
+
+How to choose
+
+### How do you choose a digital marketing agency in Malaysia?
+
+The short answer
+
+To choose a digital marketing agency in Malaysia, ask every agency the same five things before you sign. Who runs your account day to day, can they show results with dates, what exactly the fee covers, who owns the ad accounts and data, and how they report leads. A good agency answers all five plainly and puts them in writing.
+
+- Who runs your account
+
+- Results with dates
+
+- What the fee covers
+
+- Who owns the accounts
+
+- How they report
+
+Ask every agency the same questions. Then you are comparing answers, not pitches.
+
+Before you sign
+
+### What should you ask a digital marketing agency before you sign?
+
+Eight questions. A good agency answers each one plainly, without needing to go away and check.
+
+01
+
+#### Who will actually run my account day to day?
+
+Why it matters The person who pitches is not always the person who does the work. Their experience is what you are paying for.
+A good answer sounds like "This named person runs it. Here is their role, and here is how you reach them directly."
+
+02
+
+#### Can I see results with dates, including campaigns that did not work?
+
+Why it matters A result with no date or source cannot be checked. Every agency has misses. The honest ones can explain theirs.
+A good answer sounds like "Here is a result from a stated month, what we changed, and a campaign that did not work and what we did next."
+
+03
+
+#### What does the fee cover, and what is extra?
+
+Why it matters Creative, landing pages, tracking setup and reports are sometimes billed on top. You want to know before the first invoice.
+A good answer sounds like "Here is what is included every month, in writing, and the price of anything outside it."
+
+04
+
+#### Do I pay ad spend directly to Meta and Google, or through you?
+
+Why it matters If spend goes through the agency, you need to see the platform invoices and know whether there is a markup.
+A good answer sounds like "You pay the platforms from your own payment method. If it ever goes through us, you see the invoices and any markup in writing."
+
+05
+
+#### Who owns the ad accounts, pixel, tags and data?
+
+Why it matters If the agency owns them, you can lose your history, audiences and tracking when you leave.
+A good answer sounds like "You do. Everything sits under your business, and we get access to work on it."
+
+06
+
+#### How do you track leads, and what counts as a conversion?
+
+Why it matters A page view or a button click is not a lead. If the counting is wrong, the bidding and the reports are wrong too.
+A good answer sounds like "We count real enquiries, like a submitted form or a call, and check the numbers against what your team actually received."
+
+07
+
+#### How often do you report, and what is in it?
+
+Why it matters A report full of clicks and impressions can hide the fact that no leads came in.
+A good answer sounds like "On a set rhythm. Spend, leads, cost per lead, what changed and what we will do next."
+
+08
+
+#### What is the minimum term, and why?
+
+Why it matters A minimum term can be fair. It is fair when there is a reason for it and a clear way out.
+A good answer sounds like "This is the minimum, this is why, and this is the notice you give if you want to leave."
+
+Ask for the answers to 3, 4 and 5 in writing. They are the ones that cost you money if they are vague.
+
+Read the detail
+Who runs your account. In a pitch you usually meet the most senior person in the room. Ask who will open your account on a normal Tuesday, make the changes and answer your messages. Then ask to speak to that person before you sign.
+
+Results with dates. "We grew leads by a lot" means nothing without a month, a channel and a source. Ask for a dated example, and ask about a campaign that did not work. An agency that says it has never had a miss is either very new or not telling you everything.
+
+What the fee covers. Get the list in writing: campaign management, creative, landing pages, tracking setup, reporting, calls. Anything outside the list should have its own price, so there are no surprises in month two.
+
+How ad spend is paid. The cleanest setup is that you pay Meta and Google directly, from your own payment method, inside your own ad accounts. If spend goes through the agency, ask for the platform invoices every month and for any markup to be stated in writing.
+
+Who owns the accounts. The ad accounts, the Meta pixel, Google Tag Manager, Google Analytics and the data in them should belong to your business. The agency works on them with access you give and can take back.
+
+How leads are tracked. Ask what fires a conversion. A submitted form, a call or a booked appointment is a lead. A page view is not. Then ask whether they check the platform numbers against the enquiries your team actually received. Our Google Ads audit checklist shows what to look for.
+
+Reporting. Agree on how often, and on what is in it. Spend, leads and cost per lead come first. If you sell online, add sales and revenue. A good report also says what changes next and why.
+
+Minimum term. Paid ads need time to learn and a working rhythm to build, so a minimum term is not a red flag on its own. What matters is that the agency tells you the reason, and that the exit terms are written down.
+
+Red flags
+
+### What are the red flags when choosing a digital marketing agency?
+
+Seven warning signs. Any one of them is worth a direct question before you sign.
+
+01 Red flag
+
+#### Guaranteed results, or "number 1 on Google"
+
+No agency controls the ad auction or the search rankings. Google's own guide for people hiring an SEO says "No one can guarantee a #1 ranking on Google."
+
+Source: Google Search Central, "Do you need an SEO?"
+
+Ask What exactly is guaranteed, and what happens if it is missed?
+
+02 Red flag
+
+#### The agency owns your ad account, or will not give you access
+
+If you cannot log in to your own account, you cannot check the work, and you may lose your history when you leave.
+
+Ask Whose business is the ad account under, and can I have admin access today?
+
+03 Red flag
+
+#### Results with no dates or no source
+
+A screenshot of one good month says nothing about the other months, or where the number came from.
+
+Ask When was this, which platform, and can you show me where the number comes from?
+
+04 Red flag
+
+#### Reports with clicks and impressions, never leads or sales
+
+Clicks are easy to grow. Leads and sales are what you pay for.
+
+Ask How many leads came in last month, and what did each one cost?
+
+05 Red flag
+
+#### Fees that bundle or hide ad spend
+
+A single package price makes it hard to know how much actually reached Meta or Google.
+
+Ask Of this amount, how much is ad spend and how much is your fee?
+
+06 Red flag
+
+#### A long lock in with no exit terms, or no reason given
+
+A minimum term with a reason is normal. A long one with no reason and no way out is not.
+
+Ask Why this length, and what do I need to do to leave?
+
+07 Ask about it
+
+#### One person handling too many accounts
+
+You cannot tell how much attention your account will get unless you ask.
+
+Ask How many accounts does the person on mine handle right now?
+
+Read the detail
+Guarantees. Google's Search Central page for people hiring an SEO is direct about this: no one can guarantee a top ranking, and it tells you to be wary of anyone who claims to. Paid ads work the same way. Costs and results move with competition, your offer and your landing page. An agency can promise effort, a process and honest reporting. It cannot promise the outcome.
+
+Account ownership. Your ad accounts, pixel, tags and analytics should sit under your business. If an agency runs your ads inside its own account, you cannot see everything, and you may not be able to take your history and audiences with you.
+
+Undated results. Ask for the month, the channel and the source. A dated result can be checked. An undated one cannot.
+
+Reports without leads. Clicks and impressions are useful context. They are not the result. If a report never shows leads or sales, ask why.
+
+Bundled fees. When the fee and the ad spend are one number, you cannot tell how much reached the platforms. Ask for them separately, every month.
+
+Lock ins. A minimum term is fine when the agency explains it. Ask for the reason and the exit terms in writing.
+
+Workload. There is no single right number of accounts per person. It depends on the size of the accounts and the support around them. That is why it is worth asking.
+
+Agency types
+
+### Big agency, boutique agency or freelancer?
+
+Each one fits a different business. Choose on who does the work and how you want to work with them.
+
+Big agency vs boutique agency vs freelancer
+
+Big agency vs boutique agency vs freelancer
+What you get | Big agency | Boutique agency | Freelancer
+
+Who runs your account | An account team. Day to day work may sit with a junior executive. | Usually a senior person or the founder, with a small team. | The freelancer, alone.
+
+Breadth of services | Wide. Strategy, creative and media, often under one roof. | Focused on a few channels they know well. | Usually one or two skills.
+
+Price level | Usually the highest fees and minimums. | Usually in the middle. | Usually the lowest.
+
+Speed and access | More process, and more people between you and the work. | A direct line to the person doing the work. | Direct, but limited by one person's time, leave and sick days.
+
+Best for | Large budgets, many channels and brand campaigns. | SMEs that want senior hands on the few channels that bring in leads. | Small, well defined jobs on a tight budget.
+
+Watch for | Being a small client in a big book. | Capacity limits, and fewer specialists in house. | No cover when they are busy, away or move on.
+
+ADV is a boutique, so read the boutique column with that in mind. The questions above work for all three.
+
+Read the detail
+Big agencies bring range. If you need TV, outdoor, a brand campaign and media buying under one contract, they can do it. The trade off is layers. The senior team may set the strategy while a junior executive runs the account each day, and smaller clients can get less attention than the large ones.
+
+Boutique agencies tend to focus on a few channels, and the person who sells the work often does the work. That suits SMEs who want to talk directly to whoever runs their ads. The trade off is capacity. A small team can only take on so many accounts, and it may not have a specialist for every channel.
+
+Freelancers are usually the cheapest and the most direct. They suit a clear, contained job, like setting up tracking or running one campaign. The risk is cover. If they get busy, fall sick or take a full time job, the work stops.
+
+Whichever you pick, use the same eight questions and the scorecard below. The answers matter more than the size of the office.
+
+Fees in RM
+
+### What does a digital marketing agency cost in Malaysia?
+
+You pay two things: ad spend to Meta or Google, and a management fee to the agency. Always ask for them as separate numbers.
+
+Where your monthly budget goes
+
+Ad spend paid to Meta or Google
+
+Management fee paid to the agency
+
+Extras? ask what costs more
+
+Ad spend Paid to Meta or Google. This is what buys the clicks and leads.
+
+Management fee Paid to the agency for running the account.
+
+Extras? Ask what costs more.
+
+Proportions are for illustration only.
+
+ADV's published management fees (our own, not a market rate)
+
+Starter
+RM800 to RM1,500
+a month
+For RM500 to RM1,800 ad spend
+
+Growth
+RM1,500 to RM2,500
+a month
+For RM1,800 to RM5,000 ad spend
+
+Scale
+RM2,500 to RM4,000
+a month
+For RM5,000 to RM20,000 ad spend
+
+Above RM20,000
+About 15%
+of ad spend
+Profit sharing for selected clients
+
+Practical ad spend floors in our accounts
+
+Meta lead generation: about RM1,500 to RM2,000 a month Competitive Google Search: around RM3,000 a month
+
+Below those floors, the platforms struggle to learn, and a lower fee will not fix that.
+
+Read the detail
+Ad spend is what you pay Meta or Google for the ads themselves. The management fee is what you pay the agency to plan, build, run and report on them. Some agencies also charge separately for creative, landing pages or tracking setup, so ask what is included.
+
+Fees across the market vary widely by agency, scope and channel, so we only publish our own. ADV's management fee starts from RM800 a month and depends on your objective and account size. The tiers above are a guide, not a quote. Above RM20,000 a month in ad spend, the fee is about 15% of ad spend, and for selected clients part of the fee can be tied to agreed targets through profit sharing.
+
+For the RM detail on the platforms themselves, see our Meta ads pricing guide , our Google Ads pricing guide and our guide to advertising costs in Malaysia .
+
+Scorecard
+
+### How do you compare agencies side by side?
+
+Score each agency 0, 1 or 2 on the same eight lines. Then compare the totals, and look hard at any zeros.
+
+Agency scorecard
+
+Score each agency 0, 1 or 2 per line. Maximum 16.
+
+0 Missing 1 Partly 2 Clear
+
+Agency scorecard: score each agency 0, 1 or 2 on eight criteria
+No. | What you check | 0 points | 1 point | 2 points | Agency A | Agency B | Agency C
+
+01 | Founder or senior person on your account | 0 Unknown, or a rotating junior | 1 A named person, hard to reach | 2 A senior person, with a direct line
+
+02 | Dated proof | 0 No dates, no source | 1 A few dated wins only | 2 Dated results, misses included
+
+03 | Clear fees | 0 One bundled price | 1 Fee clear, extras vague | 2 Fee, extras and ad spend in writing, separately
+
+04 | You own the accounts | 0 The agency owns them | 1 Unclear, or shared logins | 2 Yours, with access given to the agency
+
+05 | Tracking set up properly | 0 Counts clicks or page views | 1 Counts some leads, never checked | 2 Counts real leads, checked against your enquiries
+
+06 | Reporting cadence | 0 When you chase them | 1 Regular, but clicks only | 2 A set rhythm with leads, cost per lead and next steps
+
+07 | Reasonable term, with a reason | 0 Long lock in, no reason | 1 Term stated, exit unclear | 2 Term, reason and exit terms in writing
+
+08 | Fit for your industry | 0 No related experience | 1 Similar industries | 2 Knows your industry and its rules
+
+Total | of 16 | of 16 | of 16
+
+Print the scorecard
+Fill it in during or right after each call, while the answers are fresh.
+
+A zero on account ownership or tracking matters more than a high total. Those two decide whether you can check anything else.
+
+Read the detail
+Use the same scorecard for every agency you talk to, and score on what they actually said, not on how the pitch felt. If an answer was vague, give it a 1 at most. If they could not answer, it is a 0.
+
+Founder or senior person. Score 2 only if you know who will run the account and can reach them directly.
+
+Dated proof. Score 2 when the results have months and sources, and the agency shows you something that did not work.
+
+Clear fees. Score 2 when the management fee, the extras and the ad spend are separate numbers in writing.
+
+You own the accounts. Score 2 when the ad accounts, pixel, tags and analytics sit under your business.
+
+Tracking. Score 2 when they count real leads and check them against what your team received.
+
+Reporting. Score 2 for a set rhythm that shows leads, cost per lead and what happens next.
+
+Term. Score 2 when the minimum term comes with a reason and written exit terms.
+
+Industry fit. Score 2 when they know your industry, including its rules. Health ads in Malaysia, for example, need approval from the Medicine Advertisements Board (KKLIU) before they run.
+
+Our answers
+
+### How ADV answers these questions
+
+Here are our own answers, so you can score us on the same sheet.
+
+- Who runs your account The founder, Alvin Yap, runs every account. About Alvin .
+
+- Dated proof Results for every client are published weekly on the Live Results Board , misses included.
+
+- Fees Management fees start from RM800 a month, depending on objective and account size.
+
+- Accounts and tracking Clients own their ad accounts. ADV mainly sets up the tracking for them.
+
+- Minimum term 3 months, because communication and the working rhythm between both sides take time to build. It can vary by client and industry.
+
+- Response time Replies within 2 business hours.
+
+- How it starts Every engagement starts with a free ad account audit, using view only access to Google Ads, GA4, Google Tag Manager and Search Console. See the audit checklist .
+
+Read the detail
+We would rather you compare us properly than take our word for it. Score us on the scorecard above with the same honesty you would use for anyone else.
+
+The free audit uses view only access, so nothing in your accounts changes while we look.
+
+For how we run each platform, see our Meta ads service and our Google Ads service .
+
+Agency questions
+
+### What business owners ask before they hire.
+
+Straight answers on choosing, cost, ownership and timing.
+
+How do I choose a digital marketing agency in Malaysia?
++
+
+Ask every agency the same questions and score the answers. Find out who runs your account day to day, ask for results with dates, get the fee and the ad spend in writing as separate amounts, confirm you own the ad accounts, and check how they track and report leads. Compare the scores side by side before you sign.
+
+How much does a digital marketing agency cost in Malaysia?
++
+
+You pay two things: ad spend, which goes to Meta or Google, and a management fee, which goes to the agency. Fees vary by agency and scope. As one example, ADV's management fees start from RM800 a month, depending on objective and account size. On ad spend, about RM1,500 to RM2,000 a month is the practical floor for Meta lead generation in our accounts, and around RM3,000 for competitive Google Search.
+
+Should I own my ad accounts?
++
+
+Yes. The ad accounts, pixel, tags and data should sit under your business, with the agency given access. If the agency owns them, you can lose your history, audiences and tracking when you leave.
+
+Is a boutique agency better than a big agency?
++
+
+Not always. A big agency suits large budgets and many channels. A boutique usually puts a senior person on your account with a direct line to them, but it has less capacity and fewer specialists in house. Pick the one that fits your budget, your channels and how involved you want to be.
+
+How long before I see results?
++
+
+It depends on the channel and on whether tracking is set up properly. Google recommends running a new Performance Max campaign for at least 6 weeks. Meta's learning phase needs about 50 results per ad set. ADV uses a 3 month minimum because the working rhythm between both sides takes time to build. No one can promise results by a set date.
+
+What should a digital marketing agency report every month?
++
+
+At a minimum: spend, leads, cost per lead, and what changed and why. If you sell online, add sales and revenue. A good report also says what the agency will do next month. Clicks and impressions are useful context, not the result.
+
+Get started
+
+### Start with a free ad account audit.
+
+Give us view only access to Google Ads, GA4, Google Tag Manager and Search Console. We will show you what is working, what is not and what we would change first. You keep the findings whether or not you hire us.
+
+Get a Free Ad Account Audit
+
+WhatsApp +60 16 334 3549 · Email Alvin.Yap@advmarketing.biz
+
+We typically respond within 2 business hours.
+
+Go deeper
+
+Marketing in Malaysia Playbook
+→
+
+Google Ads Audit Checklist
+→
+
+Meta Ads Pricing Guide
+→
+
+Google Ads Pricing Guide
+→
+
+Live Results Board
+→
+
+About Alvin Yap
 →
 
 
@@ -3704,6 +4153,9 @@ Google Ads Pricing Malaysia
 Live Results Board
 →
 
+Choosing an Agency
+→
+
 
 ==============================================================================
 # SEO vs AEO vs GEO in Malaysia — Guide
@@ -4516,6 +4968,12 @@ Playbook
 #### Marketing in Malaysia: The Localisation Playbook
 
 How the Malaysia playbook differs, with real English, Malay and Chinese search demand by industry. Keywords, copy, platforms and rules.
+
+Checklist
+
+#### Choosing a Digital Marketing Agency in Malaysia
+
+The questions to ask before you sign, red flags, what agencies cost in Malaysia and a scorecard to compare them.
 
 Get started
 
