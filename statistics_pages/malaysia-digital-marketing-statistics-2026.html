@@ -8,7 +8,16 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-8BGF1XHZR8');
+    // Only count the live site. ?internal=1 marks this browser as Alvin's (GA4 internal traffic filter); ?internal=0 clears it.
+    if (/^(www\.)?advmarketing\.biz$/.test(location.hostname)) {
+      var advInternal = false;
+      try {
+        if (/[?&]internal=1\b/.test(location.search)) localStorage.setItem('adv_internal', '1');
+        if (/[?&]internal=0\b/.test(location.search)) localStorage.removeItem('adv_internal');
+        advInternal = localStorage.getItem('adv_internal') === '1';
+      } catch (e) {}
+      gtag('config', 'G-8BGF1XHZR8', advInternal ? { traffic_type: 'internal' } : {});
+    }
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>72 Malaysia Digital Marketing Statistics 2026 (Updated Oct)</title>
@@ -303,6 +312,8 @@
     .author-name { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin: 0 0 0.2rem; }
     .author-title { color: var(--ink-soft); margin: 0 0 0.75rem; font-size: 0.95rem; }
     .author-bio { font-size: 0.95rem; color: var(--ink-soft); margin: 0 0 1rem; }
+    .audit-nudge { margin: 1.25rem 0 2rem; padding: .9rem 1.1rem; border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 var(--radius) var(--radius) 0; font-size: .95rem; color: var(--ink-soft); }
+    .audit-nudge a { color: var(--ink); font-weight: 600; }
     .author-cta {
       display: inline-block; padding: 0.5rem 1.25rem;
       background: var(--accent); color: #0D0D0D;
@@ -379,6 +390,8 @@
   <main class="article">
 
     <p>Malaysia's digital economy is on a breakout run. With 98% internet penetration, 30.7 million social media user identities, and a digital economy projected at US$39 billion GMV in 2025, the fastest growth rate in Southeast Asia, Malaysia is no longer an emerging digital market. It <em>is</em> the market. This page compiles 72 verified statistics from DataReportal, the e-Conomy SEA report (Google/Temasek/Bain), DOSM, MDEC, and more. Every stat is sourced and dated.</p>
+
+    <p class="audit-nudge">Running ads in Malaysia? We publish our own client numbers each week on the <a href="https://advmarketing.biz/live-results">Live Results Board</a>, and every engagement starts with a <a href="https://advmarketing.biz/google-ads-audit-malaysia">free ad account audit</a>.</p>
 
     <!-- ──────── KEY STATS ──────── -->
     <section id="key-stats" class="stat-section">
