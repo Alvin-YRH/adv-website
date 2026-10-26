@@ -9,7 +9,16 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-8BGF1XHZR8');
+    // Only count the live site. ?internal=1 marks this browser as Alvin's (GA4 internal traffic filter); ?internal=0 clears it.
+    if (/^(www\.)?advmarketing\.biz$/.test(location.hostname)) {
+      var advInternal = false;
+      try {
+        if (/[?&]internal=1\b/.test(location.search)) localStorage.setItem('adv_internal', '1');
+        if (/[?&]internal=0\b/.test(location.search)) localStorage.removeItem('adv_internal');
+        advInternal = localStorage.getItem('adv_internal') === '1';
+      } catch (e) {}
+      gtag('config', 'G-8BGF1XHZR8', advInternal ? { traffic_type: 'internal' } : {});
+    }
   </script>
 
   <link rel="shortcut icon" href="/favicon.ico">
