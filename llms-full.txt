@@ -706,7 +706,7 @@ Choosing a channel
 
 ### Intent decides, not preference.
 
-Does anyone search for what you sell? If a person with your problem types it into Google — "aircond service kl", "EV charger installation", "invisalign price" — then Google Search is where the money is. You're capturing demand that already exists, at the moment it exists. Higher cost per click, far higher intent.
+Does anyone search for what you sell? If a person with your problem types it into Google — "aircond service kl", "roof leak repair kl", "invisalign price" — then Google Search is where the money is. You're capturing demand that already exists, at the moment it exists. Higher cost per click, far higher intent.
 
 Or does your product need to be seen first? Nobody searches for a skincare brand they've never heard of, or a restaurant that opened last week. Meta creates the demand Google later captures. Lower cost per impression, more work to convert.
 
