@@ -14,7 +14,7 @@
 > LinkedIn (company): https://www.linkedin.com/company/advmarksolution/
 
 This file contains the full text of every page on advmarketing.biz.
-Generated 2026-10-28. Structured index: https://advmarketing.biz/llms.txt
+Generated 2026-11-19. Structured index: https://advmarketing.biz/llms.txt
 
 
 
@@ -4688,7 +4688,7 @@ The board
 
 ### Current numbers, by vertical.
 
-Last updated: 16 October 2026 · Updated weekly (MYT). Each row is one client engagement, anonymised by industry. Active accounts show their most recent reported period; completed campaigns show final figures.
+Last updated: 19 November 2026 · Updated weekly (MYT). Each row is one client engagement, anonymised by industry. Active accounts show their most recent reported period; completed campaigns show final figures.
 
 Vertical
 Channels
@@ -4716,14 +4716,14 @@ Ended
 
 Healthcare & Medical
 Google Search
-CPA RM89.55
-Five-figure monthly spend. The last 30 days brought the first dip after four rises in a row (RM55.11 → RM61.45 → RM69.46 → RM76.78 → RM91.47 → RM89.55). The service line campaign converts at RM64, the main Search campaign at RM101, down from RM105. A RM85 target CPA has been on the main campaign since 2 Oct, so it now covers 14 of the 30 days.
+CPA RM59.12
+Five-figure monthly spend. 30 days to 18 Nov: down from RM89.55 and back under the RM85 target CPA set on 2 Oct, after a run of rises (RM55.11 → RM61.45 → RM69.46 → RM76.78 → RM91.47 → RM89.55 → RM59.12). Main Search campaign RM63.20, service line campaign RM47.11.
 Active
 
 Home Energy Services
-Meta lead gen + awareness
-CPL RM13.06
-Last 30 days, flat on RM13.14; best campaign RM10.41/lead at 3.4% CTR; awareness at RM1.36 CPM
+Meta lead gen + awareness; Google Search
+CPL RM11.70
+30 days to 18 Nov, down from RM13.06; best campaign RM10.25/lead at 3.2% CTR; awareness at RM1.17 CPM. Google Search: RM9.11 per WhatsApp tap.
 Active
 
 Fashion & Retail
