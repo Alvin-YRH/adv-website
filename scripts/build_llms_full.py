@@ -19,6 +19,7 @@ PAGES = [
     ("about.html", "https://advmarketing.biz/about", "About ADV Digital Marketing & Alvin Yap"),
     ("advertising-malaysia.html", "https://advmarketing.biz/advertising-malaysia", "Advertising in Malaysia — Costs by Channel"),
     ("marketing-in-malaysia.html", "https://advmarketing.biz/marketing-in-malaysia", "Marketing in Malaysia: The Localisation Playbook"),
+    ("social-media-marketing-malaysia.html", "https://advmarketing.biz/social-media-marketing-malaysia", "Social Media Marketing in Malaysia 2026: Platform Guide"),
     ("digital-marketing-agency-malaysia.html", "https://advmarketing.biz/digital-marketing-agency-malaysia", "Choosing a Digital Marketing Agency in Malaysia"),
     ("meta-ads-agency-malaysia.html", "https://advmarketing.biz/meta-ads-agency-malaysia", "Meta Ads Agency Malaysia — Service"),
     ("facebook-ads-malaysia.html", "https://advmarketing.biz/facebook-ads-malaysia", "Facebook Ads Malaysia — Account Takeover Guide"),
