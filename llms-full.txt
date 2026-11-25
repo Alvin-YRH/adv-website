@@ -14,7 +14,7 @@
 > LinkedIn (company): https://www.linkedin.com/company/advmarksolution/
 
 This file contains the full text of every page on advmarketing.biz.
-Generated 2026-11-19. Structured index: https://advmarketing.biz/llms.txt
+Generated 2026-11-25. Structured index: https://advmarketing.biz/llms.txt
 
 
 
@@ -23,7 +23,7 @@ Generated 2026-11-19. Structured index: https://advmarketing.biz/llms.txt
 URL: https://advmarketing.biz/
 ==============================================================================
 
-ADV Digital Marketing Malaysia | Results Published Weekly
+ADV Digital Marketing Agency KL | Results Published Weekly
 
 WhatsApp us
 
@@ -265,6 +265,21 @@ Costs, processes and research we publish openly — the same material we walk ne
 Checklist
 Choosing a Digital Marketing Agency
 8 questions to ask, red flags to avoid, fair fees in RM and a scorecard.
+→
+
+Guide
+Social Media Marketing in Malaysia
+Which platforms matter by audience and language, organic vs paid, and what it costs in RM.
+→
+
+Service
+Meta Ads Agency Malaysia
+Facebook and Instagram ads run by the founder: services, fees from RM800 and recent results.
+→
+
+Service
+Google Ads Agency Malaysia
+Search, Performance Max, Display and YouTube, with tracking set up first and results published.
 →
 
 Cost data
@@ -635,17 +650,17 @@ sales@advmarketing.biz
 URL: https://advmarketing.biz/advertising-malaysia
 ==============================================================================
 
-Advertising in Malaysia 2026 — Real Costs by Channel | ADV
+Ads in Malaysia 2026: Real Costs by Channel | ADV
 
 WhatsApp us
 
 ← All guides & resources
 
-Advertising in Malaysia · 2026
+Advertising in Malaysia · Updated Nov 2026
 
-## What Ads Actually Cost in Malaysia
+## Advertising in Malaysia: What Ads Actually Cost
 
-Not industry averages copied from a US blog — real CPM, CPC and cost-per-lead figures measured across past and current Malaysian client accounts, by channel, with the budget floors each one needs to work.
+Real CPM, CPC and cost per lead from Malaysian ad accounts we run or have run, by channel, with the budget floor each one needs. Not industry averages copied from a US blog. Updated to November 2026.
 
 Get a Budget Recommendation
 See the Numbers
@@ -654,45 +669,45 @@ See the Numbers
 
 The short answer
 
-In Malaysia, Meta CPMs run roughly RM1.27–15 and a qualified lead conversation costs RM7 to RM25 in most accounts, above RM40 in harder verticals such as beauty. Google Search CPCs run RM7.50–14 on competitive terms, with cost per acquisition from RM2.41 in high-volume insurance to RM91.47 in specialist healthcare (30 days to 5 Oct 2026). These are figures from past and current client accounts, not published averages.
+For ads in Malaysia, a Meta lead conversation costs about RM10 to RM22 in our recent accounts, and above RM40 in harder verticals such as beauty, and a Google Search lead costs from RM2.41 in high-volume insurance to RM59.12 in specialist healthcare. Meta awareness CPMs run about RM1.17 to RM1.41. These figures come from our own digital advertising accounts, past and current, not from published averages. Current client figures are for the 30 days to 18 Nov 2026.
 
-RM1,500 to RM2,000 a month is our practical floor for Meta lead generation. Below it, results come too slowly to judge. In our accounts, Google Search needs around RM3,000 a month. Multi-channel becomes viable around RM5,000. Agency management fees sit on top of ad spend. Management fees start from RM800 a month, depending on objective and account size.
+RM1,500 to RM2,000 a month is our practical floor for Meta lead generation. Below it, results come too slowly to judge. In our accounts, Google Search needs around RM3,000 a month. Multi-channel becomes viable around RM5,000. Agency management fees sit on top of ad spend. Management fees start from RM800 a month, depending on objective and account size. For Malaysian business accounts, 8% SST applies to ad spend.
 
 Which to start with: Google Search if people already search for what you sell; Meta if your product needs to be shown before anyone thinks to search for it. Under RM3,000/month, run one channel properly rather than two badly.
 
 By channel
 
-### Real numbers, real accounts.
+### What do ads cost in Malaysia, by channel?
 
-Every figure below comes from Malaysian ad accounts we manage or have managed, pulled from platform reporting. Ranges reflect genuine variation across industries — not hedging.
+Every figure below comes from Malaysian ad accounts we manage or have managed, pulled from platform reporting. Current client figures are for the 30 days to 18 Nov 2026, and older results are dated. Ranges reflect real differences between industries, not hedging.
 
-Channel
-What it costs
-Measured outcomes
-Best for
-Monthly floor
+Meta is cheapest for reach and leads. Google Search costs more per click but catches people who are already looking.
 
-Meta — awareness Facebook & Instagram
-CPM RM1.27–1.41
-317K people reached on a combined RM1,000 F&B budget; RM0.016 per video view
+Advertising costs in Malaysia by channel, from ADV client accounts
+
+Channel | What it costs | Measured outcomes | Best for | Monthly floor
+
+Meta awareness Facebook & Instagram
+CPM RM1.17 to RM1.41
+Home energy services at RM1.17 CPM (30 days to 18 Nov 2026). Two F&B brands reached 317,000 people on a combined RM1,000 budget at RM1.41 CPM, RM0.016 per video view.
 Local visibility, launches, footfall
 RM500–1,000
 
-Meta — lead generation Conversion-optimised
-RM7.29–24.01 per lead
-Best campaign RM7.29/conversation at 4.5% CTR; typical range RM10–15. RM7 to RM25 in most accounts, above RM40 in harder verticals such as beauty.
+Meta lead generation Conversion-optimised
+RM10.25 to RM21.53 per lead; RM41.41 in beauty
+Home energy services RM11.70 blended, best campaign RM10.25 per lead at 3.2% CTR (30 days to 18 Nov 2026). B2B services RM21.53 (30 days to 14 Sep 2026), down from RM37.40 before we took over. Beauty and wellness reached RM14.04 in month 3 but ended at RM41.41 (Sep 2026).
 Service businesses, appointments, enquiries
 RM1,500–2,000
 
 Google Search High-intent capture
-CPC RM7.58–13.84
-CPA RM2.41 in high-volume insurance; RM91.47 in specialist healthcare (30 days to 5 Oct 2026)
+CPC RM7.58 to RM13.84 Competitive terms, measured before Sep 2026
+Specialist healthcare RM59.12 per acquisition on a five-figure monthly spend, back under its RM85 target (30 days to 18 Nov 2026). Home energy services RM9.11 per WhatsApp tap. Insurance and fintech RM2.41 per lead over a 12-month engagement with Performance Max.
 Demand that already exists and gets searched
 RM3,000
 
 Multi-channel Meta + Google + TikTok
 17.3× blended ROAS
-RM18,588 spend returned RM321,517 across 51 days; the Google slice alone hit 26×
+A 51-day seasonal fashion and retail campaign: RM18,588 spend returned RM321,517 in revenue. The Google slice alone hit 26×.
 Seasonal pushes, e-commerce, established brands
 RM5,000+
 
@@ -704,13 +719,15 @@ Monthly budget floors
 
 Choosing a channel
 
-### Intent decides, not preference.
+### Should you start with Google or Meta?
 
-Does anyone search for what you sell? If a person with your problem types it into Google — "aircond service kl", "roof leak repair kl", "invisalign price" — then Google Search is where the money is. You're capturing demand that already exists, at the moment it exists. Higher cost per click, far higher intent.
+Intent decides, not preference. If people already search for what you sell, start on Google. If they need to see it first, start on Meta.
+
+Does anyone search for what you sell? If a person with your problem types it into Google, like "aircond service kl", "roof leak repair kl" or "invisalign price", then Google Search is where the money is. You're capturing demand that already exists, at the moment it exists. Higher cost per click, far higher intent.
 
 Or does your product need to be seen first? Nobody searches for a skincare brand they've never heard of, or a restaurant that opened last week. Meta creates the demand Google later captures. Lower cost per impression, more work to convert.
 
-Under RM3,000/month, pick one. The most common mistake we see in Malaysian accounts is a RM2,000 budget split across Meta and Google, leaving both too thin to produce results you can judge. One channel at RM2,000 beats two at RM1,000 every time — not marginally, but categorically.
+Under RM3,000/month, pick one. The most common mistake we see in Malaysian accounts is a RM2,000 budget split across Meta and Google, leaving both too thin to produce results you can judge. One channel at RM2,000 beats two at RM1,000 almost every time.
 
 Then measure honestly. Channel choice matters far less than measurement quality: an account with broken conversion tracking wastes budget identically on every platform. That's the first thing we fix in Meta takeovers and Google Ads takeovers alike.
 
@@ -732,6 +749,38 @@ Where multi-channel starts making sense
 
 Channels to run if your budget is thin
 
+By business goal
+
+### Which ads work best in Malaysia for your business?
+
+Start from the goal, not the platform. Leads, online sales, local footfall and awareness each point to a different first channel.
+
+Goal to channel, from the accounts we run
+
+Which ad channel to start with in Malaysia, by business goal
+Your goal | Start with | What we see in Malaysia
+
+Lead generation | Google Search if people already search for what you sell. Meta ads to WhatsApp if they do not. | Instagram works well for Chinese-speaking audiences. A Meta lead costs about RM10 to RM22 in our recent accounts, and above RM40 in harder verticals such as beauty.
+
+E-commerce | Google Search and Performance Max for ready buyers, Meta and TikTok to bring in new ones. | The website does the selling here, so checkout and tracking come first. One seasonal retail push returned 17.3× ROAS.
+
+Local business | Meta awareness on a tight radius, plus Google Search for people looking in your area. | Two F&B brands reached 317,000 people on a combined RM1,000 budget.
+
+Awareness | Meta for reach. TikTok if your audience watches Malay content. | TikTok works for Malay content in our accounts. Judge awareness on reach and cost per view, not leads.
+
+Whether you need a full website depends on the industry. Many enquiries go straight to WhatsApp.
+
+Read the detail
+Lead generation. This is most of what we run: clinics, home services, insurance, B2B. If people already type your service into Google, Search catches them at the moment they need you. If they do not, Meta creates the demand and sends the lead to WhatsApp. In our accounts, Instagram works well for Chinese-speaking audiences in lead generation, so we plan placements and copy around who you sell to.
+
+E-commerce. Here the website is the shop. If checkout is slow or purchase tracking is broken, no channel will fix it, so we check tracking before we spend. Google Search and Performance Max pick up people who are ready to buy. Meta and TikTok bring in people who have not heard of you yet.
+
+Local business. Restaurants, salons and shops need people nearby to know they exist. Meta awareness on a small radius is cheap reach. Google Search covers people who look for your type of business in your area.
+
+Awareness and launches. Meta gives the widest reach for the money. TikTok works for Malay content in the accounts we run. Measure these campaigns on reach and cost per view, then let Search or retargeting pick up the demand they create. Some people call this demand marketing: you create demand on Meta or TikTok, then capture it on Google.
+
+The website question. Whether you need a full website depends on the industry. A home service business can do well with WhatsApp and a simple page. An online shop cannot. Language and platform choices are covered in our Marketing in Malaysia playbook , and the platform guides for Google Ads and Facebook ads go deeper.
+
 Common questions
 
 ### Budget questions we get asked.
@@ -739,19 +788,22 @@ Common questions
 Straight answers on Malaysian ad costs, benchmarks and where to start.
 
 How much does advertising cost in Malaysia? +
-Meta CPMs run RM1.27–15. A lead conversation costs RM7 to RM25 in most accounts, above RM40 in harder verticals such as beauty. Google Search CPCs run RM7.50–14 on competitive terms, with CPA from RM2.41 in high-volume insurance to RM91.47 in specialist healthcare (30 days to 5 Oct 2026). Ad spend excludes management fees. Management fees start from RM800 a month, depending on objective and account size. See our pricing page .
+Meta awareness CPMs run about RM1.17 to RM1.41, and a Meta lead conversation costs about RM10 to RM22 in our recent accounts, and above RM40 in harder verticals such as beauty. Google Search CPCs ran RM7.58 to RM13.84 on competitive terms in our accounts before September 2026. Google cost per lead runs from RM2.41 in high-volume insurance (12-month engagement) to RM59.12 in specialist healthcare (30 days to 18 Nov 2026). Ad spend excludes management fees. Management fees start from RM800 a month, depending on objective and account size. See our pricing page .
 
 Which channel should I start with? +
-Google Search if people already search for what you sell — it captures existing intent. Meta if your product needs to be shown or explained first. Under RM3,000/month, run one channel properly rather than splitting a thin budget across both.
+Google Search if people already search for what you sell, because it captures existing intent. Meta if your product needs to be shown or explained first. Under RM3,000/month, run one channel properly rather than splitting a thin budget across both.
 
 What's a good CPM in Malaysia? +
-On awareness campaigns, RM1.27–1.41 is achievable with broad targeting and strong creative. Conversion-optimised campaigns run RM10–15 because the algorithm bids for a narrower, higher-value audience. A rising CPM on a stable audience usually signals creative fatigue, not market conditions.
+On awareness campaigns, RM1.17 to RM1.41 is achievable with broad targeting and strong creative. A home energy services account ran awareness at RM1.17 in the 30 days to 18 Nov 2026. Conversion-optimised campaigns ran RM10 to RM15 in our accounts before September 2026, because the algorithm bids for a narrower, higher-value audience. A rising CPM on a stable audience usually signals creative fatigue, not market conditions.
 
 Is Malaysia cheaper than Singapore or the US? +
-Substantially — Malaysian CPMs and CPCs run a fraction of comparable Singapore or US auction prices. In our view, part of the reason is that fewer advertisers compete per head of population. That makes Malaysia an efficient place to test creative before scaling into pricier regional markets.
+Yes, substantially. Malaysian CPMs and CPCs run a fraction of comparable Singapore or US auction prices. In our view, part of the reason is that fewer advertisers compete per head of population. That makes Malaysia an efficient place to test creative before scaling into pricier regional markets.
 
 How much should an SME budget monthly? +
-RM1,500–2,000 for Meta lead generation, around RM3,000 for Google Search in our accounts, RM5,000+ before multi-channel makes sense. Agency management fees sit on top. Management fees start from RM800 a month, depending on objective and account size.
+RM1,500–2,000 for Meta lead generation, around RM3,000 for Google Search in our accounts, RM5,000+ before multi-channel makes sense. Agency management fees sit on top. Management fees start from RM800 a month, depending on objective and account size. For Malaysian business accounts, 8% SST applies to ad spend.
+
+Which ads work best in Malaysia? +
+It depends on the goal. For lead generation, use Google Search if people already search for what you sell, and Meta ads to WhatsApp if they do not. Instagram works well for Chinese-speaking audiences in our accounts. For e-commerce, run Google and Meta, and make sure the website can sell. For awareness, use Meta, and TikTok for Malay content.
 
 Get started
 
@@ -762,6 +814,8 @@ Tell us your industry and monthly budget and we'll tell you honestly which chann
 Message us on WhatsApp
 
 We typically respond within 2 business hours.
+
+WhatsApp +60 16 334 3549 · Email Alvin.Yap@advmarketing.biz
 
 Go deeper
 
@@ -1232,6 +1286,452 @@ Live Results Board
 
 
 ==============================================================================
+# Social Media Marketing in Malaysia 2026: Platform Guide
+URL: https://advmarketing.biz/social-media-marketing-malaysia
+==============================================================================
+
+Social Media Marketing in Malaysia 2026: Platform Guide
+
+WhatsApp us
+
+← All guides & resources
+
+Social Media Marketing · 2026 Guide
+
+## Social Media Marketing in Malaysia
+
+By Alvin Yap, founder of ADV · Updated 25 November 2026
+
+Which platforms matter, which one fits your audience and language, what to post, how to turn it into leads, and what it costs in RM.
+
+Get a Free Account Audit
+See the Platforms
+
+"Posts build trust. Ads bring leads. WhatsApp closes them."
+
+The platforms
+
+### Which social media platforms matter in Malaysia in 2026?
+
+The short answer
+
+For most Malaysian businesses, the platforms that matter are Facebook, Instagram, TikTok, YouTube and WhatsApp. Malaysia had 30.7 million active social media user identities in October 2025, 85.0% of the population (DataReportal, Digital 2026: Malaysia). You do not need all of them. Pick the one or two where your buyers are, and use WhatsApp to talk to the people who reply.
+
+Malaysia on social media
+
+- 30.7M active social media user identities, October 2025
+
+- 85.0% of the population
+
+- 2h 46m a day on social media, on average
+
+- 8.12 social platforms used each month
+
+Sources: DataReportal, Digital 2026: Malaysia (user identities); DataReportal, Digital 2025 Global Overview (time spent and platforms per month).
+
+Platform ad reach in Malaysia, late 2025
+
+Short video
+
+#### TikTok
+
+30.7M
+
+86.8% of internet users. That is higher than the adult population, so read it as ad reach, not unique people.
+
+Long and short video
+
+#### YouTube
+
+23.6M
+
+66.7% of internet users. Good for explainers and longer ads.
+
+Meta
+
+#### Facebook
+
+23.0M
+
+65.0% of internet users. The base for most lead generation.
+
+Meta
+
+#### Instagram
+
+16.1M
+
+45.5% of internet users. Run from the same Meta ad account as Facebook.
+
+The inbox
+
+#### WhatsApp
+
+Where leads talk
+
+Not a feed. For most industries we run, it is where leads start the conversation.
+
+Business
+
+#### LinkedIn
+
+10.0M
+
+Registered members, not active users. Worth a look if you sell to businesses.
+
+Source: DataReportal, Digital 2026: Malaysia. Figures are platform-reported ad reach, not unique users. LinkedIn shows registered members. Bars show share of internet users.
+
+Reach tells you where people are. It does not tell you where your buyers decide. That comes next.
+
+Read the detail
+DataReportal counted 35.4 million internet users in Malaysia in October 2025, 98% of the population, and 30.7 million active social media user identities. It advises caution when comparing that figure with earlier editions, because the counting method changed.
+
+People spread their time across many apps. Malaysians used an average of 8.12 social platforms each month, above the global average of 6.83 (DataReportal, Digital 2025 Global Overview). That is why "be on every platform" sounds right and rarely works for a small team.
+
+Money follows the attention. Social media took 41% of total Malaysian ad spend in 2024, ahead of search at 24% (MAGNA, reported by Bernama). In a Vase.ai survey of 417 Malaysian consumers in September 2025, 35% said they bought a product after seeing it on social media.
+
+Xiaohongshu is not in the tiles above, because the sources we use do not publish a Malaysian figure for it. All the numbers here, with sources, are on our Malaysia digital marketing statistics page .
+
+Audience and language
+
+### Which platform fits your audience and language?
+
+Start from who you sell to and the language they use. In our accounts, Instagram works well for Chinese-speaking lead generation, and TikTok works for Malay content.
+
+Who you sell to, and where to start
+
+Which platform to start with for each audience
+Who you sell to | Start with | Why
+
+Chinese-speaking buyers | Instagram, run through Meta Ads | In our accounts, Instagram works well for lead generation with Chinese-speaking audiences. Write the ad in Chinese, not translated English.
+
+Malay-speaking buyers | TikTok, with content made in Malay | TikTok works when the content itself is in Malay. Facebook is the usual second channel for leads.
+
+A broad, mixed audience | Facebook and Instagram together | One Meta ad account covers both. Split ads by language so each group sees copy written for them.
+
+Other businesses (B2B) | Meta lead forms first, LinkedIn if the deal size allows | Our B2B services client cut cost per lead by 56% in 30 days on Meta lead forms. LinkedIn lets you target job titles, so check that your deal size justifies its cost.
+
+People already searching | Google Search, with social as support | If the need is urgent, like a broken aircond, people search instead of scrolling. Social keeps you in mind for next time.
+
+These are patterns from the accounts we run. Test them in yours, because your buyers may behave differently.
+
+Read the detail
+Malaysia is not one audience. The same need is talked about in English, Malay and Chinese, and each group has its own habits. One English ad shown to everyone usually pays for reach that does not reply.
+
+Chinese-speaking buyers. Write the ad in Chinese from the start. A translated English ad reads like a translation, and people notice.
+
+Malay-speaking buyers. On TikTok, the content itself should be in Malay: a person speaking on camera the way your buyers talk, not an English video with Malay captions.
+
+Mixed audiences. Facebook and Instagram run from the same Meta ad account. Split ads by language, then let the results tell you where to put more budget.
+
+Our Malaysia marketing playbook goes deeper on planning by language, with search demand in English, Malay and Chinese across seven industries.
+
+Organic and paid
+
+### Organic or paid social: what is each one for?
+
+Organic posts build trust with people who already know you. Paid ads bring in leads predictably. Most businesses need both, but the leads usually come from paid.
+
+Organic vs paid social
+
+Organic social compared with paid social
+What you compare | Organic posts | Paid ads
+
+Main job | Build trust. Show you are real, active and good at what you do. | Bring in leads and sales on a steady schedule.
+
+Who sees it | Mostly people who already follow you, plus some reach from shares and short video. | The people you choose, by location, age, interest or past visits.
+
+Speed | Slow and uneven. One post may do well and the next may not. | Fast. Ads can start bringing messages in the first week.
+
+What it costs | Time: planning, shooting, writing and replying. | Ad spend plus the time or fee to run it well.
+
+What to measure | Saves, shares, replies and profile visits. | Leads, cost per lead, and how many leads become customers.
+
+People check your page before they message. Make sure it looks alive.
+
+Read the detail
+Organic social is what you post for free. Paid social is ads. Most disappointment comes from expecting one to do the other's job.
+
+Organic builds trust. Recent posts, real photos and replies to comments tell a new buyer you are real and paying attention. That matters most when someone is deciding whether to message you. It is slow, and reach goes mainly to people who already follow you.
+
+Paid brings leads predictably. You choose who sees the ad and what they do next, such as send a WhatsApp message. You can see what each lead costs and adjust week by week, so it is the part you can plan a budget around.
+
+Together. Your best organic posts make good ads, because people already showed they care. If you only have time for one thing, put a steady ad budget behind one clear offer and keep the page tidy.
+
+Content
+
+### What should you post, and how often?
+
+Post what answers your buyer's questions, on a rhythm you can keep for months. Keeping going matters more than posting a lot.
+
+01
+
+#### Answers to real questions
+
+The questions people ask on WhatsApp every week: price, timing, what is included.
+
+02
+
+#### Proof
+
+Finished jobs, customer feedback you have permission to share, and results with dates.
+
+03
+
+#### The people behind it
+
+Who does the work and how. People buy from people.
+
+04
+
+#### Short video
+
+Vertical, with the point in the first seconds and captions on. It works on TikTok, Reels and as ads.
+
+05
+
+#### Festive and sale periods
+
+Ramadan and Hari Raya, Chinese New Year, Deepavali, 11.11 and 12.12. Plan these weeks ahead.
+
+06
+
+#### One clear offer
+
+A reason to message now: a free check, a quote, a trial. Say what happens after they message.
+
+Pick a posting rhythm you can hold for three months, then keep it. A plan that stops in week three does more harm than a smaller one that keeps going.
+
+Read the detail
+There is no number of posts a week that works for every business, and we will not invent one. Pages that post steadily about what buyers ask give ads a better place to land. Pages that post a lot for a month and then stop look abandoned.
+
+Start with your inbox. Write down the ten questions people ask most on WhatsApp and answer one per post. These posts also make good ads, because they answer the doubt that stops people from messaging.
+
+Keep video simple. Video took 22% to 24% of Malaysian digital ad spend in the first half of 2025 (MSA, MAA and MDA). A clear phone video of the person who does the work, in your buyers' language, is often enough.
+
+Check the rules. Some industries have rules beyond platform policy. Health service ads in Malaysia need approval from the Medicine Advertisements Board (KKLIU) before they run, under Act 290.
+
+From social to leads
+
+### How do you turn social media into leads?
+
+Run ads that start a conversation, make replying easy, and come back to the people who did not message the first time.
+
+- Click to WhatsApp ads. One tap opens a chat with a message already typed. Best for most service businesses here.
+
+- Instant lead forms. The form opens inside Facebook or Instagram, already filled with the person's details. Good for B2B and callbacks.
+
+- Retargeting. Show a second ad to people who watched your video, visited your page or opened the chat but did not finish.
+
+What this looks like in our accounts
+
+Home energy services
+
+RM11.70
+
+per WhatsApp lead conversation on Meta, down from RM13.06. The best campaign ran at RM10.25 per lead.
+
+30 days to 18 Nov 2026
+
+B2B services
+
+56% lower
+
+cost per lead in the first 30 days on Meta lead forms, from RM37.40 to RM16.60.
+
+First 30 days of the engagement
+
+F&B, two brands
+
+317,000
+
+people reached on a combined RM1,000 budget, at RM1.41 per 1,000 impressions and RM0.016 per video view.
+
+Meta awareness campaigns
+
+Every number above is on our Live Results Board , updated weekly, misses included.
+
+Read the detail
+Likes do not pay the bills. The goal is a conversation with someone who might buy, at a cost that works for your business.
+
+Click to WhatsApp ads. The person taps the ad, WhatsApp opens with a message already written, and they press send. No form, no page to load. For our home energy services client, the best campaign ran at RM10.25 per lead with a 3.2% click through rate.
+
+Instant lead forms. When you need details before you call, a Meta lead form works well. Add one or two questions that filter out people who are not a fit.
+
+Retargeting. Most people do not message the first time. A second, more direct ad to people who watched a video or opened a chat is usually a small part of the budget.
+
+Tracking. You need to see which ad brought which lead. Our clients own their ad accounts, and the main thing we set up for them is the tracking, so the budget goes to ads that bring customers, not just clicks.
+
+Results should improve over time. A beauty and wellness client's Meta cost per lead went from RM22 to RM14.04 over three months, 36% lower, on RM1,500 to RM1,800 a month.
+
+Costs in RM
+
+### What does social media marketing cost in Malaysia?
+
+There are two costs: the ad spend you pay Meta or TikTok, and the fee for whoever runs it. For Meta lead generation, plan on about RM1,500 to RM2,000 a month in ad spend.
+
+ADV management fees, by monthly ad spend
+
+Starter
+
+RM800 to RM1,500
+
+a month in fees
+
+For RM500 to RM1,800 ad spend
+
+Growth
+
+RM1,500 to RM2,500
+
+a month in fees
+
+For RM1,800 to RM5,000 ad spend
+
+Scale
+
+RM2,500 to RM4,000
+
+a month in fees
+
+For RM5,000 to RM20,000 ad spend
+
+Above RM20,000
+
+About 15%
+
+of ad spend
+
+Profit sharing for selected clients
+
+Ad spend is paid to the platform, separate from the fee. Malaysian business accounts pay 8% SST on top of ad spend.
+
+Read the detail
+Ad spend. This goes to Meta or TikTok, not the agency. For Meta lead generation, about RM1,500 to RM2,000 a month is the practical floor in our experience. Below that, a campaign collects too few leads each week to learn what works. Smaller budgets are fine for awareness or a first test. Add 8% SST for Malaysian business accounts.
+
+Cost per view. Adamigo projects Meta CPM for Malaysia at about US$4.80 in 2026, based on industry benchmarks and late 2025 data. Real costs vary by objective: our home energy services client's awareness campaign ran at RM1.17 CPM.
+
+Fees. Every engagement starts with a free ad account audit using view-only access to your Meta Business Manager. The minimum engagement is 3 months, because communication and a working rhythm take time. It varies by client and industry.
+
+Content. Posting, photography and video are separate costs. Ask any agency what its fee includes.
+
+Our Meta ads pricing guide breaks down spend, fees and cost per lead in more detail.
+
+Choosing help
+
+### How do you choose a social media agency in Malaysia?
+
+Decide first whether you need posting or leads. Then ask who owns the ad account, what gets reported and whether the results have dates.
+
+01 Fit
+
+#### Content agency or ads agency?
+
+A content agency plans and posts. A performance agency runs ads for leads. Many businesses need the second and hire the first.
+
+Ask Is your fee for posting, for ads, or both?
+
+02 Ownership
+
+#### You own the ad account
+
+The ad account, page and pixel should sit in your business. If you leave, your data stays with you.
+
+Ask Whose Business Manager is the ad account in?
+
+03 Reporting
+
+#### Leads, not likes
+
+A good report shows leads, cost per lead and what changed. Reach and followers are extras.
+
+Ask What did each lead cost last month?
+
+04 Proof
+
+#### Results with dates
+
+Any number without a date, a platform and a source is hard to trust.
+
+Ask When was this, and where can I see it?
+
+Read the detail
+"Social media agency" covers very different businesses. Decide first whether you want a page that looks active or leads in your WhatsApp. For leads, hire someone who runs paid social and reports on cost per lead.
+
+At ADV, clients own their ad accounts, Alvin runs every account, and we reply within 2 business hours. Our results are on the Live Results Board every week, misses included.
+
+For a longer checklist, see our guide to choosing a digital marketing agency in Malaysia . If you need Facebook and Instagram ads for leads, our Meta ads agency page explains how we run them.
+
+Social media questions
+
+### What Malaysian businesses ask about social media.
+
+Straight answers on platforms, budgets, fees and leads.
+
+What is the best social media platform for business in Malaysia?
++
+
+There is no single best one. It depends on who you sell to. Facebook and Instagram, run together through Meta Ads, are the usual starting point for lead generation. In our accounts, Instagram works well for Chinese-speaking audiences and TikTok works for Malay content. Start with one or two platforms where your buyers are.
+
+Is TikTok or Facebook better for Malaysian businesses?
++
+
+They do different jobs. TikTok reports the largest ad reach in Malaysia, 30.7 million in late 2025 according to DataReportal, though that is ad reach, not unique users. In our accounts it works best with Malay content. Facebook, with Meta lead forms and click to WhatsApp ads, is still where most of our lead generation runs.
+
+How much should I spend on social media ads in Malaysia?
++
+
+For Meta lead generation, plan on about RM1,500 to RM2,000 a month in ad spend. Below that, campaigns collect too few leads to learn what works. Smaller budgets can work for awareness or a first test. Malaysian business accounts also pay 8% SST on ad spend.
+
+How much does a social media agency cost in Malaysia?
++
+
+ADV's management fees start from RM800 a month for RM500 to RM1,800 in ad spend, RM1,500 to RM2,500 for RM1,800 to RM5,000, and RM2,500 to RM4,000 for RM5,000 to RM20,000. Above RM20,000 a month, the fee is about 15% of ad spend. Ad spend is paid to the platform separately.
+
+Do I still need to post organically if I run ads?
++
+
+Yes, but you do not need to post every day. Organic posts build trust, and people check your page before they message. Paid ads bring in leads predictably. Keep a steady posting rhythm you can hold, and put your budget into ads.
+
+Can social media ads send leads straight to WhatsApp?
++
+
+Yes. Click to WhatsApp ads on Facebook and Instagram open a chat with a message already typed. For most service businesses in Malaysia this is where we start. Our home energy services client paid RM11.70 per WhatsApp lead conversation on Meta in the 30 days to 18 November 2026.
+
+Get started
+
+### Is your social media bringing in leads?
+
+Give us view-only access to your Meta Business Manager and we will run a free ad account audit: who your ads reach, what each lead costs, where leads land and what the tracking misses. You keep the findings whether or not you hire us. No obligation, no pitch deck.
+
+Get a Free Ad Account Audit
+
+WhatsApp +60 16 334 3549 · Email Alvin.Yap@advmarketing.biz
+
+We typically respond within 2 business hours.
+
+Go deeper
+
+Malaysia Digital Marketing Statistics
+→
+
+The Malaysia Playbook
+→
+
+Meta Ads Pricing Guide
+→
+
+Meta Ads Agency
+→
+
+Facebook Ads Guide
+→
+
+Live Results Board
+→
+
+
+==============================================================================
 # Choosing a Digital Marketing Agency in Malaysia
 URL: https://advmarketing.biz/digital-marketing-agency-malaysia
 ==============================================================================
@@ -1684,164 +2184,386 @@ About Alvin Yap
 URL: https://advmarketing.biz/meta-ads-agency-malaysia
 ==============================================================================
 
-Facebook Ads Agency Malaysia | Results Published Weekly
+Facebook Ads Agency Malaysia | Meta Ads Services | ADV
 
 WhatsApp us
 
 ← Back to all services
 
-Facebook & Instagram Advertising
+Facebook & Instagram ads agency
 
 ## Meta Ads Agency Malaysia
 
-We run performance Meta campaigns that turn Malaysian audiences into paying customers — not just followers.
+By Alvin Yap, founder of ADV · Updated 25 November 2026
 
-Get a Free Audit
-See Our Services
+ADV is a founder-led Facebook ads agency in Kuala Lumpur. We plan, build and run Facebook and Instagram ads for Malaysian businesses that need leads, WhatsApp enquiries or sales. Alvin runs every account himself, and the ad account stays in your name.
 
-Wondering what this costs? See our Meta Ads pricing guide →
-Taking over an existing account? Read how we fix Facebook ad accounts →
+Get a Free Ad Account Audit
+See What It Costs
 
-"Your competitors are spending on Meta. The question is whether they're doing it well."
+"The person you talk to is the person running your ads."
 
 Meta ads services
 
-### Meta ads services in Malaysia: every placement, one strategy.
+### What does a Meta ads agency do for you?
 
-Our Meta ads services cover the full spectrum of Facebook and Instagram advertising — from awareness to cart recovery — structured as a single revenue system, not isolated campaigns.
+The short answer
 
-#### Facebook Ads
+A Meta ads agency plans, builds and runs your Facebook and Instagram ads, then reports what each ringgit brought back. At ADV that covers campaign management, WhatsApp and lead form campaigns, creative direction and testing, audiences and retargeting, pixel and Conversions API tracking, and a weekly report. You pay Meta for the ads and pay us to run them.
 
-Campaign strategy, audience targeting, creative briefs, and A/B testing — built on a data-first structure that compounds with every ringgit spent.
+01
 
-#### Instagram Ads
+#### Facebook and Instagram ads management
 
-Reels, Stories, and Feed placements with a mobile-first creative approach. We design for scroll-stop, then optimise for conversion.
+Campaign structure, budgets, bidding and placements across Feed, Stories and Reels, all from one Meta ad account.
 
-#### Meta Retargeting
+02
 
-Warm audience sequences, cart recovery flows, and cross-sell funnels that bring back the prospects who didn't convert the first time.
+#### Click-to-WhatsApp ads
 
-#### Lookalike Audiences
+Ads that open a WhatsApp chat with your team. Our home energy services client gets its Meta leads this way.
 
-AI-powered audience expansion seeded from your best customers — so Meta finds new prospects who behave like the ones already buying from you.
+03
 
-#### Meta Shopping
+#### Lead form campaigns
 
-Catalogue ads, including Advantage+ catalog ads (formerly dynamic product ads), that surface the right SKU to the right buyer at the right moment — built for Malaysian e-commerce brands.
+Instant forms inside Facebook and Instagram, with a question or two that filters out people who are only curious.
 
-#### Performance Reporting
+04
 
-Weekly reports, ROAS tracking, and attribution analysis delivered in plain language — so you always know exactly what your budget is producing.
+#### Creative direction and testing
 
-The ADV approach
+We write the copy, brief the visuals and test hooks against each other. Production is quoted separately.
 
-### We don't run ads. We build revenue systems.
+05
 
-Most Malaysian businesses come to us after months of boosted posts that spent their budget on reach without results. We start differently — with full-funnel architecture, not individual placements. Every campaign we build is designed as an interconnected system: cold traffic, warm retargeting, and loyalty — each layer feeding the next.
+#### Audiences and retargeting
 
-Creative testing is built into everything. We don't guess which ad angle works — we test methodically, kill losers fast, and scale what converts. This is the difference between ad spend and ad investment.
+Broad and interest targeting to find new people, plus retargeting for those who visited, watched or messaged.
 
-Signal comes first: pixel and Conversions API go in before a single campaign, so Meta learns from who actually bought — not who clicked. Advantage+ and AI bidding come after, where the data supports them. We build the signal, then let the machine work.
+06
 
-By the numbers
+#### Pixel and Conversions API tracking
+
+We set up the Meta pixel and Conversions API so Meta learns from real leads and sales, not clicks.
+
+07
+
+#### Weekly reporting
+
+Spend, leads, cost per lead and what we changed, every week, in plain language.
+
+08
+
+#### Your account stays yours
+
+The ad account, page, pixel and audiences sit under your business. We work inside them with the access you give us.
+
+Read the detail
+Boosting a post is not the same as running a campaign. A boost is a quick way to buy reach for one post, with few controls over who sees it or what Meta optimises for. A campaign built in Ads Manager lets you choose the goal, like a lead, a WhatsApp chat or a purchase. Meta then looks for people likely to take that action.
+
+WhatsApp or lead forms? It depends on how your team sells. WhatsApp ads suit businesses that close in conversation, like home services, clinics and education. People message you straight away, so how fast you reply matters. Lead forms suit businesses that call back, like B2B services, property and insurance. Forms are easy to fill in, so we add a question or two to slow down people who are not serious.
+
+Creative. On Meta, the ad itself does a lot of the targeting. The first line, or the first three seconds of a video, decides who stops scrolling. We write the ad copy, brief the images and videos, and run tests so you know which angle brings in the cheapest qualified leads. If you need photos or video shot, that production is quoted separately, or your own team can supply the material.
+
+Tracking. Meta learns from the results you report back to it. If the pixel only sees page views, Meta finds people who view pages. We set up the pixel and the Conversions API, which sends events from your website server or CRM, so Meta can learn from real leads and sales. It is also the first thing we check in an audit.
+
+Results
+
+### What results can a Facebook ads agency get in Malaysia?
+
+It depends on your industry, offer and budget. Here are four Meta results from our accounts. The dates and context are on the Live Results Board.
+
+RM11.70
+
+per WhatsApp lead
+
+Home energy services, 30 days to 18 Nov 2026. Down from RM13.06.
 
 56%
 
-CPL cut in 30 days on a B2B takeover and rebuild (RM37.40 → RM16.60)
+lower cost per lead
+
+B2B services lead generation, first 30 days. RM37.40 to RM16.60.
 
 36%
 
-CPL cut over 3 months — beauty clinic on RM1,500–1,800/mo
+lower cost per lead
 
-17.3×
+Beauty and wellness, over 3 months. RM22 to RM14.04.
 
-Blended ROAS — RM321K revenue on RM18.6K seasonal spend
+RM1.41
 
-42–52%
+CPM for awareness
 
-CPL cut mid-flight via one creative pivot — new pixel account
+F&B, two brands. 317,000 people reached on a combined RM1,000.
 
-Figures come from past and current client engagements. Latest numbers are on our Live Results Board .
+Beyond Meta, on the same board
 
-Who this is for
+Healthcare, Google Search: CPA RM59.12 Insurance and fintech, Google: CPL 45% lower over 12 months Fashion and retail, Meta + Google + TikTok: 17.3x ROAS
 
-### Built for businesses that are ready to grow.
+Every client's numbers are updated weekly on the Live Results Board , misses included.
 
-01 — B2B Services
+Read the detail
+Home energy services. Leads come in as WhatsApp conversations. Over the 30 days to 18 November 2026, cost per lead was RM11.70, down from RM13.06. The best campaign ran at RM10.25 per lead with a 3.2% click-through rate. An awareness campaign alongside it ran at RM1.17 CPM. The same client also runs Google Search, at RM9.11 per WhatsApp tap.
 
-#### Service Businesses & Professionals
+B2B services. A lead generation account we took over and rebuilt. Cost per lead fell 56% in the first 30 days, from RM37.40 to RM16.60.
 
-Consultants, agencies, clinics, and professional services firms that need qualified leads — not vanity metrics. We build lead gen funnels on Meta that attract buyers, not browsers, and integrate seamlessly with your sales process.
+Beauty and wellness. On RM1,500 to RM1,800 a month, cost per lead went from RM22 to RM14.04 over three months, 36% lower. That budget sits right at the floor we suggest for Meta lead generation, so a small account can still improve.
 
-02 — E-Commerce
+F&B. Two brands ran Meta awareness campaigns on a combined RM1,000. They reached 317,000 people at RM1.41 CPM and RM0.016 per video view. Awareness is judged on reach and cost per view, not on leads.
 
-#### Online Brands & Retailers
+What we will not show. We do not name clients, and we do not publish current clients' ad spend or lead counts. We also will not promise you a cost per lead before we have seen your account. Your numbers depend on your offer, your market and how fast your team replies.
 
-Brands selling on their own store, Shopee, or Lazada who want to build direct-to-consumer revenue. We run catalogue ads, dynamic retargeting, and loyalty campaigns that compound ROAS over time — not just spike it for one sale.
+CPM is the cost per 1,000 impressions. CPL is the cost per lead. CPA is the cost per acquisition. ROAS is revenue divided by ad spend.
 
-03 — Regional Growth
+Fees in RM
 
-#### Local Businesses Scaling Up
+### How much does a Facebook ads agency cost in Malaysia?
 
-Malaysian SMEs with proven local traction looking to expand their reach — across Klang Valley, nationwide, or regionally. We build the ad infrastructure to scale what's already working and stress-test new markets without burning budget.
+You pay two things: ad spend to Meta, and a management fee to the agency. ADV's fee starts from RM800 a month.
+
+ADV's management fees (our own, not a market rate)
+
+Starter
+RM800 to RM1,500
+a month
+For RM500 to RM1,800 ad spend
+
+Growth
+RM1,500 to RM2,500
+a month
+For RM1,800 to RM5,000 ad spend
+
+Scale
+RM2,500 to RM4,000
+a month
+For RM5,000 to RM20,000 ad spend
+
+Above RM20,000
+About 15%
+of ad spend
+Profit sharing for selected clients
+
+Plan for these too
+
+Meta lead generation ad spend: about RM1,500 to RM2,000 a month 8% SST on ad spend for Malaysian business accounts Minimum engagement: 3 months
+
+Below that ad spend floor, Meta struggles to get enough results to learn. A lower fee will not fix that.
+
+Read the detail
+Ad spend is what you pay Meta for the ads themselves. The management fee is what you pay us to plan, build, run and report on them. We keep the two as separate numbers on every quote, so you always see both.
+
+The tiers are a guide, not a quote. Where you land depends on your objective, how many campaigns you need and how much creative testing is involved. Above RM20,000 a month in ad spend, the fee is about 15% of ad spend. For selected clients, part of the fee can be tied to agreed targets through profit sharing.
+
+Meta charges 8% SST on ad spend for Malaysian business accounts, so budget for it on top of your ad spend. Creative production, like a photo or video shoot, is quoted separately.
+
+The minimum engagement is 3 months. Communication and the working rhythm between both sides take time to build, and Meta needs time to learn. It can vary by client and industry.
+
+For what Meta itself costs in RM, including CPM, cost per click and cost per lead, read our Meta ads pricing guide . To compare Meta with Google and TikTok on cost, see our guide to advertising costs in Malaysia .
+
+How we work
+
+### How does ADV run your Facebook and Instagram ads?
+
+Four steps, in this order. Tracking comes before any new campaign, because Meta can only learn from what it can see.
+
+- 01
+
+#### Free audit
+View-only access to your Meta Business Manager. We show you what works, what does not and what we would change first.
+
+- 02
+
+#### Tracking first
+Pixel, Conversions API and the right conversion events, checked against the leads your team actually received.
+
+- 03
+
+#### Rebuild
+Fewer, cleaner campaigns and ad sets, each with enough budget to learn, plus new creative to test.
+
+- 04
+
+#### Weekly optimisation
+Each week we cut what is not working, move budget to what is and add new creative. You get a report every week.
+
+Taking over an account that is already running? Our guide on how we fix Facebook ad accounts walks through each step in detail.
+
+Read the detail
+The audit. Every engagement starts with a free ad account audit. You give us view-only access through Meta Business Manager, so nothing changes while we look. We check the account structure, tracking, audiences, creative and the cost per lead trend. You keep the findings whether or not you hire us.
+
+Tracking first. We confirm which events fire, whether each lead is counted once, and whether the numbers in Ads Manager match the enquiries your team received. If WhatsApp is your main channel, we make sure conversations are counted as results. Clients own their ad accounts, and we mainly set up this tracking for them.
+
+The rebuild. Many accounts we see have too many ad sets, each with too little budget to learn. Meta's Business Help Centre says an ad set usually needs about 50 optimisation events in a week to exit the learning phase. So on smaller budgets we run fewer ad sets and give each one enough to work with.
+
+Weekly optimisation. We do not make big changes every day, because significant edits can send an ad set back into learning. Once a week we review results, pause the weakest ads, shift budget and add new creative to test. You hear from Alvin directly, and replies come within 2 business hours.
+
+Working with ADV
+
+### What do you get when you hire ADV for Meta ads?
+
+A boutique agency where the founder does the work. Here is what that means in practice.
+
+- Who runs your account The founder, Alvin Yap, runs every account. About Alvin .
+
+- Ownership You own the ad account, page, pixel and audiences. We mainly set up the tracking for you.
+
+- Dated proof Results are published weekly on the Live Results Board , misses included.
+
+- Minimum term 3 months. It can vary by client and industry.
+
+- Response time Replies within 2 business hours, on WhatsApp or email.
+
+- How it starts A free ad account audit, using view-only access to Meta Business Manager.
+
+Read the detail
+ADV was founded in 2025 in Kuala Lumpur. Besides Meta ads, we run Google Ads, TikTok Ads, SEO and marketing automation, so if Meta is not the right first channel for you, we will say so.
+
+Because the founder runs every account, the number of clients we take on is limited. The upside is that the person who audits your account is the person who builds it, reads the weekly numbers and answers your messages.
+
+Your options
+
+### Should you hire a Meta ads agency, a freelancer or an in-house marketer?
+
+All three can work. Choose on budget, how much testing you need and who covers the account when someone is away.
+
+Agency vs freelancer vs in-house
+
+Meta ads agency vs freelancer vs in-house marketer
+What you get | Agency | Freelancer | In-house hire
+
+Who does the work | A specialist. At a boutique, often the founder. | One person, alone. | Your own employee, often covering more than ads.
+
+Cost | A monthly fee. ADV starts from RM800. | Usually the lowest monthly cost. | A salary, plus training and tools, whatever the results.
+
+Experience | Sees many ad accounts, so spots patterns sooner. | Depends on the person. | Knows your business best, but sees one account.
+
+Best for | Businesses spending about RM1,500 a month or more that want tracked, reported results. | A small, clear job, like a one-off setup. | Large, steady budgets and a lot of daily content.
+
+Watch for | Junior staff running the account, or the agency owning your ad account. | No cover when they are busy or away, and tracking left half done. | One person juggling ads, social posts and design.
+
+ADV is a founder-led boutique, so read the agency column with that in mind.
+
+Read the detail
+An agency brings experience from many ad accounts. Ask who will actually run your account, and make sure the ad account is in your name, not theirs.
+
+A freelancer is usually the cheapest and the most direct. That suits a clear, contained job, like setting up tracking or launching one campaign. The risk is cover. If they get busy, fall sick or take a full-time job, the work stops.
+
+An in-house marketer knows your products and customers best. The catch is that one person is often asked to handle ads, social posts, design and events at once. Ads need focused weekly attention, and a salary is fixed whether the ads work or not.
+
+Many businesses mix the two. The in-house team handles content and replies to leads, and an agency runs the ad account. If you are comparing agencies, our guide to choosing a digital marketing agency in Malaysia has the questions to ask and a scorecard.
+
+Fit
+
+### Who is a Meta ads agency a good fit for, and who is it not?
+
+Meta ads work best when people will act once they see what you sell. They work less well when nobody is looking for it yet and the budget is very small.
+
+A good fit
+
+#### You are likely a good fit if
+
+- You sell something people decide on after seeing it, like home services, beauty, education, F&B or B2B services.
+
+- You can spend about RM1,500 to RM2,000 a month on ads for lead generation.
+
+- Someone on your team replies to WhatsApp messages and leads quickly.
+
+- You want to own your ad account and see the numbers every week.
+
+- You can commit to at least 3 months.
+
+Not yet
+
+#### We are probably not right if
+
+- Your ad budget is under RM1,500 a month and cannot grow.
+
+- People search for what you sell when they urgently need it. Google Search may suit you better first.
+
+- You need TV, outdoor and media buying under one contract.
+
+- You want results guaranteed by a fixed date.
+
+- Your product falls under Meta's restricted or prohibited ad categories.
+
+Read the detail
+Industries. On Meta we have worked with home energy services, B2B services, beauty and wellness, and F&B, among others. The common thread is a clear offer and a team that follows up fast.
+
+Search first, or Meta first? If people already type what you sell into Google, like an urgent repair, Google Search often brings ready buyers sooner. Meta is better at reaching people who were not looking yet but will act on a good offer. Some of our clients run both. See our Google Ads agency service if Search is your gap.
+
+Do you need a website? It depends on the industry. WhatsApp ads and lead forms can work without one. Online stores, and businesses where buyers want to check you out first, usually need a clear landing page.
 
 Common questions
 
-### Questions we hear before every engagement.
+### What business owners ask before hiring a Meta ads agency.
 
-Honest answers to the things Malaysian business owners always ask before committing to Meta Ads.
+Straight answers on cost, ownership, budget and timing.
 
-What's a realistic budget for Meta ads in Malaysia?
+How much does a Facebook ads agency charge in Malaysia?
 +
 
-For lead generation, RM1,500 to RM2,000 a month is the practical floor in our accounts. Meta needs about 50 results a week per ad set to finish learning. On small budgets we run fewer ad sets so each one gets enough results. Most B2B and e-commerce budgets land at RM2,000–5,000/month once campaigns are proven.
+Fees vary by agency and scope. ADV's management fee starts from RM800 a month. Our tiers are RM800 to RM1,500 for RM500 to RM1,800 in ad spend, RM1,500 to RM2,500 for RM1,800 to RM5,000, and RM2,500 to RM4,000 for RM5,000 to RM20,000. Above RM20,000 a month in ad spend, the fee is about 15% of ad spend. Ad spend is paid to Meta separately.
 
-How long before we see results?
+Do I own the ad account?
 +
 
-We allow 2 to 4 weeks before judging results, because Meta's learning phase needs about 50 results per ad set. Meaningful ROAS typically shows by week 6–8 with proper creative testing. We set clear milestones at each stage so you always know what's normal and what's not.
+Yes. Your ad account, Facebook page, pixel and audiences stay under your business, and you give us access to work in them. If you stop working with us, your history and data stay with you. We mainly set up the tracking for you.
 
-Do you handle ad creative?
+What is the minimum ad budget for Meta ads?
 +
 
-Yes. We brief creatives, write ad copy, and provide creative direction. Production can be handled by your team or ours — we're flexible based on what's already in place.
+In our accounts, the practical floor for Meta lead generation is about RM1,500 to RM2,000 a month in ad spend. Below that, ad sets struggle to get enough results to learn. Meta also charges 8% SST on ad spend for Malaysian business accounts.
 
-What's the difference between boosting a post and running a proper Meta campaign?
+How long before Facebook ads get results?
 +
 
-Boost = paying Meta for reach. Campaign = targeting by intent, behaviour, and lookalike — dramatically higher conversion rates. Boosting is exposure. A properly structured campaign is a revenue system.
+Expect the first few weeks to be a learning period. Meta's Business Help Centre says an ad set usually needs about 50 optimisation events in a week to exit the learning phase, so smaller budgets take longer. We work on a 3 month minimum, and no one can honestly guarantee results by a set date.
 
-Do you use AI in your Meta campaigns?
+Do you make the ad creative?
 +
 
-Yes. Meta's Advantage+ automation, AI content brief generation, and automated reporting are all standard in our workflow. We don't use AI as a buzzword — it's embedded in how we operate daily.
+We write the ad copy, brief the images and videos, and test creative to find what works. Production, like a photo or video shoot, is quoted separately, or your own team can supply the material.
 
-What industries do you work with in Malaysia?
+Should I advertise on Facebook, Instagram or TikTok?
 +
 
-B2B services, property, education, e-commerce, F&B, healthcare, and professional services. If your business sells a product or service that benefits from targeted digital distribution, Meta Ads likely has a role in your growth.
+Facebook and Instagram run from the same Meta ad account, so most businesses start with both and let the results decide the split. In our experience, Instagram works well for lead generation with Chinese-speaking audiences, and TikTok works for Malay content. We recommend a platform after the audit, based on who your buyers are.
 
 Get started
 
-### Ready to make your Meta budget work harder?
+### Start with a free ad account audit.
 
-Start with a free audit. We'll review your current Meta setup — ad account structure, pixel health, creative performance, and targeting — and tell you exactly where the leaks are. No obligation, no pitch deck.
+Give us view-only access to your Meta Business Manager. We will show you what is working, what is not and what we would change first. You keep the findings whether or not you hire us.
 
-Message us on WhatsApp
+Get a Free Ad Account Audit
+
+WhatsApp +60 16 334 3549 · Email Alvin.Yap@advmarketing.biz
 
 We typically respond within 2 business hours.
 
-Explore more services
+Go deeper
 
-Google Ads
+Meta Ads Pricing Guide
 →
 
-AI Automation
+How We Fix Facebook Ad Accounts
 →
 
-SEO & AEO
+Live Results Board
 →
+
+Advertising Costs in Malaysia
+→
+
+Choosing a Digital Marketing Agency
+→
+
+About Alvin Yap
+→
+
+Other services: Google Ads · SEO and AEO · AI marketing automation
 
 
 ==============================================================================
@@ -1849,7 +2571,7 @@ SEO & AEO
 URL: https://advmarketing.biz/facebook-ads-malaysia
 ==============================================================================
 
-Facebook Ads Malaysia — How We Fix Ad Accounts | ADV
+Facebook Marketing Malaysia: How We Fix Ad Accounts
 
 WhatsApp us
 
@@ -1926,9 +2648,9 @@ CPL cut over 3 months — beauty clinic on RM1,500–1,800/mo
 
 Blended ROAS — RM321K revenue on RM18.6K seasonal spend
 
-42–52%
+RM11.70
 
-CPL cut mid-flight via one creative pivot — new pixel account
+Cost per WhatsApp lead, home energy services, 30 days to 18 Nov 2026
 
 Common questions
 
@@ -1991,7 +2713,7 @@ Marketing in Malaysia Playbook
 URL: https://advmarketing.biz/zh/facebook-ads-malaysia
 ==============================================================================
 
-马来西亚 FB 广告账户烧钱没结果？我们怎么修 | ADV
+FB广告马来西亚：账户烧钱没结果？我们怎么修 | ADV
 
 WhatsApp 我们
 
@@ -2068,9 +2790,9 @@ Boost 买到的是互动，不是询问。账户花了几个月的钱，算法�
 
 综合 ROAS · RM18.6K 花费换 RM321K 营收
 
-42–52%
+RM11.70
 
-一次换素材的 CPL 降幅 · 全新 Pixel 账户
+每个 WhatsApp 询问的成本 · 家居能源服务，截至 2026 年 11 月 18 日的 30 天
 
 常见问题
 
@@ -2133,7 +2855,7 @@ Meta 广告代理服务
 URL: https://advmarketing.biz/meta-ads-pricing-malaysia
 ==============================================================================
 
-Meta Ads Pricing Malaysia 2026 — Real Costs & Results | ADV
+Meta Ads Cost Malaysia 2026: How Much Per Month (RM)
 
 WhatsApp us
 
@@ -2297,196 +3019,351 @@ SEO & AEO
 URL: https://advmarketing.biz/google-ads-agency-malaysia
 ==============================================================================
 
-Google Ads Agency Malaysia | Results Published Weekly
+Google Ads Agency Malaysia: Search, PMax and Display | ADV
 
 WhatsApp us
 
 ADV Digital Marketing
 /
-Google Ads
+Google Ads Agency Malaysia
 
-Search, PMAX & Display Advertising
+Google Ads management · Malaysia
 
 ## Google Ads Agency Malaysia
 
-We build Google Ads campaigns that capture buyers at the moment of intent — not just impressions, but conversions.
+Run by Alvin Yap, founder of ADV · Updated 25 November 2026
+
+ADV runs Google Ads (formerly AdWords) for Malaysian businesses: Search, Performance Max, Display and YouTube. Tracking goes in first, so every lead is counted. The founder runs every account, and results are published weekly, misses included.
 
 Get a Free Audit
-See Our Services
+See the results
 
-"The best time to appear in front of a buyer is when they're actively searching. The second best time is right now."
+"Count the real leads first. Then spend more on whatever brings them in."
 
-ADV Digital Marketing · Google Ads Malaysia
+Alvin Yap · Founder, ADV Digital Marketing
 
-Campaign types we run
+What we do
 
-### Every channel. Managed as one system.
+### What does a Google Ads agency do?
 
-Google's ad ecosystem is more complex than most businesses realise. We run the right campaign type for each stage of your funnel — and make them work together.
+The short answer
 
-01
+A Google Ads agency plans, builds and runs your campaigns on Google, and should be judged on the leads or sales they bring in. At ADV that covers Search, Performance Max, Display, YouTube and Demand Gen, with conversion tracking in GA4 and Google Tag Manager set up first. Then comes the weekly work: cleaning up search terms, checking location settings, adjusting bids and budgets, and reporting cost per lead.
 
-#### Search Campaigns
+#### Search
 
-Keyword targeting, match types, Quality Score optimisation, negative keyword management. We capture buyers the moment they search — and ensure every click has intent behind it.
-
-02
+Text ads for people already searching for what you sell. Usually where we start.
 
 #### Performance Max
 
-AI-driven cross-channel campaigns across Search, Display, YouTube, Gmail, and Maps — all from a single campaign. We structure PMAX asset groups by category and govern search terms to prevent early-phase budget waste.
+One campaign across Search, YouTube, Display, Gmail, Maps and Discover, run by Google's automation.
 
-03
+#### Display
 
-#### Display & Remarketing
+Image ads on websites and apps in Google's network. Mostly for remarketing to past visitors.
 
-Brand awareness and retargeting across 2M+ websites in the Google Display Network. We re-engage warm audiences with the right message at the right frequency — without overexposure.
+#### YouTube
 
-04
+Video ads before and during YouTube videos, for reach and for warming up buyers.
 
-#### YouTube Advertising
+#### Demand Gen
 
-In-stream, skippable, and bumper ads targeting Malaysian audiences by intent, demographics, and interests. YouTube is underpriced for B2B and high-consideration purchases — we know how to use it.
+Image and video ads in the YouTube, Discover and Gmail feeds, built to create interest.
 
-05
+#### Conversion tracking
 
-#### Google Shopping
+GA4 and Google Tag Manager set up to count forms, calls and WhatsApp taps.
 
-Product listing ads for e-commerce with feed optimisation and bidding strategy. We structure Shopping campaigns by product margin — so your highest-value SKUs get the budget they deserve.
+#### Search term cleanup
 
-06
+A weekly look at what people really typed, and negative keywords for the waste.
 
-#### Keyword Strategy
+#### Location settings
 
-Deep keyword research, search term analysis, bid management, and competitive intelligence. We map keywords to intent stages — informational, commercial, transactional — and build campaigns around that architecture.
+Targeting the areas you serve, then checking where the clicks really came from.
 
-The ADV approach
+Most accounts we take on need tracking and search term cleanup before they need a new campaign.
 
-### We treat every ringgit like it's our own.
+Read the detail
+Search campaigns. Someone in Petaling Jaya types "aircond service near me", a firm in Penang searches for an accountant, and your ad shows at that moment. We build campaigns around the words your buyers use and send people to a page that answers the search.
 
-Full-funnel keyword mapping. Not just broad match. We build keyword architecture across awareness, consideration, and conversion stages — so every stage of your buyer's journey is covered without cannibalising budget.
+Performance Max. PMax uses Google's automation to show your ads across all of Google's channels from one campaign. It can work well when tracking is clean and there are enough conversions to learn from. It can also spend on placements you would never pick yourself. We use it where the data supports it, and we check where the money goes. Our Performance Max guide covers when it fits an SME.
 
-Landing page alignment. Most agencies ignore this — we don't. A high Quality Score is meaningless if your landing page loses the visitor. We audit and brief landing page improvements as part of campaign management.
+Display, YouTube and Demand Gen. These reach people who are not looking for you yet. They cost less per view than Search, and we mostly use them to bring back past visitors, or to build awareness when Search volume is limited. The comparison table below shows where each one fits.
 
-Negative keyword hygiene. Irrelevant clicks are silent budget killers. We run weekly search term reviews and maintain aggressive negative keyword lists from day one — especially critical in PMAX's early learning phase.
+Conversion tracking. This comes before anything else. We set up GA4 and Google Tag Manager so the account counts real leads: a submitted form, a call from the ad, a tap on the WhatsApp button. In Malaysia a lot of enquiries start on WhatsApp, so an untracked WhatsApp tap is a lead Google never learns from. Our conversion tracking guide shows how it is set up.
 
-PMAX vs Search balance. In the Malaysian market, full PMAX reliance often dilutes intent-rich Search traffic. We calibrate the budget split based on your conversion data, not Google's defaults.
+Search term cleanup. Every week we read what people actually typed before they clicked, and add negative keywords for searches that will never buy. In audits this is often the quickest fix.
 
-Results that compound
+Location settings. Google's default targets people in your area or showing interest in it, which can put your ads in front of people far from where you work. We set it to match where your customers really are.
 
-−45%
+Results
 
-cost per lead over 12 months RM4.40 → RM2.41 (insurance)
+### What do Google Ads results look like?
 
-6,586
+Four Google Ads results from accounts ADV runs or has run, anonymised by industry. Each one is on the Live Results Board with its dates.
 
-leads in the peak month Google Search + PMAX (insurance)
+Healthcare · Google Search
 
-4×
+RM59.12
 
-budget scaled RM5K to RM20K CPL down from RM4.40 to RM2.41
+Cost per acquisition, down from RM89.55 and back under the RM85 target.
 
-26×
+Insurance and fintech · Search + PMax
 
-Google ROAS inside a 17.3× blended retail campaign
+RM2.41
 
-The most common lever is simple: broad campaigns with no keyword governance. In audits we routinely find 20–40% of spend going to searches nobody excluded — fixing that is usually the first and fastest win. Current figures are on our Live Results Board .
+Cost per lead, down from RM4.40 over 12 months. 6,586 leads in the peak month.
 
-Who this is for
+Home energy services · Google Search
 
-### Google Ads works best when intent is already there.
+RM9.11
 
-01
+Per WhatsApp tap, counted as the conversion.
 
-#### B2B Services with High-Ticket Sales Cycles
+Fashion and retail · Google
 
-Consultancies, SaaS platforms, logistics providers, professional services firms. Your buyers search before they buy — and they're searching right now. Google Search puts you in front of them at the exact moment of evaluation. We build campaigns around the keywords your buyers use, not vanity terms with high volume and low intent.
+26x
 
-02
+ROAS on Google, inside a 17.3x blended seasonal campaign.
 
-#### E-Commerce Brands Wanting Bottom-of-Funnel Traffic
+Healthcare and home energy: 30 days to 18 November 2026. Insurance: 12 months. Retail: a 51 day seasonal campaign across Meta, Google and TikTok. Source: ADV's Live Results Board .
 
-Fashion, beauty, supplements, electronics, lifestyle goods. Google Shopping and Performance Max are built for e-commerce — they put your products in front of buyers comparing options. We manage feed quality, bidding by margin, and PMAX asset groups to drive purchases at the lowest possible cost per order.
+We publish the misses too. Check the board before you believe any agency's case study, ours included.
 
-03
+Read the detail
+Healthcare. This account runs Google Search on a five-figure monthly spend. Cost per acquisition had climbed to RM89.55, above the RM85 target. It is now back to RM59.12. The main Search campaign ran at RM63.20 and the service line campaign at RM47.11. Health ads in Malaysia also need Medicine Advertisements Board (KKLIU) approval.
 
-#### Local Service Businesses Targeting KL & Malaysia
+Insurance and fintech. Over 12 months on Google Search and Performance Max, cost per lead went from RM4.40 to RM2.41, 45% lower, while monthly spend grew from RM5,000 to RM20,000. The peak month brought in 6,586 leads. Cost per lead usually rises as spend goes up. Here it fell while spend grew four times.
 
-Clinics, dental practices, law firms, home services, education centres. Local intent searches — "dentist near me", "accountant Petaling Jaya", "cleaning service KL" — convert at dramatically higher rates than social traffic. We build geo-targeted Search campaigns with tight location and radius settings to capture local demand efficiently.
+Home energy services. On Google Search this client pays RM9.11 per WhatsApp tap. The tap on the WhatsApp button is the conversion, because that is where these customers start the conversation.
+
+Fashion and retail. A 51 day seasonal campaign across Meta, Google and TikTok returned 17.3x ROAS overall. Google alone returned 26x. ROAS is revenue divided by ad spend, so 26x means RM26 in sales for every RM1 spent on Google.
+
+None of this is a promise. Your costs depend on your industry, offer, competitors and landing page.
+
+Campaign types
+
+### Which Google Ads campaign type fits your business?
+
+Start with Search if people already look for what you sell. Add the others once tracking is clean and Search is working.
+
+Google Search vs Performance Max vs Display vs YouTube
+What to compare | Search | Performance Max | Display | YouTube
+
+Where it shows | Google search results | Search, YouTube, Display, Gmail, Maps and Discover | Websites and apps in Google's network | Before and during YouTube videos
+
+Buyer intent | High. They are searching now. | Mixed. Google decides where each ad shows. | Low. They are browsing. | Low to medium. They are watching.
+
+Best for | Services and leads people search for: clinics, home services, B2B | Accounts with clean tracking and steady conversions, and online stores with a product feed | Remarketing to past visitors, and low cost reach | Explaining a product, building trust, remarketing with video
+
+How we judge it | Cost per lead or cost per sale | Cost per lead or ROAS, checked against what Search already brings in | Leads from returning visitors | Cost per view first, then the leads it helps bring in
+
+Watch for | Broad match drifting into searches that will never buy | Spend on brand searches you would get anyway, and placements you cannot see | Accidental clicks in mobile apps | Paying for views from people who will never buy
+
+Most SMEs we work with run Search first. Performance Max comes in once there are enough conversions for Google to learn from.
+
+Read the detail
+Search fits most service businesses. You pay per click, you choose the words, and you can see which searches brought in leads.
+
+Performance Max hands most of the decisions to Google. With clean conversion tracking and enough data, it can find leads that Search alone misses. Google recommends giving a new PMax campaign at least 6 weeks before you judge it. Read our Performance Max guide for when it fits a Malaysian SME.
+
+Display is cheap per click, but the intent is low. We rarely run Google Display ads as a lead campaign on their own. They earn their place as remarketing, showing your ad again to people who already visited your site.
+
+YouTube suits businesses that need to explain what they do. Skippable ads can be skipped after five seconds, so the opening has to say who the ad is for.
+
+Demand Gen and Shopping are not in the table. Demand Gen behaves like social ads inside Google's feeds. Shopping shows your products with a photo and a price, either in a Shopping campaign or inside Performance Max, and it needs a product feed in Google Merchant Center.
+
+Fees in RM
+
+### How much does a Google Ads agency cost in Malaysia?
+
+You pay Google for the ads, plus 8% SST on that ad spend. You pay the agency a separate management fee. ADV's fee starts from RM800 a month.
+
+Where a monthly Google Ads budget goes
+
+Ad spend paid to Google
+
+Management fee paid to the agency
+
+8% SST on ad spend
+
+Ad spend Paid to Google inside your own account. This buys the clicks.
+
+Management fee Paid to ADV for running the account.
+
+8% SST Charged on ad spend.
+
+Proportions are for illustration only.
+
+ADV's management fees (our own, not a market rate)
+
+Starter
+RM800 to RM1,500
+a month
+For RM500 to RM1,800 ad spend
+
+Growth
+RM1,500 to RM2,500
+a month
+For RM1,800 to RM5,000 ad spend
+
+Scale
+RM2,500 to RM4,000
+a month
+For RM5,000 to RM20,000 ad spend
+
+Above RM20,000
+About 15%
+of ad spend
+Profit sharing for selected clients
+
+Good to know
+
+Competitive Google Search: around RM3,000 a month in ad spend 8% SST on ad spend for Malaysian business accounts Minimum engagement: 3 months
+
+Below about RM3,000 a month, competitive Search campaigns collect data too slowly to judge. A cheaper fee does not fix that.
+
+Read the detail
+Ad spend goes to Google, inside your own Google Ads account. Google has no minimum; you set a daily budget. For Malaysian business accounts, 8% SST is charged on ad spend, so RM3,000 of ads comes to about RM3,240 with SST.
+
+The management fee goes to ADV for planning, building, running and reporting on the account. The tiers above are a guide, not a quote. Where you land depends on the number of campaigns and the tracking work needed. Above RM20,000 a month in ad spend, the fee is about 15% of ad spend, and for selected clients part of it can be profit sharing.
+
+Some Google advertising packages bundle the ad spend and the fee into one price. That makes it hard to see how much actually reached Google. We keep them as separate numbers, every month.
+
+For what clicks cost in Malaysia and how to set a starting budget, see our Google Ads pricing guide .
+
+How we work
+
+### How does ADV run your Google Ads account?
+
+Audit first, tracking second, campaigns third. Then the same checks every week, done by the founder.
+
+- 01
+
+#### Free audit
+View only access to Google Ads, GA4, Tag Manager and Search Console. Nothing changes while we look.
+
+- 02
+
+#### The 11 checks
+Tracking, structure, search terms, bidding, budget, ads, landing page, location, PMax and access.
+
+- 03
+
+#### Tracking first
+Forms, calls and WhatsApp taps counted as conversions, and checked against real enquiries.
+
+- 04
+
+#### Build or fix
+New campaigns, or a cleanup of what you already have, inside your own account.
+
+- 05
+
+#### Every week
+Search terms, negatives, bids and budgets, then a short report on cost per lead.
+
+You own the Google Ads account, GA4 and Tag Manager. We work in them with access you give and can take back.
+
+Read the detail
+The audit. You give us view only access. We go through the 11 checks in our Google Ads audit checklist and tell you what is working, what is wasting money and what we would change first.
+
+Tracking first. If the account counts page views as conversions, Smart Bidding chases the wrong thing. We fix the counting before we touch bids, then check it against the enquiries your team actually received.
+
+Every week. Alvin, the founder, runs every account. Each week he reviews the search terms, adds negatives, checks budgets and bids, and sends a short report: spend, leads, cost per lead, what changed and what comes next. Messages get a reply within 2 business hours.
+
+Minimum term. The minimum engagement is 3 months, because communication and a working rhythm between both sides take time to build. It can vary by client and industry. If your account mostly needs fixing rather than running, our guide on how we fix Google Ads accounts shows what that work looks like.
+
+Where we work
+
+### Do you run Google Ads for businesses outside KL, like Johor Bahru and Penang?
+
+Yes. ADV is based in Kuala Lumpur and works remotely, so a business in Johor Bahru, Penang or Kuching gets the same work as one in KL.
+
+- Access shared online
+
+- Weekly reports sent to you
+
+- Calls online when you need them
+
+- Location targeting set for your area
+
+ADV has one base, in Kuala Lumpur. Everything else runs online.
+
+Read the detail
+Johor Bahru. A JB business often has two audiences: people in Johor, and people in Singapore looking for services in JB. Whether to include Singapore is a budget decision we make from the search terms, not a guess.
+
+Penang, Ipoh, Kuching and elsewhere. We set location targeting to the areas you actually serve, and use the location report to see where clicks really came from. For nationwide businesses, we split out cheaper areas once the data shows a difference.
+
+Language. Malaysians search in English, Malay and Chinese, and often mix them. Keywords and ads can be written for each, and the search terms report shows which ones your customers actually use.
 
 Common questions
 
-### Google Ads questions, answered honestly.
+### What do people ask before hiring a Google Ads agency?
 
-No jargon. No upselling. Just straight answers to what Malaysian businesses ask before committing to Google Ads.
+Short answers on cost, budget, ownership and timing.
 
-Have a question that's not here? Message us on WhatsApp — we'll give you a straight answer within a few hours.
+Have a question that is not here? WhatsApp us. Replies within 2 business hours.
 
-What's the minimum Google Ads budget in Malaysia?
+How much does a Google Ads agency cost in Malaysia?
 +
 
-Google has no minimum. We suggest RM1,500 to RM2,000 a month in ad spend, and around RM3,000 for Search in competitive categories. With less, results come in too slowly to judge what is working.
+Two parts. Ad spend goes to Google, plus 8% SST for Malaysian business accounts. The management fee goes to the agency. ADV's fee starts from RM800 a month and rises with ad spend, to about 15% of ad spend above RM20,000 a month.
 
-Google Ads vs Meta Ads — which is better?
+What is the minimum Google Ads budget in Malaysia?
 +
 
-Different intent. Google captures active searchers (high intent) — people already looking for what you sell. Meta builds demand (broader audience) — it puts your brand in front of people who don't know they need you yet. Most businesses need both for a complete funnel. If you can only choose one, lead with Google Ads for bottom-of-funnel conversions, then add Meta once you have budget for upper-funnel demand generation.
+Google has no minimum. You set a daily budget. For competitive Search campaigns we suggest around RM3,000 a month in ad spend. With less, the data comes in too slowly to tell what is working.
 
-How do you handle PMAX campaigns?
+Do I own the Google Ads account?
 +
 
-We structure PMAX asset groups by product or service category, monitor search term reports closely, and use negative keyword lists to prevent budget waste in early phases. PMAX is powerful but can burn budget on irrelevant placements without tight governance. We treat PMAX as a complement to Search — not a replacement — and calibrate the balance based on your specific customer journey and market maturity.
+Yes. The Google Ads account, GA4 and Google Tag Manager sit under your business. ADV works in them with access you give, and mainly sets up the tracking for you. If you leave, the account and its history stay with you.
 
-What's a Quality Score and why does it matter?
+How long before Google Ads shows results?
 +
 
-Quality Score is Google's 1 to 10 diagnostic for keyword, ad and landing page relevance. Google says higher quality ads can often lead to lower costs per click. We optimise all three layers: keyword match and intent alignment, ad copy relevance and CTR, and landing page experience including load speed and message match.
+It depends on tracking, budget and competition. A Search campaign can bring in leads within the first few weeks once tracking works. Google says to give a new Performance Max campaign at least 6 weeks before you judge it. No agency can guarantee results by a set date, and we do not.
 
-Do you manage the ad account or just advise?
+Is Google AdWords the same as Google Ads?
 +
 
-Full management. We own the day-to-day: bid adjustments, search term monitoring, A/B testing of ad copy and landing pages, negative keyword lists, audience exclusions, and weekly reporting with plain-English commentary. You'll have full visibility into the account at all times, and we'll walk you through every significant change we make and why.
+Yes. Google renamed AdWords to Google Ads in 2018. It is the same platform, so an AdWords agency and a Google Ads agency do the same job. Many people in Malaysia still call it AdWords.
 
-How long before Google Ads starts converting?
+Do you manage Google Display and YouTube ads?
 +
 
-Search campaigns typically show conversion data within 2–3 weeks, once tracking is verified and enough impressions have accumulated. Google recommends running a new Performance Max campaign for at least 6 weeks. It says Smart Bidding can take up to around 50 conversion events or three conversion cycles to calibrate. We set clear expectations for each phase: data collection, early optimisation, and scaled performance.
+Yes. We run Display, YouTube and Demand Gen as well as Search and Performance Max. We mostly use Display and YouTube for remarketing and awareness alongside Search, because the people who see them are browsing, not searching.
 
-Is Google Ads the same as Google AdWords or SEM?
-+
+Get started
 
-Yes, mostly. Google AdWords was renamed Google Ads in 2018, so it is the same platform. SEM, or search engine marketing, is the wider term for paid search, and in Malaysia that almost always means Google Ads. We manage all of it: Search, Performance Max, Display and YouTube.
+### Ready for a free Google Ads audit?
 
-Do you work with businesses in Johor Bahru?
-+
+Give us view only access to Google Ads, GA4, Tag Manager and Search Console. We will show you what is working, what is wasting money and what we would change first. You keep the findings either way.
 
-Yes. We are based in Kuala Lumpur and manage Google Ads for businesses across Malaysia, including Johor and Selangor. Account access, weekly reporting and calls all run remotely, so your location makes no difference to how the account is managed.
+Go deeper
 
-Ready to start
-
-### Stop paying for clicks that don't convert.
-
-We'll audit your current Google Ads account — or build your first campaign from the ground up — with a clear plan before we spend a single ringgit.
-
-Google Ads guides
-
-Google Ads Pricing Malaysia 2026
+Google Ads Pricing Malaysia
+Google Ads Audit Checklist: 11 Checks
 Performance Max for Malaysian SMEs
 Google Ads Conversion Tracking
-Google Ads Audit Checklist
+How We Fix Google Ads Accounts
+Live Results Board
 
 Other services
 
-Meta Ads Agency Malaysia — Facebook & Instagram
-How We Fix Google Ad Accounts — 2026 Guide
-SEO Agency Kuala Lumpur — SEO, AEO & GEO
-AI Marketing Automation Malaysia — Claude & Make.com
+Meta Ads Agency Malaysia: Facebook and Instagram
+SEO Agency Kuala Lumpur: SEO, AEO and GEO
+AI Marketing Automation Malaysia
 
-Message us on WhatsApp
+Get a Free Google Ads Audit
 
-Email sales@advmarketing.biz
+Email Alvin
 
-No formal brief needed. Tell us about your business and what you're trying to grow — we'll respond with an honest assessment of where Google Ads can move the needle.
+WhatsApp +60 16 334 3549 · Email sales@advmarketing.biz
+
+No formal brief needed. Replies within 2 business hours.
 
 
 ==============================================================================
@@ -2831,7 +3708,7 @@ Run your own keywords through Keyword Planner before you set a budget. Your indu
 
 Minimum budget
 
-### What is the minimum Google Ads budget in Malaysia?
+### How much is Google Ads per month in Malaysia? The minimum budget
 
 Google has no minimum. Plan RM1,500 to RM2,000 a month in ad spend so you collect enough data to make good decisions.
 
@@ -3371,9 +4248,9 @@ Read the detail
 
 - Review weekly, judge at 6 weeks. Read the search terms, channel performance and placement reports weekly. Judge on blended cost per lead.
 
-### How does ADV run Performance Max?
+### Need a Performance Max agency? How does ADV run PMax?
 
-Clean tracking first, a split by service line, and the expectation that cost per result rises as spend grows.
+Clean tracking first, a split by service line, and the expectation that cost per result rises as spend grows. If you want us to run it, see our Google Ads agency page.
 
 "An account that counts page views as conversions gets worse under PMax, not better."
 
@@ -3463,7 +4340,7 @@ Live Results Board
 URL: https://advmarketing.biz/google-ads-conversion-tracking-malaysia
 ==============================================================================
 
-Google Ads Conversion Tracking Malaysia (2026) | ADV
+Google Ads Tracking Malaysia: WhatsApp, Forms and Calls
 
 WhatsApp us
 
@@ -4967,6 +5844,12 @@ Playbook
 
 How the Malaysia playbook differs, with real English, Malay and Chinese search demand by industry. Keywords, copy, platforms and rules.
 
+Guide
+
+#### Social Media Marketing in Malaysia 2026
+
+Which platforms matter in Malaysia, how to match them to your audience and language, how to turn social into leads, and what it costs in RM.
+
 Checklist
 
 #### Choosing a Digital Marketing Agency in Malaysia
@@ -4989,7 +5872,7 @@ We typically respond within 2 business hours.
 URL: https://advmarketing.biz/malaysia-digital-marketing-statistics-2026
 ==============================================================================
 
-72 Malaysia Digital Marketing Statistics 2026 (Updated Oct)
+Malaysia Digital Marketing Statistics 2026: 72 Sourced Stats
 
 WhatsApp us
 
